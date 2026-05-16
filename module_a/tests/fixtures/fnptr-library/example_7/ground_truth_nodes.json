@@ -1,0 +1,256 @@
+{
+  "functions": [
+    {
+      "name": "connSetWriteHandlerWithBarrier",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 30
+    },
+    {
+      "name": "connSocketSetWriteHandler",
+      "file": "fixture.c",
+      "line_start": 33,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 33,
+      "body_line_end": 36
+    },
+    {
+      "name": "connSocketRead",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 37
+    },
+    {
+      "name": "connSocketWrite",
+      "file": "fixture.c",
+      "line_start": 38,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 38,
+      "body_line_end": 38
+    },
+    {
+      "name": "connSocketWritev",
+      "file": "fixture.c",
+      "line_start": 39,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 39,
+      "body_line_end": 39
+    },
+    {
+      "name": "connSocketSetReadHandler",
+      "file": "fixture.c",
+      "line_start": 40,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 40,
+      "body_line_end": 40
+    },
+    {
+      "name": "connSocketGetLastError",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 41
+    },
+    {
+      "name": "connSocketSyncWrite",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 42
+    },
+    {
+      "name": "connSocketSyncRead",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 43
+    },
+    {
+      "name": "connSocketSyncReadLine",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 44
+    },
+    {
+      "name": "connTLSSetWriteHandler",
+      "file": "fixture.c",
+      "line_start": 47,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 47,
+      "body_line_end": 50
+    },
+    {
+      "name": "connTLSRead",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 51
+    },
+    {
+      "name": "connTLSWrite",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 52
+    },
+    {
+      "name": "connTLSWritev",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 53
+    },
+    {
+      "name": "connTLSSetReadHandler",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 54
+    },
+    {
+      "name": "connTLSGetLastError",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 55
+    },
+    {
+      "name": "connTLSSyncWrite",
+      "file": "fixture.c",
+      "line_start": 56,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 56,
+      "body_line_end": 56
+    },
+    {
+      "name": "connTLSSyncRead",
+      "file": "fixture.c",
+      "line_start": 57,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 57,
+      "body_line_end": 57
+    },
+    {
+      "name": "connTLSSyncReadLine",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 58
+    },
+    {
+      "name": "connUnixSetWriteHandler",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 64
+    },
+    {
+      "name": "connUnixRead",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 65
+    },
+    {
+      "name": "connUnixWrite",
+      "file": "fixture.c",
+      "line_start": 66,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 66,
+      "body_line_end": 66
+    },
+    {
+      "name": "connUnixWritev",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 67
+    },
+    {
+      "name": "connUnixSetReadHandler",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 68
+    },
+    {
+      "name": "connUnixGetLastError",
+      "file": "fixture.c",
+      "line_start": 69,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 69,
+      "body_line_end": 69
+    },
+    {
+      "name": "connUnixSyncWrite",
+      "file": "fixture.c",
+      "line_start": 70,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 70,
+      "body_line_end": 70
+    },
+    {
+      "name": "connUnixSyncRead",
+      "file": "fixture.c",
+      "line_start": 71,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 71,
+      "body_line_end": 71
+    },
+    {
+      "name": "connUnixSyncReadLine",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 72
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "edges": [
+    {
+      "caller": "defragRadixTree",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "defragRadixTree",
+      "callee": "raxNext",
+      "file": "fixture.c",
+      "line": 80
+    },
+    {
+      "caller": "defragRadixTree",
+      "callee": "element_cb",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "defragRadixTree",
+      "callee": "activeDefragAlloc",
+      "file": "fixture.c",
+      "line": 85
+    },
+    {
+      "caller": "defragRadixTree",
+      "callee": "raxSetData",
+      "file": "fixture.c",
+      "line": 87
+    },
+    {
+      "caller": "defragRadixTree",
+      "callee": "raxStop",
+      "file": "fixture.c",
+      "line": 89
+    },
+    {
+      "caller": "defragStreamConsumerPendingEntry",
+      "callee": "UNUSED",
+      "file": "fixture.c",
+      "line": 94
+    },
+    {
+      "caller": "defragStreamConsumerPendingEntry",
+      "callee": "activeDefragAlloc",
+      "file": "fixture.c",
+      "line": 96
+    },
+    {
+      "caller": "defragStreamConsumer",
+      "callee": "activeDefragAlloc",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "defragStreamConsumer",
+      "callee": "activeDefragSds",
+      "file": "fixture.c",
+      "line": 107
+    },
+    {
+      "caller": "defragStreamConsumer",
+      "callee": "defragRadixTree",
+      "file": "fixture.c",
+      "line": 111
+    },
+    {
+      "caller": "defragStreamConsumerGroup",
+      "callee": "UNUSED",
+      "file": "fixture.c",
+      "line": 118
+    },
+    {
+      "caller": "defragStreamConsumerGroup",
+      "callee": "defragRadixTree",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "defragStreamConsumerGroup",
+      "callee": "defragRadixTree",
+      "file": "fixture.c",
+      "line": 122
+    },
+    {
+      "caller": "defragStream",
+      "callee": "activeDefragAlloc",
+      "file": "fixture.c",
+      "line": 131
+    },
+    {
+      "caller": "defragStream",
+      "callee": "raxSize",
+      "file": "fixture.c",
+      "line": 134
+    },
+    {
+      "caller": "defragStream",
+      "callee": "activeDefragAlloc",
+      "file": "fixture.c",
+      "line": 135
+    },
+    {
+      "caller": "defragStream",
+      "callee": "defragLater",
+      "file": "fixture.c",
+      "line": 138
+    },
+    {
+      "caller": "defragStream",
+      "callee": "defragRadixTree",
+      "file": "fixture.c",
+      "line": 140
+    },
+    {
+      "caller": "defragStream",
+      "callee": "defragRadixTree",
+      "file": "fixture.c",
+      "line": 143
+    }
+  ]
+}

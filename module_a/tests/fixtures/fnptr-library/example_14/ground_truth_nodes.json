@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "mss2_blit_wmv9_c",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 46
+    },
+    {
+      "name": "mss2_blit_wmv9_masked_c",
+      "file": "fixture.c",
+      "line_start": 47,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 47,
+      "body_line_end": 47
+    },
+    {
+      "name": "mss2_gray_fill_masked_c",
+      "file": "fixture.c",
+      "line_start": 48,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 48,
+      "body_line_end": 48
+    },
+    {
+      "name": "upsample_plane_c",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 53
+    },
+    {
+      "name": "ff_mss2dsp_init",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 61
+    },
+    {
+      "name": "decode_wmv9",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 80
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "functions": [
+    {
+      "name": "noop_warn",
+      "file": "fixture.c",
+      "line_start": 91,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 91,
+      "body_line_end": 91
+    },
+    {
+      "name": "noop_add_note",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 92
+    },
+    {
+      "name": "noop_on_svalue_leak",
+      "file": "fixture.c",
+      "line_start": 93,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 93,
+      "body_line_end": 93
+    },
+    {
+      "name": "noop_on_liveness_change",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 94
+    },
+    {
+      "name": "noop_get_logger",
+      "file": "fixture.c",
+      "line_start": 95,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 95,
+      "body_line_end": 95
+    },
+    {
+      "name": "noop_on_condition",
+      "file": "fixture.c",
+      "line_start": 96,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 96,
+      "body_line_end": 96
+    },
+    {
+      "name": "noop_on_bounded_ranges",
+      "file": "fixture.c",
+      "line_start": 97,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 97,
+      "body_line_end": 97
+    },
+    {
+      "name": "noop_on_pop_frame",
+      "file": "fixture.c",
+      "line_start": 98,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 98,
+      "body_line_end": 98
+    },
+    {
+      "name": "noop_on_unknown_change",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 99
+    },
+    {
+      "name": "noop_on_phi",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 100
+    },
+    {
+      "name": "noop_on_unexpected_tree_code",
+      "file": "fixture.c",
+      "line_start": 101,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 101,
+      "body_line_end": 101
+    },
+    {
+      "name": "noop_on_escaped_function",
+      "file": "fixture.c",
+      "line_start": 102,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 102,
+      "body_line_end": 102
+    },
+    {
+      "name": "noop_get_uncertainty",
+      "file": "fixture.c",
+      "line_start": 103,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 103,
+      "body_line_end": 103
+    },
+    {
+      "name": "noop_purge_state_involving",
+      "file": "fixture.c",
+      "line_start": 104,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 104,
+      "body_line_end": 104
+    },
+    {
+      "name": "noop_bifurcate",
+      "file": "fixture.c",
+      "line_start": 105,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 105,
+      "body_line_end": 105
+    },
+    {
+      "name": "noop_terminate_path",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 106
+    },
+    {
+      "name": "noop_get_ext_state",
+      "file": "fixture.c",
+      "line_start": 107,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 107,
+      "body_line_end": 107
+    },
+    {
+      "name": "noop_get_stmt",
+      "file": "fixture.c",
+      "line_start": 108,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 108,
+      "body_line_end": 108
+    },
+    {
+      "name": "noop_region_model_context_get_state_map_by_name",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 120
+    },
+    {
+      "name": "noop_region_model_context_init",
+      "file": "fixture.c",
+      "line_start": 144,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 144,
+      "body_line_end": 147
+    },
+    {
+      "name": "decorator_warn",
+      "file": "fixture.c",
+      "line_start": 157,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 157,
+      "body_line_end": 160
+    },
+    {
+      "name": "decorator_add_note",
+      "file": "fixture.c",
+      "line_start": 161,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 161,
+      "body_line_end": 164
+    },
+    {
+      "name": "decorator_on_svalue_leak",
+      "file": "fixture.c",
+      "line_start": 165,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 165,
+      "body_line_end": 168
+    },
+    {
+      "name": "decorator_on_liveness_change",
+      "file": "fixture.c",
+      "line_start": 169,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 169,
+      "body_line_end": 172
+    },
+    {
+      "name": "decorator_get_logger",
+      "file": "fixture.c",
+      "line_start": 173,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 173,
+      "body_line_end": 176
+    },
+    {
+      "name": "decorator_on_condition",
+      "file": "fixture.c",
+      "line_start": 177,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 177,
+      "body_line_end": 180
+    },
+    {
+      "name": "decorator_on_bounded_ranges",
+      "file": "fixture.c",
+      "line_start": 181,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 181,
+      "body_line_end": 184
+    },
+    {
+      "name": "decorator_on_pop_frame",
+      "file": "fixture.c",
+      "line_start": 185,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 185,
+      "body_line_end": 188
+    },
+    {
+      "name": "decorator_on_unknown_change",
+      "file": "fixture.c",
+      "line_start": 189,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 189,
+      "body_line_end": 192
+    },
+    {
+      "name": "decorator_on_phi",
+      "file": "fixture.c",
+      "line_start": 193,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 193,
+      "body_line_end": 196
+    },
+    {
+      "name": "decorator_on_unexpected_tree_code",
+      "file": "fixture.c",
+      "line_start": 197,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 197,
+      "body_line_end": 200
+    },
+    {
+      "name": "decorator_on_escaped_function",
+      "file": "fixture.c",
+      "line_start": 201,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 201,
+      "body_line_end": 204
+    },
+    {
+      "name": "decorator_get_uncertainty",
+      "file": "fixture.c",
+      "line_start": 205,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 205,
+      "body_line_end": 208
+    },
+    {
+      "name": "decorator_purge_state_involving",
+      "file": "fixture.c",
+      "line_start": 209,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 209,
+      "body_line_end": 212
+    },
+    {
+      "name": "decorator_bifurcate",
+      "file": "fixture.c",
+      "line_start": 213,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 213,
+      "body_line_end": 216
+    },
+    {
+      "name": "decorator_terminate_path",
+      "file": "fixture.c",
+      "line_start": 217,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 217,
+      "body_line_end": 220
+    },
+    {
+      "name": "decorator_get_ext_state",
+      "file": "fixture.c",
+      "line_start": 221,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 221,
+      "body_line_end": 224
+    },
+    {
+      "name": "region_model_context_decorator_get_state_map_by_name",
+      "file": "fixture.c",
+      "line_start": 227,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 227,
+      "body_line_end": 237
+    },
+    {
+      "name": "decorator_get_stmt",
+      "file": "fixture.c",
+      "line_start": 239,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 239,
+      "body_line_end": 242
+    },
+    {
+      "name": "region_model_context_decorator_init",
+      "file": "fixture.c",
+      "line_start": 266,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 266,
+      "body_line_end": 271
+    },
+    {
+      "name": "get_fd_map",
+      "file": "fixture.c",
+      "line_start": 280,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 280,
+      "body_line_end": 287
+    }
+  ]
+}

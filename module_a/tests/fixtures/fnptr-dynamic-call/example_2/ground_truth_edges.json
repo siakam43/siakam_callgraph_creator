@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "caller": "sshsk_open",
+      "callee": "error",
+      "file": "fixture.c",
+      "line": 28
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 32
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "error",
+      "file": "fixture.c",
+      "line": 34
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "strdup",
+      "file": "fixture.c",
+      "line": 38
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "error",
+      "file": "fixture.c",
+      "line": 40
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "dlopen",
+      "file": "fixture.c",
+      "line": 45
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 46
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "dlerror",
+      "file": "fixture.c",
+      "line": 46
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "dlsym",
+      "file": "fixture.c",
+      "line": 49
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "error",
+      "file": "fixture.c",
+      "line": 51
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "dlerror",
+      "file": "fixture.c",
+      "line": 52
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "error",
+      "file": "fixture.c",
+      "line": 59
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "dlclose",
+      "file": "fixture.c",
+      "line": 67
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 68
+    },
+    {
+      "caller": "sshsk_open",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 69
+    },
+    {
+      "caller": "fatal",
+      "callee": "va_start",
+      "file": "fixture.c",
+      "line": 75
+    },
+    {
+      "caller": "fatal",
+      "callee": "vfprintf",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "fatal",
+      "callee": "va_end",
+      "file": "fixture.c",
+      "line": 77
+    },
+    {
+      "caller": "fatal",
+      "callee": "exit",
+      "file": "fixture.c",
+      "line": 78
+    },
+    {
+      "caller": "error",
+      "callee": "va_start",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "error",
+      "callee": "vfprintf",
+      "file": "fixture.c",
+      "line": 84
+    },
+    {
+      "caller": "error",
+      "callee": "va_end",
+      "file": "fixture.c",
+      "line": 85
+    }
+  ]
+}

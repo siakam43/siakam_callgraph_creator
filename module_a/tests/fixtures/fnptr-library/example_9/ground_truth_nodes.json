@@ -1,0 +1,121 @@
+{
+  "functions": [
+    {
+      "name": "Curl_llist_remove",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 42
+    },
+    {
+      "name": "Curl_bufref_set",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 58
+    },
+    {
+      "name": "Curl_hash_init",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 86
+    },
+    {
+      "name": "Curl_llist_init",
+      "file": "fixture.c",
+      "line_start": 88,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 88,
+      "body_line_end": 94
+    },
+    {
+      "name": "fileinfo_dtor",
+      "file": "fixture.c",
+      "line_start": 97,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 97,
+      "body_line_end": 97
+    },
+    {
+      "name": "hash_element_dtor",
+      "file": "fixture.c",
+      "line_start": 98,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 98,
+      "body_line_end": 98
+    },
+    {
+      "name": "free_bundle_hash_entry",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 99
+    },
+    {
+      "name": "freednsentry",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 100
+    },
+    {
+      "name": "trhash_dtor",
+      "file": "fixture.c",
+      "line_start": 101,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 101,
+      "body_line_end": 101
+    },
+    {
+      "name": "sh_freeentry",
+      "file": "fixture.c",
+      "line_start": 102,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 102,
+      "body_line_end": 102
+    },
+    {
+      "name": "curl_free",
+      "file": "fixture.c",
+      "line_start": 103,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 103,
+      "body_line_end": 103
+    },
+    {
+      "name": "gsasl_free",
+      "file": "fixture.c",
+      "line_start": 104,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 104,
+      "body_line_end": 104
+    },
+    {
+      "name": "register_all_dtors",
+      "file": "fixture.c",
+      "line_start": 107,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 107,
+      "body_line_end": 119
+    }
+  ]
+}

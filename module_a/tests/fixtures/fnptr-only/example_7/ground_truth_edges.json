@@ -1,0 +1,100 @@
+{
+  "edges": [
+    {
+      "caller": "lzjb_decompress",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 24
+    },
+    {
+      "caller": "gzip_decompress",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 31
+    },
+    {
+      "caller": "zle_decompress",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 37
+    },
+    {
+      "caller": "lz4_decompress_zfs",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 44
+    },
+    {
+      "caller": "zfs_zstd_decompress",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 51
+    },
+    {
+      "caller": "safe_calloc",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 86
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 100
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "hsearch",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "assert",
+      "file": "fixture.c",
+      "line": 129
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "safe_calloc",
+      "file": "fixture.c",
+      "line": 132
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 136
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "xfunc",
+      "file": "fixture.c",
+      "line": 137
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 139
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 140
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 142
+    },
+    {
+      "caller": "zstream_do_decompress",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 145
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "42f80328",
+      "func": "functionsRegisterEngine",
+      "file": "fixture.c",
+      "line": 105,
+      "expression": "engine_ptr->get_engine_memory_overhead"
+    }
+  ]
+}

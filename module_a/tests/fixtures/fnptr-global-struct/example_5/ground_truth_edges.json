@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "caller": "connTypeRegister",
+      "callee": "serverLog",
+      "file": "fixture.c",
+      "line": 41
+    },
+    {
+      "caller": "RedisRegisterConnectionTypeSocket",
+      "callee": "connTypeRegister",
+      "file": "fixture.c",
+      "line": 50
+    },
+    {
+      "caller": "RedisRegisterConnectionTypeTLS",
+      "callee": "connTypeRegister",
+      "file": "fixture.c",
+      "line": 55
+    },
+    {
+      "caller": "connectionTypeTcp",
+      "callee": "strcmp",
+      "file": "fixture.c",
+      "line": 66
+    },
+    {
+      "caller": "connectionTypeTcp",
+      "callee": "serverAssert",
+      "file": "fixture.c",
+      "line": 71
+    },
+    {
+      "caller": "connUnixRead",
+      "callee": "connectionTypeTcp",
+      "file": "fixture.c",
+      "line": 77
+    }
+  ]
+}

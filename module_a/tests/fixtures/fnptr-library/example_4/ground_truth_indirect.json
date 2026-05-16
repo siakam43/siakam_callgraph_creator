@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "8967c68c",
+      "func": "channel_handle_rfd",
+      "file": "fixture.c",
+      "line": 23,
+      "expression": "c->input_filter"
+    }
+  ]
+}

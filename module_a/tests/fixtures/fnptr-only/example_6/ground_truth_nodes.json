@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "default_junk_alloc",
+      "file": "fixture.c",
+      "line_start": 14,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 14,
+      "body_line_end": 16
+    },
+    {
+      "name": "default_junk_free",
+      "file": "fixture.c",
+      "line_start": 20,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 20,
+      "body_line_end": 23
+    },
+    {
+      "name": "do_rallocx",
+      "file": "fixture.c",
+      "line_start": 25,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 25,
+      "body_line_end": 47
+    },
+    {
+      "name": "set_junk_alloc_callback",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 51
+    },
+    {
+      "name": "rallocx",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 55
+    },
+    {
+      "name": "mallocx",
+      "file": "fixture.c",
+      "line_start": 57,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 57,
+      "body_line_end": 63
+    }
+  ]
+}

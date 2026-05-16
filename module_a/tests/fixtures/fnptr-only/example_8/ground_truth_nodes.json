@@ -1,0 +1,13 @@
+{
+  "functions": [
+    {
+      "name": "Curl_cookie_add",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 57
+    }
+  ]
+}

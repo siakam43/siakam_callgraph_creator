@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "6acebb67",
+      "func": "nfs_process_exports",
+      "file": "fixture.c",
+      "line": 39,
+      "expression": "cbk"
+    }
+  ]
+}

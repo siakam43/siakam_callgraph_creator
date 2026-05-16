@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "c682cc94",
+      "func": "zfs_acl_chmod",
+      "file": "fixture.c",
+      "line": 207,
+      "expression": "aclp->z_ops->ace_size"
+    }
+  ]
+}

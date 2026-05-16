@@ -1,0 +1,796 @@
+{
+  "functions": [
+    {
+      "name": "spa_open",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 44
+    },
+    {
+      "name": "spl_fstrans_mark",
+      "file": "fixture.c",
+      "line_start": 45,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 45,
+      "body_line_end": 45
+    },
+    {
+      "name": "spl_fstrans_unmark",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 46
+    },
+    {
+      "name": "zfsdev_ioctl_common",
+      "file": "fixture.c",
+      "line_start": 48,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 48,
+      "body_line_end": 69
+    },
+    {
+      "name": "zfs_ioc_clear",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 72
+    },
+    {
+      "name": "zfs_ioc_clear_fault",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 73
+    },
+    {
+      "name": "zfs_ioc_dataset_list_next",
+      "file": "fixture.c",
+      "line_start": 74,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 74,
+      "body_line_end": 74
+    },
+    {
+      "name": "zfs_ioc_destroy",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 75
+    },
+    {
+      "name": "zfs_ioc_diff",
+      "file": "fixture.c",
+      "line_start": 76,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 76,
+      "body_line_end": 76
+    },
+    {
+      "name": "zfs_ioc_dsobj_to_dsname",
+      "file": "fixture.c",
+      "line_start": 77,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 77,
+      "body_line_end": 77
+    },
+    {
+      "name": "zfs_ioc_error_log",
+      "file": "fixture.c",
+      "line_start": 78,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 78,
+      "body_line_end": 78
+    },
+    {
+      "name": "zfs_ioc_events_clear",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 79
+    },
+    {
+      "name": "zfs_ioc_events_next",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 80
+    },
+    {
+      "name": "zfs_ioc_events_seek",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 81
+    },
+    {
+      "name": "zfs_ioc_get_fsacl",
+      "file": "fixture.c",
+      "line_start": 82,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 82,
+      "body_line_end": 82
+    },
+    {
+      "name": "zfs_ioc_inherit_prop",
+      "file": "fixture.c",
+      "line_start": 83,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 83,
+      "body_line_end": 83
+    },
+    {
+      "name": "zfs_ioc_inject_fault",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 84
+    },
+    {
+      "name": "zfs_ioc_inject_list_next",
+      "file": "fixture.c",
+      "line_start": 85,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 85,
+      "body_line_end": 85
+    },
+    {
+      "name": "zfs_ioc_next_obj",
+      "file": "fixture.c",
+      "line_start": 86,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 86,
+      "body_line_end": 86
+    },
+    {
+      "name": "zfs_ioc_obj_to_path",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 87
+    },
+    {
+      "name": "zfs_ioc_obj_to_stats",
+      "file": "fixture.c",
+      "line_start": 88,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 88,
+      "body_line_end": 88
+    },
+    {
+      "name": "zfs_ioc_objset_recvd_props",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 89
+    },
+    {
+      "name": "zfs_ioc_objset_stats",
+      "file": "fixture.c",
+      "line_start": 90,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 90,
+      "body_line_end": 90
+    },
+    {
+      "name": "zfs_ioc_objset_zplprops",
+      "file": "fixture.c",
+      "line_start": 91,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 91,
+      "body_line_end": 91
+    },
+    {
+      "name": "zfs_ioc_pool_configs",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 92
+    },
+    {
+      "name": "zfs_ioc_pool_create",
+      "file": "fixture.c",
+      "line_start": 93,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 93,
+      "body_line_end": 93
+    },
+    {
+      "name": "zfs_ioc_pool_destroy",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 94
+    },
+    {
+      "name": "zfs_ioc_pool_export",
+      "file": "fixture.c",
+      "line_start": 95,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 95,
+      "body_line_end": 95
+    },
+    {
+      "name": "zfs_ioc_pool_freeze",
+      "file": "fixture.c",
+      "line_start": 96,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 96,
+      "body_line_end": 96
+    },
+    {
+      "name": "zfs_ioc_pool_get_history",
+      "file": "fixture.c",
+      "line_start": 97,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 97,
+      "body_line_end": 97
+    },
+    {
+      "name": "zfs_ioc_pool_get_props",
+      "file": "fixture.c",
+      "line_start": 98,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 98,
+      "body_line_end": 98
+    },
+    {
+      "name": "zfs_ioc_pool_import",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 99
+    },
+    {
+      "name": "zfs_ioc_pool_reguid",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 100
+    },
+    {
+      "name": "zfs_ioc_pool_scan",
+      "file": "fixture.c",
+      "line_start": 101,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 101,
+      "body_line_end": 101
+    },
+    {
+      "name": "zfs_ioc_pool_set_props",
+      "file": "fixture.c",
+      "line_start": 102,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 102,
+      "body_line_end": 102
+    },
+    {
+      "name": "zfs_ioc_pool_stats",
+      "file": "fixture.c",
+      "line_start": 103,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 103,
+      "body_line_end": 103
+    },
+    {
+      "name": "zfs_ioc_pool_tryimport",
+      "file": "fixture.c",
+      "line_start": 104,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 104,
+      "body_line_end": 104
+    },
+    {
+      "name": "zfs_ioc_pool_upgrade",
+      "file": "fixture.c",
+      "line_start": 105,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 105,
+      "body_line_end": 105
+    },
+    {
+      "name": "zfs_ioc_promote",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 106
+    },
+    {
+      "name": "zfs_ioc_recv",
+      "file": "fixture.c",
+      "line_start": 107,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 107,
+      "body_line_end": 107
+    },
+    {
+      "name": "zfs_ioc_rename",
+      "file": "fixture.c",
+      "line_start": 108,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 108,
+      "body_line_end": 108
+    },
+    {
+      "name": "zfs_ioc_send",
+      "file": "fixture.c",
+      "line_start": 109,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 109,
+      "body_line_end": 109
+    },
+    {
+      "name": "zfs_ioc_send_progress",
+      "file": "fixture.c",
+      "line_start": 110,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 110,
+      "body_line_end": 110
+    },
+    {
+      "name": "zfs_ioc_set_fsacl",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 111
+    },
+    {
+      "name": "zfs_ioc_set_prop",
+      "file": "fixture.c",
+      "line_start": 112,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 112,
+      "body_line_end": 112
+    },
+    {
+      "name": "zfs_ioc_share",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 113
+    },
+    {
+      "name": "zfs_ioc_smb_acl",
+      "file": "fixture.c",
+      "line_start": 114,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 114,
+      "body_line_end": 114
+    },
+    {
+      "name": "zfs_ioc_snapshot_list_next",
+      "file": "fixture.c",
+      "line_start": 115,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 115,
+      "body_line_end": 115
+    },
+    {
+      "name": "zfs_ioc_space_written",
+      "file": "fixture.c",
+      "line_start": 116,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 116,
+      "body_line_end": 116
+    },
+    {
+      "name": "zfs_ioc_tmp_snapshot",
+      "file": "fixture.c",
+      "line_start": 117,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 117,
+      "body_line_end": 117
+    },
+    {
+      "name": "zfs_ioc_userspace_many",
+      "file": "fixture.c",
+      "line_start": 118,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 118,
+      "body_line_end": 118
+    },
+    {
+      "name": "zfs_ioc_userspace_one",
+      "file": "fixture.c",
+      "line_start": 119,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 119,
+      "body_line_end": 119
+    },
+    {
+      "name": "zfs_ioc_userspace_upgrade",
+      "file": "fixture.c",
+      "line_start": 120,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 120,
+      "body_line_end": 120
+    },
+    {
+      "name": "zfs_ioc_vdev_add",
+      "file": "fixture.c",
+      "line_start": 121,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 121,
+      "body_line_end": 121
+    },
+    {
+      "name": "zfs_ioc_vdev_attach",
+      "file": "fixture.c",
+      "line_start": 122,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 122,
+      "body_line_end": 122
+    },
+    {
+      "name": "zfs_ioc_vdev_detach",
+      "file": "fixture.c",
+      "line_start": 123,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 123,
+      "body_line_end": 123
+    },
+    {
+      "name": "zfs_ioc_vdev_remove",
+      "file": "fixture.c",
+      "line_start": 124,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 124,
+      "body_line_end": 124
+    },
+    {
+      "name": "zfs_ioc_vdev_set_state",
+      "file": "fixture.c",
+      "line_start": 125,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 125,
+      "body_line_end": 125
+    },
+    {
+      "name": "zfs_ioc_vdev_setfru",
+      "file": "fixture.c",
+      "line_start": 126,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 126,
+      "body_line_end": 126
+    },
+    {
+      "name": "zfs_ioc_vdev_setpath",
+      "file": "fixture.c",
+      "line_start": 127,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 127,
+      "body_line_end": 127
+    },
+    {
+      "name": "zfs_ioc_vdev_split",
+      "file": "fixture.c",
+      "line_start": 128,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 128,
+      "body_line_end": 128
+    },
+    {
+      "name": "zfs_secpolicy_config",
+      "file": "fixture.c",
+      "line_start": 131,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 131,
+      "body_line_end": 131
+    },
+    {
+      "name": "zfs_secpolicy_read",
+      "file": "fixture.c",
+      "line_start": 132,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 132,
+      "body_line_end": 132
+    },
+    {
+      "name": "zfs_secpolicy_inject",
+      "file": "fixture.c",
+      "line_start": 133,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 133,
+      "body_line_end": 133
+    },
+    {
+      "name": "zfs_secpolicy_diff",
+      "file": "fixture.c",
+      "line_start": 134,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 134,
+      "body_line_end": 134
+    },
+    {
+      "name": "zfs_secpolicy_userspace_one",
+      "file": "fixture.c",
+      "line_start": 135,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 135,
+      "body_line_end": 135
+    },
+    {
+      "name": "zfs_secpolicy_userspace_many",
+      "file": "fixture.c",
+      "line_start": 136,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 136,
+      "body_line_end": 136
+    },
+    {
+      "name": "zfs_secpolicy_send",
+      "file": "fixture.c",
+      "line_start": 137,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 137,
+      "body_line_end": 137
+    },
+    {
+      "name": "zfs_secpolicy_destroy",
+      "file": "fixture.c",
+      "line_start": 138,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 138,
+      "body_line_end": 138
+    },
+    {
+      "name": "zfs_secpolicy_rename",
+      "file": "fixture.c",
+      "line_start": 139,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 139,
+      "body_line_end": 139
+    },
+    {
+      "name": "zfs_secpolicy_recv",
+      "file": "fixture.c",
+      "line_start": 140,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 140,
+      "body_line_end": 140
+    },
+    {
+      "name": "zfs_secpolicy_promote",
+      "file": "fixture.c",
+      "line_start": 141,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 141,
+      "body_line_end": 141
+    },
+    {
+      "name": "zfs_secpolicy_inherit_prop",
+      "file": "fixture.c",
+      "line_start": 142,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 142,
+      "body_line_end": 142
+    },
+    {
+      "name": "zfs_secpolicy_set_fsacl",
+      "file": "fixture.c",
+      "line_start": 143,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 143,
+      "body_line_end": 143
+    },
+    {
+      "name": "zfs_secpolicy_share",
+      "file": "fixture.c",
+      "line_start": 144,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 144,
+      "body_line_end": 144
+    },
+    {
+      "name": "zfs_secpolicy_smb_acl",
+      "file": "fixture.c",
+      "line_start": 145,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 145,
+      "body_line_end": 145
+    },
+    {
+      "name": "zfs_secpolicy_userspace_upgrade",
+      "file": "fixture.c",
+      "line_start": 146,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 146,
+      "body_line_end": 146
+    },
+    {
+      "name": "zfs_secpolicy_tmp_snapshot",
+      "file": "fixture.c",
+      "line_start": 147,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 147,
+      "body_line_end": 147
+    },
+    {
+      "name": "zfs_secpolicy_none",
+      "file": "fixture.c",
+      "line_start": 148,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 148,
+      "body_line_end": 148
+    },
+    {
+      "name": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line_start": 150,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 150,
+      "body_line_end": 161
+    },
+    {
+      "name": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line_start": 163,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 163,
+      "body_line_end": 169
+    },
+    {
+      "name": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line_start": 171,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 171,
+      "body_line_end": 176
+    },
+    {
+      "name": "zfs_ioctl_register_pool_meta",
+      "file": "fixture.c",
+      "line_start": 178,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 178,
+      "body_line_end": 183
+    },
+    {
+      "name": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line_start": 185,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 185,
+      "body_line_end": 190
+    },
+    {
+      "name": "zfs_ioctl_register_dataset_read_secpolicy",
+      "file": "fixture.c",
+      "line_start": 192,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 192,
+      "body_line_end": 197
+    },
+    {
+      "name": "zfs_ioctl_register_dataset_modify",
+      "file": "fixture.c",
+      "line_start": 199,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 199,
+      "body_line_end": 204
+    },
+    {
+      "name": "zfs_ioctl_register_dataset_nolog",
+      "file": "fixture.c",
+      "line_start": 206,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 206,
+      "body_line_end": 212
+    },
+    {
+      "name": "zfs_ioctl_init",
+      "file": "fixture.c",
+      "line_start": 214,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 214,
+      "body_line_end": 319
+    }
+  ]
+}

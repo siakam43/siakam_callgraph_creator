@@ -1,0 +1,58 @@
+{
+  "edges": [
+    {
+      "caller": "Curl_strdup",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 23
+    },
+    {
+      "caller": "Curl_strdup",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 24
+    },
+    {
+      "caller": "Curl_strdup",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 26
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 62
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "Curl_cstrdup",
+      "file": "fixture.c",
+      "line": 66
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "Curl_cstrdup",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "Curl_cstrdup",
+      "file": "fixture.c",
+      "line": 73
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "Curl_cstrdup",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 84
+    }
+  ]
+}

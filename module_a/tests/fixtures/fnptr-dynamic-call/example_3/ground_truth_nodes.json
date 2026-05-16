@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "dlsym_prefixed",
+      "file": "fixture.c",
+      "line_start": 22,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 22,
+      "body_line_end": 30
+    },
+    {
+      "name": "omx_try_load",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 44
+    },
+    {
+      "name": "omx_init",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 81
+    },
+    {
+      "name": "OMX_Init",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 86
+    }
+  ]
+}

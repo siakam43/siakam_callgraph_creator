@@ -1,0 +1,130 @@
+{
+  "functions": [
+    {
+      "name": "trc_bt709",
+      "file": "fixture.c",
+      "line_start": 18,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 18,
+      "body_line_end": 18
+    },
+    {
+      "name": "trc_gamma22",
+      "file": "fixture.c",
+      "line_start": 19,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 19,
+      "body_line_end": 19
+    },
+    {
+      "name": "trc_gamma28",
+      "file": "fixture.c",
+      "line_start": 20,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 20,
+      "body_line_end": 20
+    },
+    {
+      "name": "trc_smpte240M",
+      "file": "fixture.c",
+      "line_start": 21,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 21,
+      "body_line_end": 21
+    },
+    {
+      "name": "trc_linear",
+      "file": "fixture.c",
+      "line_start": 22,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 22,
+      "body_line_end": 22
+    },
+    {
+      "name": "trc_log",
+      "file": "fixture.c",
+      "line_start": 23,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 23,
+      "body_line_end": 23
+    },
+    {
+      "name": "trc_log_sqrt",
+      "file": "fixture.c",
+      "line_start": 24,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 24,
+      "body_line_end": 24
+    },
+    {
+      "name": "trc_iec61966_2_4",
+      "file": "fixture.c",
+      "line_start": 25,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 25,
+      "body_line_end": 25
+    },
+    {
+      "name": "trc_bt1361",
+      "file": "fixture.c",
+      "line_start": 26,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 26,
+      "body_line_end": 26
+    },
+    {
+      "name": "trc_iec61966_2_1",
+      "file": "fixture.c",
+      "line_start": 27,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 27,
+      "body_line_end": 27
+    },
+    {
+      "name": "trc_smpte_st2084",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 28
+    },
+    {
+      "name": "trc_smpte_st428_1",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 29
+    },
+    {
+      "name": "trc_arib_std_b67",
+      "file": "fixture.c",
+      "line_start": 30,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 30,
+      "body_line_end": 30
+    },
+    {
+      "name": "decode_init",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 73
+    }
+  ]
+}

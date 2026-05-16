@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "f29df1cd",
+      "func": "decode_slice",
+      "file": "fixture.c",
+      "line": 55,
+      "expression": "s->decode_mb"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "615ef7dc",
+      "func": "pubsubSubscribeChannel",
+      "file": "fixture.c",
+      "line": 91,
+      "expression": "type.clientPubSubChannels"
+    }
+  ]
+}

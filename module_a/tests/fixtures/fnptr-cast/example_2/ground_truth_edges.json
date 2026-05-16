@@ -1,0 +1,166 @@
+{
+  "edges": [
+    {
+      "caller": "zfs_fm_close",
+      "callee": "fmd_case_getspecific",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "zfs_fm_close",
+      "callee": "fmd_serd_destroy",
+      "file": "fixture.c",
+      "line": 100
+    },
+    {
+      "caller": "zfs_fm_close",
+      "callee": "fmd_serd_destroy",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "zfs_fm_close",
+      "callee": "fmd_timer_remove",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "zfs_fm_close",
+      "callee": "uu_list_remove",
+      "file": "fixture.c",
+      "line": 106
+    },
+    {
+      "caller": "zfs_fm_close",
+      "callee": "uu_list_node_fini",
+      "file": "fixture.c",
+      "line": 107
+    },
+    {
+      "caller": "zfs_fm_close",
+      "callee": "fmd_hdl_free",
+      "file": "fixture.c",
+      "line": 108
+    },
+    {
+      "caller": "zfs_fm_gc",
+      "callee": "zfs_purge_cases",
+      "file": "fixture.c",
+      "line": 114
+    },
+    {
+      "caller": "fmd_case_close",
+      "callee": "fmd_hdl_debug",
+      "file": "fixture.c",
+      "line": 155
+    },
+    {
+      "caller": "fmd_case_close",
+      "callee": "fmd_hdl_free",
+      "file": "fixture.c",
+      "line": 164
+    },
+    {
+      "caller": "fmd_case_close",
+      "callee": "fmd_hdl_free",
+      "file": "fixture.c",
+      "line": 166
+    },
+    {
+      "caller": "fmd_hdl_debug",
+      "callee": "va_start",
+      "file": "fixture.c",
+      "line": 176
+    },
+    {
+      "caller": "fmd_hdl_debug",
+      "callee": "vsnprintf",
+      "file": "fixture.c",
+      "line": 177
+    },
+    {
+      "caller": "fmd_hdl_debug",
+      "callee": "va_end",
+      "file": "fixture.c",
+      "line": 178
+    },
+    {
+      "caller": "fmd_hdl_debug",
+      "callee": "zed_log_msg",
+      "file": "fixture.c",
+      "line": 180
+    },
+    {
+      "caller": "fmd_hdl_free",
+      "callee": "umem_free",
+      "file": "fixture.c",
+      "line": 187
+    },
+    {
+      "caller": "fmd_hdl_zalloc",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 194
+    },
+    {
+      "caller": "fmd_serd_hash_create",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 206
+    },
+    {
+      "caller": "fmd_hdl_register",
+      "callee": "strcpy",
+      "file": "fixture.c",
+      "line": 219
+    },
+    {
+      "caller": "fmd_hdl_register",
+      "callee": "strcpy",
+      "file": "fixture.c",
+      "line": 220
+    },
+    {
+      "caller": "fmd_hdl_register",
+      "callee": "strcpy",
+      "file": "fixture.c",
+      "line": 221
+    },
+    {
+      "caller": "fmd_hdl_register",
+      "callee": "strcpy",
+      "file": "fixture.c",
+      "line": 222
+    },
+    {
+      "caller": "fmd_hdl_register",
+      "callee": "fmd_serd_hash_create",
+      "file": "fixture.c",
+      "line": 224
+    },
+    {
+      "caller": "fmd_hdl_register",
+      "callee": "fmd_hdl_debug",
+      "file": "fixture.c",
+      "line": 226
+    },
+    {
+      "caller": "_zfs_retire_init",
+      "callee": "fmd_hdl_register",
+      "file": "fixture.c",
+      "line": 239
+    },
+    {
+      "caller": "_zfs_retire_init",
+      "callee": "fmd_hdl_zalloc",
+      "file": "fixture.c",
+      "line": 242
+    },
+    {
+      "caller": "_zfs_retire_init",
+      "callee": "fmd_hdl_setspecific",
+      "file": "fixture.c",
+      "line": 243
+    }
+  ]
+}

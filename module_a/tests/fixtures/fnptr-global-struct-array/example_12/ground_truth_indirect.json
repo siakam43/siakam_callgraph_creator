@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "e127cf7c",
+      "func": "mux_master_read_cb",
+      "file": "fixture.c",
+      "line": 131,
+      "expression": "mux_master_handlers[i].handler"
+    }
+  ]
+}

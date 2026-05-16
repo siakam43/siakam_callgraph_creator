@@ -1,0 +1,175 @@
+{
+  "functions": [
+    {
+      "name": "spa_feature_is_active",
+      "file": "fixture.c",
+      "line_start": 38,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 38,
+      "body_line_end": 41
+    },
+    {
+      "name": "spa_config_enter",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 45
+    },
+    {
+      "name": "spa_config_exit",
+      "file": "fixture.c",
+      "line_start": 47,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 47,
+      "body_line_end": 49
+    },
+    {
+      "name": "avl_first",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 51
+    },
+    {
+      "name": "space_map_close",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 54
+    },
+    {
+      "name": "space_map_length",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 55
+    },
+    {
+      "name": "iterate_through_spacemap_logs_cb",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 62
+    },
+    {
+      "name": "spacemap_check_sm_log_cb",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 70
+    },
+    {
+      "name": "load_unflushed_cb",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 77
+    },
+    {
+      "name": "load_unflushed_svr_segs_cb",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 84
+    },
+    {
+      "name": "count_unflushed_space_cb",
+      "file": "fixture.c",
+      "line_start": 86,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 86,
+      "body_line_end": 91
+    },
+    {
+      "name": "log_spacemap_obsolete_stats_cb",
+      "file": "fixture.c",
+      "line_start": 93,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 93,
+      "body_line_end": 98
+    },
+    {
+      "name": "iterate_through_spacemap_logs",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 120
+    },
+    {
+      "name": "space_map_iterate",
+      "file": "fixture.c",
+      "line_start": 122,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 122,
+      "body_line_end": 132
+    },
+    {
+      "name": "spacemap_check_sm_log",
+      "file": "fixture.c",
+      "line_start": 134,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 134,
+      "body_line_end": 138
+    },
+    {
+      "name": "load_unflushed_to_ms_allocatables",
+      "file": "fixture.c",
+      "line_start": 140,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 140,
+      "body_line_end": 143
+    },
+    {
+      "name": "zdb_claim_removing",
+      "file": "fixture.c",
+      "line_start": 145,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 145,
+      "body_line_end": 149
+    },
+    {
+      "name": "get_unflushed_alloc_space",
+      "file": "fixture.c",
+      "line_start": 151,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 151,
+      "body_line_end": 157
+    },
+    {
+      "name": "dump_log_spacemap_obsolete_stats",
+      "file": "fixture.c",
+      "line_start": 159,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 159,
+      "body_line_end": 164
+    }
+  ]
+}

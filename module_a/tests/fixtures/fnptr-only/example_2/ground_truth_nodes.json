@@ -1,0 +1,22 @@
+{
+  "functions": [
+    {
+      "name": "Curl_new",
+      "file": "fixture.c",
+      "line_start": 26,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 26,
+      "body_line_end": 45
+    },
+    {
+      "name": "Curl_global_init",
+      "file": "fixture.c",
+      "line_start": 47,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 47,
+      "body_line_end": 59
+    }
+  ]
+}

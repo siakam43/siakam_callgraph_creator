@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "caller": "security_callback_debug",
+      "callee": "BIO_printf",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "ssl_ctx_security_debug",
+      "callee": "SSL_CTX_get_security_callback",
+      "file": "fixture.c",
+      "line": 112
+    },
+    {
+      "caller": "ssl_ctx_security_debug",
+      "callee": "SSL_CTX_set_security_callback",
+      "file": "fixture.c",
+      "line": 113
+    },
+    {
+      "caller": "ssl_ctx_security_debug",
+      "callee": "SSL_CTX_set0_security_ex_data",
+      "file": "fixture.c",
+      "line": 114
+    },
+    {
+      "caller": "ssl_cert_new",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 119
+    }
+  ]
+}

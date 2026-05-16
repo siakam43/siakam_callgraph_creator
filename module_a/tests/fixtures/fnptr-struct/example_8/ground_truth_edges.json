@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "caller": "bind_asn1_methods",
+      "callee": "EVP_PKEY_asn1_set_security_bits",
+      "file": "fixture.c",
+      "line": 47
+    }
+  ]
+}

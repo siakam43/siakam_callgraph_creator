@@ -1,0 +1,13 @@
+{
+  "functions": [
+    {
+      "name": "Curl_output_digest",
+      "file": "fixture.c",
+      "line_start": 23,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 23,
+      "body_line_end": 46
+    }
+  ]
+}

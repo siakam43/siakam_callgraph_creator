@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "50190e2c",
+      "func": "ass_split_section",
+      "file": "fixture.c",
+      "line": 159,
+      "expression": "convert_func[field_type]"
+    }
+  ]
+}

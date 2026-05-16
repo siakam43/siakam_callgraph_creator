@@ -1,0 +1,193 @@
+{
+  "functions": [
+    {
+      "name": "sdslen",
+      "file": "fixture.c",
+      "line_start": 14,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 14,
+      "body_line_end": 14
+    },
+    {
+      "name": "dictSize",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 31
+    },
+    {
+      "name": "dictGetSafeIterator",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 32
+    },
+    {
+      "name": "dictNext",
+      "file": "fixture.c",
+      "line_start": 33,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 33,
+      "body_line_end": 33
+    },
+    {
+      "name": "dictGetVal",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 34
+    },
+    {
+      "name": "dictReleaseIterator",
+      "file": "fixture.c",
+      "line_start": 35,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 35,
+      "body_line_end": 35
+    },
+    {
+      "name": "addReplySetLen",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 53
+    },
+    {
+      "name": "addReplyMapLen",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 54
+    },
+    {
+      "name": "addReplyArrayLen",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 55
+    },
+    {
+      "name": "addReplyBulkCBuffer",
+      "file": "fixture.c",
+      "line_start": 56,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 56,
+      "body_line_end": 56
+    },
+    {
+      "name": "addReplyNull",
+      "file": "fixture.c",
+      "line_start": 57,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 57,
+      "body_line_end": 57
+    },
+    {
+      "name": "addReplyLongLong",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 58
+    },
+    {
+      "name": "addReplyFlagsForCommand",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 59
+    },
+    {
+      "name": "addReplyCommandCategories",
+      "file": "fixture.c",
+      "line_start": 60,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 60,
+      "body_line_end": 60
+    },
+    {
+      "name": "addReplyCommandTips",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 61
+    },
+    {
+      "name": "addReplyCommandKeySpecs",
+      "file": "fixture.c",
+      "line_start": 62,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 62,
+      "body_line_end": 62
+    },
+    {
+      "name": "addReplyBulkCString",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 63
+    },
+    {
+      "name": "addReplyCommandArgList",
+      "file": "fixture.c",
+      "line_start": 64,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 64,
+      "body_line_end": 64
+    },
+    {
+      "name": "addReplyCommandSubCommands",
+      "file": "fixture.c",
+      "line_start": 66,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 66,
+      "body_line_end": 86
+    },
+    {
+      "name": "addReplyCommandInfo",
+      "file": "fixture.c",
+      "line_start": 88,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 88,
+      "body_line_end": 113
+    },
+    {
+      "name": "addReplyCommandDocs",
+      "file": "fixture.c",
+      "line_start": 115,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 115,
+      "body_line_end": 126
+    }
+  ]
+}

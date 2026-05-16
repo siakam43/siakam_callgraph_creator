@@ -1,0 +1,67 @@
+{
+  "functions": [
+    {
+      "name": "tsd_tsdn",
+      "file": "fixture.c",
+      "line_start": 13,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 13,
+      "body_line_end": 13
+    },
+    {
+      "name": "rtree_leaf_elm_lookup",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 39
+    },
+    {
+      "name": "emap_edata_lookup_batch",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 53
+    },
+    {
+      "name": "tcache_bin_flush_size_check_fail",
+      "file": "fixture.c",
+      "line_start": 62,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 62,
+      "body_line_end": 69
+    },
+    {
+      "name": "tcache_bin_flush_ptr_getter",
+      "file": "fixture.c",
+      "line_start": 71,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 71,
+      "body_line_end": 77
+    },
+    {
+      "name": "tcache_bin_flush_metadata_visitor",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 79
+    },
+    {
+      "name": "tcache_bin_flush_edatas_lookup",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 96
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "4d874087",
+      "func": "main",
+      "file": "fixture.c",
+      "line": 160,
+      "expression": "command_table[i].func"
+    }
+  ]
+}

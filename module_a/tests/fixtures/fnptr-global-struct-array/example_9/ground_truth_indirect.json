@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "0422cb6b",
+      "func": "speex_decode_frame",
+      "file": "fixture.c",
+      "line": 136,
+      "expression": "speex_modes[s->mode].decode"
+    }
+  ]
+}

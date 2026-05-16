@@ -1,0 +1,2317 @@
+{
+  "functions": [
+    {
+      "name": "mul_x1_0",
+      "file": "fixture.c",
+      "line_start": 19,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 19,
+      "body_line_end": 19
+    },
+    {
+      "name": "mul_x1_1",
+      "file": "fixture.c",
+      "line_start": 20,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 20,
+      "body_line_end": 20
+    },
+    {
+      "name": "mul_x1_2",
+      "file": "fixture.c",
+      "line_start": 21,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 21,
+      "body_line_end": 21
+    },
+    {
+      "name": "mul_x1_3",
+      "file": "fixture.c",
+      "line_start": 22,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 22,
+      "body_line_end": 22
+    },
+    {
+      "name": "mul_x1_4",
+      "file": "fixture.c",
+      "line_start": 23,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 23,
+      "body_line_end": 23
+    },
+    {
+      "name": "mul_x1_5",
+      "file": "fixture.c",
+      "line_start": 24,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 24,
+      "body_line_end": 24
+    },
+    {
+      "name": "mul_x1_6",
+      "file": "fixture.c",
+      "line_start": 25,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 25,
+      "body_line_end": 25
+    },
+    {
+      "name": "mul_x1_7",
+      "file": "fixture.c",
+      "line_start": 26,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 26,
+      "body_line_end": 26
+    },
+    {
+      "name": "mul_x1_8",
+      "file": "fixture.c",
+      "line_start": 27,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 27,
+      "body_line_end": 27
+    },
+    {
+      "name": "mul_x1_9",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 28
+    },
+    {
+      "name": "mul_x1_10",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 29
+    },
+    {
+      "name": "mul_x1_11",
+      "file": "fixture.c",
+      "line_start": 30,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 30,
+      "body_line_end": 30
+    },
+    {
+      "name": "mul_x1_12",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 31
+    },
+    {
+      "name": "mul_x1_13",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 32
+    },
+    {
+      "name": "mul_x1_14",
+      "file": "fixture.c",
+      "line_start": 33,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 33,
+      "body_line_end": 33
+    },
+    {
+      "name": "mul_x1_15",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 34
+    },
+    {
+      "name": "mul_x1_16",
+      "file": "fixture.c",
+      "line_start": 35,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 35,
+      "body_line_end": 35
+    },
+    {
+      "name": "mul_x1_17",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 36
+    },
+    {
+      "name": "mul_x1_18",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 37
+    },
+    {
+      "name": "mul_x1_19",
+      "file": "fixture.c",
+      "line_start": 38,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 38,
+      "body_line_end": 38
+    },
+    {
+      "name": "mul_x1_20",
+      "file": "fixture.c",
+      "line_start": 39,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 39,
+      "body_line_end": 39
+    },
+    {
+      "name": "mul_x1_21",
+      "file": "fixture.c",
+      "line_start": 40,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 40,
+      "body_line_end": 40
+    },
+    {
+      "name": "mul_x1_22",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 41
+    },
+    {
+      "name": "mul_x1_23",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 42
+    },
+    {
+      "name": "mul_x1_24",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 43
+    },
+    {
+      "name": "mul_x1_25",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 44
+    },
+    {
+      "name": "mul_x1_26",
+      "file": "fixture.c",
+      "line_start": 45,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 45,
+      "body_line_end": 45
+    },
+    {
+      "name": "mul_x1_27",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 46
+    },
+    {
+      "name": "mul_x1_28",
+      "file": "fixture.c",
+      "line_start": 47,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 47,
+      "body_line_end": 47
+    },
+    {
+      "name": "mul_x1_29",
+      "file": "fixture.c",
+      "line_start": 48,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 48,
+      "body_line_end": 48
+    },
+    {
+      "name": "mul_x1_30",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 49
+    },
+    {
+      "name": "mul_x1_31",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 50
+    },
+    {
+      "name": "mul_x1_32",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 51
+    },
+    {
+      "name": "mul_x1_33",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 52
+    },
+    {
+      "name": "mul_x1_34",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 53
+    },
+    {
+      "name": "mul_x1_35",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 54
+    },
+    {
+      "name": "mul_x1_36",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 55
+    },
+    {
+      "name": "mul_x1_37",
+      "file": "fixture.c",
+      "line_start": 56,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 56,
+      "body_line_end": 56
+    },
+    {
+      "name": "mul_x1_38",
+      "file": "fixture.c",
+      "line_start": 57,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 57,
+      "body_line_end": 57
+    },
+    {
+      "name": "mul_x1_39",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 58
+    },
+    {
+      "name": "mul_x1_40",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 59
+    },
+    {
+      "name": "mul_x1_41",
+      "file": "fixture.c",
+      "line_start": 60,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 60,
+      "body_line_end": 60
+    },
+    {
+      "name": "mul_x1_42",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 61
+    },
+    {
+      "name": "mul_x1_43",
+      "file": "fixture.c",
+      "line_start": 62,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 62,
+      "body_line_end": 62
+    },
+    {
+      "name": "mul_x1_44",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 63
+    },
+    {
+      "name": "mul_x1_45",
+      "file": "fixture.c",
+      "line_start": 64,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 64,
+      "body_line_end": 64
+    },
+    {
+      "name": "mul_x1_46",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 65
+    },
+    {
+      "name": "mul_x1_47",
+      "file": "fixture.c",
+      "line_start": 66,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 66,
+      "body_line_end": 66
+    },
+    {
+      "name": "mul_x1_48",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 67
+    },
+    {
+      "name": "mul_x1_49",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 68
+    },
+    {
+      "name": "mul_x1_50",
+      "file": "fixture.c",
+      "line_start": 69,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 69,
+      "body_line_end": 69
+    },
+    {
+      "name": "mul_x1_51",
+      "file": "fixture.c",
+      "line_start": 70,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 70,
+      "body_line_end": 70
+    },
+    {
+      "name": "mul_x1_52",
+      "file": "fixture.c",
+      "line_start": 71,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 71,
+      "body_line_end": 71
+    },
+    {
+      "name": "mul_x1_53",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 72
+    },
+    {
+      "name": "mul_x1_54",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 73
+    },
+    {
+      "name": "mul_x1_55",
+      "file": "fixture.c",
+      "line_start": 74,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 74,
+      "body_line_end": 74
+    },
+    {
+      "name": "mul_x1_56",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 75
+    },
+    {
+      "name": "mul_x1_57",
+      "file": "fixture.c",
+      "line_start": 76,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 76,
+      "body_line_end": 76
+    },
+    {
+      "name": "mul_x1_58",
+      "file": "fixture.c",
+      "line_start": 77,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 77,
+      "body_line_end": 77
+    },
+    {
+      "name": "mul_x1_59",
+      "file": "fixture.c",
+      "line_start": 78,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 78,
+      "body_line_end": 78
+    },
+    {
+      "name": "mul_x1_60",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 79
+    },
+    {
+      "name": "mul_x1_61",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 80
+    },
+    {
+      "name": "mul_x1_62",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 81
+    },
+    {
+      "name": "mul_x1_63",
+      "file": "fixture.c",
+      "line_start": 82,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 82,
+      "body_line_end": 82
+    },
+    {
+      "name": "mul_x1_64",
+      "file": "fixture.c",
+      "line_start": 83,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 83,
+      "body_line_end": 83
+    },
+    {
+      "name": "mul_x1_65",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 84
+    },
+    {
+      "name": "mul_x1_66",
+      "file": "fixture.c",
+      "line_start": 85,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 85,
+      "body_line_end": 85
+    },
+    {
+      "name": "mul_x1_67",
+      "file": "fixture.c",
+      "line_start": 86,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 86,
+      "body_line_end": 86
+    },
+    {
+      "name": "mul_x1_68",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 87
+    },
+    {
+      "name": "mul_x1_69",
+      "file": "fixture.c",
+      "line_start": 88,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 88,
+      "body_line_end": 88
+    },
+    {
+      "name": "mul_x1_70",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 89
+    },
+    {
+      "name": "mul_x1_71",
+      "file": "fixture.c",
+      "line_start": 90,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 90,
+      "body_line_end": 90
+    },
+    {
+      "name": "mul_x1_72",
+      "file": "fixture.c",
+      "line_start": 91,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 91,
+      "body_line_end": 91
+    },
+    {
+      "name": "mul_x1_73",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 92
+    },
+    {
+      "name": "mul_x1_74",
+      "file": "fixture.c",
+      "line_start": 93,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 93,
+      "body_line_end": 93
+    },
+    {
+      "name": "mul_x1_75",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 94
+    },
+    {
+      "name": "mul_x1_76",
+      "file": "fixture.c",
+      "line_start": 95,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 95,
+      "body_line_end": 95
+    },
+    {
+      "name": "mul_x1_77",
+      "file": "fixture.c",
+      "line_start": 96,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 96,
+      "body_line_end": 96
+    },
+    {
+      "name": "mul_x1_78",
+      "file": "fixture.c",
+      "line_start": 97,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 97,
+      "body_line_end": 97
+    },
+    {
+      "name": "mul_x1_79",
+      "file": "fixture.c",
+      "line_start": 98,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 98,
+      "body_line_end": 98
+    },
+    {
+      "name": "mul_x1_80",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 99
+    },
+    {
+      "name": "mul_x1_81",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 100
+    },
+    {
+      "name": "mul_x1_82",
+      "file": "fixture.c",
+      "line_start": 101,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 101,
+      "body_line_end": 101
+    },
+    {
+      "name": "mul_x1_83",
+      "file": "fixture.c",
+      "line_start": 102,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 102,
+      "body_line_end": 102
+    },
+    {
+      "name": "mul_x1_84",
+      "file": "fixture.c",
+      "line_start": 103,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 103,
+      "body_line_end": 103
+    },
+    {
+      "name": "mul_x1_85",
+      "file": "fixture.c",
+      "line_start": 104,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 104,
+      "body_line_end": 104
+    },
+    {
+      "name": "mul_x1_86",
+      "file": "fixture.c",
+      "line_start": 105,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 105,
+      "body_line_end": 105
+    },
+    {
+      "name": "mul_x1_87",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 106
+    },
+    {
+      "name": "mul_x1_88",
+      "file": "fixture.c",
+      "line_start": 107,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 107,
+      "body_line_end": 107
+    },
+    {
+      "name": "mul_x1_89",
+      "file": "fixture.c",
+      "line_start": 108,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 108,
+      "body_line_end": 108
+    },
+    {
+      "name": "mul_x1_90",
+      "file": "fixture.c",
+      "line_start": 109,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 109,
+      "body_line_end": 109
+    },
+    {
+      "name": "mul_x1_91",
+      "file": "fixture.c",
+      "line_start": 110,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 110,
+      "body_line_end": 110
+    },
+    {
+      "name": "mul_x1_92",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 111
+    },
+    {
+      "name": "mul_x1_93",
+      "file": "fixture.c",
+      "line_start": 112,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 112,
+      "body_line_end": 112
+    },
+    {
+      "name": "mul_x1_94",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 113
+    },
+    {
+      "name": "mul_x1_95",
+      "file": "fixture.c",
+      "line_start": 114,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 114,
+      "body_line_end": 114
+    },
+    {
+      "name": "mul_x1_96",
+      "file": "fixture.c",
+      "line_start": 115,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 115,
+      "body_line_end": 115
+    },
+    {
+      "name": "mul_x1_97",
+      "file": "fixture.c",
+      "line_start": 116,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 116,
+      "body_line_end": 116
+    },
+    {
+      "name": "mul_x1_98",
+      "file": "fixture.c",
+      "line_start": 117,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 117,
+      "body_line_end": 117
+    },
+    {
+      "name": "mul_x1_99",
+      "file": "fixture.c",
+      "line_start": 118,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 118,
+      "body_line_end": 118
+    },
+    {
+      "name": "mul_x1_100",
+      "file": "fixture.c",
+      "line_start": 119,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 119,
+      "body_line_end": 119
+    },
+    {
+      "name": "mul_x1_101",
+      "file": "fixture.c",
+      "line_start": 120,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 120,
+      "body_line_end": 120
+    },
+    {
+      "name": "mul_x1_102",
+      "file": "fixture.c",
+      "line_start": 121,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 121,
+      "body_line_end": 121
+    },
+    {
+      "name": "mul_x1_103",
+      "file": "fixture.c",
+      "line_start": 122,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 122,
+      "body_line_end": 122
+    },
+    {
+      "name": "mul_x1_104",
+      "file": "fixture.c",
+      "line_start": 123,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 123,
+      "body_line_end": 123
+    },
+    {
+      "name": "mul_x1_105",
+      "file": "fixture.c",
+      "line_start": 124,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 124,
+      "body_line_end": 124
+    },
+    {
+      "name": "mul_x1_106",
+      "file": "fixture.c",
+      "line_start": 125,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 125,
+      "body_line_end": 125
+    },
+    {
+      "name": "mul_x1_107",
+      "file": "fixture.c",
+      "line_start": 126,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 126,
+      "body_line_end": 126
+    },
+    {
+      "name": "mul_x1_108",
+      "file": "fixture.c",
+      "line_start": 127,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 127,
+      "body_line_end": 127
+    },
+    {
+      "name": "mul_x1_109",
+      "file": "fixture.c",
+      "line_start": 128,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 128,
+      "body_line_end": 128
+    },
+    {
+      "name": "mul_x1_110",
+      "file": "fixture.c",
+      "line_start": 129,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 129,
+      "body_line_end": 129
+    },
+    {
+      "name": "mul_x1_111",
+      "file": "fixture.c",
+      "line_start": 130,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 130,
+      "body_line_end": 130
+    },
+    {
+      "name": "mul_x1_112",
+      "file": "fixture.c",
+      "line_start": 131,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 131,
+      "body_line_end": 131
+    },
+    {
+      "name": "mul_x1_113",
+      "file": "fixture.c",
+      "line_start": 132,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 132,
+      "body_line_end": 132
+    },
+    {
+      "name": "mul_x1_114",
+      "file": "fixture.c",
+      "line_start": 133,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 133,
+      "body_line_end": 133
+    },
+    {
+      "name": "mul_x1_115",
+      "file": "fixture.c",
+      "line_start": 134,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 134,
+      "body_line_end": 134
+    },
+    {
+      "name": "mul_x1_116",
+      "file": "fixture.c",
+      "line_start": 135,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 135,
+      "body_line_end": 135
+    },
+    {
+      "name": "mul_x1_117",
+      "file": "fixture.c",
+      "line_start": 136,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 136,
+      "body_line_end": 136
+    },
+    {
+      "name": "mul_x1_118",
+      "file": "fixture.c",
+      "line_start": 137,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 137,
+      "body_line_end": 137
+    },
+    {
+      "name": "mul_x1_119",
+      "file": "fixture.c",
+      "line_start": 138,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 138,
+      "body_line_end": 138
+    },
+    {
+      "name": "mul_x1_120",
+      "file": "fixture.c",
+      "line_start": 139,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 139,
+      "body_line_end": 139
+    },
+    {
+      "name": "mul_x1_121",
+      "file": "fixture.c",
+      "line_start": 140,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 140,
+      "body_line_end": 140
+    },
+    {
+      "name": "mul_x1_122",
+      "file": "fixture.c",
+      "line_start": 141,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 141,
+      "body_line_end": 141
+    },
+    {
+      "name": "mul_x1_123",
+      "file": "fixture.c",
+      "line_start": 142,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 142,
+      "body_line_end": 142
+    },
+    {
+      "name": "mul_x1_124",
+      "file": "fixture.c",
+      "line_start": 143,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 143,
+      "body_line_end": 143
+    },
+    {
+      "name": "mul_x1_125",
+      "file": "fixture.c",
+      "line_start": 144,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 144,
+      "body_line_end": 144
+    },
+    {
+      "name": "mul_x1_126",
+      "file": "fixture.c",
+      "line_start": 145,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 145,
+      "body_line_end": 145
+    },
+    {
+      "name": "mul_x1_127",
+      "file": "fixture.c",
+      "line_start": 146,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 146,
+      "body_line_end": 146
+    },
+    {
+      "name": "mul_x1_128",
+      "file": "fixture.c",
+      "line_start": 147,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 147,
+      "body_line_end": 147
+    },
+    {
+      "name": "mul_x1_129",
+      "file": "fixture.c",
+      "line_start": 148,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 148,
+      "body_line_end": 148
+    },
+    {
+      "name": "mul_x1_130",
+      "file": "fixture.c",
+      "line_start": 149,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 149,
+      "body_line_end": 149
+    },
+    {
+      "name": "mul_x1_131",
+      "file": "fixture.c",
+      "line_start": 150,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 150,
+      "body_line_end": 150
+    },
+    {
+      "name": "mul_x1_132",
+      "file": "fixture.c",
+      "line_start": 151,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 151,
+      "body_line_end": 151
+    },
+    {
+      "name": "mul_x1_133",
+      "file": "fixture.c",
+      "line_start": 152,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 152,
+      "body_line_end": 152
+    },
+    {
+      "name": "mul_x1_134",
+      "file": "fixture.c",
+      "line_start": 153,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 153,
+      "body_line_end": 153
+    },
+    {
+      "name": "mul_x1_135",
+      "file": "fixture.c",
+      "line_start": 154,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 154,
+      "body_line_end": 154
+    },
+    {
+      "name": "mul_x1_136",
+      "file": "fixture.c",
+      "line_start": 155,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 155,
+      "body_line_end": 155
+    },
+    {
+      "name": "mul_x1_137",
+      "file": "fixture.c",
+      "line_start": 156,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 156,
+      "body_line_end": 156
+    },
+    {
+      "name": "mul_x1_138",
+      "file": "fixture.c",
+      "line_start": 157,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 157,
+      "body_line_end": 157
+    },
+    {
+      "name": "mul_x1_139",
+      "file": "fixture.c",
+      "line_start": 158,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 158,
+      "body_line_end": 158
+    },
+    {
+      "name": "mul_x1_140",
+      "file": "fixture.c",
+      "line_start": 159,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 159,
+      "body_line_end": 159
+    },
+    {
+      "name": "mul_x1_141",
+      "file": "fixture.c",
+      "line_start": 160,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 160,
+      "body_line_end": 160
+    },
+    {
+      "name": "mul_x1_142",
+      "file": "fixture.c",
+      "line_start": 161,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 161,
+      "body_line_end": 161
+    },
+    {
+      "name": "mul_x1_143",
+      "file": "fixture.c",
+      "line_start": 162,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 162,
+      "body_line_end": 162
+    },
+    {
+      "name": "mul_x1_144",
+      "file": "fixture.c",
+      "line_start": 163,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 163,
+      "body_line_end": 163
+    },
+    {
+      "name": "mul_x1_145",
+      "file": "fixture.c",
+      "line_start": 164,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 164,
+      "body_line_end": 164
+    },
+    {
+      "name": "mul_x1_146",
+      "file": "fixture.c",
+      "line_start": 165,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 165,
+      "body_line_end": 165
+    },
+    {
+      "name": "mul_x1_147",
+      "file": "fixture.c",
+      "line_start": 166,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 166,
+      "body_line_end": 166
+    },
+    {
+      "name": "mul_x1_148",
+      "file": "fixture.c",
+      "line_start": 167,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 167,
+      "body_line_end": 167
+    },
+    {
+      "name": "mul_x1_149",
+      "file": "fixture.c",
+      "line_start": 168,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 168,
+      "body_line_end": 168
+    },
+    {
+      "name": "mul_x1_150",
+      "file": "fixture.c",
+      "line_start": 169,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 169,
+      "body_line_end": 169
+    },
+    {
+      "name": "mul_x1_151",
+      "file": "fixture.c",
+      "line_start": 170,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 170,
+      "body_line_end": 170
+    },
+    {
+      "name": "mul_x1_152",
+      "file": "fixture.c",
+      "line_start": 171,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 171,
+      "body_line_end": 171
+    },
+    {
+      "name": "mul_x1_153",
+      "file": "fixture.c",
+      "line_start": 172,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 172,
+      "body_line_end": 172
+    },
+    {
+      "name": "mul_x1_154",
+      "file": "fixture.c",
+      "line_start": 173,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 173,
+      "body_line_end": 173
+    },
+    {
+      "name": "mul_x1_155",
+      "file": "fixture.c",
+      "line_start": 174,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 174,
+      "body_line_end": 174
+    },
+    {
+      "name": "mul_x1_156",
+      "file": "fixture.c",
+      "line_start": 175,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 175,
+      "body_line_end": 175
+    },
+    {
+      "name": "mul_x1_157",
+      "file": "fixture.c",
+      "line_start": 176,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 176,
+      "body_line_end": 176
+    },
+    {
+      "name": "mul_x1_158",
+      "file": "fixture.c",
+      "line_start": 177,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 177,
+      "body_line_end": 177
+    },
+    {
+      "name": "mul_x1_159",
+      "file": "fixture.c",
+      "line_start": 178,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 178,
+      "body_line_end": 178
+    },
+    {
+      "name": "mul_x1_160",
+      "file": "fixture.c",
+      "line_start": 179,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 179,
+      "body_line_end": 179
+    },
+    {
+      "name": "mul_x1_161",
+      "file": "fixture.c",
+      "line_start": 180,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 180,
+      "body_line_end": 180
+    },
+    {
+      "name": "mul_x1_162",
+      "file": "fixture.c",
+      "line_start": 181,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 181,
+      "body_line_end": 181
+    },
+    {
+      "name": "mul_x1_163",
+      "file": "fixture.c",
+      "line_start": 182,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 182,
+      "body_line_end": 182
+    },
+    {
+      "name": "mul_x1_164",
+      "file": "fixture.c",
+      "line_start": 183,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 183,
+      "body_line_end": 183
+    },
+    {
+      "name": "mul_x1_165",
+      "file": "fixture.c",
+      "line_start": 184,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 184,
+      "body_line_end": 184
+    },
+    {
+      "name": "mul_x1_166",
+      "file": "fixture.c",
+      "line_start": 185,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 185,
+      "body_line_end": 185
+    },
+    {
+      "name": "mul_x1_167",
+      "file": "fixture.c",
+      "line_start": 186,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 186,
+      "body_line_end": 186
+    },
+    {
+      "name": "mul_x1_168",
+      "file": "fixture.c",
+      "line_start": 187,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 187,
+      "body_line_end": 187
+    },
+    {
+      "name": "mul_x1_169",
+      "file": "fixture.c",
+      "line_start": 188,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 188,
+      "body_line_end": 188
+    },
+    {
+      "name": "mul_x1_170",
+      "file": "fixture.c",
+      "line_start": 189,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 189,
+      "body_line_end": 189
+    },
+    {
+      "name": "mul_x1_171",
+      "file": "fixture.c",
+      "line_start": 190,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 190,
+      "body_line_end": 190
+    },
+    {
+      "name": "mul_x1_172",
+      "file": "fixture.c",
+      "line_start": 191,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 191,
+      "body_line_end": 191
+    },
+    {
+      "name": "mul_x1_173",
+      "file": "fixture.c",
+      "line_start": 192,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 192,
+      "body_line_end": 192
+    },
+    {
+      "name": "mul_x1_174",
+      "file": "fixture.c",
+      "line_start": 193,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 193,
+      "body_line_end": 193
+    },
+    {
+      "name": "mul_x1_175",
+      "file": "fixture.c",
+      "line_start": 194,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 194,
+      "body_line_end": 194
+    },
+    {
+      "name": "mul_x1_176",
+      "file": "fixture.c",
+      "line_start": 195,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 195,
+      "body_line_end": 195
+    },
+    {
+      "name": "mul_x1_177",
+      "file": "fixture.c",
+      "line_start": 196,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 196,
+      "body_line_end": 196
+    },
+    {
+      "name": "mul_x1_178",
+      "file": "fixture.c",
+      "line_start": 197,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 197,
+      "body_line_end": 197
+    },
+    {
+      "name": "mul_x1_179",
+      "file": "fixture.c",
+      "line_start": 198,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 198,
+      "body_line_end": 198
+    },
+    {
+      "name": "mul_x1_180",
+      "file": "fixture.c",
+      "line_start": 199,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 199,
+      "body_line_end": 199
+    },
+    {
+      "name": "mul_x1_181",
+      "file": "fixture.c",
+      "line_start": 200,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 200,
+      "body_line_end": 200
+    },
+    {
+      "name": "mul_x1_182",
+      "file": "fixture.c",
+      "line_start": 201,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 201,
+      "body_line_end": 201
+    },
+    {
+      "name": "mul_x1_183",
+      "file": "fixture.c",
+      "line_start": 202,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 202,
+      "body_line_end": 202
+    },
+    {
+      "name": "mul_x1_184",
+      "file": "fixture.c",
+      "line_start": 203,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 203,
+      "body_line_end": 203
+    },
+    {
+      "name": "mul_x1_185",
+      "file": "fixture.c",
+      "line_start": 204,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 204,
+      "body_line_end": 204
+    },
+    {
+      "name": "mul_x1_186",
+      "file": "fixture.c",
+      "line_start": 205,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 205,
+      "body_line_end": 205
+    },
+    {
+      "name": "mul_x1_187",
+      "file": "fixture.c",
+      "line_start": 206,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 206,
+      "body_line_end": 206
+    },
+    {
+      "name": "mul_x1_188",
+      "file": "fixture.c",
+      "line_start": 207,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 207,
+      "body_line_end": 207
+    },
+    {
+      "name": "mul_x1_189",
+      "file": "fixture.c",
+      "line_start": 208,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 208,
+      "body_line_end": 208
+    },
+    {
+      "name": "mul_x1_190",
+      "file": "fixture.c",
+      "line_start": 209,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 209,
+      "body_line_end": 209
+    },
+    {
+      "name": "mul_x1_191",
+      "file": "fixture.c",
+      "line_start": 210,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 210,
+      "body_line_end": 210
+    },
+    {
+      "name": "mul_x1_192",
+      "file": "fixture.c",
+      "line_start": 211,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 211,
+      "body_line_end": 211
+    },
+    {
+      "name": "mul_x1_193",
+      "file": "fixture.c",
+      "line_start": 212,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 212,
+      "body_line_end": 212
+    },
+    {
+      "name": "mul_x1_194",
+      "file": "fixture.c",
+      "line_start": 213,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 213,
+      "body_line_end": 213
+    },
+    {
+      "name": "mul_x1_195",
+      "file": "fixture.c",
+      "line_start": 214,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 214,
+      "body_line_end": 214
+    },
+    {
+      "name": "mul_x1_196",
+      "file": "fixture.c",
+      "line_start": 215,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 215,
+      "body_line_end": 215
+    },
+    {
+      "name": "mul_x1_197",
+      "file": "fixture.c",
+      "line_start": 216,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 216,
+      "body_line_end": 216
+    },
+    {
+      "name": "mul_x1_198",
+      "file": "fixture.c",
+      "line_start": 217,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 217,
+      "body_line_end": 217
+    },
+    {
+      "name": "mul_x1_199",
+      "file": "fixture.c",
+      "line_start": 218,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 218,
+      "body_line_end": 218
+    },
+    {
+      "name": "mul_x1_200",
+      "file": "fixture.c",
+      "line_start": 219,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 219,
+      "body_line_end": 219
+    },
+    {
+      "name": "mul_x1_201",
+      "file": "fixture.c",
+      "line_start": 220,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 220,
+      "body_line_end": 220
+    },
+    {
+      "name": "mul_x1_202",
+      "file": "fixture.c",
+      "line_start": 221,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 221,
+      "body_line_end": 221
+    },
+    {
+      "name": "mul_x1_203",
+      "file": "fixture.c",
+      "line_start": 222,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 222,
+      "body_line_end": 222
+    },
+    {
+      "name": "mul_x1_204",
+      "file": "fixture.c",
+      "line_start": 223,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 223,
+      "body_line_end": 223
+    },
+    {
+      "name": "mul_x1_205",
+      "file": "fixture.c",
+      "line_start": 224,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 224,
+      "body_line_end": 224
+    },
+    {
+      "name": "mul_x1_206",
+      "file": "fixture.c",
+      "line_start": 225,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 225,
+      "body_line_end": 225
+    },
+    {
+      "name": "mul_x1_207",
+      "file": "fixture.c",
+      "line_start": 226,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 226,
+      "body_line_end": 226
+    },
+    {
+      "name": "mul_x1_208",
+      "file": "fixture.c",
+      "line_start": 227,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 227,
+      "body_line_end": 227
+    },
+    {
+      "name": "mul_x1_209",
+      "file": "fixture.c",
+      "line_start": 228,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 228,
+      "body_line_end": 228
+    },
+    {
+      "name": "mul_x1_210",
+      "file": "fixture.c",
+      "line_start": 229,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 229,
+      "body_line_end": 229
+    },
+    {
+      "name": "mul_x1_211",
+      "file": "fixture.c",
+      "line_start": 230,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 230,
+      "body_line_end": 230
+    },
+    {
+      "name": "mul_x1_212",
+      "file": "fixture.c",
+      "line_start": 231,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 231,
+      "body_line_end": 231
+    },
+    {
+      "name": "mul_x1_213",
+      "file": "fixture.c",
+      "line_start": 232,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 232,
+      "body_line_end": 232
+    },
+    {
+      "name": "mul_x1_214",
+      "file": "fixture.c",
+      "line_start": 233,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 233,
+      "body_line_end": 233
+    },
+    {
+      "name": "mul_x1_215",
+      "file": "fixture.c",
+      "line_start": 234,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 234,
+      "body_line_end": 234
+    },
+    {
+      "name": "mul_x1_216",
+      "file": "fixture.c",
+      "line_start": 235,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 235,
+      "body_line_end": 235
+    },
+    {
+      "name": "mul_x1_217",
+      "file": "fixture.c",
+      "line_start": 236,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 236,
+      "body_line_end": 236
+    },
+    {
+      "name": "mul_x1_218",
+      "file": "fixture.c",
+      "line_start": 237,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 237,
+      "body_line_end": 237
+    },
+    {
+      "name": "mul_x1_219",
+      "file": "fixture.c",
+      "line_start": 238,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 238,
+      "body_line_end": 238
+    },
+    {
+      "name": "mul_x1_220",
+      "file": "fixture.c",
+      "line_start": 239,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 239,
+      "body_line_end": 239
+    },
+    {
+      "name": "mul_x1_221",
+      "file": "fixture.c",
+      "line_start": 240,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 240,
+      "body_line_end": 240
+    },
+    {
+      "name": "mul_x1_222",
+      "file": "fixture.c",
+      "line_start": 241,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 241,
+      "body_line_end": 241
+    },
+    {
+      "name": "mul_x1_223",
+      "file": "fixture.c",
+      "line_start": 242,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 242,
+      "body_line_end": 242
+    },
+    {
+      "name": "mul_x1_224",
+      "file": "fixture.c",
+      "line_start": 243,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 243,
+      "body_line_end": 243
+    },
+    {
+      "name": "mul_x1_225",
+      "file": "fixture.c",
+      "line_start": 244,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 244,
+      "body_line_end": 244
+    },
+    {
+      "name": "mul_x1_226",
+      "file": "fixture.c",
+      "line_start": 245,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 245,
+      "body_line_end": 245
+    },
+    {
+      "name": "mul_x1_227",
+      "file": "fixture.c",
+      "line_start": 246,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 246,
+      "body_line_end": 246
+    },
+    {
+      "name": "mul_x1_228",
+      "file": "fixture.c",
+      "line_start": 247,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 247,
+      "body_line_end": 247
+    },
+    {
+      "name": "mul_x1_229",
+      "file": "fixture.c",
+      "line_start": 248,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 248,
+      "body_line_end": 248
+    },
+    {
+      "name": "mul_x1_230",
+      "file": "fixture.c",
+      "line_start": 249,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 249,
+      "body_line_end": 249
+    },
+    {
+      "name": "mul_x1_231",
+      "file": "fixture.c",
+      "line_start": 250,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 250,
+      "body_line_end": 250
+    },
+    {
+      "name": "mul_x1_232",
+      "file": "fixture.c",
+      "line_start": 251,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 251,
+      "body_line_end": 251
+    },
+    {
+      "name": "mul_x1_233",
+      "file": "fixture.c",
+      "line_start": 252,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 252,
+      "body_line_end": 252
+    },
+    {
+      "name": "mul_x1_234",
+      "file": "fixture.c",
+      "line_start": 253,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 253,
+      "body_line_end": 253
+    },
+    {
+      "name": "mul_x1_235",
+      "file": "fixture.c",
+      "line_start": 254,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 254,
+      "body_line_end": 254
+    },
+    {
+      "name": "mul_x1_236",
+      "file": "fixture.c",
+      "line_start": 255,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 255,
+      "body_line_end": 255
+    },
+    {
+      "name": "mul_x1_237",
+      "file": "fixture.c",
+      "line_start": 256,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 256,
+      "body_line_end": 256
+    },
+    {
+      "name": "mul_x1_238",
+      "file": "fixture.c",
+      "line_start": 257,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 257,
+      "body_line_end": 257
+    },
+    {
+      "name": "mul_x1_239",
+      "file": "fixture.c",
+      "line_start": 258,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 258,
+      "body_line_end": 258
+    },
+    {
+      "name": "mul_x1_240",
+      "file": "fixture.c",
+      "line_start": 259,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 259,
+      "body_line_end": 259
+    },
+    {
+      "name": "mul_x1_241",
+      "file": "fixture.c",
+      "line_start": 260,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 260,
+      "body_line_end": 260
+    },
+    {
+      "name": "mul_x1_242",
+      "file": "fixture.c",
+      "line_start": 261,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 261,
+      "body_line_end": 261
+    },
+    {
+      "name": "mul_x1_243",
+      "file": "fixture.c",
+      "line_start": 262,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 262,
+      "body_line_end": 262
+    },
+    {
+      "name": "mul_x1_244",
+      "file": "fixture.c",
+      "line_start": 263,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 263,
+      "body_line_end": 263
+    },
+    {
+      "name": "mul_x1_245",
+      "file": "fixture.c",
+      "line_start": 264,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 264,
+      "body_line_end": 264
+    },
+    {
+      "name": "mul_x1_246",
+      "file": "fixture.c",
+      "line_start": 265,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 265,
+      "body_line_end": 265
+    },
+    {
+      "name": "mul_x1_247",
+      "file": "fixture.c",
+      "line_start": 266,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 266,
+      "body_line_end": 266
+    },
+    {
+      "name": "mul_x1_248",
+      "file": "fixture.c",
+      "line_start": 267,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 267,
+      "body_line_end": 267
+    },
+    {
+      "name": "mul_x1_249",
+      "file": "fixture.c",
+      "line_start": 268,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 268,
+      "body_line_end": 268
+    },
+    {
+      "name": "mul_x1_250",
+      "file": "fixture.c",
+      "line_start": 269,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 269,
+      "body_line_end": 269
+    },
+    {
+      "name": "mul_x1_251",
+      "file": "fixture.c",
+      "line_start": 270,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 270,
+      "body_line_end": 270
+    },
+    {
+      "name": "mul_x1_252",
+      "file": "fixture.c",
+      "line_start": 271,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 271,
+      "body_line_end": 271
+    },
+    {
+      "name": "mul_x1_253",
+      "file": "fixture.c",
+      "line_start": 272,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 272,
+      "body_line_end": 272
+    },
+    {
+      "name": "mul_x1_254",
+      "file": "fixture.c",
+      "line_start": 273,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 273,
+      "body_line_end": 273
+    },
+    {
+      "name": "mul_x1_255",
+      "file": "fixture.c",
+      "line_start": 274,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 274,
+      "body_line_end": 274
+    },
+    {
+      "name": "raidz_rec_pqr_abd",
+      "file": "fixture.c",
+      "line_start": 339,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 339,
+      "body_line_end": 363
+    }
+  ]
+}

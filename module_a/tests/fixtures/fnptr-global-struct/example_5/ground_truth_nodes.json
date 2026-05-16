@@ -1,0 +1,112 @@
+{
+  "functions": [
+    {
+      "name": "serverLog",
+      "file": "fixture.c",
+      "line_start": 25,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 25,
+      "body_line_end": 25
+    },
+    {
+      "name": "serverAssert",
+      "file": "fixture.c",
+      "line_start": 26,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 26,
+      "body_line_end": 26
+    },
+    {
+      "name": "connTypeRegister",
+      "file": "fixture.c",
+      "line_start": 35,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 35,
+      "body_line_end": 46
+    },
+    {
+      "name": "RedisRegisterConnectionTypeSocket",
+      "file": "fixture.c",
+      "line_start": 48,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 48,
+      "body_line_end": 51
+    },
+    {
+      "name": "RedisRegisterConnectionTypeTLS",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 56
+    },
+    {
+      "name": "connectionTypeTcp",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 73
+    },
+    {
+      "name": "connUnixRead",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 78
+    },
+    {
+      "name": "socket_get_type",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 81
+    },
+    {
+      "name": "tls_get_type",
+      "file": "fixture.c",
+      "line_start": 82,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 82,
+      "body_line_end": 82
+    },
+    {
+      "name": "connTLSRead",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 87
+    },
+    {
+      "name": "connTLSWrite",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 92
+    },
+    {
+      "name": "connTLSWritev",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 97
+    }
+  ]
+}

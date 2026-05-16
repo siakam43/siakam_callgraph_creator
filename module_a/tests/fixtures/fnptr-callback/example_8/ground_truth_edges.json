@@ -1,0 +1,82 @@
+{
+  "edges": [
+    {
+      "caller": "_pqsort",
+      "callee": "SWAPINIT",
+      "file": "fixture.c",
+      "line": 72
+    },
+    {
+      "caller": "_pqsort",
+      "callee": "swap",
+      "file": "fixture.c",
+      "line": 77
+    },
+    {
+      "caller": "_pqsort",
+      "callee": "med3",
+      "file": "fixture.c",
+      "line": 86
+    },
+    {
+      "caller": "_pqsort",
+      "callee": "med3",
+      "file": "fixture.c",
+      "line": 87
+    },
+    {
+      "caller": "_pqsort",
+      "callee": "med3",
+      "file": "fixture.c",
+      "line": 88
+    },
+    {
+      "caller": "_pqsort",
+      "callee": "med3",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "pqsort",
+      "callee": "_pqsort",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "georadiusGeneric",
+      "callee": "qsort",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "georadiusGeneric",
+      "callee": "pqsort",
+      "file": "fixture.c",
+      "line": 122
+    },
+    {
+      "caller": "sortCommandGeneric",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 134
+    },
+    {
+      "caller": "sortCommandGeneric",
+      "callee": "pqsort",
+      "file": "fixture.c",
+      "line": 139
+    },
+    {
+      "caller": "sortCommandGeneric",
+      "callee": "qsort",
+      "file": "fixture.c",
+      "line": 141
+    },
+    {
+      "caller": "sortCommandGeneric",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 143
+    }
+  ]
+}

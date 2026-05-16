@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "EVP_MD_CTX_type",
+      "file": "fixture.c",
+      "line_start": 21,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 21,
+      "body_line_end": 23
+    },
+    {
+      "name": "tls1_md5_final_raw",
+      "file": "fixture.c",
+      "line_start": 25,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 25,
+      "body_line_end": 27
+    },
+    {
+      "name": "tls1_sha1_final_raw",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 31
+    },
+    {
+      "name": "tls1_sha256_final_raw",
+      "file": "fixture.c",
+      "line_start": 33,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 33,
+      "body_line_end": 35
+    },
+    {
+      "name": "tls1_sha512_final_raw",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 39
+    },
+    {
+      "name": "md_final_raw_caller",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 87
+    }
+  ]
+}

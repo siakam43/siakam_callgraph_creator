@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "41e859c5",
+      "func": "palToRgbWrapper",
+      "file": "fixture.c",
+      "line": 134,
+      "expression": "conv"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "bf1650a5",
+      "func": "addReplyCommandSubCommands",
+      "file": "fixture.c",
+      "line": 83,
+      "expression": "reply_function"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "functions": [
+    {
+      "name": "lzjb_decompress",
+      "file": "fixture.c",
+      "line_start": 22,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 22,
+      "body_line_end": 25
+    },
+    {
+      "name": "gzip_decompress",
+      "file": "fixture.c",
+      "line_start": 27,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 27,
+      "body_line_end": 30
+    },
+    {
+      "name": "zle_decompress",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 35
+    },
+    {
+      "name": "lz4_decompress_zfs",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 40
+    },
+    {
+      "name": "zfs_zstd_decompress",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 45
+    },
+    {
+      "name": "lzjb_compress",
+      "file": "fixture.c",
+      "line_start": 47,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 47,
+      "body_line_end": 47
+    },
+    {
+      "name": "gzip_compress",
+      "file": "fixture.c",
+      "line_start": 48,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 48,
+      "body_line_end": 48
+    },
+    {
+      "name": "zle_compress",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 49
+    },
+    {
+      "name": "lz4_compress_zfs",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 50
+    },
+    {
+      "name": "zfs_zstd_compress_wrap",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 51
+    },
+    {
+      "name": "zstream_do_recompress",
+      "file": "fixture.c",
+      "line_start": 71,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 71,
+      "body_line_end": 92
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "indirect_points": [
+    {
+      "uid": "79e0fb49",
+      "func": "sshsk_open",
+      "file": "fixture.c",
+      "line": 57,
+      "expression": "ret->sk_api_version"
+    },
+    {
+      "uid": "f97249fa",
+      "func": "sk_api_version_caller",
+      "file": "fixture.c",
+      "line": 91,
+      "expression": "ret->sk_api_version"
+    }
+  ]
+}

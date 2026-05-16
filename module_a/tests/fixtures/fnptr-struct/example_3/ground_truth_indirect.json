@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "adcb4a70",
+      "func": "search_for_quantizers_fast",
+      "file": "fixture.c",
+      "line": 101,
+      "expression": "s->abs_pow34"
+    }
+  ]
+}

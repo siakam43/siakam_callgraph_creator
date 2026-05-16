@@ -1,0 +1,53 @@
+{
+  "indirect_points": [
+    {
+      "uid": "b96cb41a",
+      "func": "abd_fletcher_4_iter",
+      "file": "fixture.c",
+      "line": 217,
+      "expression": "ops->compute_native"
+    },
+    {
+      "uid": "521567dc",
+      "func": "abd_fletcher_4_iter",
+      "file": "fixture.c",
+      "line": 219,
+      "expression": "ops->compute_byteswap"
+    },
+    {
+      "uid": "8c4fe358",
+      "func": "abd_fletcher_4_init",
+      "file": "fixture.c",
+      "line": 249,
+      "expression": "ops->init_native"
+    },
+    {
+      "uid": "81930a1d",
+      "func": "abd_fletcher_4_init",
+      "file": "fixture.c",
+      "line": 251,
+      "expression": "ops->init_byteswap"
+    },
+    {
+      "uid": "cb282b7b",
+      "func": "abd_fletcher_4_impl",
+      "file": "fixture.c",
+      "line": 265,
+      "expression": "fletcher_4_abd_ops.acf_init"
+    },
+    {
+      "uid": "d4945ca3",
+      "func": "abd_fletcher_4_impl",
+      "file": "fixture.c",
+      "line": 267,
+      "expression": "fletcher_4_abd_ops.acf_fini"
+    },
+    {
+      "uid": "1521c10f",
+      "func": "abd_iterate_func",
+      "file": "fixture.c",
+      "line": 271,
+      "expression": "func"
+    }
+  ]
+}

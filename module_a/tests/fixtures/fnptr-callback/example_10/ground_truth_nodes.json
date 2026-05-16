@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "ctr_mode_contiguous_blocks",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 40
+    },
+    {
+      "name": "ccm_mode_encrypt_contiguous_blocks",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 78
+    },
+    {
+      "name": "aes_encrypt_contiguous_blocks",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 97
+    },
+    {
+      "name": "aes_encrypt_block",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 102
+    },
+    {
+      "name": "aes_copy_block",
+      "file": "fixture.c",
+      "line_start": 104,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 104,
+      "body_line_end": 106
+    },
+    {
+      "name": "aes_xor_block",
+      "file": "fixture.c",
+      "line_start": 108,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 108,
+      "body_line_end": 111
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "cfbf112c",
+      "func": "fmd_case_close",
+      "file": "fixture.c",
+      "line": 158,
+      "expression": "ops->fmdo_close"
+    }
+  ]
+}

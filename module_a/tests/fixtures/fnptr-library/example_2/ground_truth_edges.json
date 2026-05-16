@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "caller": "lj_alloc_f",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 39
+    },
+    {
+      "caller": "lj_alloc_f",
+      "callee": "realloc",
+      "file": "fixture.c",
+      "line": 42
+    },
+    {
+      "caller": "l_alloc",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 48
+    },
+    {
+      "caller": "l_alloc",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 51
+    },
+    {
+      "caller": "luaL_newstate",
+      "callee": "lua_newstate",
+      "file": "fixture.c",
+      "line": 57
+    },
+    {
+      "caller": "lua_newstate",
+      "callee": "allocf",
+      "file": "fixture.c",
+      "line": 65
+    },
+    {
+      "caller": "lua_newstate",
+      "callee": "allocf",
+      "file": "fixture.c",
+      "line": 67
+    },
+    {
+      "caller": "lua_newstate",
+      "callee": "allocf",
+      "file": "fixture.c",
+      "line": 69
+    },
+    {
+      "caller": "lua_newstate",
+      "callee": "setmref",
+      "file": "fixture.c",
+      "line": 73
+    },
+    {
+      "caller": "close_state",
+      "callee": "G",
+      "file": "fixture.c",
+      "line": 82
+    },
+    {
+      "caller": "close_state",
+      "callee": "lj_mem_free",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "register_lj_alloc",
+      "callee": "lua_newstate",
+      "file": "fixture.c",
+      "line": 88
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "edges": [
+    {
+      "caller": "dlsym_prefixed",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 26
+    },
+    {
+      "caller": "dlsym_prefixed",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 28
+    },
+    {
+      "caller": "dlsym_prefixed",
+      "callee": "dlsym",
+      "file": "fixture.c",
+      "line": 29
+    },
+    {
+      "caller": "omx_try_load",
+      "callee": "dlopen",
+      "file": "fixture.c",
+      "line": 37
+    },
+    {
+      "caller": "omx_try_load",
+      "callee": "dlsym_prefixed",
+      "file": "fixture.c",
+      "line": 40
+    },
+    {
+      "caller": "omx_init",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 57
+    },
+    {
+      "caller": "omx_init",
+      "callee": "omx_try_load",
+      "file": "fixture.c",
+      "line": 62
+    },
+    {
+      "caller": "omx_init",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 64
+    },
+    {
+      "caller": "omx_init",
+      "callee": "omx_try_load",
+      "file": "fixture.c",
+      "line": 69
+    },
+    {
+      "caller": "omx_init",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 72
+    }
+  ]
+}

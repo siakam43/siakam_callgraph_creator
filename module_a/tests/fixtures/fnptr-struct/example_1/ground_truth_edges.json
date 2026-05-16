@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "caller": "zrangeResultHandlerInit",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "zrangeGenericCommand",
+      "callee": "genericZrangebyrankCommand",
+      "file": "fixture.c",
+      "line": 175
+    },
+    {
+      "caller": "zrangeGenericCommand",
+      "callee": "genericZrangebyscoreCommand",
+      "file": "fixture.c",
+      "line": 180
+    },
+    {
+      "caller": "zrangeGenericCommand",
+      "callee": "genericZrangebylexCommand",
+      "file": "fixture.c",
+      "line": 185
+    },
+    {
+      "caller": "zrangestoreCommand",
+      "callee": "zrangeResultHandlerInit",
+      "file": "fixture.c",
+      "line": 198
+    },
+    {
+      "caller": "zrangestoreCommand",
+      "callee": "zrangeResultHandlerDestinationKeySet",
+      "file": "fixture.c",
+      "line": 199
+    },
+    {
+      "caller": "zrangestoreCommand",
+      "callee": "zrangeGenericCommand",
+      "file": "fixture.c",
+      "line": 200
+    }
+  ]
+}

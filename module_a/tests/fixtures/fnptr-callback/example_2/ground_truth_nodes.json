@@ -1,0 +1,103 @@
+{
+  "functions": [
+    {
+      "name": "stats_percentile",
+      "file": "fixture.c",
+      "line_start": 20,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 20,
+      "body_line_end": 24
+    },
+    {
+      "name": "stats_mean",
+      "file": "fixture.c",
+      "line_start": 26,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 26,
+      "body_line_end": 26
+    },
+    {
+      "name": "stats_stdev",
+      "file": "fixture.c",
+      "line_start": 27,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 27,
+      "body_line_end": 27
+    },
+    {
+      "name": "stats_within_stdev",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 30
+    },
+    {
+      "name": "print_stats_header",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 35
+    },
+    {
+      "name": "format_time_us",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 53
+    },
+    {
+      "name": "format_metric",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 64
+    },
+    {
+      "name": "print_units",
+      "file": "fixture.c",
+      "line_start": 66,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 66,
+      "body_line_end": 76
+    },
+    {
+      "name": "print_stats_latency",
+      "file": "fixture.c",
+      "line_start": 78,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 78,
+      "body_line_end": 88
+    },
+    {
+      "name": "print_stats",
+      "file": "fixture.c",
+      "line_start": 90,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 90,
+      "body_line_end": 100
+    },
+    {
+      "name": "main",
+      "file": "fixture.c",
+      "line_start": 102,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 102,
+      "body_line_end": 107
+    }
+  ]
+}

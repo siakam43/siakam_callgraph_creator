@@ -1,0 +1,70 @@
+{
+  "edges": [
+    {
+      "caller": "av_mallocz",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 41
+    },
+    {
+      "caller": "av_free",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 42
+    },
+    {
+      "caller": "ff_float_dsp_init_vfp",
+      "callee": "have_vfp_vm",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "ff_float_dsp_init_vfp",
+      "callee": "have_vfp_vm",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "ff_float_dsp_init_arm",
+      "callee": "av_get_cpu_flags",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "ff_float_dsp_init_arm",
+      "callee": "have_vfp",
+      "file": "fixture.c",
+      "line": 121
+    },
+    {
+      "caller": "ff_float_dsp_init_arm",
+      "callee": "ff_float_dsp_init_vfp",
+      "file": "fixture.c",
+      "line": 122
+    },
+    {
+      "caller": "ff_float_dsp_init_arm",
+      "callee": "have_neon",
+      "file": "fixture.c",
+      "line": 123
+    },
+    {
+      "caller": "ff_float_dsp_init_arm",
+      "callee": "ff_float_dsp_init_neon",
+      "file": "fixture.c",
+      "line": 124
+    },
+    {
+      "caller": "avpriv_float_dsp_alloc",
+      "callee": "av_mallocz",
+      "file": "fixture.c",
+      "line": 129
+    },
+    {
+      "caller": "avpriv_float_dsp_alloc",
+      "callee": "ff_float_dsp_init_arm",
+      "file": "fixture.c",
+      "line": 146
+    }
+  ]
+}

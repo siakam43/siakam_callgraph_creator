@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "auxShardIdSetter",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 31
+    },
+    {
+      "name": "auxHumanNodenameSetter",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 35
+    },
+    {
+      "name": "auxTcpPortSetter",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 39
+    },
+    {
+      "name": "auxTlsPortSetter",
+      "file": "fixture.c",
+      "line_start": 40,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 40,
+      "body_line_end": 43
+    },
+    {
+      "name": "clusterProcessAuxField",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 76
+    },
+    {
+      "name": "setter_caller",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 81
+    }
+  ]
+}

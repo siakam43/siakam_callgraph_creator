@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "X509_STORE_set_lookup_crls",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 32
+    },
+    {
+      "name": "crls_http_cb",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 42
+    },
+    {
+      "name": "store_setup_crl_download",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 47
+    },
+    {
+      "name": "X509_STORE_CTX_init",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 59
+    },
+    {
+      "name": "X509_STORE_CTX_get1_crls",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 66
+    },
+    {
+      "name": "get_crl_delta",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 74
+    }
+  ]
+}

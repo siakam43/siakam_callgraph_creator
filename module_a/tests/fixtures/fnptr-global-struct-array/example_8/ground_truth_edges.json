@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "ddt_object_lookup",
+      "callee": "ddt_object_exists",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "ddt_object_lookup",
+      "callee": "SET_ERROR",
+      "file": "fixture.c",
+      "line": 84
+    }
+  ]
+}

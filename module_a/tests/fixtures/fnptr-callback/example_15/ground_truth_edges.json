@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "caller": "atomicio6",
+      "callee": "poll",
+      "file": "fixture.c",
+      "line": 109
+    },
+    {
+      "caller": "scpio",
+      "callee": "refresh_progress_meter",
+      "file": "fixture.c",
+      "line": 133
+    },
+    {
+      "caller": "source",
+      "callee": "atomicio6",
+      "file": "fixture.c",
+      "line": 146
+    },
+    {
+      "caller": "sftpio",
+      "callee": "refresh_progress_meter",
+      "file": "fixture.c",
+      "line": 156
+    },
+    {
+      "caller": "sftpio",
+      "callee": "bandwidth_limit",
+      "file": "fixture.c",
+      "line": 158
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "sshbuf_reset",
+      "file": "fixture.c",
+      "line": 169
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "sshbuf_reserve",
+      "file": "fixture.c",
+      "line": 170
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 171
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "atomicio6",
+      "file": "fixture.c",
+      "line": 172
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 175
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 177
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "strerror",
+      "file": "fixture.c",
+      "line": 177
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "sshbuf_get_u32",
+      "file": "fixture.c",
+      "line": 180
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 181
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "do_log2",
+      "file": "fixture.c",
+      "line": 183
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 185
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "sshbuf_reserve",
+      "file": "fixture.c",
+      "line": 189
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 190
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "atomicio6",
+      "file": "fixture.c",
+      "line": 191
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 195
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "fatal",
+      "file": "fixture.c",
+      "line": 197
+    },
+    {
+      "caller": "get_msg_extended",
+      "callee": "strerror",
+      "file": "fixture.c",
+      "line": 197
+    }
+  ]
+}

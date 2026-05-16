@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "mux_master_read_cb",
+      "callee": "error_f",
+      "file": "fixture.c",
+      "line": 136
+    },
+    {
+      "caller": "mux_master_read_cb",
+      "callee": "reply_error",
+      "file": "fixture.c",
+      "line": 137
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "functions": [
+    {
+      "name": "Curl_init_strdup",
+      "file": "fixture.c",
+      "line_start": 13,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 13,
+      "body_line_end": 19
+    },
+    {
+      "name": "Curl_strdup",
+      "file": "fixture.c",
+      "line_start": 21,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 21,
+      "body_line_end": 29
+    },
+    {
+      "name": "Curl_cookie_add",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 86
+    }
+  ]
+}

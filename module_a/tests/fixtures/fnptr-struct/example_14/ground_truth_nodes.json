@@ -1,0 +1,121 @@
+{
+  "functions": [
+    {
+      "name": "ossl_statem_get_in_handshake",
+      "file": "fixture.c",
+      "line_start": 83,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 83,
+      "body_line_end": 83
+    },
+    {
+      "name": "ossl_statem_set_in_init",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 84
+    },
+    {
+      "name": "SSL_in_init",
+      "file": "fixture.c",
+      "line_start": 85,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 85,
+      "body_line_end": 85
+    },
+    {
+      "name": "ssl3_cleanup_key_block",
+      "file": "fixture.c",
+      "line_start": 86,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 86,
+      "body_line_end": 86
+    },
+    {
+      "name": "BUF_MEM_free",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 87
+    },
+    {
+      "name": "ssl_free_wbio_buffer",
+      "file": "fixture.c",
+      "line_start": 88,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 88,
+      "body_line_end": 88
+    },
+    {
+      "name": "ssl_update_cache",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 89
+    },
+    {
+      "name": "SSL_CTX_remove_session",
+      "file": "fixture.c",
+      "line_start": 90,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 90,
+      "body_line_end": 90
+    },
+    {
+      "name": "SSLfatal",
+      "file": "fixture.c",
+      "line_start": 91,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 91,
+      "body_line_end": 91
+    },
+    {
+      "name": "ossl_statem_accept",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 98
+    },
+    {
+      "name": "ossl_statem_connect",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 104
+    },
+    {
+      "name": "ssl3_write_bytes",
+      "file": "fixture.c",
+      "line_start": 107,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 107,
+      "body_line_end": 123
+    },
+    {
+      "name": "tls_finish_handshake",
+      "file": "fixture.c",
+      "line_start": 125,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 125,
+      "body_line_end": 202
+    }
+  ]
+}

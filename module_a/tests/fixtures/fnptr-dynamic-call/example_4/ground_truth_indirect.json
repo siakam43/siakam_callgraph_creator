@@ -1,0 +1,18 @@
+{
+  "indirect_points": [
+    {
+      "uid": "21539b11",
+      "func": "dynamic_load",
+      "file": "fixture.c",
+      "line": 72,
+      "expression": "ctx->v_check"
+    },
+    {
+      "uid": "d61bcd30",
+      "func": "dynamic_load",
+      "file": "fixture.c",
+      "line": 82,
+      "expression": "ctx->bind_engine"
+    }
+  ]
+}

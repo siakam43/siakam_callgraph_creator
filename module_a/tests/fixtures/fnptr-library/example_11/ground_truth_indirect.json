@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "b063b54a",
+      "func": "sub_qmf32_float_c",
+      "file": "fixture.c",
+      "line": 115,
+      "expression": "synth->synth_filter_float"
+    }
+  ]
+}

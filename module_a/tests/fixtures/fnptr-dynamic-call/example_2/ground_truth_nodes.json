@@ -1,0 +1,49 @@
+{
+  "functions": [
+    {
+      "name": "sshsk_open",
+      "file": "fixture.c",
+      "line_start": 21,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 21,
+      "body_line_end": 71
+    },
+    {
+      "name": "fatal",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 79
+    },
+    {
+      "name": "error",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 86
+    },
+    {
+      "name": "sk_api_version_caller",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 94
+    },
+    {
+      "name": "sk_api_version",
+      "file": "fixture.c",
+      "line_start": 97,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 97,
+      "body_line_end": 99
+    }
+  ]
+}

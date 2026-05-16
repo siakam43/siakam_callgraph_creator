@@ -1,0 +1,94 @@
+{
+  "functions": [
+    {
+      "name": "ddt_zap_lookup",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 47
+    },
+    {
+      "name": "ddt_zap_create",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 49
+    },
+    {
+      "name": "ddt_zap_destroy",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 50
+    },
+    {
+      "name": "ddt_zap_prefetch",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 51
+    },
+    {
+      "name": "ddt_zap_update",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 52
+    },
+    {
+      "name": "ddt_zap_remove",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 53
+    },
+    {
+      "name": "ddt_zap_walk",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 54
+    },
+    {
+      "name": "ddt_zap_count",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 55
+    },
+    {
+      "name": "ddt_object_exists",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 78
+    },
+    {
+      "name": "ddt_object_lookup",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 88
+    }
+  ]
+}

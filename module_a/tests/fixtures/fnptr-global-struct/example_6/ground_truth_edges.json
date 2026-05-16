@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "caller": "hi_calloc",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 58
+    },
+    {
+      "caller": "hi_free",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 59
+    },
+    {
+      "caller": "hi_sdsempty",
+      "callee": "strdup",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "processLineItem",
+      "callee": "readLine",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "processItem",
+      "callee": "processLineItem",
+      "file": "fixture.c",
+      "line": 110
+    },
+    {
+      "caller": "processItem",
+      "callee": "processBulkItem",
+      "file": "fixture.c",
+      "line": 113
+    },
+    {
+      "caller": "processItem",
+      "callee": "processAggregateItem",
+      "file": "fixture.c",
+      "line": 118
+    },
+    {
+      "caller": "processItem",
+      "callee": "assert",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "redisReaderGetReply",
+      "callee": "processItem",
+      "file": "fixture.c",
+      "line": 128
+    },
+    {
+      "caller": "redisReaderFree",
+      "callee": "hi_free",
+      "file": "fixture.c",
+      "line": 133
+    },
+    {
+      "caller": "redisReaderCreateWithFunctions",
+      "callee": "hi_calloc",
+      "file": "fixture.c",
+      "line": 139
+    },
+    {
+      "caller": "redisReaderCreateWithFunctions",
+      "callee": "hi_sdsempty",
+      "file": "fixture.c",
+      "line": 143
+    },
+    {
+      "caller": "redisReaderCreateWithFunctions",
+      "callee": "hi_calloc",
+      "file": "fixture.c",
+      "line": 148
+    },
+    {
+      "caller": "redisReaderCreateWithFunctions",
+      "callee": "redisReaderFree",
+      "file": "fixture.c",
+      "line": 160
+    },
+    {
+      "caller": "redisReaderCreate",
+      "callee": "redisReaderCreateWithFunctions",
+      "file": "fixture.c",
+      "line": 166
+    }
+  ]
+}

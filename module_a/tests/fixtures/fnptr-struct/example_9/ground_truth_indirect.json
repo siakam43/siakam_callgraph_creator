@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "894fa7d4",
+      "func": "security_callback_debug",
+      "file": "fixture.c",
+      "line": 99,
+      "expression": "sdb->old_cb"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "find_codec",
+      "callee": "remap_deprecated_codec_id",
+      "file": "fixture.c",
+      "line": 43
+    },
+    {
+      "caller": "find_codec",
+      "callee": "av_codec_iterate",
+      "file": "fixture.c",
+      "line": 45
+    },
+    {
+      "caller": "avcodec_find_encoder",
+      "callee": "find_codec",
+      "file": "fixture.c",
+      "line": 61
+    },
+    {
+      "caller": "avcodec_find_decoder",
+      "callee": "find_codec",
+      "file": "fixture.c",
+      "line": 66
+    }
+  ]
+}

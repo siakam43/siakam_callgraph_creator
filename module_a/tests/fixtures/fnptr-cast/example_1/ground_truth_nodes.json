@@ -1,0 +1,31 @@
+{
+  "functions": [
+    {
+      "name": "nstime_init_zero",
+      "file": "fixture.c",
+      "line_start": 10,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 10,
+      "body_line_end": 12
+    },
+    {
+      "name": "nstime_update_impl",
+      "file": "fixture.c",
+      "line_start": 21,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 21,
+      "body_line_end": 23
+    },
+    {
+      "name": "hpa_hooks_curtime",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 35
+    }
+  ]
+}

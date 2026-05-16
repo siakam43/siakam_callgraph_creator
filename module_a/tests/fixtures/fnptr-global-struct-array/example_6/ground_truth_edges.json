@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "find_command_idx",
+      "callee": "strcmp",
+      "file": "fixture.c",
+      "line": 134
+    },
+    {
+      "caller": "main",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 151
+    },
+    {
+      "caller": "main",
+      "callee": "find_command_idx",
+      "file": "fixture.c",
+      "line": 158
+    },
+    {
+      "caller": "main",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 162
+    }
+  ]
+}

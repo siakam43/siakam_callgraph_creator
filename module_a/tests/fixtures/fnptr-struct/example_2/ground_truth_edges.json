@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "caller": "cpp_pop_definition",
+      "callee": "_cpp_lex_identifier",
+      "file": "fixture.c",
+      "line": 47
+    }
+  ]
+}

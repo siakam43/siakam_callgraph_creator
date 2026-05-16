@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "0928f08e",
+      "func": "cpp_pop_definition",
+      "file": "fixture.c",
+      "line": 52,
+      "expression": "pfile->cb.before_define"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "functions": [
+    {
+      "name": "loadModule",
+      "file": "fixture.c",
+      "line_start": 27,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 27,
+      "body_line_end": 64
+    },
+    {
+      "name": "serverLog",
+      "file": "fixture.c",
+      "line_start": 66,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 66,
+      "body_line_end": 72
+    },
+    {
+      "name": "moduleCreateContext",
+      "file": "fixture.c",
+      "line_start": 74,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 74,
+      "body_line_end": 77
+    },
+    {
+      "name": "moduleFreeContext",
+      "file": "fixture.c",
+      "line_start": 78,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 78,
+      "body_line_end": 78
+    },
+    {
+      "name": "moduleUnregisterCommands",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 79
+    },
+    {
+      "name": "moduleUnregisterSharedAPI",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 80
+    },
+    {
+      "name": "moduleUnregisterUsedAPI",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 81
+    },
+    {
+      "name": "moduleRemoveConfigs",
+      "file": "fixture.c",
+      "line_start": 82,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 82,
+      "body_line_end": 82
+    },
+    {
+      "name": "moduleFreeModuleStructure",
+      "file": "fixture.c",
+      "line_start": 83,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 83,
+      "body_line_end": 83
+    },
+    {
+      "name": "moduleUnregisterAuthCBs",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 84
+    },
+    {
+      "name": "onload_caller",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 93
+    },
+    {
+      "name": "RedisModule_OnLoad",
+      "file": "fixture.c",
+      "line_start": 96,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 96,
+      "body_line_end": 99
+    }
+  ]
+}

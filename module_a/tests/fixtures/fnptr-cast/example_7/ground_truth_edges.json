@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "caller": "fletcher_4_impl_get",
+      "callee": "kfpu_allowed",
+      "file": "fixture.c",
+      "line": 180
+    },
+    {
+      "caller": "abd_fletcher_4_iter",
+      "callee": "P2ALIGN",
+      "file": "fixture.c",
+      "line": 211
+    },
+    {
+      "caller": "abd_fletcher_4_iter",
+      "callee": "ASSERT",
+      "file": "fixture.c",
+      "line": 213
+    },
+    {
+      "caller": "abd_fletcher_4_iter",
+      "callee": "IS_P2ALIGNED",
+      "file": "fixture.c",
+      "line": 213
+    },
+    {
+      "caller": "abd_fletcher_4_iter",
+      "callee": "abd_fletcher_4_simd2scalar",
+      "file": "fixture.c",
+      "line": 226
+    },
+    {
+      "caller": "abd_fletcher_4_init",
+      "callee": "fletcher_4_impl_get",
+      "file": "fixture.c",
+      "line": 244
+    },
+    {
+      "caller": "abd_fletcher_4_init",
+      "callee": "kfpu_begin",
+      "file": "fixture.c",
+      "line": 247
+    },
+    {
+      "caller": "abd_fletcher_4_impl",
+      "callee": "abd_iterate_func",
+      "file": "fixture.c",
+      "line": 266
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "caller": "aes_gcm_tls_cipher",
+      "callee": "CRYPTO_gcm128_encrypt",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "CRYPTO_gcm128_init",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 115
+    },
+    {
+      "caller": "aesni_gcm_init_key",
+      "callee": "aesni_set_encrypt_key",
+      "file": "fixture.c",
+      "line": 146
+    },
+    {
+      "caller": "aesni_gcm_init_key",
+      "callee": "CRYPTO_gcm128_init",
+      "file": "fixture.c",
+      "line": 148
+    },
+    {
+      "caller": "aesni_gcm_init_key",
+      "callee": "CRYPTO_gcm128_setiv",
+      "file": "fixture.c",
+      "line": 154
+    }
+  ]
+}

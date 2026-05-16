@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "988dc9f6",
+      "func": "iterate_through_spacemap_logs_cb",
+      "file": "fixture.c",
+      "line": 61,
+      "expression": "uic->uic_cb"
+    }
+  ]
+}

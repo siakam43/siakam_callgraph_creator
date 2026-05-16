@@ -1,0 +1,22 @@
+{
+  "functions": [
+    {
+      "name": "https_proxy_present",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 34
+    },
+    {
+      "name": "curl_version_info",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 59
+    }
+  ]
+}

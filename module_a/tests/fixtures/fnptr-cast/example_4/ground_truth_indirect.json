@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "078b9f10",
+      "func": "Curl_MD5_update",
+      "file": "fixture.c",
+      "line": 77,
+      "expression": "(*context->md5_hash->md5_update_func)"
+    }
+  ]
+}

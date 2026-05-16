@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "93cf57da",
+      "func": "sa_commit_shares",
+      "file": "fixture.c",
+      "line": 67,
+      "expression": "fstypes[protocol]->commit_shares"
+    }
+  ]
+}

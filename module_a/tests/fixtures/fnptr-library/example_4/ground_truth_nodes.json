@@ -1,0 +1,67 @@
+{
+  "functions": [
+    {
+      "name": "channel_handle_rfd",
+      "file": "fixture.c",
+      "line_start": 20,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 20,
+      "body_line_end": 29
+    },
+    {
+      "name": "channel_register_filter",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 42
+    },
+    {
+      "name": "client_simple_escape_filter",
+      "file": "fixture.c",
+      "line_start": 45,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 45,
+      "body_line_end": 49
+    },
+    {
+      "name": "sys_tun_infilter",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 56
+    },
+    {
+      "name": "client_filter_cleanup",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 58
+    },
+    {
+      "name": "client_new_escape_filter_ctx",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 62
+    },
+    {
+      "name": "register_all_filters",
+      "file": "fixture.c",
+      "line_start": 64,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 64,
+      "body_line_end": 67
+    }
+  ]
+}

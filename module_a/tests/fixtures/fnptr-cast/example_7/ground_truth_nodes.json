@@ -1,0 +1,193 @@
+{
+  "functions": [
+    {
+      "name": "abd_fletcher_4_simd2scalar",
+      "file": "fixture.c",
+      "line_start": 62,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 62,
+      "body_line_end": 64
+    },
+    {
+      "name": "fletcher_4_scalar_native",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 76
+    },
+    {
+      "name": "fletcher_4_superscalar_native",
+      "file": "fixture.c",
+      "line_start": 78,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 78,
+      "body_line_end": 91
+    },
+    {
+      "name": "fletcher_4_superscalar4_native",
+      "file": "fixture.c",
+      "line_start": 93,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 93,
+      "body_line_end": 105
+    },
+    {
+      "name": "fletcher_4_scalar_init",
+      "file": "fixture.c",
+      "line_start": 108,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 108,
+      "body_line_end": 108
+    },
+    {
+      "name": "fletcher_4_scalar_fini",
+      "file": "fixture.c",
+      "line_start": 109,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 109,
+      "body_line_end": 109
+    },
+    {
+      "name": "fletcher_4_superscalar_init",
+      "file": "fixture.c",
+      "line_start": 110,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 110,
+      "body_line_end": 110
+    },
+    {
+      "name": "fletcher_4_superscalar_fini",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 111
+    },
+    {
+      "name": "fletcher_4_superscalar4_init",
+      "file": "fixture.c",
+      "line_start": 112,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 112,
+      "body_line_end": 112
+    },
+    {
+      "name": "fletcher_4_superscalar4_fini",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 113
+    },
+    {
+      "name": "fletcher_4_scalar_valid",
+      "file": "fixture.c",
+      "line_start": 114,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 114,
+      "body_line_end": 114
+    },
+    {
+      "name": "fletcher_4_superscalar_valid",
+      "file": "fixture.c",
+      "line_start": 115,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 115,
+      "body_line_end": 115
+    },
+    {
+      "name": "fletcher_4_superscalar4_valid",
+      "file": "fixture.c",
+      "line_start": 116,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 116,
+      "body_line_end": 116
+    },
+    {
+      "name": "fletcher_4_impl_get",
+      "file": "fixture.c",
+      "line_start": 177,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 177,
+      "body_line_end": 201
+    },
+    {
+      "name": "abd_fletcher_4_iter",
+      "file": "fixture.c",
+      "line_start": 204,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 204,
+      "body_line_end": 230
+    },
+    {
+      "name": "abd_fletcher_4_init",
+      "file": "fixture.c",
+      "line_start": 243,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 243,
+      "body_line_end": 252
+    },
+    {
+      "name": "abd_fletcher_4_fini",
+      "file": "fixture.c",
+      "line_start": 254,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 254,
+      "body_line_end": 254
+    },
+    {
+      "name": "abd_fletcher_4_impl",
+      "file": "fixture.c",
+      "line_start": 262,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 262,
+      "body_line_end": 268
+    },
+    {
+      "name": "abd_iterate_func",
+      "file": "fixture.c",
+      "line_start": 271,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 271,
+      "body_line_end": 271
+    },
+    {
+      "name": "kfpu_allowed",
+      "file": "fixture.c",
+      "line_start": 272,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 272,
+      "body_line_end": 272
+    },
+    {
+      "name": "kfpu_begin",
+      "file": "fixture.c",
+      "line_start": 273,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 273,
+      "body_line_end": 273
+    }
+  ]
+}

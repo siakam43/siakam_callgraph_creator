@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 41
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "Curl_cfree",
+      "file": "fixture.c",
+      "line": 46
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "strdup",
+      "file": "fixture.c",
+      "line": 50
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "strdup",
+      "file": "fixture.c",
+      "line": 51
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "strdup",
+      "file": "fixture.c",
+      "line": 52
+    },
+    {
+      "caller": "Curl_cookie_add",
+      "callee": "strdup",
+      "file": "fixture.c",
+      "line": 53
+    }
+  ]
+}

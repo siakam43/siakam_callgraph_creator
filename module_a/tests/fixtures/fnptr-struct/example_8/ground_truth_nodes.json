@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "EVP_PKEY_security_bits",
+      "file": "fixture.c",
+      "line_start": 22,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 22,
+      "body_line_end": 29
+    },
+    {
+      "name": "EVP_PKEY_asn1_set_security_bits",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 35
+    },
+    {
+      "name": "rsa_pkey_security_bits",
+      "file": "fixture.c",
+      "line_start": 38,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 38,
+      "body_line_end": 42
+    },
+    {
+      "name": "bind_asn1_methods",
+      "file": "fixture.c",
+      "line_start": 45,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 45,
+      "body_line_end": 48
+    }
+  ]
+}

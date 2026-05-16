@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "3c8ac170",
+      "func": "Curl_smtp_escape_eob",
+      "file": "fixture.c",
+      "line": 44,
+      "expression": "Curl_cmalloc"
+    }
+  ]
+}

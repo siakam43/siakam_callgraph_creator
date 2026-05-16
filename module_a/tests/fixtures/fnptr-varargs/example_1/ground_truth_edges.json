@@ -1,0 +1,82 @@
+{
+  "edges": [
+    {
+      "caller": "curl_share_setopt",
+      "callee": "GOOD_SHARE_HANDLE",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "curl_share_setopt",
+      "callee": "va_start",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "curl_share_setopt",
+      "callee": "va_arg",
+      "file": "fixture.c",
+      "line": 80
+    },
+    {
+      "caller": "curl_share_setopt",
+      "callee": "va_arg",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "curl_share_setopt",
+      "callee": "va_arg",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "curl_share_setopt",
+      "callee": "va_arg",
+      "file": "fixture.c",
+      "line": 108
+    },
+    {
+      "caller": "curl_share_setopt",
+      "callee": "va_end",
+      "file": "fixture.c",
+      "line": 117
+    },
+    {
+      "caller": "share_setup",
+      "callee": "curl_share_setopt",
+      "file": "fixture.c",
+      "line": 146
+    },
+    {
+      "caller": "share_setup",
+      "callee": "curl_share_setopt",
+      "file": "fixture.c",
+      "line": 147
+    },
+    {
+      "caller": "share_setup",
+      "callee": "curl_share_setopt",
+      "file": "fixture.c",
+      "line": 148
+    },
+    {
+      "caller": "curl_share_cleanup",
+      "callee": "GOOD_SHARE_HANDLE",
+      "file": "fixture.c",
+      "line": 154
+    },
+    {
+      "caller": "main",
+      "callee": "share_setup",
+      "file": "fixture.c",
+      "line": 173
+    },
+    {
+      "caller": "main",
+      "callee": "curl_share_cleanup",
+      "file": "fixture.c",
+      "line": 174
+    }
+  ]
+}

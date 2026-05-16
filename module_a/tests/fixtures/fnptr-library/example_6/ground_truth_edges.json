@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "caller": "objectComputeSize",
+      "callee": "moduleGetMemUsage",
+      "file": "fixture.c",
+      "line": 67
+    },
+    {
+      "caller": "objectComputeSize",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 69
+    },
+    {
+      "caller": "memoryCommand",
+      "callee": "objectComputeSize",
+      "file": "fixture.c",
+      "line": 81
+    }
+  ]
+}

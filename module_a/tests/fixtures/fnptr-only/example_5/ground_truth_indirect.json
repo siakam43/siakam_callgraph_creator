@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "3ba4261c",
+      "func": "do_log",
+      "file": "fixture.c",
+      "line": 26,
+      "expression": "log_callback"
+    }
+  ]
+}

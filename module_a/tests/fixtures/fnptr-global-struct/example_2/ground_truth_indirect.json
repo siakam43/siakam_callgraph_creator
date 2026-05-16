@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "65c6bb20",
+      "func": "Curl_pin_peer_pubkey",
+      "file": "fixture.c",
+      "line": 78,
+      "expression": "Curl_ssl->sha256sum"
+    }
+  ]
+}

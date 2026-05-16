@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "ccm_encrypt_final",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 77
+    },
+    {
+      "name": "aes_encrypt_atomic",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 95
+    },
+    {
+      "name": "aes_encrypt_final",
+      "file": "fixture.c",
+      "line_start": 97,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 97,
+      "body_line_end": 113
+    },
+    {
+      "name": "aes_encrypt",
+      "file": "fixture.c",
+      "line_start": 115,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 115,
+      "body_line_end": 134
+    },
+    {
+      "name": "aes_encrypt_block",
+      "file": "fixture.c",
+      "line_start": 136,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 136,
+      "body_line_end": 139
+    },
+    {
+      "name": "aes_xor_block",
+      "file": "fixture.c",
+      "line_start": 141,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 141,
+      "body_line_end": 144
+    }
+  ]
+}

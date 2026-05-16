@@ -1,0 +1,274 @@
+{
+  "functions": [
+    {
+      "name": "is_gimple_min_invariant",
+      "file": "fixture.c",
+      "line_start": 20,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 20,
+      "body_line_end": 20
+    },
+    {
+      "name": "gimple_call_internal_p",
+      "file": "fixture.c",
+      "line_start": 30,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 30,
+      "body_line_end": 30
+    },
+    {
+      "name": "gimple_call_arg",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 31
+    },
+    {
+      "name": "gimple_code",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 32
+    },
+    {
+      "name": "gimple_assign_lhs",
+      "file": "fixture.c",
+      "line_start": 33,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 33,
+      "body_line_end": 33
+    },
+    {
+      "name": "gimple_assign_rhs_code",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 34
+    },
+    {
+      "name": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 56
+    },
+    {
+      "name": "gimple_fold_stmt_to_constant",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 65
+    },
+    {
+      "name": "object_sizes_execute",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 74
+    },
+    {
+      "name": "ccp_fold",
+      "file": "fixture.c",
+      "line_start": 76,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 76,
+      "body_line_end": 91
+    },
+    {
+      "name": "may_propagate_copy",
+      "file": "fixture.c",
+      "line_start": 93,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 93,
+      "body_line_end": 93
+    },
+    {
+      "name": "copy_prop_visit_assignment",
+      "file": "fixture.c",
+      "line_start": 95,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 95,
+      "body_line_end": 110
+    },
+    {
+      "name": "record_equality",
+      "file": "fixture.c",
+      "line_start": 112,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 112,
+      "body_line_end": 112
+    },
+    {
+      "name": "back_propagate_equivalences",
+      "file": "fixture.c",
+      "line_start": 114,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 114,
+      "body_line_end": 124
+    },
+    {
+      "name": "vn_lookup_simplify_result",
+      "file": "fixture.c",
+      "line_start": 126,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 126,
+      "body_line_end": 126
+    },
+    {
+      "name": "try_to_simplify",
+      "file": "fixture.c",
+      "line_start": 129,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 129,
+      "body_line_end": 147
+    },
+    {
+      "name": "print_generic_expr",
+      "file": "fixture.c",
+      "line_start": 150,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 150,
+      "body_line_end": 150
+    },
+    {
+      "name": "visit_stmt",
+      "file": "fixture.c",
+      "line_start": 152,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 152,
+      "body_line_end": 166
+    },
+    {
+      "name": "jt_state_register_equivs_stmt",
+      "file": "fixture.c",
+      "line_start": 168,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 168,
+      "body_line_end": 181
+    },
+    {
+      "name": "supported_pointer_equiv_p",
+      "file": "fixture.c",
+      "line_start": 183,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 183,
+      "body_line_end": 183
+    },
+    {
+      "name": "get_equiv_expr",
+      "file": "fixture.c",
+      "line_start": 184,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 184,
+      "body_line_end": 184
+    },
+    {
+      "name": "set_global_equiv",
+      "file": "fixture.c",
+      "line_start": 185,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 185,
+      "body_line_end": 185
+    },
+    {
+      "name": "pointer_equiv_analyzer_visit_stmt",
+      "file": "fixture.c",
+      "line_start": 187,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 187,
+      "body_line_end": 215
+    },
+    {
+      "name": "pta_valueize",
+      "file": "fixture.c",
+      "line_start": 217,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 217,
+      "body_line_end": 217
+    },
+    {
+      "name": "threadedge_valueize",
+      "file": "fixture.c",
+      "line_start": 218,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 218,
+      "body_line_end": 218
+    },
+    {
+      "name": "vn_valueize",
+      "file": "fixture.c",
+      "line_start": 219,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 219,
+      "body_line_end": 219
+    },
+    {
+      "name": "dom_valueize",
+      "file": "fixture.c",
+      "line_start": 220,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 220,
+      "body_line_end": 220
+    },
+    {
+      "name": "valueize_val",
+      "file": "fixture.c",
+      "line_start": 221,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 221,
+      "body_line_end": 221
+    },
+    {
+      "name": "valueize_op",
+      "file": "fixture.c",
+      "line_start": 222,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 222,
+      "body_line_end": 222
+    },
+    {
+      "name": "do_valueize",
+      "file": "fixture.c",
+      "line_start": 223,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 223,
+      "body_line_end": 223
+    }
+  ]
+}

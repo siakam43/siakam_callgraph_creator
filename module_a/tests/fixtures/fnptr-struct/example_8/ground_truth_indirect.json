@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "2ddce24b",
+      "func": "EVP_PKEY_security_bits",
+      "file": "fixture.c",
+      "line": 28,
+      "expression": "pkey->ameth->pkey_security_bits"
+    }
+  ]
+}

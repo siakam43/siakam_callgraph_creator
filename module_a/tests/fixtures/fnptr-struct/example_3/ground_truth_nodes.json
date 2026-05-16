@@ -1,0 +1,85 @@
+{
+  "functions": [
+    {
+      "name": "av_get_cpu_flags",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 29
+    },
+    {
+      "name": "ff_abs_pow34_sse",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 41
+    },
+    {
+      "name": "abs_pow34_v",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 51
+    },
+    {
+      "name": "quantize_bands",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 56
+    },
+    {
+      "name": "ff_aac_quantize_bands_sse2",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 61
+    },
+    {
+      "name": "ff_aac_dsp_init_x86",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 72
+    },
+    {
+      "name": "aac_encode_init",
+      "file": "fixture.c",
+      "line_start": 74,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 74,
+      "body_line_end": 82
+    },
+    {
+      "name": "ff_quantize_band_cost_cache_init",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 87
+    },
+    {
+      "name": "search_for_quantizers_fast",
+      "file": "fixture.c",
+      "line_start": 90,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 90,
+      "body_line_end": 103
+    }
+  ]
+}

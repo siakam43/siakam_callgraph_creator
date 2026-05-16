@@ -1,0 +1,70 @@
+{
+  "edges": [
+    {
+      "caller": "BIO_printf",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 51
+    },
+    {
+      "caller": "BIO_write",
+      "callee": "fwrite",
+      "file": "fixture.c",
+      "line": 55
+    },
+    {
+      "caller": "alpn_cb",
+      "callee": "BIO_printf",
+      "file": "fixture.c",
+      "line": 80
+    },
+    {
+      "caller": "alpn_cb",
+      "callee": "BIO_write",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "alpn_cb",
+      "callee": "BIO_write",
+      "file": "fixture.c",
+      "line": 84
+    },
+    {
+      "caller": "alpn_cb",
+      "callee": "BIO_write",
+      "file": "fixture.c",
+      "line": 87
+    },
+    {
+      "caller": "alpn_cb",
+      "callee": "SSL_select_next_proto",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "alpn_cb",
+      "callee": "BIO_printf",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "alpn_cb",
+      "callee": "BIO_write",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "alpn_cb",
+      "callee": "BIO_write",
+      "file": "fixture.c",
+      "line": 99
+    },
+    {
+      "caller": "s_server_main",
+      "callee": "SSL_CTX_set_alpn_select_cb",
+      "file": "fixture.c",
+      "line": 136
+    }
+  ]
+}

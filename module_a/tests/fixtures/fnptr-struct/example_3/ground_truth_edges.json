@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "ff_aac_dsp_init_x86",
+      "callee": "av_get_cpu_flags",
+      "file": "fixture.c",
+      "line": 65
+    },
+    {
+      "caller": "ff_aac_dsp_init_x86",
+      "callee": "EXTERNAL_SSE",
+      "file": "fixture.c",
+      "line": 67
+    },
+    {
+      "caller": "ff_aac_dsp_init_x86",
+      "callee": "EXTERNAL_SSE2",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "search_for_quantizers_fast",
+      "callee": "ff_quantize_band_cost_cache_init",
+      "file": "fixture.c",
+      "line": 102
+    }
+  ]
+}

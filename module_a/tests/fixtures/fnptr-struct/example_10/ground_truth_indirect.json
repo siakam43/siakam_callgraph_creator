@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "b2e8bbbb",
+      "func": "dsa_sign_setup",
+      "file": "fixture.c",
+      "line": 81,
+      "expression": "dsa->meth->bn_mod_exp"
+    }
+  ]
+}

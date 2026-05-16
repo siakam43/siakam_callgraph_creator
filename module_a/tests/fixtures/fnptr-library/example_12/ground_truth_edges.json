@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "caller": "filter_frame",
+      "callee": "ff_get_video_buffer",
+      "file": "fixture.c",
+      "line": 107
+    },
+    {
+      "caller": "filter_frame",
+      "callee": "av_frame_free",
+      "file": "fixture.c",
+      "line": 109
+    },
+    {
+      "caller": "filter_frame",
+      "callee": "av_frame_copy_props",
+      "file": "fixture.c",
+      "line": 112
+    },
+    {
+      "caller": "filter_frame",
+      "callee": "av_frame_free",
+      "file": "fixture.c",
+      "line": 124
+    },
+    {
+      "caller": "filter_frame",
+      "callee": "ff_filter_frame",
+      "file": "fixture.c",
+      "line": 125
+    }
+  ]
+}

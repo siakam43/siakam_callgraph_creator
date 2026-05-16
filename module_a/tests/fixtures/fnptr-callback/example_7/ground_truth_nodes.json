@@ -1,0 +1,112 @@
+{
+  "functions": [
+    {
+      "name": "defragRadixTree",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 90
+    },
+    {
+      "name": "defragStreamConsumerPendingEntry",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 98
+    },
+    {
+      "name": "defragStreamConsumer",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 114
+    },
+    {
+      "name": "defragStreamConsumerGroup",
+      "file": "fixture.c",
+      "line_start": 116,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 116,
+      "body_line_end": 124
+    },
+    {
+      "name": "defragStream",
+      "file": "fixture.c",
+      "line_start": 126,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 126,
+      "body_line_end": 144
+    },
+    {
+      "name": "raxNext",
+      "file": "fixture.c",
+      "line_start": 146,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 146,
+      "body_line_end": 146
+    },
+    {
+      "name": "raxStop",
+      "file": "fixture.c",
+      "line_start": 147,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 147,
+      "body_line_end": 147
+    },
+    {
+      "name": "raxSetData",
+      "file": "fixture.c",
+      "line_start": 148,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 148,
+      "body_line_end": 148
+    },
+    {
+      "name": "raxSize",
+      "file": "fixture.c",
+      "line_start": 149,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 149,
+      "body_line_end": 149
+    },
+    {
+      "name": "activeDefragAlloc",
+      "file": "fixture.c",
+      "line_start": 150,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 150,
+      "body_line_end": 150
+    },
+    {
+      "name": "activeDefragSds",
+      "file": "fixture.c",
+      "line_start": 151,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 151,
+      "body_line_end": 151
+    },
+    {
+      "name": "defragLater",
+      "file": "fixture.c",
+      "line_start": 152,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 152,
+      "body_line_end": 152
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "9a02554c",
+      "func": "ssh_ed25519_sk_serialize_public",
+      "file": "fixture.c",
+      "line": 90,
+      "expression": "sshkey_ed25519_funcs.serialize_public"
+    }
+  ]
+}

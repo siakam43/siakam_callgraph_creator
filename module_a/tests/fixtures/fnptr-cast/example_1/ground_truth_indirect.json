@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "35f01f3c",
+      "func": "hpa_hooks_curtime",
+      "file": "fixture.c",
+      "line": 34,
+      "expression": "nstime_update"
+    }
+  ]
+}

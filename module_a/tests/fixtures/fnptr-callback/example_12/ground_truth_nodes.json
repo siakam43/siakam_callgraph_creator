@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "auth_create_digest_http_message",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 58
+    },
+    {
+      "name": "Curl_auth_create_digest_http_message",
+      "file": "fixture.c",
+      "line_start": 60,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 60,
+      "body_line_end": 82
+    },
+    {
+      "name": "Curl_md5it",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 87
+    },
+    {
+      "name": "Curl_sha256it",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 92
+    },
+    {
+      "name": "auth_digest_md5_to_ascii",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 94
+    },
+    {
+      "name": "auth_digest_sha256_to_ascii",
+      "file": "fixture.c",
+      "line_start": 95,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 95,
+      "body_line_end": 95
+    }
+  ]
+}

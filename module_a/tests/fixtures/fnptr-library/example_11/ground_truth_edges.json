@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "ff_synth_filter_init_x86",
+      "callee": "EXTERNAL_SSE2",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "ff_synth_filter_init_x86",
+      "callee": "EXTERNAL_AVX_FAST",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "ff_synth_filter_init_x86",
+      "callee": "EXTERNAL_FMA3_FAST",
+      "file": "fixture.c",
+      "line": 82
+    },
+    {
+      "caller": "ff_synth_filter_init",
+      "callee": "ff_synth_filter_init_x86",
+      "file": "fixture.c",
+      "line": 93
+    }
+  ]
+}

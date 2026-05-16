@@ -1,0 +1,49 @@
+{
+  "functions": [
+    {
+      "name": "moduleMemUsageDefault",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 34
+    },
+    {
+      "name": "moduleMemUsageEnhanced",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 39
+    },
+    {
+      "name": "moduleGetMemUsage",
+      "file": "fixture.c",
+      "line_start": 47,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 47,
+      "body_line_end": 61
+    },
+    {
+      "name": "objectComputeSize",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 72
+    },
+    {
+      "name": "memoryCommand",
+      "file": "fixture.c",
+      "line_start": 74,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 74,
+      "body_line_end": 84
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "palToRgbWrapper",
+      "callee": "usePal",
+      "file": "fixture.c",
+      "line": 116
+    },
+    {
+      "caller": "palToRgbWrapper",
+      "callee": "av_log",
+      "file": "fixture.c",
+      "line": 128
+    },
+    {
+      "caller": "palToRgbWrapper",
+      "callee": "av_get_pix_fmt_name",
+      "file": "fixture.c",
+      "line": 129
+    },
+    {
+      "caller": "palToRgbWrapper",
+      "callee": "av_get_pix_fmt_name",
+      "file": "fixture.c",
+      "line": 129
+    }
+  ]
+}

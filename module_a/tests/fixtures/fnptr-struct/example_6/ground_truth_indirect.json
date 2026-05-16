@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "af74451f",
+      "func": "dictDefragBucket",
+      "file": "fixture.c",
+      "line": 72,
+      "expression": "defragalloc"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "edges": [
+    {
+      "caller": "nfs_process_exports",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 30
+    },
+    {
+      "caller": "nfs_process_exports",
+      "callee": "fopen",
+      "file": "fixture.c",
+      "line": 33
+    },
+    {
+      "caller": "nfs_process_exports",
+      "callee": "getline",
+      "file": "fixture.c",
+      "line": 35
+    },
+    {
+      "caller": "nfs_process_exports",
+      "callee": "strpbrk",
+      "file": "fixture.c",
+      "line": 40
+    },
+    {
+      "caller": "nfs_process_exports",
+      "callee": "strncmp",
+      "file": "fixture.c",
+      "line": 42
+    },
+    {
+      "caller": "nfs_process_exports",
+      "callee": "fclose",
+      "file": "fixture.c",
+      "line": 45
+    },
+    {
+      "caller": "nfs_process_exports",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 46
+    },
+    {
+      "caller": "nfs_copy_entries",
+      "callee": "fputs",
+      "file": "fixture.c",
+      "line": 54
+    },
+    {
+      "caller": "nfs_copy_entries",
+      "callee": "nfs_process_exports",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "nfs_copy_entries",
+      "callee": "ferror",
+      "file": "fixture.c",
+      "line": 59
+    },
+    {
+      "caller": "nfs_copy_entries",
+      "callee": "ferror",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "nfs_is_shared_impl",
+      "callee": "nfs_process_exports",
+      "file": "fixture.c",
+      "line": 68
+    },
+    {
+      "caller": "nfs_copy_entries_cb",
+      "callee": "fputs",
+      "file": "fixture.c",
+      "line": 82
+    }
+  ]
+}

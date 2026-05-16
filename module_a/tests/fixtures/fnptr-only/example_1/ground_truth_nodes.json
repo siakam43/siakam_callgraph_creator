@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "zmalloc_default_oom",
+      "file": "fixture.c",
+      "line_start": 8,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 8,
+      "body_line_end": 12
+    },
+    {
+      "name": "zmalloc",
+      "file": "fixture.c",
+      "line_start": 16,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 16,
+      "body_line_end": 23
+    },
+    {
+      "name": "zfree",
+      "file": "fixture.c",
+      "line_start": 25,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 25,
+      "body_line_end": 30
+    },
+    {
+      "name": "zmalloc_set_oom_handler",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 34
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "edges": [
+    {
+      "caller": "mm_log_handler",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 31
+    },
+    {
+      "caller": "mm_log_handler",
+      "callee": "fflush",
+      "file": "fixture.c",
+      "line": 32
+    },
+    {
+      "caller": "do_log",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 48
+    },
+    {
+      "caller": "do_log",
+      "callee": "tmp_handler",
+      "file": "fixture.c",
+      "line": 53
+    },
+    {
+      "caller": "do_log",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "do_log",
+      "callee": "write",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "do_log",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "do_log_error",
+      "callee": "do_log",
+      "file": "fixture.c",
+      "line": 71
+    },
+    {
+      "caller": "setup_privsep_logging",
+      "callee": "set_log_handler",
+      "file": "fixture.c",
+      "line": 75
+    },
+    {
+      "caller": "setup_privsep_logging",
+      "callee": "do_log",
+      "file": "fixture.c",
+      "line": 76
+    }
+  ]
+}

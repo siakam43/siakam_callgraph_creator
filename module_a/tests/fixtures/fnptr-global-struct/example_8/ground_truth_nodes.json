@@ -1,0 +1,202 @@
+{
+  "functions": [
+    {
+      "name": "multissl_setup",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 51
+    },
+    {
+      "name": "multissl_init",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 52
+    },
+    {
+      "name": "multissl_version",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 53
+    },
+    {
+      "name": "multissl_connect",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 54
+    },
+    {
+      "name": "multissl_connect_nonblocking",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 55
+    },
+    {
+      "name": "multissl_adjust_pollset",
+      "file": "fixture.c",
+      "line_start": 56,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 56,
+      "body_line_end": 56
+    },
+    {
+      "name": "multissl_get_internals",
+      "file": "fixture.c",
+      "line_start": 57,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 57,
+      "body_line_end": 57
+    },
+    {
+      "name": "multissl_close",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 58
+    },
+    {
+      "name": "multissl_recv_plain",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 59
+    },
+    {
+      "name": "multissl_send_plain",
+      "file": "fixture.c",
+      "line_start": 60,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 60,
+      "body_line_end": 65
+    },
+    {
+      "name": "Curl_none_cleanup",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 68
+    },
+    {
+      "name": "Curl_none_check_cxn",
+      "file": "fixture.c",
+      "line_start": 69,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 69,
+      "body_line_end": 69
+    },
+    {
+      "name": "Curl_none_shutdown",
+      "file": "fixture.c",
+      "line_start": 70,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 70,
+      "body_line_end": 70
+    },
+    {
+      "name": "Curl_none_data_pending",
+      "file": "fixture.c",
+      "line_start": 71,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 71,
+      "body_line_end": 71
+    },
+    {
+      "name": "Curl_none_random",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 72
+    },
+    {
+      "name": "Curl_none_cert_status_request",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 73
+    },
+    {
+      "name": "Curl_none_close_all",
+      "file": "fixture.c",
+      "line_start": 74,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 74,
+      "body_line_end": 74
+    },
+    {
+      "name": "Curl_none_session_free",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 75
+    },
+    {
+      "name": "Curl_none_set_engine",
+      "file": "fixture.c",
+      "line_start": 76,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 76,
+      "body_line_end": 76
+    },
+    {
+      "name": "Curl_none_set_engine_default",
+      "file": "fixture.c",
+      "line_start": 77,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 77,
+      "body_line_end": 77
+    },
+    {
+      "name": "Curl_none_engines_list",
+      "file": "fixture.c",
+      "line_start": 78,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 78,
+      "body_line_end": 78
+    },
+    {
+      "name": "Curl_none_false_start",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 79
+    }
+  ]
+}

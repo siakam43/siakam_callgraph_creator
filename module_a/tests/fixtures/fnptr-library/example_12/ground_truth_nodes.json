@@ -1,0 +1,85 @@
+{
+  "functions": [
+    {
+      "name": "vectorscope8",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 61
+    },
+    {
+      "name": "vectorscope16",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 65
+    },
+    {
+      "name": "config_input",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 78
+    },
+    {
+      "name": "filter_frame",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 126
+    },
+    {
+      "name": "av_pix_fmt_desc_get",
+      "file": "fixture.c",
+      "line_start": 128,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 128,
+      "body_line_end": 128
+    },
+    {
+      "name": "av_frame_copy_props",
+      "file": "fixture.c",
+      "line_start": 129,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 129,
+      "body_line_end": 129
+    },
+    {
+      "name": "ff_get_video_buffer",
+      "file": "fixture.c",
+      "line_start": 130,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 130,
+      "body_line_end": 130
+    },
+    {
+      "name": "av_frame_free",
+      "file": "fixture.c",
+      "line_start": 131,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 131,
+      "body_line_end": 131
+    },
+    {
+      "name": "ff_filter_frame",
+      "file": "fixture.c",
+      "line_start": 132,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 132,
+      "body_line_end": 132
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "caller": "channel_handle_rfd",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 24
+    },
+    {
+      "caller": "register_all_filters",
+      "callee": "channel_register_filter",
+      "file": "fixture.c",
+      "line": 65
+    },
+    {
+      "caller": "register_all_filters",
+      "callee": "channel_register_filter",
+      "file": "fixture.c",
+      "line": 66
+    }
+  ]
+}

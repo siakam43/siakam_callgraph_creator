@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "caller": "dump_zap",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 86
+    },
+    {
+      "caller": "dump_uint64",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 92
+    },
+    {
+      "caller": "dump_uint8",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 98
+    }
+  ]
+}

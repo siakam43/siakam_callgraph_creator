@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "17c5eaaa",
+      "func": "sshkey_size",
+      "file": "fixture.c",
+      "line": 128,
+      "expression": "impl->funcs->size"
+    }
+  ]
+}

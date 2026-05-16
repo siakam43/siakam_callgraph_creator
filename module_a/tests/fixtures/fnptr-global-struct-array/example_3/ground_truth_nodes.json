@@ -1,0 +1,76 @@
+{
+  "functions": [
+    {
+      "name": "jsonWriteString",
+      "file": "fixture.c",
+      "line_start": 48,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 48,
+      "body_line_end": 51
+    },
+    {
+      "name": "writeLong",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 59
+    },
+    {
+      "name": "writeOffset",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 66
+    },
+    {
+      "name": "writeString",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 72
+    },
+    {
+      "name": "writeTime",
+      "file": "fixture.c",
+      "line_start": 74,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 74,
+      "body_line_end": 79
+    },
+    {
+      "name": "curl_version",
+      "file": "fixture.c",
+      "line_start": 98,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 98,
+      "body_line_end": 98
+    },
+    {
+      "name": "ourWriteOutJSON",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 113
+    },
+    {
+      "name": "ourWriteOut",
+      "file": "fixture.c",
+      "line_start": 115,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 115,
+      "body_line_end": 122
+    }
+  ]
+}

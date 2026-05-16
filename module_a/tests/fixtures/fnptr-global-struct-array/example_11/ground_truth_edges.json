@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "caller": "cert_new",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 23
+    },
+    {
+      "caller": "sshkey_new",
+      "callee": "sshkey_impl_from_type",
+      "file": "fixture.c",
+      "line": 118
+    },
+    {
+      "caller": "sshkey_new",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 121
+    },
+    {
+      "caller": "sshkey_new",
+      "callee": "sshkey_is_cert",
+      "file": "fixture.c",
+      "line": 129
+    },
+    {
+      "caller": "sshkey_new",
+      "callee": "cert_new",
+      "file": "fixture.c",
+      "line": 130
+    }
+  ]
+}

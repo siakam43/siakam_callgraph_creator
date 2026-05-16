@@ -1,0 +1,112 @@
+{
+  "functions": [
+    {
+      "name": "mux_master_process_hello",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 47
+    },
+    {
+      "name": "mux_master_process_new_session",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 53
+    },
+    {
+      "name": "mux_master_process_alive_check",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 59
+    },
+    {
+      "name": "mux_master_process_terminate",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 65
+    },
+    {
+      "name": "mux_master_process_open_fwd",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 71
+    },
+    {
+      "name": "mux_master_process_close_fwd",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 77
+    },
+    {
+      "name": "mux_master_process_stdio_fwd",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 83
+    },
+    {
+      "name": "mux_master_process_stop_listening",
+      "file": "fixture.c",
+      "line_start": 85,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 85,
+      "body_line_end": 89
+    },
+    {
+      "name": "mux_master_process_proxy",
+      "file": "fixture.c",
+      "line_start": 91,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 91,
+      "body_line_end": 95
+    },
+    {
+      "name": "error_f",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 113
+    },
+    {
+      "name": "reply_error",
+      "file": "fixture.c",
+      "line_start": 115,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 115,
+      "body_line_end": 117
+    },
+    {
+      "name": "mux_master_read_cb",
+      "file": "fixture.c",
+      "line_start": 120,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 120,
+      "body_line_end": 142
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "functions": [
+    {
+      "name": "kmem_zalloc",
+      "file": "fixture.c",
+      "line_start": 98,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 98,
+      "body_line_end": 98
+    },
+    {
+      "name": "zfs_acl_next_ace",
+      "file": "fixture.c",
+      "line_start": 100,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 100,
+      "body_line_end": 102
+    },
+    {
+      "name": "zfs_set_ace",
+      "file": "fixture.c",
+      "line_start": 104,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 104,
+      "body_line_end": 105
+    },
+    {
+      "name": "zfs_acl_version_zp",
+      "file": "fixture.c",
+      "line_start": 112,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 112,
+      "body_line_end": 112
+    },
+    {
+      "name": "zfs_ace_walk",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 114
+    },
+    {
+      "name": "ace_trivial_common",
+      "file": "fixture.c",
+      "line_start": 115,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 115,
+      "body_line_end": 115
+    },
+    {
+      "name": "zfs_mode_compute",
+      "file": "fixture.c",
+      "line_start": 116,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 116,
+      "body_line_end": 117
+    },
+    {
+      "name": "zfs_ace_v0_size",
+      "file": "fixture.c",
+      "line_start": 120,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 120,
+      "body_line_end": 120
+    },
+    {
+      "name": "zfs_ace_fuid_size",
+      "file": "fixture.c",
+      "line_start": 121,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 121,
+      "body_line_end": 121
+    },
+    {
+      "name": "zfs_ace_v0_get_mask",
+      "file": "fixture.c",
+      "line_start": 124,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 124,
+      "body_line_end": 124
+    },
+    {
+      "name": "zfs_ace_v0_set_mask",
+      "file": "fixture.c",
+      "line_start": 125,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 125,
+      "body_line_end": 125
+    },
+    {
+      "name": "zfs_ace_v0_get_flags",
+      "file": "fixture.c",
+      "line_start": 126,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 126,
+      "body_line_end": 126
+    },
+    {
+      "name": "zfs_ace_v0_set_flags",
+      "file": "fixture.c",
+      "line_start": 127,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 127,
+      "body_line_end": 127
+    },
+    {
+      "name": "zfs_ace_v0_get_type",
+      "file": "fixture.c",
+      "line_start": 128,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 128,
+      "body_line_end": 128
+    },
+    {
+      "name": "zfs_ace_v0_set_type",
+      "file": "fixture.c",
+      "line_start": 129,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 129,
+      "body_line_end": 129
+    },
+    {
+      "name": "zfs_ace_v0_get_who",
+      "file": "fixture.c",
+      "line_start": 130,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 130,
+      "body_line_end": 130
+    },
+    {
+      "name": "zfs_ace_v0_set_who",
+      "file": "fixture.c",
+      "line_start": 131,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 131,
+      "body_line_end": 131
+    },
+    {
+      "name": "zfs_ace_v0_abstract_size",
+      "file": "fixture.c",
+      "line_start": 132,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 132,
+      "body_line_end": 132
+    },
+    {
+      "name": "zfs_ace_v0_mask_off",
+      "file": "fixture.c",
+      "line_start": 133,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 133,
+      "body_line_end": 133
+    },
+    {
+      "name": "zfs_ace_v0_data",
+      "file": "fixture.c",
+      "line_start": 134,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 134,
+      "body_line_end": 134
+    },
+    {
+      "name": "zfs_ace_fuid_get_mask",
+      "file": "fixture.c",
+      "line_start": 137,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 137,
+      "body_line_end": 137
+    },
+    {
+      "name": "zfs_ace_fuid_set_mask",
+      "file": "fixture.c",
+      "line_start": 138,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 138,
+      "body_line_end": 138
+    },
+    {
+      "name": "zfs_ace_fuid_get_flags",
+      "file": "fixture.c",
+      "line_start": 139,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 139,
+      "body_line_end": 139
+    },
+    {
+      "name": "zfs_ace_fuid_set_flags",
+      "file": "fixture.c",
+      "line_start": 140,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 140,
+      "body_line_end": 140
+    },
+    {
+      "name": "zfs_ace_fuid_get_type",
+      "file": "fixture.c",
+      "line_start": 141,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 141,
+      "body_line_end": 141
+    },
+    {
+      "name": "zfs_ace_fuid_set_type",
+      "file": "fixture.c",
+      "line_start": 142,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 142,
+      "body_line_end": 142
+    },
+    {
+      "name": "zfs_ace_fuid_get_who",
+      "file": "fixture.c",
+      "line_start": 143,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 143,
+      "body_line_end": 143
+    },
+    {
+      "name": "zfs_ace_fuid_set_who",
+      "file": "fixture.c",
+      "line_start": 144,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 144,
+      "body_line_end": 144
+    },
+    {
+      "name": "zfs_ace_fuid_abstract_size",
+      "file": "fixture.c",
+      "line_start": 145,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 145,
+      "body_line_end": 145
+    },
+    {
+      "name": "zfs_ace_fuid_mask_off",
+      "file": "fixture.c",
+      "line_start": 146,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 146,
+      "body_line_end": 146
+    },
+    {
+      "name": "zfs_ace_fuid_data",
+      "file": "fixture.c",
+      "line_start": 147,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 147,
+      "body_line_end": 147
+    },
+    {
+      "name": "zfs_acl_alloc",
+      "file": "fixture.c",
+      "line_start": 180,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 180,
+      "body_line_end": 191
+    },
+    {
+      "name": "zfs_acl_chmod",
+      "file": "fixture.c",
+      "line_start": 193,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 193,
+      "body_line_end": 212
+    },
+    {
+      "name": "zfs_acl_chmod_setattr",
+      "file": "fixture.c",
+      "line_start": 214,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 214,
+      "body_line_end": 232
+    },
+    {
+      "name": "zfs_acl_ids_create",
+      "file": "fixture.c",
+      "line_start": 234,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 234,
+      "body_line_end": 280
+    },
+    {
+      "name": "zfs_acl_inherit",
+      "file": "fixture.c",
+      "line_start": 282,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 282,
+      "body_line_end": 301
+    }
+  ]
+}

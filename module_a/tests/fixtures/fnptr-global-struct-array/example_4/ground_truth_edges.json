@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "caller": "zstream_do_recompress",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 74
+    },
+    {
+      "caller": "zstream_do_recompress",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 75
+    },
+    {
+      "caller": "zstream_do_recompress",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "zstream_do_recompress",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 86
+    },
+    {
+      "caller": "zstream_do_recompress",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "zstream_do_recompress",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "zstream_do_recompress",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 90
+    }
+  ]
+}

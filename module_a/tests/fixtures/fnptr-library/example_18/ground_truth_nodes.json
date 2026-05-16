@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "kex_verify_host_key",
+      "file": "fixture.c",
+      "line_start": 35,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 35,
+      "body_line_end": 51
+    },
+    {
+      "name": "ssh_init",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 75
+    },
+    {
+      "name": "_ssh_verify_host_key",
+      "file": "fixture.c",
+      "line_start": 77,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 77,
+      "body_line_end": 81
+    },
+    {
+      "name": "ssh_set_verify_host_key_callback",
+      "file": "fixture.c",
+      "line_start": 83,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 83,
+      "body_line_end": 90
+    },
+    {
+      "name": "key_print_wrapper",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 96
+    },
+    {
+      "name": "register_key_print_wrapper",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 103
+    }
+  ]
+}

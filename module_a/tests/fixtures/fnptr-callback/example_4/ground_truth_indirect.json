@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "61ea18fc",
+      "func": "find_codec",
+      "file": "fixture.c",
+      "line": 46,
+      "expression": "x"
+    }
+  ]
+}

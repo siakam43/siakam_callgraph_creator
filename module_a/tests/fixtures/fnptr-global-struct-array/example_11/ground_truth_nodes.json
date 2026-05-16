@@ -1,0 +1,148 @@
+{
+  "functions": [
+    {
+      "name": "cert_new",
+      "file": "fixture.c",
+      "line_start": 22,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 22,
+      "body_line_end": 24
+    },
+    {
+      "name": "ssh_rsa_alloc",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 57
+    },
+    {
+      "name": "ssh_rsa_size",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 59
+    },
+    {
+      "name": "ssh_rsa_cleanup",
+      "file": "fixture.c",
+      "line_start": 60,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 60,
+      "body_line_end": 60
+    },
+    {
+      "name": "ssh_rsa_equal",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 61
+    },
+    {
+      "name": "ssh_rsa_serialize_public",
+      "file": "fixture.c",
+      "line_start": 62,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 62,
+      "body_line_end": 62
+    },
+    {
+      "name": "ssh_rsa_deserialize_public",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 63
+    },
+    {
+      "name": "ssh_rsa_serialize_private",
+      "file": "fixture.c",
+      "line_start": 64,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 64,
+      "body_line_end": 64
+    },
+    {
+      "name": "ssh_rsa_deserialize_private",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 65
+    },
+    {
+      "name": "ssh_rsa_generate",
+      "file": "fixture.c",
+      "line_start": 66,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 66,
+      "body_line_end": 66
+    },
+    {
+      "name": "ssh_rsa_copy_public",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 67
+    },
+    {
+      "name": "ssh_rsa_sign",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 68
+    },
+    {
+      "name": "ssh_rsa_verify",
+      "file": "fixture.c",
+      "line_start": 69,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 69,
+      "body_line_end": 69
+    },
+    {
+      "name": "sshkey_impl_from_type",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 106
+    },
+    {
+      "name": "sshkey_is_cert",
+      "file": "fixture.c",
+      "line_start": 108,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 108,
+      "body_line_end": 110
+    },
+    {
+      "name": "sshkey_new",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 138
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "deinterleaveBytes_c",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 51
+    },
+    {
+      "name": "copyPlane",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 65
+    },
+    {
+      "name": "nv12ToPlanarWrapper",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 86
+    },
+    {
+      "name": "rgb2rgb_init_c",
+      "file": "fixture.c",
+      "line_start": 88,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 88,
+      "body_line_end": 91
+    }
+  ]
+}

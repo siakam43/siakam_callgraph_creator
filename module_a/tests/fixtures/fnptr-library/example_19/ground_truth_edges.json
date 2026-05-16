@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "channel_handle_wfd",
+      "callee": "sshbuf_len",
+      "file": "fixture.c",
+      "line": 29
+    },
+    {
+      "caller": "channel_handle_wfd",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 32
+    },
+    {
+      "caller": "channel_handle_wfd",
+      "callee": "sshbuf_len",
+      "file": "fixture.c",
+      "line": 36
+    },
+    {
+      "caller": "register_output_filter",
+      "callee": "channel_register_filter",
+      "file": "fixture.c",
+      "line": 68
+    }
+  ]
+}

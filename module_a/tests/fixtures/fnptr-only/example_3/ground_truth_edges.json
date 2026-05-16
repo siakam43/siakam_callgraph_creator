@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "caller": "tls1_md5_final_raw",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 26
+    },
+    {
+      "caller": "tls1_sha1_final_raw",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 30
+    },
+    {
+      "caller": "tls1_sha256_final_raw",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 34
+    },
+    {
+      "caller": "tls1_sha512_final_raw",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 38
+    },
+    {
+      "caller": "md_final_raw_caller",
+      "callee": "EVP_MD_CTX_type",
+      "file": "fixture.c",
+      "line": 53
+    },
+    {
+      "caller": "md_final_raw_caller",
+      "callee": "md_final_raw",
+      "file": "fixture.c",
+      "line": 85
+    }
+  ]
+}

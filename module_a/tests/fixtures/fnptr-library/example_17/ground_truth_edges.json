@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "ff_celp_filter_init",
+      "callee": "ff_celp_filter_init_mips",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "synthesis",
+      "callee": "ff_scale_vector_to_given_sum_of_squares",
+      "file": "fixture.c",
+      "line": 116
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "fea64c29",
+      "func": "Curl_new",
+      "file": "fixture.c",
+      "line": 40,
+      "expression": "Curl_ccalloc"
+    }
+  ]
+}

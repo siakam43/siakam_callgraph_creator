@@ -1,0 +1,85 @@
+{
+  "functions": [
+    {
+      "name": "lto_tree_node_structure",
+      "file": "fixture.c",
+      "line_start": 24,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 24,
+      "body_line_end": 24
+    },
+    {
+      "name": "tree_node_structure",
+      "file": "fixture.c",
+      "line_start": 25,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 25,
+      "body_line_end": 25
+    },
+    {
+      "name": "htab_find_slot_with_hash",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 60
+    },
+    {
+      "name": "htab_find_with_hash",
+      "file": "fixture.c",
+      "line_start": 62,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 62,
+      "body_line_end": 68
+    },
+    {
+      "name": "relocate_ptrs",
+      "file": "fixture.c",
+      "line_start": 76,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 76,
+      "body_line_end": 92
+    },
+    {
+      "name": "gt_pch_p_14lang_tree_node",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 114
+    },
+    {
+      "name": "gt_pch_note_object",
+      "file": "fixture.c",
+      "line_start": 116,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 116,
+      "body_line_end": 143
+    },
+    {
+      "name": "gt_pch_nx_lang_tree_node",
+      "file": "fixture.c",
+      "line_start": 145,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 145,
+      "body_line_end": 153
+    },
+    {
+      "name": "gt_pch_save",
+      "file": "fixture.c",
+      "line_start": 155,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 155,
+      "body_line_end": 171
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "edges": [
+    {
+      "caller": "pubsubSubscribeChannel",
+      "callee": "dictAdd",
+      "file": "fixture.c",
+      "line": 91
+    },
+    {
+      "caller": "pubsubSubscribeChannel",
+      "callee": "incrRefCount",
+      "file": "fixture.c",
+      "line": 92
+    },
+    {
+      "caller": "pubsubSubscribeChannel",
+      "callee": "dictFind",
+      "file": "fixture.c",
+      "line": 93
+    },
+    {
+      "caller": "pubsubSubscribeChannel",
+      "callee": "listCreate",
+      "file": "fixture.c",
+      "line": 95
+    },
+    {
+      "caller": "pubsubSubscribeChannel",
+      "callee": "dictGetVal",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "pubsubSubscribeChannel",
+      "callee": "listAddNodeTail",
+      "file": "fixture.c",
+      "line": 100
+    },
+    {
+      "caller": "pubsubSubscribeChannel",
+      "callee": "addReplyPubsubSubscribed",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "subscribeCommand",
+      "callee": "addReplyError",
+      "file": "fixture.c",
+      "line": 110
+    },
+    {
+      "caller": "subscribeCommand",
+      "callee": "pubsubSubscribeChannel",
+      "file": "fixture.c",
+      "line": 114
+    }
+  ]
+}

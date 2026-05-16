@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "caller": "ssh_ecdsa_sk_equal",
+      "callee": "sshkey_sk_fields_equal",
+      "file": "fixture.c",
+      "line": 88
+    }
+  ]
+}

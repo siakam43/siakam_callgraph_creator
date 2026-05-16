@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "97758dd3",
+      "func": "multissl_send_plain",
+      "file": "fixture.c",
+      "line": 64,
+      "expression": "Curl_ssl->send_plain"
+    }
+  ]
+}

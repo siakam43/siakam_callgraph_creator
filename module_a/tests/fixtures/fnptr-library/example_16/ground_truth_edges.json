@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "caller": "av_fast_padded_malloc",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 25
+    },
+    {
+      "caller": "av_fast_padded_malloc",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 27
+    },
+    {
+      "caller": "ff_bswapdsp_init_riscv",
+      "callee": "av_get_cpu_flags",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "ff_bswapdsp_init",
+      "callee": "ff_bswapdsp_init_riscv",
+      "file": "fixture.c",
+      "line": 85
+    },
+    {
+      "caller": "raw_decode",
+      "callee": "av_fast_padded_malloc",
+      "file": "fixture.c",
+      "line": 108
+    }
+  ]
+}

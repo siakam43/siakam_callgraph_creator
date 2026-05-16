@@ -1,0 +1,190 @@
+{
+  "edges": [
+    {
+      "caller": "stats_stdev",
+      "callee": "sqrt",
+      "file": "fixture.c",
+      "line": 27
+    },
+    {
+      "caller": "print_stats_header",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 33
+    },
+    {
+      "caller": "format_time_us",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 45
+    },
+    {
+      "caller": "format_time_us",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 47
+    },
+    {
+      "caller": "format_time_us",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 49
+    },
+    {
+      "caller": "format_time_us",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 51
+    },
+    {
+      "caller": "format_metric",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "format_metric",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 58
+    },
+    {
+      "caller": "format_metric",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "format_metric",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 62
+    },
+    {
+      "caller": "print_units",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 68
+    },
+    {
+      "caller": "print_units",
+      "callee": "isalpha",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "print_units",
+      "callee": "isalpha",
+      "file": "fixture.c",
+      "line": 71
+    },
+    {
+      "caller": "print_units",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 74
+    },
+    {
+      "caller": "print_units",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 75
+    },
+    {
+      "caller": "print_stats_latency",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 80
+    },
+    {
+      "caller": "print_stats_latency",
+      "callee": "stats_percentile",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "print_stats_latency",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 84
+    },
+    {
+      "caller": "print_stats_latency",
+      "callee": "print_units",
+      "file": "fixture.c",
+      "line": 85
+    },
+    {
+      "caller": "print_stats_latency",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 86
+    },
+    {
+      "caller": "print_stats",
+      "callee": "stats_mean",
+      "file": "fixture.c",
+      "line": 92
+    },
+    {
+      "caller": "print_stats",
+      "callee": "stats_stdev",
+      "file": "fixture.c",
+      "line": 93
+    },
+    {
+      "caller": "print_stats",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 95
+    },
+    {
+      "caller": "print_stats",
+      "callee": "print_units",
+      "file": "fixture.c",
+      "line": 96
+    },
+    {
+      "caller": "print_stats",
+      "callee": "print_units",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "print_stats",
+      "callee": "print_units",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "print_stats",
+      "callee": "printf",
+      "file": "fixture.c",
+      "line": 99
+    },
+    {
+      "caller": "print_stats",
+      "callee": "stats_within_stdev",
+      "file": "fixture.c",
+      "line": 99
+    },
+    {
+      "caller": "main",
+      "callee": "print_stats_header",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "main",
+      "callee": "print_stats",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "main",
+      "callee": "print_stats",
+      "file": "fixture.c",
+      "line": 105
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "functions": [
+    {
+      "name": "synth_filter_float",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 35
+    },
+    {
+      "name": "synth_filter_float_64",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 36
+    },
+    {
+      "name": "synth_filter_fixed",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 37
+    },
+    {
+      "name": "synth_filter_fixed_64",
+      "file": "fixture.c",
+      "line_start": 38,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 38,
+      "body_line_end": 38
+    },
+    {
+      "name": "synth_filter_sse2",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 48
+    },
+    {
+      "name": "synth_filter_avx",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 57
+    },
+    {
+      "name": "synth_filter_fma3",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 66
+    },
+    {
+      "name": "ff_synth_filter_init_x86",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 85
+    },
+    {
+      "name": "ff_synth_filter_init",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 94
+    },
+    {
+      "name": "sub_qmf32_float_c",
+      "file": "fixture.c",
+      "line_start": 96,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 96,
+      "body_line_end": 119
+    }
+  ]
+}

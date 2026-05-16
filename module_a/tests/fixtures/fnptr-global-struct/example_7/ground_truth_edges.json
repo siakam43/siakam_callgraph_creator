@@ -1,0 +1,172 @@
+{
+  "edges": [
+    {
+      "caller": "zfs_acl_alloc",
+      "callee": "kmem_zalloc",
+      "file": "fixture.c",
+      "line": 183
+    },
+    {
+      "caller": "zfs_acl_alloc",
+      "callee": "list_create",
+      "file": "fixture.c",
+      "line": 184
+    },
+    {
+      "caller": "zfs_acl_chmod",
+      "callee": "zfs_acl_next_ace",
+      "file": "fixture.c",
+      "line": 204
+    },
+    {
+      "caller": "zfs_acl_chmod",
+      "callee": "zfs_set_ace",
+      "file": "fixture.c",
+      "line": 206
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "mutex_enter",
+      "file": "fixture.c",
+      "line": 217
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "mutex_enter",
+      "file": "fixture.c",
+      "line": 218
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "ZTOZSB",
+      "file": "fixture.c",
+      "line": 219
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "zfs_acl_alloc",
+      "file": "fixture.c",
+      "line": 220
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "zfs_acl_version_zp",
+      "file": "fixture.c",
+      "line": 220
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "zfs_acl_node_read",
+      "file": "fixture.c",
+      "line": 222
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "zfs_acl_chmod",
+      "file": "fixture.c",
+      "line": 226
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "S_ISDIR",
+      "file": "fixture.c",
+      "line": 226
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "ZTOI",
+      "file": "fixture.c",
+      "line": 226
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "ZTOZSB",
+      "file": "fixture.c",
+      "line": 227
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "mutex_exit",
+      "file": "fixture.c",
+      "line": 229
+    },
+    {
+      "caller": "zfs_acl_chmod_setattr",
+      "callee": "mutex_exit",
+      "file": "fixture.c",
+      "line": 230
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "zfs_acl_inherit",
+      "file": "fixture.c",
+      "line": 249
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "zfs_acl_alloc",
+      "file": "fixture.c",
+      "line": 253
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "zfs_acl_version_zp",
+      "file": "fixture.c",
+      "line": 253
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "mutex_exit",
+      "file": "fixture.c",
+      "line": 256
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "mutex_exit",
+      "file": "fixture.c",
+      "line": 257
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "S_ISDIR",
+      "file": "fixture.c",
+      "line": 260
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "zfs_acl_chmod",
+      "file": "fixture.c",
+      "line": 267
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "zfs_mode_compute",
+      "file": "fixture.c",
+      "line": 273
+    },
+    {
+      "caller": "zfs_acl_ids_create",
+      "callee": "ace_trivial_common",
+      "file": "fixture.c",
+      "line": 276
+    },
+    {
+      "caller": "zfs_acl_inherit",
+      "callee": "zfs_acl_alloc",
+      "file": "fixture.c",
+      "line": 291
+    },
+    {
+      "caller": "zfs_acl_inherit",
+      "callee": "S_ISLNK",
+      "file": "fixture.c",
+      "line": 293
+    },
+    {
+      "caller": "zfs_acl_inherit",
+      "callee": "zfs_acl_next_ace",
+      "file": "fixture.c",
+      "line": 296
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "caller": "capi_init",
+      "callee": "DSA_get_ex_new_index",
+      "file": "fixture.c",
+      "line": 195
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_OpenSSL",
+      "file": "fixture.c",
+      "line": 196
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_meth_set_sign",
+      "file": "fixture.c",
+      "line": 197
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_meth_set_verify",
+      "file": "fixture.c",
+      "line": 198
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_meth_get_verify",
+      "file": "fixture.c",
+      "line": 199
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_meth_set_finish",
+      "file": "fixture.c",
+      "line": 200
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_meth_set_mod_exp",
+      "file": "fixture.c",
+      "line": 201
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_meth_get_mod_exp",
+      "file": "fixture.c",
+      "line": 204
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_meth_set_bn_mod_exp",
+      "file": "fixture.c",
+      "line": 205
+    },
+    {
+      "caller": "capi_init",
+      "callee": "DSA_meth_get_bn_mod_exp",
+      "file": "fixture.c",
+      "line": 207
+    },
+    {
+      "caller": "capi_init",
+      "callee": "bind_dsa_methods",
+      "file": "fixture.c",
+      "line": 208
+    },
+    {
+      "caller": "bind_dsa_methods",
+      "callee": "DSA_meth_set_bn_mod_exp",
+      "file": "fixture.c",
+      "line": 217
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "edges": [
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 113
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 114
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 119
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 125
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 126
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 131
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 132
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 137
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 138
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 143
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 144
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 149
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 150
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 155
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 156
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 161
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 162
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 167
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 168
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 173
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 174
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 179
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 180
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 185
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 186
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 191
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 192
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 197
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 198
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 203
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 204
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 209
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 210
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 215
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 216
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 221
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 222
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 227
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 228
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 233
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 234
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 239
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 240
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 245
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 246
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 251
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 252
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 257
+    },
+    {
+      "caller": "config_output",
+      "callee": "lrintf",
+      "file": "fixture.c",
+      "line": 258
+    },
+    {
+      "caller": "config_output",
+      "callee": "av_log",
+      "file": "fixture.c",
+      "line": 261
+    }
+  ]
+}

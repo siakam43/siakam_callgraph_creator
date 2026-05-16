@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "_cpp_lex_identifier",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 33
+    },
+    {
+      "name": "dump_queued_macros",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 41
+    },
+    {
+      "name": "cpp_pop_definition",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 55
+    },
+    {
+      "name": "cpp_init_callbacks",
+      "file": "fixture.c",
+      "line_start": 57,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 57,
+      "body_line_end": 65
+    }
+  ]
+}

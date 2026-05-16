@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "f5365958",
+      "func": "zfsdev_ioctl_common",
+      "file": "fixture.c",
+      "line": 65,
+      "expression": "vec->zvec_legacy_func"
+    }
+  ]
+}

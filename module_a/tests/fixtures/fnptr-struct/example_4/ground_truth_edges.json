@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "caller": "processTimeEvents",
+      "callee": "aeGetTime",
+      "file": "fixture.c",
+      "line": 58
+    },
+    {
+      "caller": "aeCreateTimeEvent",
+      "callee": "aeGetTime",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "aeProcessEvents",
+      "callee": "processTimeEvents",
+      "file": "fixture.c",
+      "line": 107
+    },
+    {
+      "caller": "thread_main",
+      "callee": "aeCreateTimeEvent",
+      "file": "fixture.c",
+      "line": 114
+    },
+    {
+      "caller": "thread_main",
+      "callee": "aeMain",
+      "file": "fixture.c",
+      "line": 115
+    }
+  ]
+}

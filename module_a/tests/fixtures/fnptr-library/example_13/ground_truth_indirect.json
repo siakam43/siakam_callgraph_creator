@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "d765caa7",
+      "func": "v360_slice",
+      "file": "fixture.c",
+      "line": 276,
+      "expression": "s->out_transform"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "4de14738",
+      "func": "sshsk_enroll",
+      "file": "fixture.c",
+      "line": 115,
+      "expression": "skp->sk_enroll"
+    }
+  ]
+}

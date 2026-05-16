@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "cab593f1",
+      "func": "channel_input_open_failure",
+      "file": "fixture.c",
+      "line": 65,
+      "expression": "c->open_confirm"
+    }
+  ]
+}

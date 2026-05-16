@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "sshsk_open",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 92
+    },
+    {
+      "name": "sshsk_enroll",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 123
+    },
+    {
+      "name": "ssh_sk_enroll",
+      "file": "fixture.c",
+      "line_start": 126,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 126,
+      "body_line_end": 135
+    },
+    {
+      "name": "sk_enroll",
+      "file": "fixture.c",
+      "line_start": 138,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 138,
+      "body_line_end": 147
+    }
+  ]
+}

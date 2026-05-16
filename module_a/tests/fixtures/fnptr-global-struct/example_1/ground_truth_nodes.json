@@ -1,0 +1,22 @@
+{
+  "functions": [
+    {
+      "name": "claim_segment_cb",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 49
+    },
+    {
+      "name": "vdev_indirect_remap",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 56
+    }
+  ]
+}

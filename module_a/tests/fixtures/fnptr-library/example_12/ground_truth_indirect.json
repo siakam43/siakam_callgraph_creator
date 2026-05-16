@@ -1,0 +1,18 @@
+{
+  "indirect_points": [
+    {
+      "uid": "c96f0d26",
+      "func": "filter_frame",
+      "file": "fixture.c",
+      "line": 114,
+      "expression": "s->vectorscope"
+    },
+    {
+      "uid": "8784ef86",
+      "func": "filter_frame",
+      "file": "fixture.c",
+      "line": 115,
+      "expression": "s->graticulef"
+    }
+  ]
+}

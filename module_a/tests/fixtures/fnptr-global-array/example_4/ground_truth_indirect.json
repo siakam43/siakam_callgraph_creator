@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "8f56ea63",
+      "func": "decode_init",
+      "file": "fixture.c",
+      "line": 67,
+      "expression": "trc_funcs[j]"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "77f9aaf0",
+      "func": "quicklistPopCustom",
+      "file": "fixture.c",
+      "line": 57,
+      "expression": "saver"
+    }
+  ]
+}

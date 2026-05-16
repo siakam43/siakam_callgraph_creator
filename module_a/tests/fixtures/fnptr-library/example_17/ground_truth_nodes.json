@@ -1,0 +1,76 @@
+{
+  "functions": [
+    {
+      "name": "ff_celp_lp_synthesis_filterf",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 52
+    },
+    {
+      "name": "ff_celp_lp_zero_synthesis_filterf",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 57
+    },
+    {
+      "name": "ff_celp_lp_synthesis_filterf_mips",
+      "file": "fixture.c",
+      "line_start": 60,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 60,
+      "body_line_end": 70
+    },
+    {
+      "name": "ff_celp_lp_zero_synthesis_filterf_mips",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 75
+    },
+    {
+      "name": "ff_celp_filter_init",
+      "file": "fixture.c",
+      "line_start": 77,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 77,
+      "body_line_end": 85
+    },
+    {
+      "name": "ff_celp_filter_init_mips",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 95
+    },
+    {
+      "name": "ff_scale_vector_to_given_sum_of_squares",
+      "file": "fixture.c",
+      "line_start": 97,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 97,
+      "body_line_end": 100
+    },
+    {
+      "name": "synthesis",
+      "file": "fixture.c",
+      "line_start": 102,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 102,
+      "body_line_end": 121
+    }
+  ]
+}

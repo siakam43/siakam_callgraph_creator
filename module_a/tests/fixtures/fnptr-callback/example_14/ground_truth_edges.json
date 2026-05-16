@@ -1,0 +1,64 @@
+{
+  "edges": [
+    {
+      "caller": "htab_find_slot_with_hash",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "relocate_ptrs",
+      "callee": "htab_find_with_hash",
+      "file": "fixture.c",
+      "line": 87
+    },
+    {
+      "caller": "relocate_ptrs",
+      "callee": "POINTER_HASH",
+      "file": "fixture.c",
+      "line": 87
+    },
+    {
+      "caller": "gt_pch_p_14lang_tree_node",
+      "callee": "lto_tree_node_structure",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "gt_pch_p_14lang_tree_node",
+      "callee": "tree_node_structure",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "gt_pch_note_object",
+      "callee": "htab_find_slot_with_hash",
+      "file": "fixture.c",
+      "line": 126
+    },
+    {
+      "caller": "gt_pch_note_object",
+      "callee": "POINTER_HASH",
+      "file": "fixture.c",
+      "line": 126
+    },
+    {
+      "caller": "gt_pch_note_object",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 133
+    },
+    {
+      "caller": "gt_pch_nx_lang_tree_node",
+      "callee": "gt_pch_note_object",
+      "file": "fixture.c",
+      "line": 150
+    },
+    {
+      "caller": "gt_pch_save",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 159
+    }
+  ]
+}

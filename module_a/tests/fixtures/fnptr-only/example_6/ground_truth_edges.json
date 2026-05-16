@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "caller": "default_junk_alloc",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 15
+    },
+    {
+      "caller": "default_junk_free",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 21
+    },
+    {
+      "caller": "do_rallocx",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 29
+    },
+    {
+      "caller": "do_rallocx",
+      "callee": "realloc",
+      "file": "fixture.c",
+      "line": 35
+    },
+    {
+      "caller": "do_rallocx",
+      "callee": "unlikely",
+      "file": "fixture.c",
+      "line": 39
+    },
+    {
+      "caller": "rallocx",
+      "callee": "do_rallocx",
+      "file": "fixture.c",
+      "line": 54
+    },
+    {
+      "caller": "mallocx",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 58
+    },
+    {
+      "caller": "mallocx",
+      "callee": "unlikely",
+      "file": "fixture.c",
+      "line": 59
+    }
+  ]
+}

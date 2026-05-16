@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "f569670f",
+      "func": "ddt_object_lookup",
+      "file": "fixture.c",
+      "line": 86,
+      "expression": "ddt_ops[type]->ddt_op_lookup"
+    }
+  ]
+}

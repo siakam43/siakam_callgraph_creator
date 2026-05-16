@@ -1,0 +1,184 @@
+{
+  "edges": [
+    {
+      "caller": "dictGetSafeIterator",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 32
+    },
+    {
+      "caller": "dictReleaseIterator",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 35
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "addReplySetLen",
+      "file": "fixture.c",
+      "line": 69
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "addReplyMapLen",
+      "file": "fixture.c",
+      "line": 74
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "dictSize",
+      "file": "fixture.c",
+      "line": 74
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "addReplyArrayLen",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "dictSize",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "dictGetSafeIterator",
+      "file": "fixture.c",
+      "line": 78
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "dictNext",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "dictGetVal",
+      "file": "fixture.c",
+      "line": 80
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "addReplyBulkCBuffer",
+      "file": "fixture.c",
+      "line": 82
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "sdslen",
+      "file": "fixture.c",
+      "line": 82
+    },
+    {
+      "caller": "addReplyCommandSubCommands",
+      "callee": "dictReleaseIterator",
+      "file": "fixture.c",
+      "line": 85
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyNull",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyArrayLen",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyBulkCBuffer",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "sdslen",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyLongLong",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyFlagsForCommand",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyLongLong",
+      "file": "fixture.c",
+      "line": 105
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyLongLong",
+      "file": "fixture.c",
+      "line": 106
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyLongLong",
+      "file": "fixture.c",
+      "line": 107
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyCommandCategories",
+      "file": "fixture.c",
+      "line": 108
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyCommandTips",
+      "file": "fixture.c",
+      "line": 109
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyCommandKeySpecs",
+      "file": "fixture.c",
+      "line": 110
+    },
+    {
+      "caller": "addReplyCommandInfo",
+      "callee": "addReplyCommandSubCommands",
+      "file": "fixture.c",
+      "line": 111
+    },
+    {
+      "caller": "addReplyCommandDocs",
+      "callee": "addReplyBulkCString",
+      "file": "fixture.c",
+      "line": 119
+    },
+    {
+      "caller": "addReplyCommandDocs",
+      "callee": "addReplyCommandArgList",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "addReplyCommandDocs",
+      "callee": "addReplyBulkCString",
+      "file": "fixture.c",
+      "line": 123
+    },
+    {
+      "caller": "addReplyCommandDocs",
+      "callee": "addReplyCommandSubCommands",
+      "file": "fixture.c",
+      "line": 124
+    }
+  ]
+}

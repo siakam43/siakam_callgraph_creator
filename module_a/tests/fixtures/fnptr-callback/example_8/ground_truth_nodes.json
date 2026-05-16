@@ -1,0 +1,85 @@
+{
+  "functions": [
+    {
+      "name": "swap",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 54
+    },
+    {
+      "name": "med3",
+      "file": "fixture.c",
+      "line_start": 56,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 56,
+      "body_line_end": 63
+    },
+    {
+      "name": "_pqsort",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 92
+    },
+    {
+      "name": "pqsort",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 100
+    },
+    {
+      "name": "georadiusGeneric",
+      "file": "fixture.c",
+      "line_start": 102,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 102,
+      "body_line_end": 126
+    },
+    {
+      "name": "sortCommandGeneric",
+      "file": "fixture.c",
+      "line_start": 128,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 128,
+      "body_line_end": 144
+    },
+    {
+      "name": "sort_gp_asc",
+      "file": "fixture.c",
+      "line_start": 146,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 146,
+      "body_line_end": 150
+    },
+    {
+      "name": "sort_gp_desc",
+      "file": "fixture.c",
+      "line_start": 152,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 152,
+      "body_line_end": 156
+    },
+    {
+      "name": "sortCompare",
+      "file": "fixture.c",
+      "line_start": 158,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 158,
+      "body_line_end": 164
+    }
+  ]
+}

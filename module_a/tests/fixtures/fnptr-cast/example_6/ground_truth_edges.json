@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "caller": "nvlist_alloc",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 42
+    },
+    {
+      "caller": "fnvlist_free",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 43
+    },
+    {
+      "caller": "dsl_sync_task",
+      "callee": "dsl_sync_task_common",
+      "file": "fixture.c",
+      "line": 63
+    },
+    {
+      "caller": "dsl_dataset_hold",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "dsl_dataset_hold_obj_string",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 84
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "dmu_tx_pool",
+      "file": "fixture.c",
+      "line": 94
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "nvlist_next_nvpair",
+      "file": "fixture.c",
+      "line": 96
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "nvlist_next_nvpair",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "nvpair_name",
+      "file": "fixture.c",
+      "line": 99
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "holdfunc",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "dsl_dataset_user_release_sync_one",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "fnvpair_value_nvlist",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "nvlist_exists",
+      "file": "fixture.c",
+      "line": 105
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "dsl_destroy_snapshot_sync_impl",
+      "file": "fixture.c",
+      "line": 106
+    },
+    {
+      "caller": "dsl_dataset_user_release_sync",
+      "callee": "dsl_dataset_rele",
+      "file": "fixture.c",
+      "line": 108
+    },
+    {
+      "caller": "dsl_dataset_user_release_impl",
+      "callee": "nvlist_next_nvpair",
+      "file": "fixture.c",
+      "line": 122
+    },
+    {
+      "caller": "dsl_dataset_user_release_impl",
+      "callee": "nvpair_name",
+      "file": "fixture.c",
+      "line": 132
+    },
+    {
+      "caller": "dsl_dataset_user_release_impl",
+      "callee": "nvlist_alloc",
+      "file": "fixture.c",
+      "line": 137
+    },
+    {
+      "caller": "dsl_dataset_user_release_impl",
+      "callee": "nvlist_alloc",
+      "file": "fixture.c",
+      "line": 138
+    },
+    {
+      "caller": "dsl_dataset_user_release_impl",
+      "callee": "dsl_sync_task",
+      "file": "fixture.c",
+      "line": 140
+    },
+    {
+      "caller": "dsl_dataset_user_release_impl",
+      "callee": "fnvlist_free",
+      "file": "fixture.c",
+      "line": 143
+    },
+    {
+      "caller": "dsl_dataset_user_release_impl",
+      "callee": "fnvlist_free",
+      "file": "fixture.c",
+      "line": 144
+    }
+  ]
+}

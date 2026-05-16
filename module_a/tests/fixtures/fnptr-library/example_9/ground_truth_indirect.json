@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "b0f788ff",
+      "func": "Curl_llist_remove",
+      "file": "fixture.c",
+      "line": 41,
+      "expression": "list->dtor"
+    }
+  ]
+}

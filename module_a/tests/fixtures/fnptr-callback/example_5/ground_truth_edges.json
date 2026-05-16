@@ -1,0 +1,82 @@
+{
+  "edges": [
+    {
+      "caller": "createStringObjectFromLongLong",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 42
+    },
+    {
+      "caller": "createStringObjectFromLongLong",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 44
+    },
+    {
+      "caller": "createStringObjectFromLongLong",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 45
+    },
+    {
+      "caller": "quicklistPopCustom",
+      "callee": "unlikely",
+      "file": "fixture.c",
+      "line": 55
+    },
+    {
+      "caller": "quicklistPopCustom",
+      "callee": "QL_NODE_IS_PLAIN",
+      "file": "fixture.c",
+      "line": 55
+    },
+    {
+      "caller": "quicklistPopCustom",
+      "callee": "quicklistDelIndex",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "listTypePop",
+      "callee": "quicklistPopCustom",
+      "file": "fixture.c",
+      "line": 72
+    },
+    {
+      "caller": "listTypePop",
+      "callee": "createStringObjectFromLongLong",
+      "file": "fixture.c",
+      "line": 75
+    },
+    {
+      "caller": "quicklistPop",
+      "callee": "quicklistPopCustom",
+      "file": "fixture.c",
+      "line": 88
+    },
+    {
+      "caller": "_quicklistSaver",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "_quicklistSaver",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "listPopSaver",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "listPopSaver",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 105
+    }
+  ]
+}

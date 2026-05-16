@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "36c40707",
+      "func": "tcache_bin_flush_edatas_lookup",
+      "file": "fixture.c",
+      "line": 53,
+      "expression": "edata_maps"
+    }
+  ]
+}

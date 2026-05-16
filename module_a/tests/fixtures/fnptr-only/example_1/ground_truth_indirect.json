@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "e92082b0",
+      "func": "zmalloc",
+      "file": "fixture.c",
+      "line": 19,
+      "expression": "zmalloc_oom_handler"
+    }
+  ]
+}

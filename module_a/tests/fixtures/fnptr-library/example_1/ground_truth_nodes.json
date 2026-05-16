@@ -1,0 +1,67 @@
+{
+  "functions": [
+    {
+      "name": "hi_calloc",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 36
+    },
+    {
+      "name": "hi_sdsempty",
+      "file": "fixture.c",
+      "line_start": 38,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 38,
+      "body_line_end": 38
+    },
+    {
+      "name": "redisContextInit",
+      "file": "fixture.c",
+      "line_start": 40,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 40,
+      "body_line_end": 53
+    },
+    {
+      "name": "redisConnect",
+      "file": "fixture.c",
+      "line_start": 55,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 55,
+      "body_line_end": 59
+    },
+    {
+      "name": "readConn",
+      "file": "fixture.c",
+      "line_start": 64,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 64,
+      "body_line_end": 67
+    },
+    {
+      "name": "cliConnect",
+      "file": "fixture.c",
+      "line_start": 69,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 69,
+      "body_line_end": 78
+    },
+    {
+      "name": "redisNetRead",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 84
+    }
+  ]
+}

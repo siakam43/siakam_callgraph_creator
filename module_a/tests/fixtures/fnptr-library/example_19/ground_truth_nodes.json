@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "sshbuf_len",
+      "file": "fixture.c",
+      "line_start": 22,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 22,
+      "body_line_end": 22
+    },
+    {
+      "name": "channel_handle_wfd",
+      "file": "fixture.c",
+      "line_start": 24,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 24,
+      "body_line_end": 38
+    },
+    {
+      "name": "channel_register_filter",
+      "file": "fixture.c",
+      "line_start": 40,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 40,
+      "body_line_end": 51
+    },
+    {
+      "name": "sys_tun_outfilter",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 58
+    },
+    {
+      "name": "client_loop",
+      "file": "fixture.c",
+      "line_start": 60,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 60,
+      "body_line_end": 65
+    },
+    {
+      "name": "register_output_filter",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 69
+    }
+  ]
+}

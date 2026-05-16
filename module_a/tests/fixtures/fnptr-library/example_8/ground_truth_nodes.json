@@ -1,0 +1,130 @@
+{
+  "functions": [
+    {
+      "name": "cf_socket_destroy",
+      "file": "fixture.c",
+      "line_start": 62,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 62,
+      "body_line_end": 62
+    },
+    {
+      "name": "cf_tcp_connect",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 63
+    },
+    {
+      "name": "cf_socket_close",
+      "file": "fixture.c",
+      "line_start": 64,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 64,
+      "body_line_end": 64
+    },
+    {
+      "name": "cf_socket_adjust_pollset",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 65
+    },
+    {
+      "name": "cf_socket_data_pending",
+      "file": "fixture.c",
+      "line_start": 66,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 66,
+      "body_line_end": 66
+    },
+    {
+      "name": "cf_socket_send",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 67
+    },
+    {
+      "name": "cf_socket_recv",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 68
+    },
+    {
+      "name": "cf_socket_cntrl",
+      "file": "fixture.c",
+      "line_start": 69,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 69,
+      "body_line_end": 69
+    },
+    {
+      "name": "cf_socket_conn_is_alive",
+      "file": "fixture.c",
+      "line_start": 70,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 70,
+      "body_line_end": 70
+    },
+    {
+      "name": "Curl_cf_def_conn_keep_alive",
+      "file": "fixture.c",
+      "line_start": 71,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 71,
+      "body_line_end": 71
+    },
+    {
+      "name": "Curl_cf_query",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 72
+    },
+    {
+      "name": "cf_socket_get_host",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 78
+    },
+    {
+      "name": "Curl_conn_get_host",
+      "file": "fixture.c",
+      "line_start": 98,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 98,
+      "body_line_end": 109
+    },
+    {
+      "name": "Curl_conn_cf_add",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 125
+    }
+  ]
+}

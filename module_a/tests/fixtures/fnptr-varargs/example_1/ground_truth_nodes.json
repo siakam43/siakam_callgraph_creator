@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "curl_share_setopt",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 119
+    },
+    {
+      "name": "my_lock",
+      "file": "fixture.c",
+      "line_start": 122,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 122,
+      "body_line_end": 129
+    },
+    {
+      "name": "my_unlock",
+      "file": "fixture.c",
+      "line_start": 131,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 131,
+      "body_line_end": 136
+    },
+    {
+      "name": "share_setup",
+      "file": "fixture.c",
+      "line_start": 139,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 139,
+      "body_line_end": 149
+    },
+    {
+      "name": "curl_share_cleanup",
+      "file": "fixture.c",
+      "line_start": 151,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 151,
+      "body_line_end": 166
+    },
+    {
+      "name": "main",
+      "file": "fixture.c",
+      "line_start": 168,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 168,
+      "body_line_end": 176
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "ff_mpv_decode_init",
+      "file": "fixture.c",
+      "line_start": 40,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 40,
+      "body_line_end": 42
+    },
+    {
+      "name": "ff_h263_decode_mb",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 47
+    },
+    {
+      "name": "decode_slice",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 60
+    },
+    {
+      "name": "ff_h263_decode_init",
+      "file": "fixture.c",
+      "line_start": 62,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 62,
+      "body_line_end": 74
+    }
+  ]
+}

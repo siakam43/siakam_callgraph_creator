@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "caller": "ff_h263_decode_init",
+      "callee": "ff_mpv_decode_init",
+      "file": "fixture.c",
+      "line": 67
+    }
+  ]
+}

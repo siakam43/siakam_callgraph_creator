@@ -1,0 +1,67 @@
+{
+  "functions": [
+    {
+      "name": "lj_mem_free",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 34
+    },
+    {
+      "name": "lj_alloc_f",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 43
+    },
+    {
+      "name": "l_alloc",
+      "file": "fixture.c",
+      "line_start": 45,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 45,
+      "body_line_end": 52
+    },
+    {
+      "name": "luaL_newstate",
+      "file": "fixture.c",
+      "line_start": 56,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 56,
+      "body_line_end": 59
+    },
+    {
+      "name": "lua_newstate",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 79
+    },
+    {
+      "name": "close_state",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 84
+    },
+    {
+      "name": "register_lj_alloc",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 90
+    }
+  ]
+}

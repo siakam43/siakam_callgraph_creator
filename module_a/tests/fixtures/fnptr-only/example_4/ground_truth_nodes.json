@@ -1,0 +1,85 @@
+{
+  "functions": [
+    {
+      "name": "usePal",
+      "file": "fixture.c",
+      "line_start": 30,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 30,
+      "body_line_end": 32
+    },
+    {
+      "name": "gray8aToPacked32",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 44
+    },
+    {
+      "name": "gray8aToPacked32_1",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 56
+    },
+    {
+      "name": "gray8aToPacked24",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 66
+    },
+    {
+      "name": "sws_convertPalette8ToPacked32",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 78
+    },
+    {
+      "name": "sws_convertPalette8ToPacked24",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 89
+    },
+    {
+      "name": "av_log",
+      "file": "fixture.c",
+      "line_start": 91,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 91,
+      "body_line_end": 91
+    },
+    {
+      "name": "av_get_pix_fmt_name",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 92
+    },
+    {
+      "name": "palToRgbWrapper",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 140
+    }
+  ]
+}

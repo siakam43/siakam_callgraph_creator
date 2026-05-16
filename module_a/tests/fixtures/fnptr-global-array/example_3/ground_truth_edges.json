@@ -1,0 +1,82 @@
+{
+  "edges": [
+    {
+      "caller": "convert_str",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 48
+    },
+    {
+      "caller": "convert_int",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 57
+    },
+    {
+      "caller": "convert_int",
+      "callee": "atoi",
+      "file": "fixture.c",
+      "line": 59
+    },
+    {
+      "caller": "convert_flt",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 67
+    },
+    {
+      "caller": "convert_flt",
+      "callee": "atof",
+      "file": "fixture.c",
+      "line": 69
+    },
+    {
+      "caller": "convert_color",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 77
+    },
+    {
+      "caller": "convert_color",
+      "callee": "strtoul",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "convert_timestamp",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 88
+    },
+    {
+      "caller": "convert_timestamp",
+      "callee": "sscanf",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "convert_alignment",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 99
+    },
+    {
+      "caller": "convert_alignment",
+      "callee": "atoi",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "ass_split_section",
+      "callee": "strcspn",
+      "file": "fixture.c",
+      "line": 143
+    },
+    {
+      "caller": "ass_split_section",
+      "callee": "strcspn",
+      "file": "fixture.c",
+      "line": 155
+    }
+  ]
+}

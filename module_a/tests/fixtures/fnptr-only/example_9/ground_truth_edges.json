@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "Curl_output_digest",
+      "callee": "Curl_cfree",
+      "file": "fixture.c",
+      "line": 33
+    },
+    {
+      "caller": "Curl_output_digest",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 41
+    },
+    {
+      "caller": "Curl_output_digest",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 41
+    },
+    {
+      "caller": "Curl_output_digest",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 41
+    }
+  ]
+}

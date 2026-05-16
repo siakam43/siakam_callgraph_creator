@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "6bc08872",
+      "func": "ssl_cipher_list_to_bytes",
+      "file": "fixture.c",
+      "line": 120,
+      "expression": "s->method->put_cipher_by_char"
+    }
+  ]
+}

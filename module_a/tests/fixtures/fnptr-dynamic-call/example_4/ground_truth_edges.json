@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "caller": "dynamic_load",
+      "callee": "int_load",
+      "file": "fixture.c",
+      "line": 52
+    },
+    {
+      "caller": "dynamic_load",
+      "callee": "dlsym",
+      "file": "fixture.c",
+      "line": 59
+    },
+    {
+      "caller": "dynamic_load",
+      "callee": "dlsym",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "engine_load_dynamic_int",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 96
+    },
+    {
+      "caller": "engine_load_dynamic_int",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "engine_load_dynamic_int",
+      "callee": "dynamic_load",
+      "file": "fixture.c",
+      "line": 103
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "functions": [
+    {
+      "name": "BN_mod_exp_mont",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 68
+    },
+    {
+      "name": "dsa_sign_setup",
+      "file": "fixture.c",
+      "line_start": 71,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 71,
+      "body_line_end": 88
+    },
+    {
+      "name": "DSA_meth_set_bn_mod_exp",
+      "file": "fixture.c",
+      "line_start": 90,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 90,
+      "body_line_end": 96
+    },
+    {
+      "name": "DSA_meth_get_bn_mod_exp",
+      "file": "fixture.c",
+      "line_start": 98,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 98,
+      "body_line_end": 103
+    },
+    {
+      "name": "dsa_do_sign",
+      "file": "fixture.c",
+      "line_start": 105,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 105,
+      "body_line_end": 107
+    },
+    {
+      "name": "dsa_sign_setup_no_digest",
+      "file": "fixture.c",
+      "line_start": 109,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 109,
+      "body_line_end": 111
+    },
+    {
+      "name": "dsa_do_verify",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 115
+    },
+    {
+      "name": "dsa_init",
+      "file": "fixture.c",
+      "line_start": 117,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 117,
+      "body_line_end": 117
+    },
+    {
+      "name": "dsa_finish",
+      "file": "fixture.c",
+      "line_start": 118,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 118,
+      "body_line_end": 118
+    },
+    {
+      "name": "DSA_OpenSSL",
+      "file": "fixture.c",
+      "line_start": 135,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 135,
+      "body_line_end": 138
+    },
+    {
+      "name": "DSA_meth_get_mod_exp",
+      "file": "fixture.c",
+      "line_start": 140,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 140,
+      "body_line_end": 145
+    },
+    {
+      "name": "DSA_meth_set_mod_exp",
+      "file": "fixture.c",
+      "line_start": 147,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 147,
+      "body_line_end": 154
+    },
+    {
+      "name": "capi_dsa_do_sign",
+      "file": "fixture.c",
+      "line_start": 160,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 160,
+      "body_line_end": 162
+    },
+    {
+      "name": "capi_dsa_free",
+      "file": "fixture.c",
+      "line_start": 164,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 164,
+      "body_line_end": 164
+    },
+    {
+      "name": "DSA_get_ex_new_index",
+      "file": "fixture.c",
+      "line_start": 166,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 166,
+      "body_line_end": 168
+    },
+    {
+      "name": "DSA_meth_set_sign",
+      "file": "fixture.c",
+      "line_start": 170,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 170,
+      "body_line_end": 172
+    },
+    {
+      "name": "DSA_meth_set_verify",
+      "file": "fixture.c",
+      "line_start": 174,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 174,
+      "body_line_end": 176
+    },
+    {
+      "name": "DSA_meth_set_finish",
+      "file": "fixture.c",
+      "line_start": 178,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 178,
+      "body_line_end": 180
+    },
+    {
+      "name": "DSA_meth_get_verify",
+      "file": "fixture.c",
+      "line_start": 182,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 182,
+      "body_line_end": 184
+    },
+    {
+      "name": "DSA_meth_get_mod_exp",
+      "file": "fixture.c",
+      "line_start": 186,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 186,
+      "body_line_end": 188
+    },
+    {
+      "name": "DSA_meth_get_bn_mod_exp",
+      "file": "fixture.c",
+      "line_start": 190,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 190,
+      "body_line_end": 192
+    },
+    {
+      "name": "capi_init",
+      "file": "fixture.c",
+      "line_start": 194,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 194,
+      "body_line_end": 212
+    },
+    {
+      "name": "bind_dsa_methods",
+      "file": "fixture.c",
+      "line_start": 215,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 215,
+      "body_line_end": 218
+    }
+  ]
+}

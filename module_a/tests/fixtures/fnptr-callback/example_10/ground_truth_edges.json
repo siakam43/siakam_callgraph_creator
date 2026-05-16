@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "caller": "ccm_mode_encrypt_contiguous_blocks",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 54
+    },
+    {
+      "caller": "aes_encrypt_contiguous_blocks",
+      "callee": "ctr_mode_contiguous_blocks",
+      "file": "fixture.c",
+      "line": 87
+    },
+    {
+      "caller": "aes_encrypt_contiguous_blocks",
+      "callee": "ccm_mode_encrypt_contiguous_blocks",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "aes_encrypt_block",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 100
+    },
+    {
+      "caller": "aes_copy_block",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 105
+    }
+  ]
+}

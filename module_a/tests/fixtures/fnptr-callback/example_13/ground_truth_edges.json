@@ -1,0 +1,208 @@
+{
+  "edges": [
+    {
+      "caller": "gimple_fold_stmt_to_constant_1",
+      "callee": "gimple_call_internal_p",
+      "file": "fixture.c",
+      "line": 46
+    },
+    {
+      "caller": "gimple_fold_stmt_to_constant_1",
+      "callee": "gimple_call_arg",
+      "file": "fixture.c",
+      "line": 48
+    },
+    {
+      "caller": "gimple_fold_stmt_to_constant_1",
+      "callee": "gimple_call_arg",
+      "file": "fixture.c",
+      "line": 49
+    },
+    {
+      "caller": "gimple_fold_stmt_to_constant",
+      "callee": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line": 61
+    },
+    {
+      "caller": "gimple_fold_stmt_to_constant",
+      "callee": "is_gimple_min_invariant",
+      "file": "fixture.c",
+      "line": 62
+    },
+    {
+      "caller": "object_sizes_execute",
+      "callee": "gimple_fold_stmt_to_constant",
+      "file": "fixture.c",
+      "line": 72
+    },
+    {
+      "caller": "ccp_fold",
+      "callee": "gimple_code",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "ccp_fold",
+      "callee": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line": 85
+    },
+    {
+      "caller": "copy_prop_visit_assignment",
+      "callee": "gimple_assign_lhs",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "copy_prop_visit_assignment",
+      "callee": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line": 99
+    },
+    {
+      "caller": "copy_prop_visit_assignment",
+      "callee": "is_gimple_min_invariant",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "copy_prop_visit_assignment",
+      "callee": "may_propagate_copy",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "back_propagate_equivalences",
+      "callee": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "back_propagate_equivalences",
+      "callee": "is_gimple_min_invariant",
+      "file": "fixture.c",
+      "line": 122
+    },
+    {
+      "caller": "back_propagate_equivalences",
+      "callee": "record_equality",
+      "file": "fixture.c",
+      "line": 123
+    },
+    {
+      "caller": "try_to_simplify",
+      "callee": "gimple_assign_rhs_code",
+      "file": "fixture.c",
+      "line": 132
+    },
+    {
+      "caller": "try_to_simplify",
+      "callee": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line": 139
+    },
+    {
+      "caller": "try_to_simplify",
+      "callee": "is_gimple_min_invariant",
+      "file": "fixture.c",
+      "line": 143
+    },
+    {
+      "caller": "visit_stmt",
+      "callee": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line": 156
+    },
+    {
+      "caller": "visit_stmt",
+      "callee": "print_generic_expr",
+      "file": "fixture.c",
+      "line": 162
+    },
+    {
+      "caller": "jt_state_register_equivs_stmt",
+      "callee": "gimple_assign_lhs",
+      "file": "fixture.c",
+      "line": 173
+    },
+    {
+      "caller": "jt_state_register_equivs_stmt",
+      "callee": "gimple_assign_rhs_code",
+      "file": "fixture.c",
+      "line": 174
+    },
+    {
+      "caller": "jt_state_register_equivs_stmt",
+      "callee": "gimple_assign_lhs",
+      "file": "fixture.c",
+      "line": 175
+    },
+    {
+      "caller": "jt_state_register_equivs_stmt",
+      "callee": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line": 178
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "gimple_code",
+      "file": "fixture.c",
+      "line": 190
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "gimple_assign_lhs",
+      "file": "fixture.c",
+      "line": 193
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "supported_pointer_equiv_p",
+      "file": "fixture.c",
+      "line": 194
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "gimple_assign_lhs",
+      "file": "fixture.c",
+      "line": 197
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "get_equiv_expr",
+      "file": "fixture.c",
+      "line": 198
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "gimple_assign_rhs_code",
+      "file": "fixture.c",
+      "line": 198
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "set_global_equiv",
+      "file": "fixture.c",
+      "line": 201
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "gimple_fold_stmt_to_constant_1",
+      "file": "fixture.c",
+      "line": 205
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "get_equiv_expr",
+      "file": "fixture.c",
+      "line": 208
+    },
+    {
+      "caller": "pointer_equiv_analyzer_visit_stmt",
+      "callee": "set_global_equiv",
+      "file": "fixture.c",
+      "line": 211
+    }
+  ]
+}

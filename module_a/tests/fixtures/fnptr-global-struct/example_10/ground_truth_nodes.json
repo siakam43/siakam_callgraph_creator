@@ -1,0 +1,121 @@
+{
+  "functions": [
+    {
+      "name": "ssh_ecdsa_equal",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 45
+    },
+    {
+      "name": "ssh_ecdsa_size",
+      "file": "fixture.c",
+      "line_start": 48,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 48,
+      "body_line_end": 48
+    },
+    {
+      "name": "ssh_ecdsa_cleanup",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 49
+    },
+    {
+      "name": "ssh_ecdsa_serialize_public",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 51
+    },
+    {
+      "name": "ssh_ecdsa_deserialize_public",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 53
+    },
+    {
+      "name": "ssh_ecdsa_serialize_private",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 55
+    },
+    {
+      "name": "ssh_ecdsa_deserialize_private",
+      "file": "fixture.c",
+      "line_start": 56,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 56,
+      "body_line_end": 57
+    },
+    {
+      "name": "ssh_ecdsa_generate",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 58
+    },
+    {
+      "name": "ssh_ecdsa_copy_public",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 59
+    },
+    {
+      "name": "ssh_ecdsa_sign",
+      "file": "fixture.c",
+      "line_start": 60,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 60,
+      "body_line_end": 62
+    },
+    {
+      "name": "ssh_ecdsa_verify",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 65
+    },
+    {
+      "name": "sshkey_sk_fields_equal",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 84
+    },
+    {
+      "name": "ssh_ecdsa_sk_equal",
+      "file": "fixture.c",
+      "line_start": 86,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 86,
+      "body_line_end": 93
+    }
+  ]
+}

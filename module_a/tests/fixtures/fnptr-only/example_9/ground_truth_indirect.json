@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "0177ba74",
+      "func": "Curl_output_digest",
+      "file": "fixture.c",
+      "line": 125,
+      "expression": "Curl_convert_to_ascii"
+    }
+  ]
+}

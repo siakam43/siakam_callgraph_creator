@@ -1,0 +1,184 @@
+{
+  "functions": [
+    {
+      "name": "dump_none",
+      "file": "fixture.c",
+      "line_start": 78,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 78,
+      "body_line_end": 81
+    },
+    {
+      "name": "dump_zap",
+      "file": "fixture.c",
+      "line_start": 83,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 83,
+      "body_line_end": 87
+    },
+    {
+      "name": "dump_uint64",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 93
+    },
+    {
+      "name": "dump_uint8",
+      "file": "fixture.c",
+      "line_start": 95,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 95,
+      "body_line_end": 99
+    },
+    {
+      "name": "dump_packed_nvlist",
+      "file": "fixture.c",
+      "line_start": 101,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 101,
+      "body_line_end": 104
+    },
+    {
+      "name": "dump_bpobj",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 109
+    },
+    {
+      "name": "dump_bpobj_subobjs",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 114
+    },
+    {
+      "name": "dump_dnode",
+      "file": "fixture.c",
+      "line_start": 116,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 116,
+      "body_line_end": 119
+    },
+    {
+      "name": "dump_dmu_objset",
+      "file": "fixture.c",
+      "line_start": 121,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 121,
+      "body_line_end": 124
+    },
+    {
+      "name": "dump_dsl_dir",
+      "file": "fixture.c",
+      "line_start": 126,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 126,
+      "body_line_end": 129
+    },
+    {
+      "name": "dump_dsl_dataset",
+      "file": "fixture.c",
+      "line_start": 131,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 131,
+      "body_line_end": 134
+    },
+    {
+      "name": "dump_znode",
+      "file": "fixture.c",
+      "line_start": 136,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 136,
+      "body_line_end": 139
+    },
+    {
+      "name": "dump_acl",
+      "file": "fixture.c",
+      "line_start": 141,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 141,
+      "body_line_end": 144
+    },
+    {
+      "name": "dump_zpldir",
+      "file": "fixture.c",
+      "line_start": 146,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 146,
+      "body_line_end": 149
+    },
+    {
+      "name": "dump_history_offsets",
+      "file": "fixture.c",
+      "line_start": 151,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 151,
+      "body_line_end": 154
+    },
+    {
+      "name": "dump_sa_attrs",
+      "file": "fixture.c",
+      "line_start": 156,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 156,
+      "body_line_end": 159
+    },
+    {
+      "name": "dump_sa_layouts",
+      "file": "fixture.c",
+      "line_start": 161,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 161,
+      "body_line_end": 164
+    },
+    {
+      "name": "dump_unknown",
+      "file": "fixture.c",
+      "line_start": 166,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 166,
+      "body_line_end": 169
+    },
+    {
+      "name": "dump_ddt_zap",
+      "file": "fixture.c",
+      "line_start": 171,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 171,
+      "body_line_end": 174
+    },
+    {
+      "name": "dump_object",
+      "file": "fixture.c",
+      "line_start": 238,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 238,
+      "body_line_end": 249
+    }
+  ]
+}

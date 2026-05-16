@@ -1,0 +1,58 @@
+{
+  "functions": [
+    {
+      "name": "my_md5_update",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 32
+    },
+    {
+      "name": "my_md5_init",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 37
+    },
+    {
+      "name": "my_md5_final",
+      "file": "fixture.c",
+      "line_start": 39,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 39,
+      "body_line_end": 42
+    },
+    {
+      "name": "Curl_MD5_init",
+      "file": "fixture.c",
+      "line_start": 56,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 56,
+      "body_line_end": 67
+    },
+    {
+      "name": "Curl_MD5_update",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 79
+    },
+    {
+      "name": "pop3_perform_apop",
+      "file": "fixture.c",
+      "line_start": 86,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 86,
+      "body_line_end": 104
+    }
+  ]
+}

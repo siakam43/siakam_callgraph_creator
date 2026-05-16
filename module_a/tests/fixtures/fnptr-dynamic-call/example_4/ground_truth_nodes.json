@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "int_load",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 37
+    },
+    {
+      "name": "dynamic_load",
+      "file": "fixture.c",
+      "line_start": 39,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 39,
+      "body_line_end": 90
+    },
+    {
+      "name": "engine_load_dynamic_int",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 104
+    },
+    {
+      "name": "bind_engine",
+      "file": "fixture.c",
+      "line_start": 107,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 107,
+      "body_line_end": 110
+    }
+  ]
+}

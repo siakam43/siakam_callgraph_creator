@@ -1,0 +1,310 @@
+{
+  "functions": [
+    {
+      "name": "av_mallocz",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 41
+    },
+    {
+      "name": "av_free",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 42
+    },
+    {
+      "name": "av_get_cpu_flags",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 43
+    },
+    {
+      "name": "have_vfp",
+      "file": "fixture.c",
+      "line_start": 44,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 44,
+      "body_line_end": 44
+    },
+    {
+      "name": "have_neon",
+      "file": "fixture.c",
+      "line_start": 45,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 45,
+      "body_line_end": 45
+    },
+    {
+      "name": "have_vfp_vm",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 46
+    },
+    {
+      "name": "vector_fmul_c",
+      "file": "fixture.c",
+      "line_start": 63,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 63,
+      "body_line_end": 66
+    },
+    {
+      "name": "vector_dmul_c",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 67
+    },
+    {
+      "name": "vector_fmac_scalar_c",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 68
+    },
+    {
+      "name": "vector_fmul_scalar_c",
+      "file": "fixture.c",
+      "line_start": 69,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 69,
+      "body_line_end": 69
+    },
+    {
+      "name": "vector_dmac_scalar_c",
+      "file": "fixture.c",
+      "line_start": 70,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 70,
+      "body_line_end": 70
+    },
+    {
+      "name": "vector_dmul_scalar_c",
+      "file": "fixture.c",
+      "line_start": 71,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 71,
+      "body_line_end": 71
+    },
+    {
+      "name": "vector_fmul_window_c",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 72
+    },
+    {
+      "name": "vector_fmul_add_c",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 73
+    },
+    {
+      "name": "vector_fmul_reverse_c",
+      "file": "fixture.c",
+      "line_start": 74,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 74,
+      "body_line_end": 74
+    },
+    {
+      "name": "butterflies_float_c",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 75
+    },
+    {
+      "name": "avpriv_scalarproduct_float_c",
+      "file": "fixture.c",
+      "line_start": 76,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 76,
+      "body_line_end": 76
+    },
+    {
+      "name": "ff_vector_fmul_neon",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 79
+    },
+    {
+      "name": "ff_vector_fmac_scalar_neon",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 80
+    },
+    {
+      "name": "ff_vector_fmul_scalar_neon",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 81
+    },
+    {
+      "name": "ff_vector_fmul_window_neon",
+      "file": "fixture.c",
+      "line_start": 82,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 82,
+      "body_line_end": 82
+    },
+    {
+      "name": "ff_vector_fmul_add_neon",
+      "file": "fixture.c",
+      "line_start": 83,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 83,
+      "body_line_end": 83
+    },
+    {
+      "name": "ff_vector_fmul_reverse_neon",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 84
+    },
+    {
+      "name": "ff_butterflies_float_neon",
+      "file": "fixture.c",
+      "line_start": 85,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 85,
+      "body_line_end": 85
+    },
+    {
+      "name": "ff_scalarproduct_float_neon",
+      "file": "fixture.c",
+      "line_start": 86,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 86,
+      "body_line_end": 86
+    },
+    {
+      "name": "ff_vector_fmul_vfp",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 89
+    },
+    {
+      "name": "ff_vector_fmul_window_vfp",
+      "file": "fixture.c",
+      "line_start": 90,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 90,
+      "body_line_end": 90
+    },
+    {
+      "name": "ff_vector_fmul_reverse_vfp",
+      "file": "fixture.c",
+      "line_start": 91,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 91,
+      "body_line_end": 91
+    },
+    {
+      "name": "ff_butterflies_float_vfp",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 92
+    },
+    {
+      "name": "ff_float_dsp_init_vfp",
+      "file": "fixture.c",
+      "line_start": 95,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 95,
+      "body_line_end": 104
+    },
+    {
+      "name": "ff_float_dsp_init_neon",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 116
+    },
+    {
+      "name": "ff_float_dsp_init_arm",
+      "file": "fixture.c",
+      "line_start": 118,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 118,
+      "body_line_end": 125
+    },
+    {
+      "name": "avpriv_float_dsp_alloc",
+      "file": "fixture.c",
+      "line_start": 127,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 127,
+      "body_line_end": 149
+    },
+    {
+      "name": "apply_mdct",
+      "file": "fixture.c",
+      "line_start": 151,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 151,
+      "body_line_end": 166
+    }
+  ]
+}

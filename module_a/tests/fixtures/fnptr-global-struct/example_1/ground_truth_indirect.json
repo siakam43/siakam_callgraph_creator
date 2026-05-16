@@ -1,0 +1,18 @@
+{
+  "indirect_points": [
+    {
+      "uid": "0f8a86f5",
+      "func": "claim_segment_cb",
+      "file": "fixture.c",
+      "line": 47,
+      "expression": "vdev_indirect_ops.vdev_op_remap"
+    },
+    {
+      "uid": "19d37151",
+      "func": "vdev_indirect_remap",
+      "file": "fixture.c",
+      "line": 55,
+      "expression": "func"
+    }
+  ]
+}

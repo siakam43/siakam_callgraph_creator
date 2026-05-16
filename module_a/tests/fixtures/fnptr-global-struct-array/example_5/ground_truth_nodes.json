@@ -1,0 +1,112 @@
+{
+  "functions": [
+    {
+      "name": "nfs_enable_share",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 28
+    },
+    {
+      "name": "nfs_disable_share",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 29
+    },
+    {
+      "name": "nfs_is_shared",
+      "file": "fixture.c",
+      "line_start": 30,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 30,
+      "body_line_end": 30
+    },
+    {
+      "name": "nfs_validate_shareopts",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 31
+    },
+    {
+      "name": "nfs_truncate_shares",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 32
+    },
+    {
+      "name": "smb_enable_share",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 34
+    },
+    {
+      "name": "smb_disable_share",
+      "file": "fixture.c",
+      "line_start": 35,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 35,
+      "body_line_end": 35
+    },
+    {
+      "name": "smb_is_share_active",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 36
+    },
+    {
+      "name": "smb_validate_shareopts",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 37
+    },
+    {
+      "name": "nfs_commit_shares",
+      "file": "fixture.c",
+      "line_start": 40,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 40,
+      "body_line_end": 40
+    },
+    {
+      "name": "smb_update_shares",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 41
+    },
+    {
+      "name": "sa_commit_shares",
+      "file": "fixture.c",
+      "line_start": 64,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 64,
+      "body_line_end": 68
+    }
+  ]
+}

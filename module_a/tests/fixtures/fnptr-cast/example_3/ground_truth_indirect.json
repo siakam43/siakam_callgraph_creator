@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "8ee5ba61",
+      "func": "Curl_MD5_init",
+      "file": "fixture.c",
+      "line": 72,
+      "expression": "(*md5params->md5_init_func)"
+    }
+  ]
+}

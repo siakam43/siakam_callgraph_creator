@@ -1,0 +1,406 @@
+{
+  "edges": [
+    {
+      "caller": "zfsdev_ioctl_common",
+      "callee": "spa_open",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "zfsdev_ioctl_common",
+      "callee": "spl_fstrans_mark",
+      "file": "fixture.c",
+      "line": 64
+    },
+    {
+      "caller": "zfsdev_ioctl_common",
+      "callee": "spl_fstrans_unmark",
+      "file": "fixture.c",
+      "line": 66
+    },
+    {
+      "caller": "zfs_ioctl_register_pool",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 167
+    },
+    {
+      "caller": "zfs_ioctl_register_pool_modify",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 174
+    },
+    {
+      "caller": "zfs_ioctl_register_pool_meta",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 181
+    },
+    {
+      "caller": "zfs_ioctl_register_dataset_read",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 188
+    },
+    {
+      "caller": "zfs_ioctl_register_dataset_read_secpolicy",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 195
+    },
+    {
+      "caller": "zfs_ioctl_register_dataset_modify",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 202
+    },
+    {
+      "caller": "zfs_ioctl_register_dataset_nolog",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 210
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 216
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 218
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 219
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 220
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 221
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 222
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 223
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 224
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 225
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 226
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 227
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 228
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_modify",
+      "file": "fixture.c",
+      "line": 229
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_meta",
+      "file": "fixture.c",
+      "line": 231
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_meta",
+      "file": "fixture.c",
+      "line": 233
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_meta",
+      "file": "fixture.c",
+      "line": 235
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_meta",
+      "file": "fixture.c",
+      "line": 237
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool_meta",
+      "file": "fixture.c",
+      "line": 239
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 242
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 244
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 246
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 248
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 250
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 252
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 255
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 256
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 257
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 258
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 259
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 260
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 261
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 262
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read",
+      "file": "fixture.c",
+      "line": 263
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read_secpolicy",
+      "file": "fixture.c",
+      "line": 265
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read_secpolicy",
+      "file": "fixture.c",
+      "line": 267
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read_secpolicy",
+      "file": "fixture.c",
+      "line": 269
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read_secpolicy",
+      "file": "fixture.c",
+      "line": 271
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read_secpolicy",
+      "file": "fixture.c",
+      "line": 273
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_read_secpolicy",
+      "file": "fixture.c",
+      "line": 275
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_modify",
+      "file": "fixture.c",
+      "line": 278
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_modify",
+      "file": "fixture.c",
+      "line": 280
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_modify",
+      "file": "fixture.c",
+      "line": 282
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_modify",
+      "file": "fixture.c",
+      "line": 284
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_modify",
+      "file": "fixture.c",
+      "line": 286
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_modify",
+      "file": "fixture.c",
+      "line": 288
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_modify",
+      "file": "fixture.c",
+      "line": 290
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_nolog",
+      "file": "fixture.c",
+      "line": 293
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_nolog",
+      "file": "fixture.c",
+      "line": 295
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_nolog",
+      "file": "fixture.c",
+      "line": 297
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_dataset_nolog",
+      "file": "fixture.c",
+      "line": 300
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 304
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 306
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_pool",
+      "file": "fixture.c",
+      "line": 308
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 311
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 313
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 315
+    },
+    {
+      "caller": "zfs_ioctl_init",
+      "callee": "zfs_ioctl_register_legacy",
+      "file": "fixture.c",
+      "line": 317
+    }
+  ]
+}

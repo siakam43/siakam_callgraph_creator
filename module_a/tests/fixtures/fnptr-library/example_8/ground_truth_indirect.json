@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "d3980715",
+      "func": "Curl_conn_get_host",
+      "file": "fixture.c",
+      "line": 107,
+      "expression": "cf->cft->get_host"
+    }
+  ]
+}

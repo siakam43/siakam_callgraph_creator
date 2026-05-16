@@ -1,0 +1,49 @@
+{
+  "functions": [
+    {
+      "name": "nfs_process_exports",
+      "file": "fixture.c",
+      "line_start": 21,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 21,
+      "body_line_end": 50
+    },
+    {
+      "name": "nfs_copy_entries",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 63
+    },
+    {
+      "name": "nfs_is_shared_impl",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 71
+    },
+    {
+      "name": "nfs_is_shared_cb",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 78
+    },
+    {
+      "name": "nfs_copy_entries_cb",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 84
+    }
+  ]
+}

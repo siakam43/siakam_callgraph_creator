@@ -1,0 +1,82 @@
+{
+  "edges": [
+    {
+      "caller": "input_ssa_names",
+      "callee": "streamer_read_uhwi",
+      "file": "fixture.c",
+      "line": 67
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "init_tree_ssa",
+      "file": "fixture.c",
+      "line": 68
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "init_ssa_operands",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "streamer_read_uhwi",
+      "file": "fixture.c",
+      "line": 72
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "streamer_read_uchar",
+      "file": "fixture.c",
+      "line": 78
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "stream_read_tree",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "make_ssa_name_fn",
+      "file": "fixture.c",
+      "line": 80
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "set_ssa_default_def",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "SSA_NAME_VAR",
+      "file": "fixture.c",
+      "line": 83
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "SSA_NAME_DEF_STMT",
+      "file": "fixture.c",
+      "line": 84
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "gimple_build_nop",
+      "file": "fixture.c",
+      "line": 84
+    },
+    {
+      "caller": "input_ssa_names",
+      "callee": "streamer_read_uhwi",
+      "file": "fixture.c",
+      "line": 87
+    },
+    {
+      "caller": "lto_streamer_hooks_init",
+      "callee": "streamer_hooks_init",
+      "file": "fixture.c",
+      "line": 94
+    }
+  ]
+}

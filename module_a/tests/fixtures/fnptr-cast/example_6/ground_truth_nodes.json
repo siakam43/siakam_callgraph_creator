@@ -1,0 +1,157 @@
+{
+  "functions": [
+    {
+      "name": "dmu_tx_pool",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 34
+    },
+    {
+      "name": "dsl_dataset_user_release_sync_one",
+      "file": "fixture.c",
+      "line_start": 35,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 35,
+      "body_line_end": 35
+    },
+    {
+      "name": "dsl_dataset_rele",
+      "file": "fixture.c",
+      "line_start": 36,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 36,
+      "body_line_end": 36
+    },
+    {
+      "name": "dsl_destroy_snapshot_sync_impl",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 37
+    },
+    {
+      "name": "nvlist_next_nvpair",
+      "file": "fixture.c",
+      "line_start": 38,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 38,
+      "body_line_end": 38
+    },
+    {
+      "name": "nvpair_name",
+      "file": "fixture.c",
+      "line_start": 39,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 39,
+      "body_line_end": 39
+    },
+    {
+      "name": "fnvpair_value_nvlist",
+      "file": "fixture.c",
+      "line_start": 40,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 40,
+      "body_line_end": 40
+    },
+    {
+      "name": "nvlist_exists",
+      "file": "fixture.c",
+      "line_start": 41,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 41,
+      "body_line_end": 41
+    },
+    {
+      "name": "nvlist_alloc",
+      "file": "fixture.c",
+      "line_start": 42,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 42,
+      "body_line_end": 42
+    },
+    {
+      "name": "fnvlist_free",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 43
+    },
+    {
+      "name": "dsl_sync_task_common",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 56
+    },
+    {
+      "name": "dsl_sync_task",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 65
+    },
+    {
+      "name": "dsl_dataset_user_release_check",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 69
+    },
+    {
+      "name": "dsl_dataset_hold",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 78
+    },
+    {
+      "name": "dsl_dataset_hold_obj_string",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 86
+    },
+    {
+      "name": "dsl_dataset_user_release_sync",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 110
+    },
+    {
+      "name": "dsl_dataset_user_release_impl",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 147
+    }
+  ]
+}

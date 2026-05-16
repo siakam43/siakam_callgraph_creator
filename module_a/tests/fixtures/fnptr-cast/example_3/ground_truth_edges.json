@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "caller": "Curl_MD5_init",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 63
+    },
+    {
+      "caller": "Curl_MD5_init",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 66
+    },
+    {
+      "caller": "Curl_MD5_init",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 68
+    },
+    {
+      "caller": "Curl_MD5_init",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 73
+    },
+    {
+      "caller": "Curl_MD5_init",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 74
+    },
+    {
+      "caller": "auth_decode_digest_md5_message",
+      "callee": "Curl_MD5_init",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "auth_decode_digest_md5_message",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "auth_decode_digest_md5_message",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 103
+    }
+  ]
+}

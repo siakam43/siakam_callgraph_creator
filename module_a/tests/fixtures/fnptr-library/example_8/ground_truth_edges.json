@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "Curl_conn_get_host",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "Curl_conn_cf_add",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 117
+    },
+    {
+      "caller": "Curl_conn_cf_add",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 118
+    },
+    {
+      "caller": "Curl_conn_cf_add",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 119
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "edges": [
+    {
+      "caller": "zmalloc",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 52
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "sdsnew",
+      "file": "fixture.c",
+      "line": 87
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "dictFetchValue",
+      "file": "fixture.c",
+      "line": 88
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "serverLog",
+      "file": "fixture.c",
+      "line": 89
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "sdsfree",
+      "file": "fixture.c",
+      "line": 90
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "createClient",
+      "file": "fixture.c",
+      "line": 94
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "zmalloc",
+      "file": "fixture.c",
+      "line": 96
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "dictAdd",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "zmalloc_size",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "sdsZmallocSize",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "functionsRegisterEngine",
+      "callee": "zmalloc_size",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "luaEngineInitEngine",
+      "callee": "zmalloc",
+      "file": "fixture.c",
+      "line": 111
+    },
+    {
+      "caller": "luaEngineInitEngine",
+      "callee": "zmalloc",
+      "file": "fixture.c",
+      "line": 114
+    },
+    {
+      "caller": "luaEngineInitEngine",
+      "callee": "functionsRegisterEngine",
+      "file": "fixture.c",
+      "line": 122
+    }
+  ]
+}

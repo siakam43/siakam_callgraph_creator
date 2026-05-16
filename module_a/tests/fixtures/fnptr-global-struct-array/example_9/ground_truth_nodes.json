@@ -1,0 +1,85 @@
+{
+  "functions": [
+    {
+      "name": "nb_decode",
+      "file": "fixture.c",
+      "line_start": 67,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 67,
+      "body_line_end": 70
+    },
+    {
+      "name": "sb_decode",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 75
+    },
+    {
+      "name": "init_get_bits8",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 97
+    },
+    {
+      "name": "ff_get_buffer",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 103
+    },
+    {
+      "name": "get_bits_left",
+      "file": "fixture.c",
+      "line_start": 105,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 105,
+      "body_line_end": 105
+    },
+    {
+      "name": "show_bits",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 106
+    },
+    {
+      "name": "get_bits_count",
+      "file": "fixture.c",
+      "line_start": 107,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 107,
+      "body_line_end": 107
+    },
+    {
+      "name": "speex_decode_stereo",
+      "file": "fixture.c",
+      "line_start": 109,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 109,
+      "body_line_end": 111
+    },
+    {
+      "name": "speex_decode_frame",
+      "file": "fixture.c",
+      "line_start": 116,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 116,
+      "body_line_end": 155
+    }
+  ]
+}

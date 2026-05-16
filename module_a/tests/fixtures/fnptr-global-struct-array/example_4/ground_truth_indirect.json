@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "2b35d3ba",
+      "func": "zstream_do_recompress",
+      "file": "fixture.c",
+      "line": 84,
+      "expression": "dinfo->ci_decompress"
+    }
+  ]
+}

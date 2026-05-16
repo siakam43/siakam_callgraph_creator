@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "caller": "clusterProcessAuxField",
+      "callee": "numElements",
+      "file": "fixture.c",
+      "line": 58
+    },
+    {
+      "caller": "clusterProcessAuxField",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 59
+    },
+    {
+      "caller": "clusterProcessAuxField",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "clusterProcessAuxField",
+      "callee": "memcmp",
+      "file": "fixture.c",
+      "line": 61
+    },
+    {
+      "caller": "clusterProcessAuxField",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 67
+    },
+    {
+      "caller": "clusterProcessAuxField",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 68
+    },
+    {
+      "caller": "clusterProcessAuxField",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 73
+    }
+  ]
+}

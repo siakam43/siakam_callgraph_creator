@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "caller": "speex_decode_frame",
+      "callee": "init_get_bits8",
+      "file": "fixture.c",
+      "line": 127
+    },
+    {
+      "caller": "speex_decode_frame",
+      "callee": "FFALIGN",
+      "file": "fixture.c",
+      "line": 130
+    },
+    {
+      "caller": "speex_decode_frame",
+      "callee": "ff_get_buffer",
+      "file": "fixture.c",
+      "line": 131
+    },
+    {
+      "caller": "speex_decode_frame",
+      "callee": "speex_decode_stereo",
+      "file": "fixture.c",
+      "line": 140
+    },
+    {
+      "caller": "speex_decode_frame",
+      "callee": "get_bits_left",
+      "file": "fixture.c",
+      "line": 141
+    },
+    {
+      "caller": "speex_decode_frame",
+      "callee": "show_bits",
+      "file": "fixture.c",
+      "line": 142
+    },
+    {
+      "caller": "speex_decode_frame",
+      "callee": "get_bits_count",
+      "file": "fixture.c",
+      "line": 154
+    }
+  ]
+}

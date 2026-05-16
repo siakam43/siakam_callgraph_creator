@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "8824820d",
+      "func": "ourWriteOutJSON",
+      "file": "fixture.c",
+      "line": 107,
+      "expression": "mappings[i].writefunc"
+    }
+  ]
+}

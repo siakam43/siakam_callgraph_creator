@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "caller": "loadModule",
+      "callee": "dlopen",
+      "file": "fixture.c",
+      "line": 31
+    },
+    {
+      "caller": "loadModule",
+      "callee": "serverLog",
+      "file": "fixture.c",
+      "line": 33
+    },
+    {
+      "caller": "loadModule",
+      "callee": "dlerror",
+      "file": "fixture.c",
+      "line": 33
+    },
+    {
+      "caller": "loadModule",
+      "callee": "dlsym",
+      "file": "fixture.c",
+      "line": 37
+    },
+    {
+      "caller": "loadModule",
+      "callee": "dlclose",
+      "file": "fixture.c",
+      "line": 39
+    },
+    {
+      "caller": "loadModule",
+      "callee": "serverLog",
+      "file": "fixture.c",
+      "line": 40
+    },
+    {
+      "caller": "loadModule",
+      "callee": "moduleCreateContext",
+      "file": "fixture.c",
+      "line": 46
+    },
+    {
+      "caller": "loadModule",
+      "callee": "serverLog",
+      "file": "fixture.c",
+      "line": 49
+    },
+    {
+      "caller": "loadModule",
+      "callee": "moduleUnregisterCommands",
+      "file": "fixture.c",
+      "line": 52
+    },
+    {
+      "caller": "loadModule",
+      "callee": "moduleUnregisterSharedAPI",
+      "file": "fixture.c",
+      "line": 53
+    },
+    {
+      "caller": "loadModule",
+      "callee": "moduleUnregisterUsedAPI",
+      "file": "fixture.c",
+      "line": 54
+    },
+    {
+      "caller": "loadModule",
+      "callee": "moduleRemoveConfigs",
+      "file": "fixture.c",
+      "line": 55
+    },
+    {
+      "caller": "loadModule",
+      "callee": "moduleFreeModuleStructure",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "loadModule",
+      "callee": "moduleFreeContext",
+      "file": "fixture.c",
+      "line": 58
+    },
+    {
+      "caller": "loadModule",
+      "callee": "dlclose",
+      "file": "fixture.c",
+      "line": 59
+    },
+    {
+      "caller": "serverLog",
+      "callee": "va_start",
+      "file": "fixture.c",
+      "line": 69
+    },
+    {
+      "caller": "serverLog",
+      "callee": "vfprintf",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "serverLog",
+      "callee": "va_end",
+      "file": "fixture.c",
+      "line": 71
+    },
+    {
+      "caller": "onload_caller",
+      "callee": "dlsym",
+      "file": "fixture.c",
+      "line": 88
+    }
+  ]
+}

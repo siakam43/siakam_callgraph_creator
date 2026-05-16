@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "1238d637",
+      "func": "mstate",
+      "file": "fixture.c",
+      "line": 90,
+      "expression": "finit[state]"
+    }
+  ]
+}

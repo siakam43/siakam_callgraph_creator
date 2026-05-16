@@ -1,0 +1,70 @@
+{
+  "edges": [
+    {
+      "caller": "generic_impl_init",
+      "callee": "likely",
+      "file": "fixture.c",
+      "line": 125
+    },
+    {
+      "caller": "generic_impl_init",
+      "callee": "ARRAY_SIZE",
+      "file": "fixture.c",
+      "line": 127
+    },
+    {
+      "caller": "sha256_get_ops",
+      "callee": "IMPL_READ",
+      "file": "fixture.c",
+      "line": 139
+    },
+    {
+      "caller": "sha256_get_ops",
+      "callee": "generic_impl_init",
+      "file": "fixture.c",
+      "line": 142
+    },
+    {
+      "caller": "sha256_update",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 171
+    },
+    {
+      "caller": "sha256_update",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 187
+    },
+    {
+      "caller": "SHA2Update",
+      "callee": "sha256_update",
+      "file": "fixture.c",
+      "line": 206
+    },
+    {
+      "caller": "SHA2Update",
+      "callee": "sha512_update",
+      "file": "fixture.c",
+      "line": 210
+    },
+    {
+      "caller": "SHA2Init",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 219
+    },
+    {
+      "caller": "SHA2Init",
+      "callee": "sha256_get_ops",
+      "file": "fixture.c",
+      "line": 224
+    },
+    {
+      "caller": "SHA2Init",
+      "callee": "sha512_get_ops",
+      "file": "fixture.c",
+      "line": 228
+    }
+  ]
+}

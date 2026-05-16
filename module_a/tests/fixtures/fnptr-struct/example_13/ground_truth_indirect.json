@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "4bc52992",
+      "func": "CRYPTO_gcm128_encrypt",
+      "file": "fixture.c",
+      "line": 82,
+      "expression": "(*block)"
+    }
+  ]
+}

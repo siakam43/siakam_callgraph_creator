@@ -1,0 +1,103 @@
+{
+  "functions": [
+    {
+      "name": "quantize_and_encode_band_cost_ZERO",
+      "file": "fixture.c",
+      "line_start": 19,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 19,
+      "body_line_end": 27
+    },
+    {
+      "name": "quantize_and_encode_band_cost_SQUAD",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 37
+    },
+    {
+      "name": "quantize_and_encode_band_cost_UQUAD",
+      "file": "fixture.c",
+      "line_start": 39,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 39,
+      "body_line_end": 47
+    },
+    {
+      "name": "quantize_and_encode_band_cost_SPAIR",
+      "file": "fixture.c",
+      "line_start": 49,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 49,
+      "body_line_end": 57
+    },
+    {
+      "name": "quantize_and_encode_band_cost_UPAIR",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 67
+    },
+    {
+      "name": "quantize_and_encode_band_cost_ESC",
+      "file": "fixture.c",
+      "line_start": 69,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 69,
+      "body_line_end": 77
+    },
+    {
+      "name": "quantize_and_encode_band_cost_NONE",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 87
+    },
+    {
+      "name": "quantize_and_encode_band_cost_NOISE",
+      "file": "fixture.c",
+      "line_start": 89,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 89,
+      "body_line_end": 97
+    },
+    {
+      "name": "quantize_and_encode_band_cost_STEREO",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 107
+    },
+    {
+      "name": "quantize_and_encode_band_cost_ESC_RTZ",
+      "file": "fixture.c",
+      "line_start": 109,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 109,
+      "body_line_end": 117
+    },
+    {
+      "name": "quantize_and_encode_band",
+      "file": "fixture.c",
+      "line_start": 161,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 161,
+      "body_line_end": 174
+    }
+  ]
+}

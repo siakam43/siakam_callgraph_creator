@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "ad18250a",
+      "func": "tls_handle_alpn",
+      "file": "fixture.c",
+      "line": 112,
+      "expression": "s->ctx->ext.alpn_select_cb"
+    }
+  ]
+}

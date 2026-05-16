@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "9d19348d",
+      "func": "dump_object",
+      "file": "fixture.c",
+      "line": 247,
+      "expression": "object_viewer[object_type]"
+    }
+  ]
+}

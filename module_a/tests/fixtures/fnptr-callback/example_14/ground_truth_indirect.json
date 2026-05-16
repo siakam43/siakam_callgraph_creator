@@ -1,0 +1,18 @@
+{
+  "indirect_points": [
+    {
+      "uid": "f00c953e",
+      "func": "gt_pch_p_14lang_tree_node",
+      "file": "fixture.c",
+      "line": 110,
+      "expression": "op"
+    },
+    {
+      "uid": "194ba22e",
+      "func": "gt_pch_save",
+      "file": "fixture.c",
+      "line": 165,
+      "expression": "state.ptrs[state.ptrs_i]->note_ptr_fn"
+    }
+  ]
+}

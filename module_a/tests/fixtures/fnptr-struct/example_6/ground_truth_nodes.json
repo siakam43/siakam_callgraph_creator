@@ -1,0 +1,85 @@
+{
+  "functions": [
+    {
+      "name": "activeDefragAlloc",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 50
+    },
+    {
+      "name": "activeDefragSds",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 55
+    },
+    {
+      "name": "dictDefragBucket",
+      "file": "fixture.c",
+      "line_start": 58,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 58,
+      "body_line_end": 77
+    },
+    {
+      "name": "dictScanDefrag",
+      "file": "fixture.c",
+      "line_start": 79,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 79,
+      "body_line_end": 99
+    },
+    {
+      "name": "activeDefragCycle",
+      "file": "fixture.c",
+      "line_start": 105,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 105,
+      "body_line_end": 118
+    },
+    {
+      "name": "scanLaterZset",
+      "file": "fixture.c",
+      "line_start": 120,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 120,
+      "body_line_end": 122
+    },
+    {
+      "name": "scanLaterSet",
+      "file": "fixture.c",
+      "line_start": 124,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 124,
+      "body_line_end": 126
+    },
+    {
+      "name": "scanLaterHash",
+      "file": "fixture.c",
+      "line_start": 128,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 128,
+      "body_line_end": 130
+    },
+    {
+      "name": "dictScan",
+      "file": "fixture.c",
+      "line_start": 132,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 132,
+      "body_line_end": 138
+    }
+  ]
+}

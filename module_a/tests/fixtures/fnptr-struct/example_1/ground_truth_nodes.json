@@ -1,0 +1,139 @@
+{
+  "functions": [
+    {
+      "name": "zrangeResultFinalizeClient",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 62
+    },
+    {
+      "name": "zrangeResultFinalizeStore",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 74
+    },
+    {
+      "name": "zrangeResultBeginClient",
+      "file": "fixture.c",
+      "line_start": 76,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 76,
+      "body_line_end": 85
+    },
+    {
+      "name": "zrangeResultBeginStore",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 91
+    },
+    {
+      "name": "zrangeResultEmitCBufferToClient",
+      "file": "fixture.c",
+      "line_start": 93,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 93,
+      "body_line_end": 97
+    },
+    {
+      "name": "zrangeResultEmitLongLongToClient",
+      "file": "fixture.c",
+      "line_start": 99,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 99,
+      "body_line_end": 103
+    },
+    {
+      "name": "zrangeResultEmitCBufferForStore",
+      "file": "fixture.c",
+      "line_start": 105,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 105,
+      "body_line_end": 109
+    },
+    {
+      "name": "zrangeResultEmitLongLongForStore",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 115
+    },
+    {
+      "name": "zrangeResultHandlerInit",
+      "file": "fixture.c",
+      "line_start": 117,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 117,
+      "body_line_end": 138
+    },
+    {
+      "name": "genericZrangebyrankCommand",
+      "file": "fixture.c",
+      "line_start": 141,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 141,
+      "body_line_end": 149
+    },
+    {
+      "name": "genericZrangebyscoreCommand",
+      "file": "fixture.c",
+      "line_start": 151,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 151,
+      "body_line_end": 154
+    },
+    {
+      "name": "genericZrangebylexCommand",
+      "file": "fixture.c",
+      "line_start": 156,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 156,
+      "body_line_end": 160
+    },
+    {
+      "name": "zrangeGenericCommand",
+      "file": "fixture.c",
+      "line_start": 162,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 162,
+      "body_line_end": 189
+    },
+    {
+      "name": "zrangeResultHandlerDestinationKeySet",
+      "file": "fixture.c",
+      "line_start": 191,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 191,
+      "body_line_end": 193
+    },
+    {
+      "name": "zrangestoreCommand",
+      "file": "fixture.c",
+      "line_start": 195,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 195,
+      "body_line_end": 201
+    }
+  ]
+}

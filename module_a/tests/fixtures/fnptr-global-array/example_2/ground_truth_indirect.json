@@ -1,0 +1,18 @@
+{
+  "indirect_points": [
+    {
+      "uid": "7ba0bd34",
+      "func": "quantize_and_encode_band",
+      "file": "fixture.c",
+      "line": 166,
+      "expression": "quantize_and_encode_band_cost_rtz_arr[cb]"
+    },
+    {
+      "uid": "d36a2e72",
+      "func": "quantize_and_encode_band",
+      "file": "fixture.c",
+      "line": 170,
+      "expression": "quantize_and_encode_band_cost_arr[cb]"
+    }
+  ]
+}

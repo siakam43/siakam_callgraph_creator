@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "ca4b64e6",
+      "func": "curl_version_info",
+      "file": "fixture.c",
+      "line": 51,
+      "expression": "p->present"
+    }
+  ]
+}

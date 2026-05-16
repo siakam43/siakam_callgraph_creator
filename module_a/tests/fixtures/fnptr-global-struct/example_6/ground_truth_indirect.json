@@ -1,0 +1,25 @@
+{
+  "indirect_points": [
+    {
+      "uid": "95449ab6",
+      "func": "processLineItem",
+      "file": "fixture.c",
+      "line": 81,
+      "expression": "r->fn->createInteger"
+    },
+    {
+      "uid": "722a9680",
+      "func": "processLineItem",
+      "file": "fixture.c",
+      "line": 84,
+      "expression": "r->fn->createDouble"
+    },
+    {
+      "uid": "a6aa8024",
+      "func": "processLineItem",
+      "file": "fixture.c",
+      "line": 89,
+      "expression": "r->fn->createNil"
+    }
+  ]
+}

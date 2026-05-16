@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "socket_readable",
+      "callee": "http_parser_execute",
+      "file": "fixture.c",
+      "line": 61
+    },
+    {
+      "caller": "socket_readable",
+      "callee": "http_body_is_final",
+      "file": "fixture.c",
+      "line": 63
+    }
+  ]
+}

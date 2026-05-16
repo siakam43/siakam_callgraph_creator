@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "sshkey_impl_from_key",
+      "callee": "sshkey_impl_from_type_nid",
+      "file": "fixture.c",
+      "line": 118
+    },
+    {
+      "caller": "sshkey_size",
+      "callee": "sshkey_impl_from_key",
+      "file": "fixture.c",
+      "line": 125
+    }
+  ]
+}

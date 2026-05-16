@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "caller": "hi_calloc",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 35
+    },
+    {
+      "caller": "redisContextInit",
+      "callee": "hi_calloc",
+      "file": "fixture.c",
+      "line": 43
+    },
+    {
+      "caller": "redisContextInit",
+      "callee": "hi_sdsempty",
+      "file": "fixture.c",
+      "line": 48
+    },
+    {
+      "caller": "redisConnect",
+      "callee": "redisContextInit",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "cliConnect",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 72
+    },
+    {
+      "caller": "cliConnect",
+      "callee": "redisConnect",
+      "file": "fixture.c",
+      "line": 74
+    }
+  ]
+}

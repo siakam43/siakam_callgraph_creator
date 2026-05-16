@@ -1,0 +1,121 @@
+{
+  "functions": [
+    {
+      "name": "sha256_generic",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 74
+    },
+    {
+      "name": "sha512_generic",
+      "file": "fixture.c",
+      "line_start": 76,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 76,
+      "body_line_end": 78
+    },
+    {
+      "name": "tf_sha512_transform_x64",
+      "file": "fixture.c",
+      "line_start": 80,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 80,
+      "body_line_end": 82
+    },
+    {
+      "name": "tf_sha256_transform_x64",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 86
+    },
+    {
+      "name": "sha2_is_supported",
+      "file": "fixture.c",
+      "line_start": 88,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 88,
+      "body_line_end": 88
+    },
+    {
+      "name": "generic_impl_init",
+      "file": "fixture.c",
+      "line_start": 123,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 123,
+      "body_line_end": 133
+    },
+    {
+      "name": "IMPL_READ",
+      "file": "fixture.c",
+      "line_start": 135,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 135,
+      "body_line_end": 135
+    },
+    {
+      "name": "sha256_get_ops",
+      "file": "fixture.c",
+      "line_start": 137,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 137,
+      "body_line_end": 156
+    },
+    {
+      "name": "sha512_get_ops",
+      "file": "fixture.c",
+      "line_start": 158,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 158,
+      "body_line_end": 161
+    },
+    {
+      "name": "sha256_update",
+      "file": "fixture.c",
+      "line_start": 164,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 164,
+      "body_line_end": 193
+    },
+    {
+      "name": "sha512_update",
+      "file": "fixture.c",
+      "line_start": 195,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 195,
+      "body_line_end": 197
+    },
+    {
+      "name": "SHA2Update",
+      "file": "fixture.c",
+      "line_start": 199,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 199,
+      "body_line_end": 213
+    },
+    {
+      "name": "SHA2Init",
+      "file": "fixture.c",
+      "line_start": 215,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 215,
+      "body_line_end": 231
+    }
+  ]
+}

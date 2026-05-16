@@ -1,0 +1,142 @@
+{
+  "edges": [
+    {
+      "caller": "Curl_bufref_set",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 53
+    },
+    {
+      "caller": "Curl_bufref_set",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 54
+    },
+    {
+      "caller": "Curl_hash_init",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 75
+    },
+    {
+      "caller": "Curl_hash_init",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "Curl_hash_init",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 77
+    },
+    {
+      "caller": "Curl_hash_init",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 78
+    },
+    {
+      "caller": "Curl_hash_init",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "fileinfo_dtor",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 97
+    },
+    {
+      "caller": "hash_element_dtor",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "free_bundle_hash_entry",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 99
+    },
+    {
+      "caller": "freednsentry",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 100
+    },
+    {
+      "caller": "trhash_dtor",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "sh_freeentry",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "curl_free",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 103
+    },
+    {
+      "caller": "gsasl_free",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "register_all_dtors",
+      "callee": "Curl_llist_init",
+      "file": "fixture.c",
+      "line": 109
+    },
+    {
+      "caller": "register_all_dtors",
+      "callee": "Curl_llist_init",
+      "file": "fixture.c",
+      "line": 110
+    },
+    {
+      "caller": "register_all_dtors",
+      "callee": "Curl_llist_init",
+      "file": "fixture.c",
+      "line": 111
+    },
+    {
+      "caller": "register_all_dtors",
+      "callee": "Curl_llist_init",
+      "file": "fixture.c",
+      "line": 112
+    },
+    {
+      "caller": "register_all_dtors",
+      "callee": "Curl_llist_init",
+      "file": "fixture.c",
+      "line": 113
+    },
+    {
+      "caller": "register_all_dtors",
+      "callee": "Curl_llist_init",
+      "file": "fixture.c",
+      "line": 114
+    },
+    {
+      "caller": "register_all_dtors",
+      "callee": "Curl_hash_init",
+      "file": "fixture.c",
+      "line": 116
+    },
+    {
+      "caller": "register_all_dtors",
+      "callee": "Curl_hash_init",
+      "file": "fixture.c",
+      "line": 117
+    }
+  ]
+}

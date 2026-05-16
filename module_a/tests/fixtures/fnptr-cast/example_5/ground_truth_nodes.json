@@ -1,0 +1,49 @@
+{
+  "functions": [
+    {
+      "name": "__gmp_asprintf_memory",
+      "file": "fixture.c",
+      "line_start": 52,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 52,
+      "body_line_end": 59
+    },
+    {
+      "name": "__gmp_asprintf_reps",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 66
+    },
+    {
+      "name": "__gmp_asprintf_format",
+      "file": "fixture.c",
+      "line_start": 68,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 68,
+      "body_line_end": 73
+    },
+    {
+      "name": "__gmp_doprnt_integer",
+      "file": "fixture.c",
+      "line_start": 84,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 84,
+      "body_line_end": 109
+    },
+    {
+      "name": "__gmp_doprnt_integer_ostream",
+      "file": "fixture.c",
+      "line_start": 114,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 114,
+      "body_line_end": 124
+    }
+  ]
+}

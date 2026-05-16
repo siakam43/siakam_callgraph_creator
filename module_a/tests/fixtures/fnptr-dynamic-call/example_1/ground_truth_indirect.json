@@ -1,0 +1,18 @@
+{
+  "indirect_points": [
+    {
+      "uid": "2dcbdfb0",
+      "func": "loadModule",
+      "file": "fixture.c",
+      "line": 48,
+      "expression": "onload"
+    },
+    {
+      "uid": "7f8428c0",
+      "func": "onload_caller",
+      "file": "fixture.c",
+      "line": 90,
+      "expression": "onload"
+    }
+  ]
+}

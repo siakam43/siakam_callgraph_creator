@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "aes_encrypt_atomic",
+      "callee": "ccm_encrypt_final",
+      "file": "fixture.c",
+      "line": 89
+    },
+    {
+      "caller": "aes_encrypt_final",
+      "callee": "ccm_encrypt_final",
+      "file": "fixture.c",
+      "line": 107
+    },
+    {
+      "caller": "aes_encrypt",
+      "callee": "ccm_encrypt_final",
+      "file": "fixture.c",
+      "line": 127
+    },
+    {
+      "caller": "aes_encrypt_block",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 137
+    }
+  ]
+}

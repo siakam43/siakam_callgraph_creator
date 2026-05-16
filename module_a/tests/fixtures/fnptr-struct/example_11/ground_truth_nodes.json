@@ -1,0 +1,121 @@
+{
+  "functions": [
+    {
+      "name": "WPACKET_put_bytes_u16",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 78
+    },
+    {
+      "name": "ssl3_put_cipher_by_char",
+      "file": "fixture.c",
+      "line_start": 81,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 81,
+      "body_line_end": 93
+    },
+    {
+      "name": "ssl_cipher_list_to_bytes",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 124
+    },
+    {
+      "name": "tls1_new",
+      "file": "fixture.c",
+      "line_start": 126,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 126,
+      "body_line_end": 126
+    },
+    {
+      "name": "tls1_clear",
+      "file": "fixture.c",
+      "line_start": 127,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 127,
+      "body_line_end": 127
+    },
+    {
+      "name": "tls1_free",
+      "file": "fixture.c",
+      "line_start": 128,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 128,
+      "body_line_end": 128
+    },
+    {
+      "name": "tls1_default_timeout",
+      "file": "fixture.c",
+      "line_start": 129,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 129,
+      "body_line_end": 129
+    },
+    {
+      "name": "ssl3_get_cipher_by_char",
+      "file": "fixture.c",
+      "line_start": 131,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 131,
+      "body_line_end": 133
+    },
+    {
+      "name": "ssl3_get_cipher",
+      "file": "fixture.c",
+      "line_start": 135,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 135,
+      "body_line_end": 135
+    },
+    {
+      "name": "ssl3_num_ciphers",
+      "file": "fixture.c",
+      "line_start": 136,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 136,
+      "body_line_end": 136
+    },
+    {
+      "name": "ssl_undefined_void_function",
+      "file": "fixture.c",
+      "line_start": 137,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 137,
+      "body_line_end": 137
+    },
+    {
+      "name": "ssl3_callback_ctrl",
+      "file": "fixture.c",
+      "line_start": 138,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 138,
+      "body_line_end": 138
+    },
+    {
+      "name": "ssl3_ctx_callback_ctrl",
+      "file": "fixture.c",
+      "line_start": 139,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 139,
+      "body_line_end": 139
+    }
+  ]
+}

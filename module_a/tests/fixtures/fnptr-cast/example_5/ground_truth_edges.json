@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "caller": "__gmp_asprintf_memory",
+      "callee": "GMP_ASPRINTF_T_NEED",
+      "file": "fixture.c",
+      "line": 55
+    },
+    {
+      "caller": "__gmp_asprintf_memory",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "__gmp_doprnt_integer",
+      "callee": "ASSERT",
+      "file": "fixture.c",
+      "line": 100
+    },
+    {
+      "caller": "__gmp_doprnt_integer_ostream",
+      "callee": "GMP_ASPRINTF_T_INIT",
+      "file": "fixture.c",
+      "line": 120
+    },
+    {
+      "caller": "__gmp_doprnt_integer_ostream",
+      "callee": "__gmp_doprnt_integer",
+      "file": "fixture.c",
+      "line": 121
+    },
+    {
+      "caller": "__gmp_doprnt_integer_ostream",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 122
+    }
+  ]
+}

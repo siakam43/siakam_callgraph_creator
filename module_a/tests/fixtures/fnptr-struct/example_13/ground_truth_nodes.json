@@ -1,0 +1,76 @@
+{
+  "functions": [
+    {
+      "name": "aesni_encrypt",
+      "file": "fixture.c",
+      "line_start": 65,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 65,
+      "body_line_end": 70
+    },
+    {
+      "name": "CRYPTO_gcm128_encrypt",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 86
+    },
+    {
+      "name": "aes_gcm_tls_cipher",
+      "file": "fixture.c",
+      "line_start": 88,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 88,
+      "body_line_end": 111
+    },
+    {
+      "name": "CRYPTO_gcm128_init",
+      "file": "fixture.c",
+      "line_start": 113,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 113,
+      "body_line_end": 118
+    },
+    {
+      "name": "CRYPTO_gcm128_setiv",
+      "file": "fixture.c",
+      "line_start": 120,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 120,
+      "body_line_end": 123
+    },
+    {
+      "name": "CRYPTO_gcm128_aad",
+      "file": "fixture.c",
+      "line_start": 125,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 125,
+      "body_line_end": 129
+    },
+    {
+      "name": "aesni_set_encrypt_key",
+      "file": "fixture.c",
+      "line_start": 131,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 131,
+      "body_line_end": 135
+    },
+    {
+      "name": "aesni_gcm_init_key",
+      "file": "fixture.c",
+      "line_start": 137,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 137,
+      "body_line_end": 160
+    }
+  ]
+}

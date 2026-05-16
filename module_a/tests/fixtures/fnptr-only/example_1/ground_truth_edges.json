@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "caller": "zmalloc_default_oom",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 9
+    },
+    {
+      "caller": "zmalloc_default_oom",
+      "callee": "fflush",
+      "file": "fixture.c",
+      "line": 10
+    },
+    {
+      "caller": "zmalloc_default_oom",
+      "callee": "abort",
+      "file": "fixture.c",
+      "line": 11
+    },
+    {
+      "caller": "zmalloc",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 17
+    },
+    {
+      "caller": "zfree",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 28
+    }
+  ]
+}

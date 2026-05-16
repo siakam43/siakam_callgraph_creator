@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "caller": "kex_verify_host_key",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 40
+    },
+    {
+      "caller": "ssh_init",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 57
+    },
+    {
+      "caller": "ssh_init",
+      "callee": "calloc",
+      "file": "fixture.c",
+      "line": 61
+    },
+    {
+      "caller": "ssh_init",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 63
+    },
+    {
+      "caller": "register_key_print_wrapper",
+      "callee": "ssh_init",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "register_key_print_wrapper",
+      "callee": "ssh_set_verify_host_key_callback",
+      "file": "fixture.c",
+      "line": 102
+    }
+  ]
+}

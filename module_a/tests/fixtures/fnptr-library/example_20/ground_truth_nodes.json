@@ -1,0 +1,202 @@
+{
+  "functions": [
+    {
+      "name": "sshpkt_get_u32",
+      "file": "fixture.c",
+      "line_start": 23,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 23,
+      "body_line_end": 23
+    },
+    {
+      "name": "sshpkt_get_cstring",
+      "file": "fixture.c",
+      "line_start": 24,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 24,
+      "body_line_end": 24
+    },
+    {
+      "name": "sshpkt_get_string_direct",
+      "file": "fixture.c",
+      "line_start": 25,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 25,
+      "body_line_end": 25
+    },
+    {
+      "name": "sshpkt_get_end",
+      "file": "fixture.c",
+      "line_start": 26,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 26,
+      "body_line_end": 26
+    },
+    {
+      "name": "sshpkt_fatal",
+      "file": "fixture.c",
+      "line_start": 27,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 27,
+      "body_line_end": 27
+    },
+    {
+      "name": "sshpkt_start",
+      "file": "fixture.c",
+      "line_start": 28,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 28,
+      "body_line_end": 28
+    },
+    {
+      "name": "sshpkt_put_cstring",
+      "file": "fixture.c",
+      "line_start": 29,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 29,
+      "body_line_end": 29
+    },
+    {
+      "name": "sshpkt_put_u32",
+      "file": "fixture.c",
+      "line_start": 30,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 30,
+      "body_line_end": 30
+    },
+    {
+      "name": "sshpkt_send",
+      "file": "fixture.c",
+      "line_start": 31,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 31,
+      "body_line_end": 31
+    },
+    {
+      "name": "logit",
+      "file": "fixture.c",
+      "line_start": 32,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 32,
+      "body_line_end": 32
+    },
+    {
+      "name": "debug2",
+      "file": "fixture.c",
+      "line_start": 33,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 33,
+      "body_line_end": 33
+    },
+    {
+      "name": "chan_mark_dead",
+      "file": "fixture.c",
+      "line_start": 34,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 34,
+      "body_line_end": 34
+    },
+    {
+      "name": "free",
+      "file": "fixture.c",
+      "line_start": 35,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 35,
+      "body_line_end": 35
+    },
+    {
+      "name": "channel_from_packet_id",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 41
+    },
+    {
+      "name": "channel_input_open_failure",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 70
+    },
+    {
+      "name": "channel_register_open_confirm",
+      "file": "fixture.c",
+      "line_start": 72,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 72,
+      "body_line_end": 79
+    },
+    {
+      "name": "mux_session_confirm",
+      "file": "fixture.c",
+      "line_start": 82,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 82,
+      "body_line_end": 84
+    },
+    {
+      "name": "mux_stdio_confirm",
+      "file": "fixture.c",
+      "line_start": 87,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 87,
+      "body_line_end": 89
+    },
+    {
+      "name": "ssh_stdio_confirm",
+      "file": "fixture.c",
+      "line_start": 92,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 92,
+      "body_line_end": 94
+    },
+    {
+      "name": "ssh_session2_setup",
+      "file": "fixture.c",
+      "line_start": 97,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 97,
+      "body_line_end": 99
+    },
+    {
+      "name": "ssh_tun_confirm",
+      "file": "fixture.c",
+      "line_start": 102,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 102,
+      "body_line_end": 104
+    },
+    {
+      "name": "register_all_open_confirm",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 112
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "caller": "copyPlane",
+      "callee": "memcpy",
+      "file": "fixture.c",
+      "line": 61
+    },
+    {
+      "caller": "nv12ToPlanarWrapper",
+      "callee": "copyPlane",
+      "file": "fixture.c",
+      "line": 75
+    },
+    {
+      "caller": "nv12ToPlanarWrapper",
+      "callee": "deinterleaveBytes",
+      "file": "fixture.c",
+      "line": 79
+    },
+    {
+      "caller": "nv12ToPlanarWrapper",
+      "callee": "deinterleaveBytes",
+      "file": "fixture.c",
+      "line": 82
+    }
+  ]
+}

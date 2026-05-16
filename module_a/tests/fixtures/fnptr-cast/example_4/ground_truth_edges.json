@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "caller": "Curl_MD5_init",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 61
+    },
+    {
+      "caller": "Curl_MD5_init",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 64
+    },
+    {
+      "caller": "pop3_perform_apop",
+      "callee": "Curl_MD5_init",
+      "file": "fixture.c",
+      "line": 94
+    },
+    {
+      "caller": "pop3_perform_apop",
+      "callee": "Curl_MD5_update",
+      "file": "fixture.c",
+      "line": 98
+    },
+    {
+      "caller": "pop3_perform_apop",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 99
+    },
+    {
+      "caller": "pop3_perform_apop",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 101
+    },
+    {
+      "caller": "pop3_perform_apop",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 102
+    }
+  ]
+}

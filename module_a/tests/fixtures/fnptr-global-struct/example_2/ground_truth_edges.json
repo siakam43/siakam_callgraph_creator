@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "Curl_pin_peer_pubkey",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 74
+    },
+    {
+      "caller": "Curl_pin_peer_pubkey",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 81
+    }
+  ]
+}

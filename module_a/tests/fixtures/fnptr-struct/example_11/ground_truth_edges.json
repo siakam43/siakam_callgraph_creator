@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "caller": "ssl3_put_cipher_by_char",
+      "callee": "WPACKET_put_bytes_u16",
+      "file": "fixture.c",
+      "line": 88
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "caller": "store_setup_crl_download",
+      "callee": "X509_STORE_set_lookup_crls_cb",
+      "file": "fixture.c",
+      "line": 46
+    }
+  ]
+}

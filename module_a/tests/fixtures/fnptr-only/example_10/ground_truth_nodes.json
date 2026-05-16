@@ -1,0 +1,22 @@
+{
+  "functions": [
+    {
+      "name": "failf",
+      "file": "fixture.c",
+      "line_start": 21,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 21,
+      "body_line_end": 21
+    },
+    {
+      "name": "Curl_smtp_escape_eob",
+      "file": "fixture.c",
+      "line_start": 23,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 23,
+      "body_line_end": 53
+    }
+  ]
+}

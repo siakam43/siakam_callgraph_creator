@@ -1,0 +1,112 @@
+{
+  "edges": [
+    {
+      "caller": "ssl3_write_bytes",
+      "callee": "SSL_in_init",
+      "file": "fixture.c",
+      "line": 113
+    },
+    {
+      "caller": "ssl3_write_bytes",
+      "callee": "ossl_statem_get_in_handshake",
+      "file": "fixture.c",
+      "line": 113
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSL_IS_DTLS",
+      "file": "fixture.c",
+      "line": 132
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "BUF_MEM_free",
+      "file": "fixture.c",
+      "line": 133
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "ssl_free_wbio_buffer",
+      "file": "fixture.c",
+      "line": 137
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSLfatal",
+      "file": "fixture.c",
+      "line": 138
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSL_IS_TLS13",
+      "file": "fixture.c",
+      "line": 145
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "ssl3_cleanup_key_block",
+      "file": "fixture.c",
+      "line": 154
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSL_IS_TLS13",
+      "file": "fixture.c",
+      "line": 157
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "ssl_update_cache",
+      "file": "fixture.c",
+      "line": 158
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSL_IS_TLS13",
+      "file": "fixture.c",
+      "line": 161
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSL_CTX_remove_session",
+      "file": "fixture.c",
+      "line": 164
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "ssl_update_cache",
+      "file": "fixture.c",
+      "line": 166
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSL_IS_DTLS",
+      "file": "fixture.c",
+      "line": 175
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "ossl_statem_set_in_init",
+      "file": "fixture.c",
+      "line": 187
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSL_IS_TLS13",
+      "file": "fixture.c",
+      "line": 191
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "SSL_IS_FIRST_HANDSHAKE",
+      "file": "fixture.c",
+      "line": 192
+    },
+    {
+      "caller": "tls_finish_handshake",
+      "callee": "ossl_statem_set_in_init",
+      "file": "fixture.c",
+      "line": 197
+    }
+  ]
+}

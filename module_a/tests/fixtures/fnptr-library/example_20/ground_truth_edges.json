@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "channel_from_packet_id",
+      "file": "fixture.c",
+      "line": 45
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "sshpkt_get_u32",
+      "file": "fixture.c",
+      "line": 53
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "sshpkt_get_cstring",
+      "file": "fixture.c",
+      "line": 55
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "sshpkt_get_string_direct",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "sshpkt_get_end",
+      "file": "fixture.c",
+      "line": 57
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "logit",
+      "file": "fixture.c",
+      "line": 60
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 61
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "debug2",
+      "file": "fixture.c",
+      "line": 64
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "debug2",
+      "file": "fixture.c",
+      "line": 66
+    },
+    {
+      "caller": "channel_input_open_failure",
+      "callee": "chan_mark_dead",
+      "file": "fixture.c",
+      "line": 68
+    },
+    {
+      "caller": "register_all_open_confirm",
+      "callee": "channel_register_open_confirm",
+      "file": "fixture.c",
+      "line": 107
+    },
+    {
+      "caller": "register_all_open_confirm",
+      "callee": "channel_register_open_confirm",
+      "file": "fixture.c",
+      "line": 108
+    },
+    {
+      "caller": "register_all_open_confirm",
+      "callee": "channel_register_open_confirm",
+      "file": "fixture.c",
+      "line": 109
+    },
+    {
+      "caller": "register_all_open_confirm",
+      "callee": "channel_register_open_confirm",
+      "file": "fixture.c",
+      "line": 110
+    },
+    {
+      "caller": "register_all_open_confirm",
+      "callee": "channel_register_open_confirm",
+      "file": "fixture.c",
+      "line": 111
+    }
+  ]
+}

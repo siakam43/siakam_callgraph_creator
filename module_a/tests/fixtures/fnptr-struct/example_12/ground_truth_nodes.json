@@ -1,0 +1,67 @@
+{
+  "functions": [
+    {
+      "name": "BIO_printf",
+      "file": "fixture.c",
+      "line_start": 50,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 50,
+      "body_line_end": 52
+    },
+    {
+      "name": "BIO_write",
+      "file": "fixture.c",
+      "line_start": 54,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 54,
+      "body_line_end": 57
+    },
+    {
+      "name": "SSL_select_next_proto",
+      "file": "fixture.c",
+      "line_start": 59,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 59,
+      "body_line_end": 70
+    },
+    {
+      "name": "alpn_cb",
+      "file": "fixture.c",
+      "line_start": 73,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 73,
+      "body_line_end": 103
+    },
+    {
+      "name": "tls_handle_alpn",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 120
+    },
+    {
+      "name": "SSL_CTX_set_alpn_select_cb",
+      "file": "fixture.c",
+      "line_start": 122,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 122,
+      "body_line_end": 128
+    },
+    {
+      "name": "s_server_main",
+      "file": "fixture.c",
+      "line_start": 130,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 130,
+      "body_line_end": 138
+    }
+  ]
+}

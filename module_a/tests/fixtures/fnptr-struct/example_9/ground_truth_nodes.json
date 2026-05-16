@@ -1,0 +1,67 @@
+{
+  "functions": [
+    {
+      "name": "SSL_CTX_get_security_callback",
+      "file": "fixture.c",
+      "line_start": 46,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 46,
+      "body_line_end": 51
+    },
+    {
+      "name": "SSL_CTX_set_security_callback",
+      "file": "fixture.c",
+      "line_start": 53,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 53,
+      "body_line_end": 59
+    },
+    {
+      "name": "SSL_CTX_set0_security_ex_data",
+      "file": "fixture.c",
+      "line_start": 61,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 61,
+      "body_line_end": 63
+    },
+    {
+      "name": "ssl_security_default_callback",
+      "file": "fixture.c",
+      "line_start": 66,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 66,
+      "body_line_end": 90
+    },
+    {
+      "name": "security_callback_debug",
+      "file": "fixture.c",
+      "line_start": 93,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 93,
+      "body_line_end": 104
+    },
+    {
+      "name": "ssl_ctx_security_debug",
+      "file": "fixture.c",
+      "line_start": 106,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 106,
+      "body_line_end": 115
+    },
+    {
+      "name": "ssl_cert_new",
+      "file": "fixture.c",
+      "line_start": 117,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 117,
+      "body_line_end": 129
+    }
+  ]
+}

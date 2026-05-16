@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "caller": "dictDefragBucket",
+      "callee": "defragkey",
+      "file": "fixture.c",
+      "line": 64
+    },
+    {
+      "caller": "dictDefragBucket",
+      "callee": "dictGetKey",
+      "file": "fixture.c",
+      "line": 64
+    },
+    {
+      "caller": "dictDefragBucket",
+      "callee": "defragval",
+      "file": "fixture.c",
+      "line": 65
+    },
+    {
+      "caller": "dictDefragBucket",
+      "callee": "dictGetVal",
+      "file": "fixture.c",
+      "line": 65
+    },
+    {
+      "caller": "dictDefragBucket",
+      "callee": "entryIsKey",
+      "file": "fixture.c",
+      "line": 66
+    },
+    {
+      "caller": "dictDefragBucket",
+      "callee": "entryIsNoValue",
+      "file": "fixture.c",
+      "line": 68
+    },
+    {
+      "caller": "dictDefragBucket",
+      "callee": "decodeEntryNoValue",
+      "file": "fixture.c",
+      "line": 69
+    },
+    {
+      "caller": "dictDefragBucket",
+      "callee": "defragalloc",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "dictDefragBucket",
+      "callee": "encodeMaskPtr",
+      "file": "fixture.c",
+      "line": 71
+    },
+    {
+      "caller": "dictScanDefrag",
+      "callee": "dictDefragBucket",
+      "file": "fixture.c",
+      "line": 88
+    },
+    {
+      "caller": "dictScanDefrag",
+      "callee": "dictDefragBucket",
+      "file": "fixture.c",
+      "line": 92
+    },
+    {
+      "caller": "dictScanDefrag",
+      "callee": "dictDefragBucket",
+      "file": "fixture.c",
+      "line": 95
+    },
+    {
+      "caller": "activeDefragCycle",
+      "callee": "dictScanDefrag",
+      "file": "fixture.c",
+      "line": 112
+    },
+    {
+      "caller": "activeDefragCycle",
+      "callee": "dictScanDefrag",
+      "file": "fixture.c",
+      "line": 115
+    },
+    {
+      "caller": "dictScan",
+      "callee": "dictScanDefrag",
+      "file": "fixture.c",
+      "line": 137
+    }
+  ]
+}

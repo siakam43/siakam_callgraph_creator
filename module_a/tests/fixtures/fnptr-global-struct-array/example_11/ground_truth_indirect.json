@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "27e0e102",
+      "func": "sshkey_new",
+      "file": "fixture.c",
+      "line": 125,
+      "expression": "keyimpls[impl_idx]->funcs->alloc"
+    }
+  ]
+}

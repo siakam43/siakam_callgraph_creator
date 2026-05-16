@@ -1,0 +1,67 @@
+{
+  "functions": [
+    {
+      "name": "aeGetTime",
+      "file": "fixture.c",
+      "line_start": 37,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 37,
+      "body_line_end": 40
+    },
+    {
+      "name": "record_rate",
+      "file": "fixture.c",
+      "line_start": 43,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 43,
+      "body_line_end": 48
+    },
+    {
+      "name": "processTimeEvents",
+      "file": "fixture.c",
+      "line_start": 51,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 51,
+      "body_line_end": 73
+    },
+    {
+      "name": "aeCreateTimeEvent",
+      "file": "fixture.c",
+      "line_start": 75,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 75,
+      "body_line_end": 92
+    },
+    {
+      "name": "aeMain",
+      "file": "fixture.c",
+      "line_start": 94,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 94,
+      "body_line_end": 101
+    },
+    {
+      "name": "aeProcessEvents",
+      "file": "fixture.c",
+      "line_start": 103,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 103,
+      "body_line_end": 109
+    },
+    {
+      "name": "thread_main",
+      "file": "fixture.c",
+      "line_start": 111,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 111,
+      "body_line_end": 117
+    }
+  ]
+}

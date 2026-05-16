@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "44788aa2",
+      "func": "readConn",
+      "file": "fixture.c",
+      "line": 66,
+      "expression": "c->funcs->read"
+    }
+  ]
+}

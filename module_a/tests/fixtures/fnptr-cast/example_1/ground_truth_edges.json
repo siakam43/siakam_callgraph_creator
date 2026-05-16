@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "hpa_hooks_curtime",
+      "callee": "nstime_init_zero",
+      "file": "fixture.c",
+      "line": 32
+    },
+    {
+      "caller": "hpa_hooks_curtime",
+      "callee": "nstime_update",
+      "file": "fixture.c",
+      "line": 34
+    }
+  ]
+}

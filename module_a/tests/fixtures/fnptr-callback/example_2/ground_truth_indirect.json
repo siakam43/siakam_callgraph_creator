@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "20525c87",
+      "func": "print_units",
+      "file": "fixture.c",
+      "line": 67,
+      "expression": "fmt"
+    }
+  ]
+}

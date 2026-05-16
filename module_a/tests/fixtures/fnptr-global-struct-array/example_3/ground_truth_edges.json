@@ -1,0 +1,100 @@
+{
+  "edges": [
+    {
+      "caller": "jsonWriteString",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 49
+    },
+    {
+      "caller": "jsonWriteString",
+      "callee": "fputc",
+      "file": "fixture.c",
+      "line": 50
+    },
+    {
+      "caller": "writeLong",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 56
+    },
+    {
+      "caller": "writeLong",
+      "callee": "fputc",
+      "file": "fixture.c",
+      "line": 57
+    },
+    {
+      "caller": "writeOffset",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 63
+    },
+    {
+      "caller": "writeOffset",
+      "callee": "fputc",
+      "file": "fixture.c",
+      "line": 64
+    },
+    {
+      "caller": "writeString",
+      "callee": "jsonWriteString",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "writeTime",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "writeTime",
+      "callee": "fputc",
+      "file": "fixture.c",
+      "line": 77
+    },
+    {
+      "caller": "ourWriteOutJSON",
+      "callee": "fputs",
+      "file": "fixture.c",
+      "line": 104
+    },
+    {
+      "caller": "ourWriteOutJSON",
+      "callee": "fputc",
+      "file": "fixture.c",
+      "line": 108
+    },
+    {
+      "caller": "ourWriteOutJSON",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 110
+    },
+    {
+      "caller": "ourWriteOutJSON",
+      "callee": "jsonWriteString",
+      "file": "fixture.c",
+      "line": 111
+    },
+    {
+      "caller": "ourWriteOutJSON",
+      "callee": "curl_version",
+      "file": "fixture.c",
+      "line": 111
+    },
+    {
+      "caller": "ourWriteOutJSON",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 112
+    },
+    {
+      "caller": "ourWriteOut",
+      "callee": "ourWriteOutJSON",
+      "file": "fixture.c",
+      "line": 121
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "caller": "auth_create_digest_http_message",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 44
+    },
+    {
+      "caller": "auth_create_digest_http_message",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 44
+    },
+    {
+      "caller": "auth_create_digest_http_message",
+      "callee": "malloc",
+      "file": "fixture.c",
+      "line": 45
+    },
+    {
+      "caller": "auth_create_digest_http_message",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 50
+    },
+    {
+      "caller": "auth_create_digest_http_message",
+      "callee": "snprintf",
+      "file": "fixture.c",
+      "line": 52
+    },
+    {
+      "caller": "auth_create_digest_http_message",
+      "callee": "strlen",
+      "file": "fixture.c",
+      "line": 54
+    },
+    {
+      "caller": "auth_create_digest_http_message",
+      "callee": "free",
+      "file": "fixture.c",
+      "line": 55
+    },
+    {
+      "caller": "Curl_auth_create_digest_http_message",
+      "callee": "auth_create_digest_http_message",
+      "file": "fixture.c",
+      "line": 70
+    },
+    {
+      "caller": "Curl_auth_create_digest_http_message",
+      "callee": "DEBUGASSERT",
+      "file": "fixture.c",
+      "line": 76
+    },
+    {
+      "caller": "Curl_auth_create_digest_http_message",
+      "callee": "auth_create_digest_http_message",
+      "file": "fixture.c",
+      "line": 77
+    },
+    {
+      "caller": "Curl_md5it",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 85
+    },
+    {
+      "caller": "Curl_sha256it",
+      "callee": "memset",
+      "file": "fixture.c",
+      "line": 90
+    }
+  ]
+}

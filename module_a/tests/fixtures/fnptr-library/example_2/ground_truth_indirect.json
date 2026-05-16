@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "9d5b1a91",
+      "func": "lj_mem_free",
+      "file": "fixture.c",
+      "line": 33,
+      "expression": "g->allocf"
+    }
+  ]
+}

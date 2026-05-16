@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "caller": "multissl_send_plain",
+      "callee": "multissl_setup",
+      "file": "fixture.c",
+      "line": 62
+    }
+  ]
+}

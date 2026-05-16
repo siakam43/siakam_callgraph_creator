@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "caller": "iterate_through_spacemap_logs",
+      "callee": "spa_feature_is_active",
+      "file": "fixture.c",
+      "line": 102
+    },
+    {
+      "caller": "iterate_through_spacemap_logs",
+      "callee": "spa_config_enter",
+      "file": "fixture.c",
+      "line": 105
+    },
+    {
+      "caller": "iterate_through_spacemap_logs",
+      "callee": "VERIFY0",
+      "file": "fixture.c",
+      "line": 115
+    },
+    {
+      "caller": "iterate_through_spacemap_logs",
+      "callee": "space_map_iterate",
+      "file": "fixture.c",
+      "line": 115
+    },
+    {
+      "caller": "iterate_through_spacemap_logs",
+      "callee": "space_map_close",
+      "file": "fixture.c",
+      "line": 117
+    },
+    {
+      "caller": "iterate_through_spacemap_logs",
+      "callee": "spa_config_exit",
+      "file": "fixture.c",
+      "line": 119
+    },
+    {
+      "caller": "space_map_iterate",
+      "callee": "callback",
+      "file": "fixture.c",
+      "line": 129
+    },
+    {
+      "caller": "spacemap_check_sm_log",
+      "callee": "iterate_through_spacemap_logs",
+      "file": "fixture.c",
+      "line": 137
+    },
+    {
+      "caller": "load_unflushed_to_ms_allocatables",
+      "callee": "iterate_through_spacemap_logs",
+      "file": "fixture.c",
+      "line": 142
+    },
+    {
+      "caller": "zdb_claim_removing",
+      "callee": "iterate_through_spacemap_logs",
+      "file": "fixture.c",
+      "line": 148
+    },
+    {
+      "caller": "get_unflushed_alloc_space",
+      "callee": "iterate_through_spacemap_logs",
+      "file": "fixture.c",
+      "line": 154
+    },
+    {
+      "caller": "dump_log_spacemap_obsolete_stats",
+      "callee": "iterate_through_spacemap_logs",
+      "file": "fixture.c",
+      "line": 162
+    }
+  ]
+}
