@@ -1,0 +1,6 @@
+{
+  "functions": [
+    {"name": "debug_log", "file": "fixture.c", "line_start": 5, "has_body": true, "body_file": "fixture.c", "body_line_start": 5, "body_line_end": 7},
+    {"name": "do_work", "file": "fixture.c", "line_start": 9, "has_body": true, "body_file": "fixture.c", "body_line_start": 9, "body_line_end": 13}
+  ]
+}
