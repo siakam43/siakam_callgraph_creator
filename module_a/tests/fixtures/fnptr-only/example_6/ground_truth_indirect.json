@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "4708ad87",
+      "uid": "7c380c62",
       "func": "do_rallocx",
       "file": "fixture.c",
       "line": 43,
       "expression": "junk_alloc_callback"
     },
     {
-      "uid": "96c2b26e",
+      "uid": "9250d623",
       "func": "mallocx",
       "file": "fixture.c",
       "line": 60,

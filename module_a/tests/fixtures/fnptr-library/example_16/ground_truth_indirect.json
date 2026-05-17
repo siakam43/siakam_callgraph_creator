@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "3c1bcc91",
+      "uid": "17fe01cc",
       "func": "raw_decode",
       "file": "fixture.c",
       "line": 112,
       "expression": "context->bbdsp.bswap16_buf"
     },
     {
-      "uid": "a529c5e8",
+      "uid": "4042ee84",
       "func": "raw_decode",
       "file": "fixture.c",
       "line": 115,

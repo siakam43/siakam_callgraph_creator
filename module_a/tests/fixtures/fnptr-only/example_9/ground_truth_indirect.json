@@ -1,11 +1,11 @@
 {
   "indirect_points": [
     {
-      "uid": "0177ba74",
+      "uid": "50b4bcc2",
       "func": "Curl_output_digest",
       "file": "fixture.c",
-      "line": 125,
-      "expression": "Curl_convert_to_ascii"
+      "line": 33,
+      "expression": "Curl_cfree"
     }
   ]
 }

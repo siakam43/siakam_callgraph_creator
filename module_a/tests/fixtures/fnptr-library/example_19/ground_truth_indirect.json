@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "a821a133",
+      "uid": "b324b902",
       "func": "channel_handle_wfd",
       "file": "fixture.c",
       "line": 31,

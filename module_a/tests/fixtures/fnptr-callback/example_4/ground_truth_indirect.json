@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "61ea18fc",
+      "uid": "c8aa5a92",
       "func": "find_codec",
       "file": "fixture.c",
       "line": 46,

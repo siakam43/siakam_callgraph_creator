@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "21539b11",
+      "uid": "5e7708aa",
       "func": "dynamic_load",
       "file": "fixture.c",
       "line": 72,
       "expression": "ctx->v_check"
     },
     {
-      "uid": "d61bcd30",
+      "uid": "a572f9be",
       "func": "dynamic_load",
       "file": "fixture.c",
       "line": 82,

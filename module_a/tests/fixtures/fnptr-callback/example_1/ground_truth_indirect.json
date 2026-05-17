@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "ef75c508",
+      "uid": "64650bd1",
       "func": "auth_create_digest_http_message",
       "file": "fixture.c",
       "line": 50,
       "expression": "hash"
     },
     {
-      "uid": "67b1674a",
+      "uid": "af14236d",
       "func": "auth_create_digest_http_message",
       "file": "fixture.c",
       "line": 53,

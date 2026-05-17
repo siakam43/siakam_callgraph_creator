@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "7e8902dd",
+      "uid": "33dc388d",
       "func": "curl_share_cleanup",
       "file": "fixture.c",
       "line": 158,

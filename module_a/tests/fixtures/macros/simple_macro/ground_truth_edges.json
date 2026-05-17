@@ -1,6 +1,16 @@
 {
   "edges": [
-    {"caller": "debug_log", "callee": "fprintf", "file": "fixture.c", "line": 6},
-    {"caller": "do_work", "callee": "CALL_DEBUG", "file": "fixture.c", "line": 10}
+    {
+      "caller": "debug_log",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 6
+    },
+    {
+      "caller": "do_work",
+      "callee": "CALL_DEBUG",
+      "file": "fixture.c",
+      "line": 10
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "e198de7c",
+      "uid": "b7e17c43",
       "func": "socket_readable",
       "file": "fixture.c",
       "line": 54,

@@ -1,42 +1,42 @@
 {
   "indirect_points": [
     {
-      "uid": "10b51a03",
+      "uid": "acdfa23d",
       "func": "apply_mdct",
       "file": "fixture.c",
       "line": 159,
       "expression": "s->fdsp->vector_fmul"
     },
     {
-      "uid": "3d632f24",
+      "uid": "480d7a1a",
       "func": "apply_mdct",
       "file": "fixture.c",
       "line": 160,
       "expression": "s->fdsp->vector_fmul_reverse"
     },
     {
-      "uid": "8e0015ed",
+      "uid": "6092c61c",
       "func": "apply_mdct",
       "file": "fixture.c",
       "line": 161,
       "expression": "s->mdct_fn"
     },
     {
-      "uid": "8d9c864a",
+      "uid": "ce17264f",
       "func": "apply_mdct",
       "file": "fixture.c",
       "line": 163,
       "expression": "s->fdsp->vector_fmul"
     },
     {
-      "uid": "d4ab966c",
+      "uid": "62a31586",
       "func": "apply_mdct",
       "file": "fixture.c",
       "line": 164,
       "expression": "s->fdsp->vector_fmul_reverse"
     },
     {
-      "uid": "5927a41a",
+      "uid": "f4fff894",
       "func": "apply_mdct",
       "file": "fixture.c",
       "line": 165,

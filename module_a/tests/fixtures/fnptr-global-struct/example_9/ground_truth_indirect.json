@@ -1,11 +1,3 @@
 {
-  "indirect_points": [
-    {
-      "uid": "953fe2d4",
-      "func": "input_ssa_names",
-      "file": "fixture.c",
-      "line": 88,
-      "expression": "streamer_hooks.read_tree"
-    }
-  ]
+  "indirect_points": []
 }

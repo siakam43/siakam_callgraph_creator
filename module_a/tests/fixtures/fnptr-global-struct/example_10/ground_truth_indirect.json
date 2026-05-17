@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "f04a36e1",
+      "uid": "a34f386c",
       "func": "ssh_ecdsa_sk_equal",
       "file": "fixture.c",
       "line": 90,

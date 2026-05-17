@@ -1,0 +1,164 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778978320438,
+  "projectRoot": "/home/admin/cc/wksp/siakam_security_skills/siakam_callgraph_creator",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "scripts",
+      "tests"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1778978320296,
+      "keyFiles": []
+    },
+    "module_a": {
+      "path": "module_a",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1778978320314,
+      "keyFiles": [
+        "__init__.py",
+        "analyzer.py",
+        "c_parser.py",
+        "ignore_parser.py",
+        "indirect_detector.py"
+      ]
+    },
+    "module_b": {
+      "path": "module_b",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1778978320317,
+      "keyFiles": [
+        "analyze_indirect.md",
+        "orchestrator.md"
+      ]
+    },
+    "module_c": {
+      "path": "module_c",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1778978320337,
+      "keyFiles": [
+        "__init__.py",
+        "entry_finder.py",
+        "merge.py"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 1,
+      "lastAccessed": 1778978320343,
+      "keyFiles": [
+        "refine_ground_truth.py"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 1,
+      "lastAccessed": 1778978320352,
+      "keyFiles": [
+        "run_e2e_test.md"
+      ]
+    },
+    "module_a/tests": {
+      "path": "module_a/tests",
+      "purpose": "Test files",
+      "fileCount": 9,
+      "lastAccessed": 1778978320371,
+      "keyFiles": [
+        "__init__.py",
+        "conftest.py",
+        "test_direct_edges.py"
+      ]
+    },
+    "module_b/tests": {
+      "path": "module_b/tests",
+      "purpose": "Test files",
+      "fileCount": 2,
+      "lastAccessed": 1778978320402,
+      "keyFiles": [
+        "run_analysis_test.md",
+        "run_orchestrator_test.md"
+      ]
+    },
+    "module_c/tests": {
+      "path": "module_c/tests",
+      "purpose": "Test files",
+      "fileCount": 5,
+      "lastAccessed": 1778978320423,
+      "keyFiles": [
+        "__init__.py",
+        "conftest.py",
+        "test_entry_finder.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "module_a/c_parser.py",
+      "accessCount": 3,
+      "lastAccessed": 1778994048050,
+      "type": "file"
+    },
+    {
+      "path": "module_a/tests/test_ignore_parser.py",
+      "accessCount": 3,
+      "lastAccessed": 1778994323511,
+      "type": "file"
+    },
+    {
+      "path": "module_a/ignore_parser.py",
+      "accessCount": 2,
+      "lastAccessed": 1778994266950,
+      "type": "file"
+    },
+    {
+      "path": "module_a/tests/test_function_detection.py",
+      "accessCount": 2,
+      "lastAccessed": 1778995101090,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

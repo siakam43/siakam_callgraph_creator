@@ -1,21 +1,21 @@
 {
   "indirect_points": [
     {
-      "uid": "a55a7538",
+      "uid": "3a8cd7ff",
       "func": "atomicio6",
       "file": "fixture.c",
       "line": 98,
       "expression": "(f)"
     },
     {
-      "uid": "f97d24d2",
+      "uid": "b949dfcf",
       "func": "atomicio6",
       "file": "fixture.c",
       "line": 103,
       "expression": "cb"
     },
     {
-      "uid": "76b0ec30",
+      "uid": "0bd12580",
       "func": "atomicio6",
       "file": "fixture.c",
       "line": 118,

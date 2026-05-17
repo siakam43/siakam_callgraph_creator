@@ -14,16 +14,17 @@ def test_no_ignore_file():
 
 def test_parse_simple_patterns():
     content = "# comment line\nbuild/\n*.o\n"
-    with tempfile.NamedTemporaryFile(mode="w", suffix=".siakamignore", delete=False) as f:
-        f.write(content)
-        tmp_path = f.name
+    tmp_dir = tempfile.mkdtemp()
     try:
-        patterns = parse_siakamignore(os.path.dirname(tmp_path))
+        with open(os.path.join(tmp_dir, ".siakamignore"), "w") as f:
+            f.write(content)
+        patterns = parse_siakamignore(tmp_dir)
         assert "build/" in patterns
         assert "*.o" in patterns
         assert len(patterns) == 2
     finally:
-        os.unlink(tmp_path)
+        os.remove(os.path.join(tmp_dir, ".siakamignore"))
+        os.rmdir(tmp_dir)
 
 
 def test_should_exclude_directory():
@@ -47,11 +48,12 @@ def test_should_exclude_negation():
 
 def test_empty_and_comment_lines():
     content = "\n  \n# this is a comment\n*.h\n"
-    with tempfile.NamedTemporaryFile(mode="w", suffix=".siakamignore", delete=False) as f:
-        f.write(content)
-        tmp_path = f.name
+    tmp_dir = tempfile.mkdtemp()
     try:
-        patterns = parse_siakamignore(os.path.dirname(tmp_path))
+        with open(os.path.join(tmp_dir, ".siakamignore"), "w") as f:
+            f.write(content)
+        patterns = parse_siakamignore(tmp_dir)
         assert patterns == ["*.h"]
     finally:
-        os.unlink(tmp_path)
+        os.remove(os.path.join(tmp_dir, ".siakamignore"))
+        os.rmdir(tmp_dir)

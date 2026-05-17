@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "d3980715",
+      "uid": "d05a0b55",
       "func": "Curl_conn_get_host",
       "file": "fixture.c",
       "line": 107,

@@ -1,11 +1,11 @@
 {
   "indirect_points": [
     {
-      "uid": "8e936abd",
+      "uid": "ede53be1",
       "func": "zstream_do_decompress",
       "file": "fixture.c",
-      "line": 48,
-      "expression": "zstreammalloc"
+      "line": 137,
+      "expression": "xfunc"
     }
   ]
 }

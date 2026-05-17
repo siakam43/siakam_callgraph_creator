@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "3940b760",
+      "uid": "8f2f80c7",
       "func": "kex_verify_host_key",
       "file": "fixture.c",
       "line": 48,

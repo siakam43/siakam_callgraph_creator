@@ -1,21 +1,21 @@
 {
   "indirect_points": [
     {
-      "uid": "28e9593a",
+      "uid": "e98007be",
       "func": "ccm_mode_encrypt_contiguous_blocks",
       "file": "fixture.c",
       "line": 64,
       "expression": "xor_block"
     },
     {
-      "uid": "4d5a1597",
+      "uid": "3116d900",
       "func": "ccm_mode_encrypt_contiguous_blocks",
       "file": "fixture.c",
       "line": 65,
       "expression": "encrypt_block"
     },
     {
-      "uid": "14892756",
+      "uid": "42f8a8d5",
       "func": "ccm_mode_encrypt_contiguous_blocks",
       "file": "fixture.c",
       "line": 67,

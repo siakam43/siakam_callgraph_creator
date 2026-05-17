@@ -1,140 +1,140 @@
 {
   "indirect_points": [
     {
-      "uid": "89d49263",
+      "uid": "6bc34343",
       "func": "decorator_warn",
       "file": "fixture.c",
       "line": 159,
       "expression": "ctx->inner->vtable->warn"
     },
     {
-      "uid": "c43fb7e1",
+      "uid": "73ee2767",
       "func": "decorator_add_note",
       "file": "fixture.c",
       "line": 163,
       "expression": "ctx->inner->vtable->add_note"
     },
     {
-      "uid": "f3c9e986",
+      "uid": "30855dd5",
       "func": "decorator_on_svalue_leak",
       "file": "fixture.c",
       "line": 167,
       "expression": "ctx->inner->vtable->on_svalue_leak"
     },
     {
-      "uid": "e7d24999",
+      "uid": "f36389f7",
       "func": "decorator_on_liveness_change",
       "file": "fixture.c",
       "line": 171,
       "expression": "ctx->inner->vtable->on_liveness_change"
     },
     {
-      "uid": "35b36f2c",
+      "uid": "4330aa99",
       "func": "decorator_get_logger",
       "file": "fixture.c",
       "line": 175,
       "expression": "ctx->inner->vtable->get_logger"
     },
     {
-      "uid": "aa77d12a",
+      "uid": "024d8333",
       "func": "decorator_on_condition",
       "file": "fixture.c",
       "line": 179,
       "expression": "ctx->inner->vtable->on_condition"
     },
     {
-      "uid": "f7cae0ec",
+      "uid": "757b0a78",
       "func": "decorator_on_bounded_ranges",
       "file": "fixture.c",
       "line": 183,
       "expression": "ctx->inner->vtable->on_bounded_ranges"
     },
     {
-      "uid": "072210de",
+      "uid": "674cacce",
       "func": "decorator_on_pop_frame",
       "file": "fixture.c",
       "line": 187,
       "expression": "ctx->inner->vtable->on_pop_frame"
     },
     {
-      "uid": "05ebd904",
+      "uid": "f8182978",
       "func": "decorator_on_unknown_change",
       "file": "fixture.c",
       "line": 191,
       "expression": "ctx->inner->vtable->on_unknown_change"
     },
     {
-      "uid": "74282204",
+      "uid": "17d454bd",
       "func": "decorator_on_phi",
       "file": "fixture.c",
       "line": 195,
       "expression": "ctx->inner->vtable->on_phi"
     },
     {
-      "uid": "2a42b5b3",
+      "uid": "dcc25fcf",
       "func": "decorator_on_unexpected_tree_code",
       "file": "fixture.c",
       "line": 199,
       "expression": "ctx->inner->vtable->on_unexpected_tree_code"
     },
     {
-      "uid": "a35c3136",
+      "uid": "e7dfde7b",
       "func": "decorator_on_escaped_function",
       "file": "fixture.c",
       "line": 203,
       "expression": "ctx->inner->vtable->on_escaped_function"
     },
     {
-      "uid": "9280c610",
+      "uid": "9dde243a",
       "func": "decorator_get_uncertainty",
       "file": "fixture.c",
       "line": 207,
       "expression": "ctx->inner->vtable->get_uncertainty"
     },
     {
-      "uid": "cbfc6310",
+      "uid": "c1c05de9",
       "func": "decorator_purge_state_involving",
       "file": "fixture.c",
       "line": 211,
       "expression": "ctx->inner->vtable->purge_state_involving"
     },
     {
-      "uid": "26147adb",
+      "uid": "64c1ab18",
       "func": "decorator_bifurcate",
       "file": "fixture.c",
       "line": 215,
       "expression": "ctx->inner->vtable->bifurcate"
     },
     {
-      "uid": "72f19e9a",
+      "uid": "94196c9f",
       "func": "decorator_terminate_path",
       "file": "fixture.c",
       "line": 219,
       "expression": "ctx->inner->vtable->terminate_path"
     },
     {
-      "uid": "03c3f77a",
+      "uid": "88b89453",
       "func": "decorator_get_ext_state",
       "file": "fixture.c",
       "line": 223,
       "expression": "ctx->inner->vtable->get_ext_state"
     },
     {
-      "uid": "8223e191",
+      "uid": "16674737",
       "func": "region_model_context_decorator_get_state_map_by_name",
       "file": "fixture.c",
       "line": 236,
       "expression": "ctx->inner->vtable->get_state_map_by_name"
     },
     {
-      "uid": "13f3142f",
+      "uid": "5f82c8d3",
       "func": "decorator_get_stmt",
       "file": "fixture.c",
       "line": 241,
       "expression": "ctx->inner->vtable->get_stmt"
     },
     {
-      "uid": "9ab63a39",
+      "uid": "5fa5293e",
       "func": "get_fd_map",
       "file": "fixture.c",
       "line": 286,

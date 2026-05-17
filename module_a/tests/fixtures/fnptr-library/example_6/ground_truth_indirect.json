@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "90bc026e",
+      "uid": "8b09735c",
       "func": "moduleGetMemUsage",
       "file": "fixture.c",
       "line": 55,
       "expression": "mt->mem_usage2"
     },
     {
-      "uid": "f0145595",
+      "uid": "26ce9670",
       "func": "moduleGetMemUsage",
       "file": "fixture.c",
       "line": 57,

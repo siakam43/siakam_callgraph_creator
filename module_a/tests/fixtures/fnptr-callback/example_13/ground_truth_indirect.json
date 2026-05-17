@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "76b234e0",
+      "uid": "2ddd0869",
       "func": "gimple_fold_stmt_to_constant_1",
       "file": "fixture.c",
       "line": 50,
       "expression": "(*valueize)"
     },
     {
-      "uid": "f5115ea7",
+      "uid": "5ba3bec0",
       "func": "gimple_fold_stmt_to_constant_1",
       "file": "fixture.c",
       "line": 51,

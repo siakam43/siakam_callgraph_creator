@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "f00c953e",
+      "uid": "a8cf52b5",
       "func": "gt_pch_p_14lang_tree_node",
       "file": "fixture.c",
       "line": 110,
       "expression": "op"
     },
     {
-      "uid": "194ba22e",
+      "uid": "cb9e1359",
       "func": "gt_pch_save",
       "file": "fixture.c",
       "line": 165,

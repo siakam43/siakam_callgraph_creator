@@ -1,21 +1,21 @@
 {
   "indirect_points": [
     {
-      "uid": "b9680cd6",
+      "uid": "f7eaeea5",
       "func": "generic_impl_init",
       "file": "fixture.c",
       "line": 129,
       "expression": "impl->is_supported"
     },
     {
-      "uid": "a15a74b0",
+      "uid": "8628c8fa",
       "func": "sha256_update",
       "file": "fixture.c",
       "line": 172,
       "expression": "ops->transform"
     },
     {
-      "uid": "e3bd4c5a",
+      "uid": "7bab6ab9",
       "func": "sha256_update",
       "file": "fixture.c",
       "line": 182,

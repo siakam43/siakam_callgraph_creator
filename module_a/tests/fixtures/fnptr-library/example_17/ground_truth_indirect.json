@@ -1,21 +1,21 @@
 {
   "indirect_points": [
     {
-      "uid": "2b611b6c",
+      "uid": "2a0a3cce",
       "func": "synthesis",
       "file": "fixture.c",
       "line": 106,
       "expression": "ctx->celpm_ctx.dot_productf"
     },
     {
-      "uid": "98657bd1",
+      "uid": "0c042cb6",
       "func": "synthesis",
       "file": "fixture.c",
       "line": 107,
       "expression": "ctx->acelpv_ctx.weighted_vector_sumf"
     },
     {
-      "uid": "d66690cb",
+      "uid": "3e37154b",
       "func": "synthesis",
       "file": "fixture.c",
       "line": 119,

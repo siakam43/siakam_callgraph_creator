@@ -2,21 +2,9 @@
   "edges": [
     {
       "caller": "Curl_smtp_escape_eob",
-      "callee": "Curl_cmalloc",
-      "file": "fixture.c",
-      "line": 35
-    },
-    {
-      "caller": "Curl_smtp_escape_eob",
       "callee": "failf",
       "file": "fixture.c",
       "line": 37
-    },
-    {
-      "caller": "Curl_smtp_escape_eob",
-      "callee": "Curl_cmalloc",
-      "file": "fixture.c",
-      "line": 49
     }
   ]
 }

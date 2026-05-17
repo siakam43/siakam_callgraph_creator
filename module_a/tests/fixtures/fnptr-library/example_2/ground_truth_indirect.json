@@ -1,11 +1,32 @@
 {
   "indirect_points": [
     {
-      "uid": "9d5b1a91",
+      "uid": "f9045d80",
       "func": "lj_mem_free",
       "file": "fixture.c",
       "line": 33,
       "expression": "g->allocf"
+    },
+    {
+      "uid": "27e5f3ec",
+      "func": "lua_newstate",
+      "file": "fixture.c",
+      "line": 65,
+      "expression": "allocf"
+    },
+    {
+      "uid": "5c91d695",
+      "func": "lua_newstate",
+      "file": "fixture.c",
+      "line": 67,
+      "expression": "allocf"
+    },
+    {
+      "uid": "0f28db9f",
+      "func": "lua_newstate",
+      "file": "fixture.c",
+      "line": 69,
+      "expression": "allocf"
     }
   ]
 }

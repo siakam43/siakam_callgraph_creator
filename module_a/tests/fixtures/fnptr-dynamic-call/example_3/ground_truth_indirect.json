@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "2e62db4a",
+      "uid": "10fe7378",
       "func": "omx_init",
       "file": "fixture.c",
       "line": 78,
       "expression": "((void (*)(void))omx_context->host_init)"
     },
     {
-      "uid": "83645c2e",
+      "uid": "cc4bcaee",
       "func": "omx_init",
       "file": "fixture.c",
       "line": 79,

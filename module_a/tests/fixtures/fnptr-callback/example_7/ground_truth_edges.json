@@ -14,12 +14,6 @@
     },
     {
       "caller": "defragRadixTree",
-      "callee": "element_cb",
-      "file": "fixture.c",
-      "line": 83
-    },
-    {
-      "caller": "defragRadixTree",
       "callee": "activeDefragAlloc",
       "file": "fixture.c",
       "line": 85

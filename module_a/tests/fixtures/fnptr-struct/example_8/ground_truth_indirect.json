@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "2ddce24b",
+      "uid": "aba41b93",
       "func": "EVP_PKEY_security_bits",
       "file": "fixture.c",
       "line": 28,

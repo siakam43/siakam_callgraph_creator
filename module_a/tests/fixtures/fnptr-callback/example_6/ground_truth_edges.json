@@ -2,12 +2,6 @@
   "edges": [
     {
       "caller": "emap_edata_lookup_batch",
-      "callee": "ptr_getter",
-      "file": "fixture.c",
-      "line": 47
-    },
-    {
-      "caller": "emap_edata_lookup_batch",
       "callee": "rtree_leaf_elm_lookup",
       "file": "fixture.c",
       "line": 49

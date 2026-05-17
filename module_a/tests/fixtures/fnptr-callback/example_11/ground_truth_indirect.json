@@ -1,21 +1,21 @@
 {
   "indirect_points": [
     {
-      "uid": "93521610",
+      "uid": "9141c00d",
       "func": "ccm_encrypt_final",
       "file": "fixture.c",
       "line": 63,
       "expression": "xor_block"
     },
     {
-      "uid": "1cdfb940",
+      "uid": "e8e97443",
       "func": "ccm_encrypt_final",
       "file": "fixture.c",
       "line": 64,
       "expression": "encrypt_block"
     },
     {
-      "uid": "ad61063c",
+      "uid": "332d5c9e",
       "func": "ccm_encrypt_final",
       "file": "fixture.c",
       "line": 68,

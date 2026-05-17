@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "cab593f1",
+      "uid": "658fefcd",
       "func": "channel_input_open_failure",
       "file": "fixture.c",
       "line": 65,

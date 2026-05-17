@@ -1,11 +1,3 @@
 {
-  "indirect_points": [
-    {
-      "uid": "bd0ef78d",
-      "func": "Curl_cookie_add",
-      "file": "fixture.c",
-      "line": 177,
-      "expression": "Curl_cmalloc"
-    }
-  ]
+  "indirect_points": []
 }

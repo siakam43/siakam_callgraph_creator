@@ -32,24 +32,6 @@
     },
     {
       "caller": "lua_newstate",
-      "callee": "allocf",
-      "file": "fixture.c",
-      "line": 65
-    },
-    {
-      "caller": "lua_newstate",
-      "callee": "allocf",
-      "file": "fixture.c",
-      "line": 67
-    },
-    {
-      "caller": "lua_newstate",
-      "callee": "allocf",
-      "file": "fixture.c",
-      "line": 69
-    },
-    {
-      "caller": "lua_newstate",
       "callee": "setmref",
       "file": "fixture.c",
       "line": 73

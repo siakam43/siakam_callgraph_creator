@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "9a02554c",
+      "uid": "d3fb19cd",
       "func": "ssh_ed25519_sk_serialize_public",
       "file": "fixture.c",
       "line": 90,

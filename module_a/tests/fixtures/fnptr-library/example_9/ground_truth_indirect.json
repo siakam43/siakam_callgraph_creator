@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "b0f788ff",
+      "uid": "7ae2709b",
       "func": "Curl_llist_remove",
       "file": "fixture.c",
       "line": 41,

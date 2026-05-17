@@ -1,21 +1,21 @@
 {
   "indirect_points": [
     {
-      "uid": "42fbce38",
+      "uid": "ec2164db",
       "func": "decode_wmv9",
       "file": "fixture.c",
       "line": 73,
       "expression": "ctx->dsp.upsample_plane"
     },
     {
-      "uid": "7de66509",
+      "uid": "7fb15bf8",
       "func": "decode_wmv9",
       "file": "fixture.c",
       "line": 74,
       "expression": "ctx->dsp.upsample_plane"
     },
     {
-      "uid": "5c925c8c",
+      "uid": "d0f1d663",
       "func": "decode_wmv9",
       "file": "fixture.c",
       "line": 75,

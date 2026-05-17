@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "93b5dbd9",
+      "uid": "f447a47e",
       "func": "genericZrangebyrankCommand",
       "file": "fixture.c",
       "line": 145,
       "expression": "handler->beginResultEmission"
     },
     {
-      "uid": "d427c739",
+      "uid": "24a82c71",
       "func": "genericZrangebyrankCommand",
       "file": "fixture.c",
       "line": 146,

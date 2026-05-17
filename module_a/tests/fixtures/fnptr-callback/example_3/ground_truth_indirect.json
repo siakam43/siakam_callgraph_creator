@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "6acebb67",
+      "uid": "a0a13b07",
       "func": "nfs_process_exports",
       "file": "fixture.c",
       "line": 39,

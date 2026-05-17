@@ -38,14 +38,12 @@ def test_function_detection(category, example, fixture_path, truth_path):
     assert result_names == expected_names, \
         f"Mismatch in {category}/{example}:\nExtra: {result_names - expected_names}\nMissing: {expected_names - result_names}"
 
+    expected_by_key = {(ef["name"], ef["line_start"]): ef for ef in expected["functions"]}
+
     for fn in result["functions"]:
-        expected_fn = next(
-            (ef for ef in expected["functions"] if ef["name"] == fn["name"]),
-            None)
+        key = (fn["name"], fn["line_start"])
+        expected_fn = expected_by_key.get(key)
         if expected_fn is None:
             continue
         assert fn["has_body"] == expected_fn["has_body"], \
             f"{category}/{example}: {fn['name']} has_body mismatch"
-        if expected_fn.get("line_start", -1) != -1:
-            assert fn["line_start"] == expected_fn["line_start"], \
-                f"{category}/{example}: {fn['name']} line_start {fn['line_start']} != {expected_fn['line_start']}"

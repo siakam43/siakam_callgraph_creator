@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "6bc08872",
+      "uid": "a91bd99f",
       "func": "ssl_cipher_list_to_bytes",
       "file": "fixture.c",
       "line": 120,

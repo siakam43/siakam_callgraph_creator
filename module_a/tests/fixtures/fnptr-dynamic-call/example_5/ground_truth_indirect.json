@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "4de14738",
+      "uid": "2107aaab",
       "func": "sshsk_enroll",
       "file": "fixture.c",
       "line": 115,

@@ -1,49 +1,49 @@
 {
   "indirect_points": [
     {
-      "uid": "b96cb41a",
+      "uid": "9d1b3400",
       "func": "abd_fletcher_4_iter",
       "file": "fixture.c",
       "line": 217,
       "expression": "ops->compute_native"
     },
     {
-      "uid": "521567dc",
+      "uid": "9d782937",
       "func": "abd_fletcher_4_iter",
       "file": "fixture.c",
       "line": 219,
       "expression": "ops->compute_byteswap"
     },
     {
-      "uid": "8c4fe358",
+      "uid": "993b96dd",
       "func": "abd_fletcher_4_init",
       "file": "fixture.c",
       "line": 249,
       "expression": "ops->init_native"
     },
     {
-      "uid": "81930a1d",
+      "uid": "496e6b16",
       "func": "abd_fletcher_4_init",
       "file": "fixture.c",
       "line": 251,
       "expression": "ops->init_byteswap"
     },
     {
-      "uid": "cb282b7b",
+      "uid": "28f8f0a6",
       "func": "abd_fletcher_4_impl",
       "file": "fixture.c",
       "line": 265,
       "expression": "fletcher_4_abd_ops.acf_init"
     },
     {
-      "uid": "d4945ca3",
+      "uid": "51757414",
       "func": "abd_fletcher_4_impl",
       "file": "fixture.c",
       "line": 267,
       "expression": "fletcher_4_abd_ops.acf_fini"
     },
     {
-      "uid": "1521c10f",
+      "uid": "2c65c0ae",
       "func": "abd_iterate_func",
       "file": "fixture.c",
       "line": 271,

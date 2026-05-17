@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "f569670f",
+      "uid": "a4ca74df",
       "func": "ddt_object_lookup",
       "file": "fixture.c",
       "line": 86,

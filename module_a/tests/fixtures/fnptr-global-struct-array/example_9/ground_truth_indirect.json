@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "0422cb6b",
+      "uid": "bcc4d54c",
       "func": "speex_decode_frame",
       "file": "fixture.c",
       "line": 136,

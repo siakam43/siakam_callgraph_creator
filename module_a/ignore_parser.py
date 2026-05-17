@@ -31,14 +31,16 @@ def should_exclude(patterns: list[str], file_path: str) -> bool:
 
 
 def _match_pattern(pattern: str, path: str) -> bool:
-    if "/" not in pattern.rstrip("/"):
+    # Directory patterns (ending in /): match prefix
+    if pattern.endswith("/"):
+        return path.startswith(pattern) or path.startswith(pattern[:-1] + "/")
+
+    if "/" not in pattern:
         if fnmatch.fnmatch(os.path.basename(path), pattern):
             return True
         if fnmatch.fnmatch(path, pattern):
             return True
         if fnmatch.fnmatch(path, "*/" + pattern):
-            return True
-        if fnmatch.fnmatch(path, pattern + "/*"):
             return True
         return False
     return fnmatch.fnmatch(path, pattern) or fnmatch.fnmatch(path, pattern + "/*")

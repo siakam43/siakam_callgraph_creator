@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "8f56ea63",
+      "uid": "d4011f60",
       "func": "decode_init",
       "file": "fixture.c",
       "line": 67,

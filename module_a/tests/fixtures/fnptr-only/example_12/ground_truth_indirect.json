@@ -1,11 +1,3 @@
 {
-  "indirect_points": [
-    {
-      "uid": "032ef8c5",
-      "func": "nv12ToPlanarWrapper",
-      "file": "fixture.c",
-      "line": 58,
-      "expression": "func"
-    }
-  ]
+  "indirect_points": []
 }

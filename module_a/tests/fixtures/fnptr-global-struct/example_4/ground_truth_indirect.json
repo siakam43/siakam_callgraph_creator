@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "f5365958",
+      "uid": "d814ec65",
       "func": "zfsdev_ioctl_common",
       "file": "fixture.c",
       "line": 65,

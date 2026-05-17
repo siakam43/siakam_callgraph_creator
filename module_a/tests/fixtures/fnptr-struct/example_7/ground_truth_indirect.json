@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "42f80328",
+      "uid": "f45671b5",
       "func": "functionsRegisterEngine",
       "file": "fixture.c",
       "line": 105,

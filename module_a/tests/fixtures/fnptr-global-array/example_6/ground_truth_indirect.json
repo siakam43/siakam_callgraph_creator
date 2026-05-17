@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "ef0a8c54",
+      "uid": "d84847dd",
       "func": "raidz_rec_pqr_abd",
       "file": "fixture.c",
       "line": 360,
       "expression": "gf_x1_mul_fns[mul[MUL_PQR_XP]]"
     },
     {
-      "uid": "1e1cfddc",
+      "uid": "70c3aee7",
       "func": "raidz_rec_pqr_abd",
       "file": "fixture.c",
       "line": 361,

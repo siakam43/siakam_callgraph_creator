@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "2709b8ff",
+      "uid": "1269f9eb",
       "func": "clusterProcessAuxField",
       "file": "fixture.c",
       "line": 67,
       "expression": "auxFieldHandlers[j].setter"
     },
     {
-      "uid": "2f902aa7",
+      "uid": "cac19e87",
       "func": "setter_caller",
       "file": "fixture.c",
       "line": 80,

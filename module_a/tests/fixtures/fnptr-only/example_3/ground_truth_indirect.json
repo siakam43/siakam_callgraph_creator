@@ -1,11 +1,3 @@
 {
-  "indirect_points": [
-    {
-      "uid": "7ea76153",
-      "func": "md_final_raw_caller",
-      "file": "fixture.c",
-      "line": 48,
-      "expression": "call_md_final_raw"
-    }
-  ]
+  "indirect_points": []
 }

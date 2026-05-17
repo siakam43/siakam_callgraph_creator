@@ -1,11 +1,18 @@
 {
   "indirect_points": [
     {
-      "uid": "988dc9f6",
+      "uid": "780e6e9c",
       "func": "iterate_through_spacemap_logs_cb",
       "file": "fixture.c",
       "line": 61,
       "expression": "uic->uic_cb"
+    },
+    {
+      "uid": "3be85fd4",
+      "func": "space_map_iterate",
+      "file": "fixture.c",
+      "line": 129,
+      "expression": "callback"
     }
   ]
 }

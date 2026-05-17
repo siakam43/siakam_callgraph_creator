@@ -2,21 +2,9 @@
   "edges": [
     {
       "caller": "dictDefragBucket",
-      "callee": "defragkey",
-      "file": "fixture.c",
-      "line": 64
-    },
-    {
-      "caller": "dictDefragBucket",
       "callee": "dictGetKey",
       "file": "fixture.c",
       "line": 64
-    },
-    {
-      "caller": "dictDefragBucket",
-      "callee": "defragval",
-      "file": "fixture.c",
-      "line": 65
     },
     {
       "caller": "dictDefragBucket",
@@ -41,12 +29,6 @@
       "callee": "decodeEntryNoValue",
       "file": "fixture.c",
       "line": 69
-    },
-    {
-      "caller": "dictDefragBucket",
-      "callee": "defragalloc",
-      "file": "fixture.c",
-      "line": 70
     },
     {
       "caller": "dictDefragBucket",

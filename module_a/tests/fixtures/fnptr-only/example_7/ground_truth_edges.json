@@ -68,12 +68,6 @@
     },
     {
       "caller": "zstream_do_decompress",
-      "callee": "xfunc",
-      "file": "fixture.c",
-      "line": 137
-    },
-    {
-      "caller": "zstream_do_decompress",
       "callee": "fprintf",
       "file": "fixture.c",
       "line": 139

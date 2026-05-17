@@ -1,11 +1,11 @@
 {
   "indirect_points": [
     {
-      "uid": "dcef7f0e",
+      "uid": "42f4d074",
       "func": "dsl_dataset_user_release_sync",
       "file": "fixture.c",
-      "line": 69,
-      "expression": "fnptr_release"
+      "line": 101,
+      "expression": "holdfunc"
     }
   ]
 }

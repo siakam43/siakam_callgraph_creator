@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "d53311cb",
+      "uid": "a623ccfc",
       "func": "auth_create_digest_http_message",
       "file": "fixture.c",
       "line": 54,

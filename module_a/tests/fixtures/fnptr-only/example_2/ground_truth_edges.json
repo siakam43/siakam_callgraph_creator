@@ -2,12 +2,6 @@
   "edges": [
     {
       "caller": "Curl_new",
-      "callee": "Curl_ccalloc",
-      "file": "fixture.c",
-      "line": 29
-    },
-    {
-      "caller": "Curl_new",
       "callee": "malloc",
       "file": "fixture.c",
       "line": 38

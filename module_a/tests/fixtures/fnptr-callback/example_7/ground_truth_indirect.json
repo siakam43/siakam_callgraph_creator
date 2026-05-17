@@ -1,25 +1,11 @@
 {
   "indirect_points": [
     {
-      "uid": "7697f285",
-      "func": "defragStream",
+      "uid": "73fd607c",
+      "func": "defragRadixTree",
       "file": "fixture.c",
-      "line": 87,
-      "expression": "defragfns->defragAlloc"
-    },
-    {
-      "uid": "969e526c",
-      "func": "defragStreamConsumer",
-      "file": "fixture.c",
-      "line": 109,
-      "expression": "defragfns->defragAlloc"
-    },
-    {
-      "uid": "28c86558",
-      "func": "defragStreamConsumerGroup",
-      "file": "fixture.c",
-      "line": 122,
-      "expression": "defragfns->defragAlloc"
+      "line": 83,
+      "expression": "element_cb"
     }
   ]
 }

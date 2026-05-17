@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "f05ed79e",
+      "uid": "a78e6e8e",
       "func": "__gmp_doprnt_integer",
       "file": "fixture.c",
       "line": 103,
       "expression": "funs->memory"
     },
     {
-      "uid": "19bd2275",
+      "uid": "62ef86cf",
       "func": "__gmp_doprnt_integer",
       "file": "fixture.c",
       "line": 106,

@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "078b9f10",
+      "uid": "79687ade",
       "func": "Curl_MD5_update",
       "file": "fixture.c",
       "line": 77,

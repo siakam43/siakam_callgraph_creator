@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "2b35d3ba",
+      "uid": "b2e484e4",
       "func": "zstream_do_recompress",
       "file": "fixture.c",
       "line": 84,

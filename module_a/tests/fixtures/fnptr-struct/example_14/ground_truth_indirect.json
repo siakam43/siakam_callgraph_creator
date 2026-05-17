@@ -1,14 +1,14 @@
 {
   "indirect_points": [
     {
-      "uid": "baf35c29",
+      "uid": "b7fa8eef",
       "func": "ssl3_write_bytes",
       "file": "fixture.c",
       "line": 115,
       "expression": "s->handshake_func"
     },
     {
-      "uid": "abcb039e",
+      "uid": "a61a09cd",
       "func": "tls_finish_handshake",
       "file": "fixture.c",
       "line": 193,

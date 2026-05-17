@@ -8,12 +8,6 @@
     },
     {
       "caller": "Curl_cookie_add",
-      "callee": "Curl_cfree",
-      "file": "fixture.c",
-      "line": 46
-    },
-    {
-      "caller": "Curl_cookie_add",
       "callee": "strdup",
       "file": "fixture.c",
       "line": 50

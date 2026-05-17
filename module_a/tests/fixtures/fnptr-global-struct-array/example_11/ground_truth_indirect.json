@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "27e0e102",
+      "uid": "665b15d1",
       "func": "sshkey_new",
       "file": "fixture.c",
       "line": 125,

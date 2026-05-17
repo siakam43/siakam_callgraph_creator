@@ -56,12 +56,6 @@
     },
     {
       "caller": "dsl_dataset_user_release_sync",
-      "callee": "holdfunc",
-      "file": "fixture.c",
-      "line": 101
-    },
-    {
-      "caller": "dsl_dataset_user_release_sync",
       "callee": "dsl_dataset_user_release_sync_one",
       "file": "fixture.c",
       "line": 103

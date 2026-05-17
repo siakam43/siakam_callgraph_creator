@@ -1,21 +1,21 @@
 {
   "indirect_points": [
     {
-      "uid": "ef13ef98",
+      "uid": "76f83eff",
       "func": "connTypeRegister",
       "file": "fixture.c",
       "line": 37,
       "expression": "ct->get_type"
     },
     {
-      "uid": "d21aee13",
+      "uid": "8e885c79",
       "func": "connectionTypeTcp",
       "file": "fixture.c",
       "line": 66,
       "expression": "connTypes[type]->get_type"
     },
     {
-      "uid": "08e48157",
+      "uid": "bb5e7f7e",
       "func": "connUnixRead",
       "file": "fixture.c",
       "line": 77,

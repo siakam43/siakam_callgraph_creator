@@ -1,10 +1,10 @@
 {
   "indirect_points": [
     {
-      "uid": "fea64c29",
+      "uid": "5607edd7",
       "func": "Curl_new",
       "file": "fixture.c",
-      "line": 40,
+      "line": 29,
       "expression": "Curl_ccalloc"
     }
   ]

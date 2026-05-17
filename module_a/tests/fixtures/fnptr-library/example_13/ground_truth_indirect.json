@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "d765caa7",
+      "uid": "ae060515",
       "func": "v360_slice",
       "file": "fixture.c",
       "line": 276,

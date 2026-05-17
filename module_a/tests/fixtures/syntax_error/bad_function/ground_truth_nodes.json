@@ -1,6 +1,22 @@
 {
   "functions": [
-    {"name": "good_function", "file": "fixture.c", "line_start": 1, "has_body": true, "body_file": "fixture.c", "body_line_start": 1, "body_line_end": 3},
-    {"name": "another_good", "file": "fixture.c", "line_start": 9, "has_body": true, "body_file": "fixture.c", "body_line_start": 9, "body_line_end": 11}
+    {
+      "name": "good_function",
+      "file": "fixture.c",
+      "line_start": 1,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 1,
+      "body_line_end": 3
+    },
+    {
+      "name": "another_good",
+      "file": "fixture.c",
+      "line_start": 9,
+      "has_body": true,
+      "body_file": "fixture.c",
+      "body_line_start": 9,
+      "body_line_end": 11
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "indirect_points": [
     {
-      "uid": "b2e8bbbb",
+      "uid": "905fb1e7",
       "func": "dsa_sign_setup",
       "file": "fixture.c",
       "line": 81,

@@ -37,12 +37,6 @@
       "line": 119
     },
     {
-      "caller": "space_map_iterate",
-      "callee": "callback",
-      "file": "fixture.c",
-      "line": 129
-    },
-    {
       "caller": "spacemap_check_sm_log",
       "callee": "iterate_through_spacemap_logs",
       "file": "fixture.c",
