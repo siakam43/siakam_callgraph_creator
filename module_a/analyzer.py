@@ -4,9 +4,10 @@ import logging
 import os
 
 from module_a.ignore_parser import parse_siakamignore, should_exclude
-from module_a._parser import create_parser, parse_file
+from module_a.models import ProjectSymbols
+from module_a._parser import _FileParser
 from module_a._project_scanner import (
-    ProjectSymbols, scan_typedefs, scan_macros, scan_global_fnptrs,
+    scan_typedefs, scan_macros, scan_global_fnptrs,
 )
 from module_a._call_analyzer import CallAnalyzer
 
@@ -21,24 +22,31 @@ def run_analysis(project_dir: str, output_dir: str) -> dict:
     patterns = parse_siakamignore(project_dir)
     files = _discover_files(project_dir, patterns)
 
+    file_parser = _FileParser()
+
     # Phase 0: project-wide symbol collection
-    project_symbols = _run_phase0(files)
+    project_symbols = _run_phase0(files, file_parser)
 
     # Phase 1+2: per-file call analysis
     all_functions, all_edges, all_indirect_points = _run_phase12(
-        files, project_symbols, project_dir)
+        files, project_symbols, project_dir, file_parser)
 
-    # Output
-    deduped = _deduplicate_functions(all_functions)
-    edge_dicts = [e.to_dict() if hasattr(e, 'to_dict') else e for e in all_edges]
-    ip_dicts = [ip.to_dict() if hasattr(ip, 'to_dict') else ip for ip in all_indirect_points]
-    _write_output(output_dir, project_dir, deduped, edge_dicts, ip_dicts)
+    file_parser.clear()
+
+    # Deduplicate before serialization (operates on typed objects)
+    deduped_functions = _deduplicate_functions(all_functions)
+
+    # Single serialization boundary: model objects → JSON-serializable dicts
+    func_dicts, edge_dicts, ip_dicts = _serialize_results(
+        deduped_functions, all_edges, all_indirect_points)
+
+    _write_output(output_dir, project_dir, func_dicts, edge_dicts, ip_dicts)
 
     logger.info("Module A: %d functions, %d direct edges, %d indirect points",
-                len(deduped), len(all_edges), len(all_indirect_points))
+                len(func_dicts), len(edge_dicts), len(ip_dicts))
 
     return {
-        "functions": deduped,
+        "functions": func_dicts,
         "edges": edge_dicts,
         "indirect_points": ip_dicts,
     }
@@ -77,23 +85,21 @@ def _discover_files(project_dir, patterns):
 
 # ---- Phase 0 ----
 
-def _run_phase0(files):
+def _run_phase0(files, file_parser):
     # Pass 0a: typedefs + macros (no cross-file dependency)
     all_typedefs = set()
     all_macros = {}
     for fp in files:
-        parser = create_parser()
-        root, src = parse_file(parser, fp)
+        root, src = file_parser.parse(fp)
         all_typedefs |= scan_typedefs(root, src)
         for k, v in scan_macros(root, src).items():
             if k not in all_macros:
                 all_macros[k] = v
 
-    # Pass 0b: global fnptr names (needs full typedef set)
+    # Pass 0b: global fnptr names (needs full typedef set, ASTs cached from 0a)
     all_fnptrs = set()
     for fp in files:
-        parser = create_parser()
-        root, src = parse_file(parser, fp)
+        root, src = file_parser.parse(fp)
         all_fnptrs |= scan_global_fnptrs(root, src, all_typedefs)
 
     return ProjectSymbols(
@@ -105,11 +111,10 @@ def _run_phase0(files):
 
 # ---- Phase 1+2 ----
 
-def _run_phase12(files, symbols, project_dir):
+def _run_phase12(files, symbols, project_dir, file_parser):
     functions, edges, ips = [], [], []
     for fp in files:
-        parser = create_parser()
-        root, src = parse_file(parser, fp)
+        root, src = file_parser.parse(fp)
         a = CallAnalyzer(symbols, fp, src)
         funcs, edgs, inds = a.analyze(root)
         _relativize_paths(funcs, edgs, inds, fp, project_dir)
@@ -139,22 +144,27 @@ def _deduplicate_functions(functions):
     """Deduplicate functions: per name, keep the one with has_body=True if available."""
     by_name = {}
     for fn in functions:
-        name = fn.name if hasattr(fn, 'name') else fn["name"]
-        if name not in by_name:
-            by_name[name] = fn
-        else:
-            existing = by_name[name]
-            fn_has_body = fn.has_body if hasattr(fn, 'has_body') else fn.get("has_body")
-            ex_has_body = existing.has_body if hasattr(existing, 'has_body') else existing.get("has_body")
-            if fn_has_body and not ex_has_body:
-                by_name[name] = fn
-    result = []
-    for fn in by_name.values():
-        if hasattr(fn, 'to_dict'):
-            result.append(fn.to_dict())
-        else:
-            result.append(fn)
-    return result
+        if fn.name not in by_name:
+            by_name[fn.name] = fn
+        elif fn.has_body and not by_name[fn.name].has_body:
+            by_name[fn.name] = fn
+    return list(by_name.values())
+
+
+# ---- serialization ----
+
+def _serialize_results(functions, edges, indirect_points):
+    """Convert model objects to JSON-serializable dicts.
+
+    This is the single serialization boundary for the Module A pipeline.
+    All pipeline internals operate on typed objects (FunctionNode, DirectEdge,
+    IndirectPoint); dict conversion happens here, just before I/O.
+    """
+    return (
+        [f.to_dict() for f in functions],
+        [e.to_dict() for e in edges],
+        [ip.to_dict() for ip in indirect_points],
+    )
 
 
 # ---- output ----
@@ -172,3 +182,35 @@ def _write_output(output_dir, project_dir, functions, edges, indirect_points):
     indirect_path = os.path.join(output_dir, "indirect_points.json")
     with open(indirect_path, "w") as f:
         json.dump({"indirect_points": indirect_points}, f, indent=2)
+
+
+# ---- single-file convenience ----
+
+def analyze_single_file(filepath: str) -> dict:
+    """Run the full Module A pipeline on a single C file.
+
+    Self-populates project symbols from the file itself (typedefs, macros,
+    global fnptrs) so file-local macro expansion and fnptr detection work
+    correctly. Returns dicts with keys "functions", "edges", "indirect_points".
+    """
+    from module_a._project_scanner import (
+        scan_typedefs, scan_macros, scan_global_fnptrs,
+    )
+
+    file_parser = _FileParser()
+    root, src = file_parser.parse(filepath)
+    file_parser.clear()
+
+    typedefs = scan_typedefs(root, src)
+    macros = scan_macros(root, src)
+    fnptrs = scan_global_fnptrs(root, src, typedefs)
+
+    symbols = ProjectSymbols(typedefs, fnptrs, macros)
+    a = CallAnalyzer(symbols, filepath, src)
+    funcs, edges, ips = a.analyze(root)
+    _relativize_paths(funcs, edges, ips, filepath, os.path.dirname(filepath))
+    return {
+        "functions": [f.to_dict() for f in funcs],
+        "edges": [e.to_dict() for e in edges],
+        "indirect_points": [ip.to_dict() for ip in ips],
+    }

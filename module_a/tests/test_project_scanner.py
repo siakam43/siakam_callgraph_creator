@@ -4,8 +4,9 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../.."))
 
 import pytest
+from module_a.models import ProjectSymbols
 from module_a._project_scanner import (
-    ProjectSymbols, scan_typedefs, scan_macros, scan_global_fnptrs,
+    scan_typedefs, scan_macros, scan_global_fnptrs,
 )
 from module_a._parser import create_parser, parse_file
 

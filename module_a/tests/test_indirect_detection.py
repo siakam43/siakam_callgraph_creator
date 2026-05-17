@@ -5,7 +5,7 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../.."))
 
 import pytest
-from module_a._call_analyzer import parse_file
+from module_a.analyzer import analyze_single_file
 
 
 FIXTURES_DIR = os.path.join(os.path.dirname(__file__), "fixtures")
@@ -34,7 +34,7 @@ def discover_all_fixtures():
 @pytest.mark.parametrize("category,example,fixture_path,truth_path",
                          discover_all_fixtures())
 def test_indirect_detection(category, example, fixture_path, truth_path):
-    result = parse_file(fixture_path)
+    result = analyze_single_file(fixture_path)
 
     with open(truth_path) as f:
         expected = json.load(f)

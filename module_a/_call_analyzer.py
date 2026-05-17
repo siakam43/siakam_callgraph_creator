@@ -1,9 +1,8 @@
 """Phase 1+2: per-file call analysis using project-wide symbols."""
 import logging
 
-from module_a.models import FunctionNode, DirectEdge, IndirectPoint
+from module_a.models import FunctionNode, DirectEdge, IndirectPoint, ProjectSymbols
 from module_a.uid_generator import compute_uid
-from module_a._project_scanner import ProjectSymbols
 from module_a._ast_helpers import (
     iter_all, has_descendant, find_first_id, get_type_name, find_identifier,
 )
@@ -52,7 +51,6 @@ class CallAnalyzer:
                     self._walk(child, current_func, local_fnptr_names)
                 return
 
-            func_name = find_identifier(declarator or node, self._source)
             if func_name:
                 fn = FunctionNode(
                     name=func_name,
@@ -225,35 +223,3 @@ def _extract_names_from_assignment(node, source_bytes, local_names, typedef_name
 
     return found
 
-
-# ---- convenience: single-file test helper ----
-
-
-def parse_file(filepath: str) -> dict:
-    """Parse a single C file, self-populating symbols from the file.
-
-    Replaces the old c_parser.parse_file() for single-file tests.
-    Runs a mini Phase 0 on the file itself (typedefs, macros, global fnptrs)
-    so file-local macro expansion and fnptr detection work correctly.
-    """
-    from module_a._parser import create_parser as _create_parser
-    from module_a._parser import parse_file as _parse_file
-    from module_a._project_scanner import (
-        scan_typedefs, scan_macros, scan_global_fnptrs,
-    )
-
-    parser = _create_parser()
-    root, src = _parse_file(parser, filepath)
-
-    typedefs = scan_typedefs(root, src)
-    macros = scan_macros(root, src)
-    fnptrs = scan_global_fnptrs(root, src, typedefs)
-
-    symbols = ProjectSymbols(typedefs, fnptrs, macros)
-    a = CallAnalyzer(symbols, filepath, src)
-    funcs, edges, ips = a.analyze(root)
-    return {
-        "functions": [f.to_dict() for f in funcs],
-        "edges": [e.to_dict() for e in edges],
-        "indirect_points": [ip.to_dict() for ip in ips],
-    }

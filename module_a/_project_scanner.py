@@ -1,7 +1,7 @@
 """Phase 0: project-wide symbol collection for cross-file analysis."""
 import re
-from dataclasses import dataclass
 
+from module_a.models import ProjectSymbols
 from module_a._ast_helpers import (
     iter_all, has_descendant, is_inside_param_list,
     find_first_id, get_type_name,
@@ -9,14 +9,6 @@ from module_a._ast_helpers import (
 
 # C keywords that can appear as identifier(args) in macro bodies
 _C_KEYWORDS = frozenset({"if", "while", "for", "switch", "void", "return", "sizeof"})
-
-
-@dataclass
-class ProjectSymbols:
-    """Cross-file function-related symbols collected in Phase 0."""
-    typedef_fnptr_names: set[str]
-    global_fnptr_names: set[str]
-    macro_call_map: dict[str, str]  # macro_name -> callee_name
 
 
 # ---- Pass 0a: typedef fnptr names ----

@@ -34,3 +34,43 @@ def parse_file(parser: Parser, filepath: str) -> tuple:
                                filepath, line)
 
     return root, source_bytes
+
+
+class _FileParser:
+    """Per-run file parser with AST caching and shared Parser instance.
+
+    Parses each file once and caches the result. Subsequent calls to
+    parse() for the same filepath return the cached (root, source_bytes).
+    Call clear() to release cached AST memory when the pipeline is done.
+    """
+
+    def __init__(self):
+        lang = Language(tsc.language())
+        self._parser = Parser(lang)
+        self._cache: dict[str, tuple] = {}
+
+    def parse(self, filepath: str) -> tuple:
+        """Parse a file, returning (root_node, source_bytes). Cached on first call."""
+        if filepath in self._cache:
+            return self._cache[filepath]
+
+        with open(filepath, "r", encoding="utf-8", errors="replace") as f:
+            source = f.read()
+
+        source_bytes = source.encode()
+        tree = self._parser.parse(source_bytes)
+        root = tree.root_node
+
+        if root.has_error:
+            for node in iter_all(root):
+                if node.type == "ERROR":
+                    line = node.start_point[0] + 1
+                    logger.warning("%s:%d: syntax error, skipping affected code",
+                                   filepath, line)
+
+        self._cache[filepath] = (root, source_bytes)
+        return self._cache[filepath]
+
+    def clear(self):
+        """Release all cached ASTs to free memory."""
+        self._cache.clear()

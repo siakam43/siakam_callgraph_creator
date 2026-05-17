@@ -3,6 +3,14 @@ from typing import Optional
 
 
 @dataclass
+class ProjectSymbols:
+    """Cross-file function-related symbols collected in Phase 0."""
+    typedef_fnptr_names: set[str]
+    global_fnptr_names: set[str]
+    macro_call_map: dict[str, str]  # macro_name -> callee_name
+
+
+@dataclass
 class FunctionNode:
     """A function in the call graph."""
     name: str
