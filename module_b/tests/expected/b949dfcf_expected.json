@@ -5,12 +5,12 @@
     {
       "callee": "scpio",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-callback/example_15"
+      "reasoning": "atomicio6(..., scpio, ...) at L146"
     },
     {
       "callee": "sftpio",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-callback/example_15"
+      "reasoning": "atomicio6(..., sftpio, ...) at L172/L191"
     }
   ]
 }

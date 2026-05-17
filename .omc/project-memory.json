@@ -212,6 +212,24 @@
       "accessCount": 1,
       "lastAccessed": 1778995267775,
       "type": "file"
+    },
+    {
+      "path": "module_a/tests/fixtures/fnptr-only/example_1/fixture.c",
+      "accessCount": 1,
+      "lastAccessed": 1778997903054,
+      "type": "file"
+    },
+    {
+      "path": "module_a/tests/fixtures/fnptr-struct/example_1/fixture.c",
+      "accessCount": 1,
+      "lastAccessed": 1778997933936,
+      "type": "file"
+    },
+    {
+      "path": "module_a/tests/fixtures/fnptr-callback/example_1/fixture.c",
+      "accessCount": 1,
+      "lastAccessed": 1778998004529,
+      "type": "file"
     }
   ],
   "userDirectives": []

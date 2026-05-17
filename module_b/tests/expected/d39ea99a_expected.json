@@ -1,11 +1,6 @@
 {
   "uid": "d39ea99a",
   "status": "completed",
-  "possible_targets": [
-    {
-      "callee": "activeDefragAlloc",
-      "confidence": "high",
-      "reasoning": "From test_bench fnptr-struct/example_6"
-    }
-  ]
+  "possible_targets": [],
+  "_note": "defragkey is from defragfns->defragKey which is NULL"
 }

@@ -3,14 +3,14 @@
   "status": "completed",
   "possible_targets": [
     {
-      "callee": "auth_digest_md5_to_ascii",
+      "callee": "Curl_md5it",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-callback/example_1"
+      "reasoning": "MD5 path: Curl_auth_create_digest_http_message passes Curl_md5it"
     },
     {
-      "callee": "auth_digest_sha256_to_ascii",
+      "callee": "Curl_sha256it",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-callback/example_1"
+      "reasoning": "SHA256 path: Curl_auth_create_digest_http_message passes Curl_sha256it"
     }
   ]
 }

@@ -3,14 +3,14 @@
   "status": "completed",
   "possible_targets": [
     {
-      "callee": "zrangeResultFinalizeClient",
+      "callee": "zrangeResultBeginClient",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-struct/example_1"
+      "reasoning": "CLIENT branch in zrangeResultHandlerInit"
     },
     {
-      "callee": "zrangeResultFinalizeStore",
+      "callee": "zrangeResultBeginStore",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-struct/example_1"
+      "reasoning": "INTERNAL branch in zrangeResultHandlerInit"
     }
   ]
 }

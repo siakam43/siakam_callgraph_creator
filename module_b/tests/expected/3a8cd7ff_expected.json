@@ -3,14 +3,14 @@
   "status": "completed",
   "possible_targets": [
     {
-      "callee": "scpio",
+      "callee": "vwrite",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-callback/example_15"
+      "reasoning": "atomicio6(vwrite, ..., scpio, ...) at L146"
     },
     {
-      "callee": "sftpio",
+      "callee": "read",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-callback/example_15"
+      "reasoning": "atomicio6(read, ..., sftpio, ...) at L172/L191"
     }
   ]
 }
