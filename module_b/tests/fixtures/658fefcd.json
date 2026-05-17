@@ -1,0 +1,7 @@
+{
+  "uid": "658fefcd",
+  "func": "channel_input_open_failure",
+  "file": "fixture.c",
+  "line": 65,
+  "expression": "c->open_confirm"
+}

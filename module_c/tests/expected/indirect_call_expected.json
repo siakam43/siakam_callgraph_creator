@@ -1,0 +1,35 @@
+{
+  "total": 3,
+  "completed": 2,
+  "failed": 1,
+  "calls": [
+    {
+      "uid": "aaaaaaaa",
+      "caller": "do_work",
+      "expression": "ops->process",
+      "file": "main.c",
+      "line": 16,
+      "targets": [
+        {"callee": "helper_a", "confidence": "high"},
+        {"callee": "helper_b", "confidence": "medium"}
+      ]
+    },
+    {
+      "uid": "bbbbbbbb",
+      "caller": "init",
+      "expression": "(*setup)()",
+      "file": "main.c",
+      "line": 6,
+      "targets": []
+    },
+    {
+      "uid": "cccccccc",
+      "caller": "orphan",
+      "expression": "handler",
+      "file": "main.c",
+      "line": 44,
+      "targets": [],
+      "error": "Could not trace pointer assignment"
+    }
+  ]
+}

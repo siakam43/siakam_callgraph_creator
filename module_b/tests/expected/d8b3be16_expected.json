@@ -1,0 +1,11 @@
+{
+  "uid": "d8b3be16",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "redisNetRead",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-library/example_1"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "uid": "24a82c71",
+  "func": "genericZrangebyrankCommand",
+  "file": "fixture.c",
+  "line": 146,
+  "expression": "handler->finalizeResultEmission"
+}

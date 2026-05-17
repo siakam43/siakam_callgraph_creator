@@ -1,0 +1,11 @@
+{
+  "uid": "e253c482",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "RedisModule_OnLoad",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-dynamic-call/example_1"
+    }
+  ]
+}

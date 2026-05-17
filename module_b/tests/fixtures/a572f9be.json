@@ -1,0 +1,7 @@
+{
+  "uid": "a572f9be",
+  "func": "dynamic_load",
+  "file": "fixture.c",
+  "line": 82,
+  "expression": "ctx->bind_engine"
+}

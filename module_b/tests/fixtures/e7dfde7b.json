@@ -1,0 +1,7 @@
+{
+  "uid": "e7dfde7b",
+  "func": "decorator_on_escaped_function",
+  "file": "fixture.c",
+  "line": 203,
+  "expression": "ctx->inner->vtable->on_escaped_function"
+}

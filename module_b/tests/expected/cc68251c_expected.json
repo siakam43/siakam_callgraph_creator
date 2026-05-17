@@ -1,0 +1,21 @@
+{
+  "uid": "cc68251c",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "sort_gp_asc",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-callback/example_8"
+    },
+    {
+      "callee": "sort_gp_desc",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-callback/example_8"
+    },
+    {
+      "callee": "sortCompare",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-callback/example_8"
+    }
+  ]
+}

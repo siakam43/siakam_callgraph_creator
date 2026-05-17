@@ -1,0 +1,101 @@
+{
+  "uid": "734f826d",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "dump_acl",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_bpobj",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_bpobj_subobjs",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_ddt_zap",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_dmu_objset",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_dnode",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_dsl_dataset",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_dsl_dir",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_history_offsets",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_none",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_packed_nvlist",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_sa_attrs",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_sa_layouts",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_uint64",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_uint8",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_unknown",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_zap",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_znode",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    },
+    {
+      "callee": "dump_zpldir",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_1"
+    }
+  ]
+}

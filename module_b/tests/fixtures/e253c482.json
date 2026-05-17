@@ -1,0 +1,7 @@
+{
+  "uid": "e253c482",
+  "func": "onload_caller",
+  "file": "fixture.c",
+  "line": 90,
+  "expression": "onload"
+}

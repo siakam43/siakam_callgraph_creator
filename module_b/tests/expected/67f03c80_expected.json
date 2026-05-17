@@ -1,0 +1,11 @@
+{
+  "uid": "67f03c80",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "malloc",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-only/example_10"
+    }
+  ]
+}

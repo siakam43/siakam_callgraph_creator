@@ -1,0 +1,11 @@
+{
+  "uid": "21d93d7c",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "ssh_rsa_size",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_10"
+    }
+  ]
+}

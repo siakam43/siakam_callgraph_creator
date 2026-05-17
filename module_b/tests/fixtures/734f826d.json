@@ -1,0 +1,7 @@
+{
+  "uid": "734f826d",
+  "func": "dump_object",
+  "file": "fixture.c",
+  "line": 247,
+  "expression": "object_viewer[object_type]"
+}

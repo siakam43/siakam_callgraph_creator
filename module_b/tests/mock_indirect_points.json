@@ -1,0 +1,10 @@
+{
+  "indirect_points": [
+    {"uid": "uid00001", "func": "test_func1", "file": "test.c", "line": 10, "expression": "ptr->cb1"},
+    {"uid": "uid00002", "func": "test_func2", "file": "test.c", "line": 20, "expression": "ptr->cb2"},
+    {"uid": "uid00003", "func": "test_func3", "file": "test.c", "line": 30, "expression": "(*fp3)()"},
+    {"uid": "uid00004", "func": "test_func4", "file": "test.c", "line": 40, "expression": "arr[i]()"},
+    {"uid": "uid00005", "func": "test_func5", "file": "test.c", "line": 50, "expression": "ops->run"},
+    {"uid": "uid00006", "func": "test_func6", "file": "test.c", "line": 60, "expression": "dlsym_func"}
+  ]
+}

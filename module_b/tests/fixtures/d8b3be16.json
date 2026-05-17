@@ -1,0 +1,7 @@
+{
+  "uid": "d8b3be16",
+  "func": "readConn",
+  "file": "fixture.c",
+  "line": 66,
+  "expression": "c->funcs->read"
+}

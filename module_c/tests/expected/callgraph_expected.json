@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"name": "init", "file": "main.c", "line_start": 1, "has_body": true, "body_file": "main.c", "body_line_start": 1, "body_line_end": 10},
+    {"name": "do_work", "file": "main.c", "line_start": 12, "has_body": true, "body_file": "main.c", "body_line_start": 12, "body_line_end": 25},
+    {"name": "helper_a", "file": "main.c", "line_start": 27, "has_body": true, "body_file": "main.c", "body_line_start": 27, "body_line_end": 32},
+    {"name": "helper_b", "file": "main.c", "line_start": 34, "has_body": true, "body_file": "main.c", "body_line_start": 34, "body_line_end": 40},
+    {"name": "orphan", "file": "main.c", "line_start": 42, "has_body": true, "body_file": "main.c", "body_line_start": 42, "body_line_end": 46},
+    {"name": "malloc", "file": "include/stdlib.h", "line_start": -1, "has_body": false, "body_file": null, "body_line_start": null, "body_line_end": null},
+    {"name": "printf", "file": "include/stdio.h", "line_start": -1, "has_body": false, "body_file": null, "body_line_start": null, "body_line_end": null}
+  ],
+  "edges": [
+    {"caller": "init", "callee": "do_work", "type": "direct", "file": "main.c", "line": 5},
+    {"caller": "init", "callee": "malloc", "type": "direct", "file": "main.c", "line": 4},
+    {"caller": "do_work", "callee": "helper_a", "type": "direct", "file": "main.c", "line": 15},
+    {"caller": "do_work", "callee": "printf", "type": "direct", "file": "main.c", "line": 20},
+    {"caller": "helper_a", "callee": "helper_b", "type": "direct", "file": "main.c", "line": 29},
+    {"caller": "helper_b", "callee": "helper_a", "type": "direct", "file": "main.c", "line": 37},
+    {"caller": "do_work", "callee": "helper_a", "type": "indirect", "uid": "aaaaaaaa", "confidence": "high"},
+    {"caller": "do_work", "callee": "helper_b", "type": "indirect", "uid": "aaaaaaaa", "confidence": "medium"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "uid": "7fb15bf8",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "upsample_plane_c",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-library/example_14"
+    }
+  ]
+}

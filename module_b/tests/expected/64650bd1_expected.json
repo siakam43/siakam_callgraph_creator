@@ -1,0 +1,16 @@
+{
+  "uid": "64650bd1",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "auth_digest_md5_to_ascii",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-callback/example_1"
+    },
+    {
+      "callee": "auth_digest_sha256_to_ascii",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-callback/example_1"
+    }
+  ]
+}

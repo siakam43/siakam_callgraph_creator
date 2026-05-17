@@ -1,0 +1,7 @@
+{
+  "uid": "64c1ab18",
+  "func": "decorator_bifurcate",
+  "file": "fixture.c",
+  "line": 215,
+  "expression": "ctx->inner->vtable->bifurcate"
+}

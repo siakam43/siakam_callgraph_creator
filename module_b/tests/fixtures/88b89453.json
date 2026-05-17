@@ -1,0 +1,7 @@
+{
+  "uid": "88b89453",
+  "func": "decorator_get_ext_state",
+  "file": "fixture.c",
+  "line": 223,
+  "expression": "ctx->inner->vtable->get_ext_state"
+}

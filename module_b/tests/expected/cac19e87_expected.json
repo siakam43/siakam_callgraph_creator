@@ -1,0 +1,26 @@
+{
+  "uid": "cac19e87",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "auxShardIdSetter",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_1"
+    },
+    {
+      "callee": "auxHumanNodenameSetter",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_1"
+    },
+    {
+      "callee": "auxTcpPortSetter",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_1"
+    },
+    {
+      "callee": "auxTlsPortSetter",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_1"
+    }
+  ]
+}

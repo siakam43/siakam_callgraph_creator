@@ -1,0 +1,7 @@
+{
+  "uid": "62ef86cf",
+  "func": "__gmp_doprnt_integer",
+  "file": "fixture.c",
+  "line": 106,
+  "expression": "funs->memory"
+}

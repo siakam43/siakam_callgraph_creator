@@ -1,0 +1,7 @@
+{
+  "uid": "21d93d7c",
+  "func": "sshkey_size",
+  "file": "fixture.c",
+  "line": 128,
+  "expression": "impl->funcs->size"
+}

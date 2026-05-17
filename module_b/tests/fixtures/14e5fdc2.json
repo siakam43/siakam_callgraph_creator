@@ -1,0 +1,7 @@
+{
+  "uid": "14e5fdc2",
+  "func": "hpa_hooks_curtime",
+  "file": "fixture.c",
+  "line": 34,
+  "expression": "nstime_update"
+}

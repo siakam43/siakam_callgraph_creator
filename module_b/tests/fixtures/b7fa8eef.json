@@ -1,0 +1,7 @@
+{
+  "uid": "b7fa8eef",
+  "func": "ssl3_write_bytes",
+  "file": "fixture.c",
+  "line": 115,
+  "expression": "s->handshake_func"
+}

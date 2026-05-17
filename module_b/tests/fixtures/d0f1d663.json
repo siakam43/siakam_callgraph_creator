@@ -1,0 +1,7 @@
+{
+  "uid": "d0f1d663",
+  "func": "decode_wmv9",
+  "file": "fixture.c",
+  "line": 75,
+  "expression": "ctx->dsp.upsample_plane"
+}

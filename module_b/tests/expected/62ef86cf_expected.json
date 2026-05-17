@@ -1,0 +1,11 @@
+{
+  "uid": "62ef86cf",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "__gmp_asprintf_memory",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-cast/example_5"
+    }
+  ]
+}

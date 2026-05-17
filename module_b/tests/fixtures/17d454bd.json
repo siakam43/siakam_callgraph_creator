@@ -1,0 +1,7 @@
+{
+  "uid": "17d454bd",
+  "func": "decorator_on_phi",
+  "file": "fixture.c",
+  "line": 195,
+  "expression": "ctx->inner->vtable->on_phi"
+}

@@ -1,0 +1,11 @@
+{
+  "uid": "d39ea99a",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "activeDefragAlloc",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-struct/example_6"
+    }
+  ]
+}

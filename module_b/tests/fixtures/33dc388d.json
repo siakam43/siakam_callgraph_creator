@@ -1,0 +1,7 @@
+{
+  "uid": "33dc388d",
+  "func": "curl_share_cleanup",
+  "file": "fixture.c",
+  "line": 158,
+  "expression": "share->lockfunc"
+}

@@ -1,0 +1,11 @@
+{
+  "uid": "14e5fdc2",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "nstime_update_impl",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-cast/example_1"
+    }
+  ]
+}

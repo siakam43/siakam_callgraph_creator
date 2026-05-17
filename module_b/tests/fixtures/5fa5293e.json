@@ -1,0 +1,7 @@
+{
+  "uid": "5fa5293e",
+  "func": "get_fd_map",
+  "file": "fixture.c",
+  "line": 286,
+  "expression": "ctx->vtable->get_state_map_by_name"
+}

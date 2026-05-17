@@ -1,0 +1,31 @@
+{
+  "uid": "c4cc6f72",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "gray8aToPacked32",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-only/example_4"
+    },
+    {
+      "callee": "gray8aToPacked32_1",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-only/example_4"
+    },
+    {
+      "callee": "gray8aToPacked24",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-only/example_4"
+    },
+    {
+      "callee": "sws_convertPalette8ToPacked32",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-only/example_4"
+    },
+    {
+      "callee": "sws_convertPalette8ToPacked24",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-only/example_4"
+    }
+  ]
+}

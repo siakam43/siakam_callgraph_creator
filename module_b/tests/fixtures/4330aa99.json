@@ -1,0 +1,7 @@
+{
+  "uid": "4330aa99",
+  "func": "decorator_get_logger",
+  "file": "fixture.c",
+  "line": 175,
+  "expression": "ctx->inner->vtable->get_logger"
+}

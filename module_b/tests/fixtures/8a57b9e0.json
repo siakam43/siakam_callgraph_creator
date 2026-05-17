@@ -1,0 +1,7 @@
+{
+  "uid": "8a57b9e0",
+  "func": "Curl_smtp_escape_eob",
+  "file": "fixture.c",
+  "line": 35,
+  "expression": "Curl_cmalloc"
+}

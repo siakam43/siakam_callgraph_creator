@@ -1,0 +1,16 @@
+{
+  "uid": "a61a09cd",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "ossl_statem_accept",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-struct/example_14"
+    },
+    {
+      "callee": "ossl_statem_connect",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-struct/example_14"
+    }
+  ]
+}

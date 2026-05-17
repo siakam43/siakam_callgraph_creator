@@ -1,0 +1,7 @@
+{
+  "uid": "f36389f7",
+  "func": "decorator_on_liveness_change",
+  "file": "fixture.c",
+  "line": 171,
+  "expression": "ctx->inner->vtable->on_liveness_change"
+}

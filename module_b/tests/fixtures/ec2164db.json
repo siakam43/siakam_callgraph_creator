@@ -1,0 +1,7 @@
+{
+  "uid": "ec2164db",
+  "func": "decode_wmv9",
+  "file": "fixture.c",
+  "line": 73,
+  "expression": "ctx->dsp.upsample_plane"
+}

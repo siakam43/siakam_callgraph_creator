@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {"caller": "init", "callee": "do_work", "file": "main.c", "line": 5},
+    {"caller": "init", "callee": "malloc", "file": "main.c", "line": 4},
+    {"caller": "do_work", "callee": "helper_a", "file": "main.c", "line": 15},
+    {"caller": "do_work", "callee": "printf", "file": "main.c", "line": 20},
+    {"caller": "helper_a", "callee": "helper_b", "file": "main.c", "line": 29},
+    {"caller": "helper_b", "callee": "helper_a", "file": "main.c", "line": 37}
+  ]
+}

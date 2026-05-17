@@ -1,0 +1,7 @@
+{
+  "indirect_points": [
+    {"uid": "aaaaaaaa", "func": "do_work", "file": "main.c", "line": 16, "expression": "ops->process"},
+    {"uid": "bbbbbbbb", "func": "init", "file": "main.c", "line": 6, "expression": "(*setup)()"},
+    {"uid": "cccccccc", "func": "orphan", "file": "main.c", "line": 44, "expression": "handler"}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "uid": "a34f386c",
+  "func": "ssh_ecdsa_sk_equal",
+  "file": "fixture.c",
+  "line": 90,
+  "expression": "sshkey_ecdsa_funcs.equal"
+}

@@ -1,0 +1,701 @@
+[
+  {
+    "uid": "b8369d3c",
+    "category": "fnptr-only",
+    "example": "example_1",
+    "func": "zmalloc",
+    "expression": "zmalloc_oom_handler",
+    "expected_callees": [
+      "zmalloc_default_oom"
+    ]
+  },
+  {
+    "uid": "c4cc6f72",
+    "category": "fnptr-only",
+    "example": "example_4",
+    "func": "palToRgbWrapper",
+    "expression": "conv",
+    "expected_callees": [
+      "gray8aToPacked32",
+      "gray8aToPacked32_1",
+      "gray8aToPacked24",
+      "sws_convertPalette8ToPacked32",
+      "sws_convertPalette8ToPacked24"
+    ]
+  },
+  {
+    "uid": "8a57b9e0",
+    "category": "fnptr-only",
+    "example": "example_10",
+    "func": "Curl_smtp_escape_eob",
+    "expression": "Curl_cmalloc",
+    "expected_callees": [
+      "malloc"
+    ]
+  },
+  {
+    "uid": "67f03c80",
+    "category": "fnptr-only",
+    "example": "example_10",
+    "func": "Curl_smtp_escape_eob",
+    "expression": "Curl_cmalloc",
+    "expected_callees": [
+      "malloc"
+    ]
+  },
+  {
+    "uid": "f447a47e",
+    "category": "fnptr-struct",
+    "example": "example_1",
+    "func": "genericZrangebyrankCommand",
+    "expression": "handler->beginResultEmission",
+    "expected_callees": [
+      "zrangeResultFinalizeClient",
+      "zrangeResultFinalizeStore"
+    ]
+  },
+  {
+    "uid": "24a82c71",
+    "category": "fnptr-struct",
+    "example": "example_1",
+    "func": "genericZrangebyrankCommand",
+    "expression": "handler->finalizeResultEmission",
+    "expected_callees": [
+      "zrangeResultFinalizeClient",
+      "zrangeResultFinalizeStore"
+    ]
+  },
+  {
+    "uid": "d39ea99a",
+    "category": "fnptr-struct",
+    "example": "example_6",
+    "func": "dictDefragBucket",
+    "expression": "defragkey",
+    "expected_callees": [
+      "activeDefragAlloc"
+    ]
+  },
+  {
+    "uid": "49413923",
+    "category": "fnptr-struct",
+    "example": "example_6",
+    "func": "dictDefragBucket",
+    "expression": "defragval",
+    "expected_callees": [
+      "activeDefragAlloc"
+    ]
+  },
+  {
+    "uid": "1ab1febe",
+    "category": "fnptr-struct",
+    "example": "example_6",
+    "func": "dictDefragBucket",
+    "expression": "defragalloc",
+    "expected_callees": [
+      "activeDefragAlloc"
+    ]
+  },
+  {
+    "uid": "b7fa8eef",
+    "category": "fnptr-struct",
+    "example": "example_14",
+    "func": "ssl3_write_bytes",
+    "expression": "s->handshake_func",
+    "expected_callees": [
+      "ossl_statem_accept",
+      "ossl_statem_connect"
+    ]
+  },
+  {
+    "uid": "a61a09cd",
+    "category": "fnptr-struct",
+    "example": "example_14",
+    "func": "tls_finish_handshake",
+    "expression": "cb",
+    "expected_callees": [
+      "ossl_statem_accept",
+      "ossl_statem_connect"
+    ]
+  },
+  {
+    "uid": "64650bd1",
+    "category": "fnptr-callback",
+    "example": "example_1",
+    "func": "auth_create_digest_http_message",
+    "expression": "hash",
+    "expected_callees": [
+      "auth_digest_md5_to_ascii",
+      "auth_digest_sha256_to_ascii"
+    ]
+  },
+  {
+    "uid": "af14236d",
+    "category": "fnptr-callback",
+    "example": "example_1",
+    "func": "auth_create_digest_http_message",
+    "expression": "convert_to_ascii",
+    "expected_callees": [
+      "auth_digest_md5_to_ascii",
+      "auth_digest_sha256_to_ascii"
+    ]
+  },
+  {
+    "uid": "8dc1813c",
+    "category": "fnptr-callback",
+    "example": "example_8",
+    "func": "med3",
+    "expression": "cmp",
+    "expected_callees": [
+      "sort_gp_asc",
+      "sort_gp_desc",
+      "sortCompare"
+    ]
+  },
+  {
+    "uid": "eb3f8f12",
+    "category": "fnptr-callback",
+    "example": "example_8",
+    "func": "med3",
+    "expression": "cmp",
+    "expected_callees": [
+      "sort_gp_asc",
+      "sort_gp_desc",
+      "sortCompare"
+    ]
+  },
+  {
+    "uid": "cc49d58c",
+    "category": "fnptr-callback",
+    "example": "example_8",
+    "func": "med3",
+    "expression": "cmp",
+    "expected_callees": [
+      "sort_gp_asc",
+      "sort_gp_desc",
+      "sortCompare"
+    ]
+  },
+  {
+    "uid": "cc68251c",
+    "category": "fnptr-callback",
+    "example": "example_8",
+    "func": "_pqsort",
+    "expression": "cmp",
+    "expected_callees": [
+      "sort_gp_asc",
+      "sort_gp_desc",
+      "sortCompare"
+    ]
+  },
+  {
+    "uid": "3a8cd7ff",
+    "category": "fnptr-callback",
+    "example": "example_15",
+    "func": "atomicio6",
+    "expression": "(f)",
+    "expected_callees": [
+      "scpio",
+      "sftpio"
+    ]
+  },
+  {
+    "uid": "b949dfcf",
+    "category": "fnptr-callback",
+    "example": "example_15",
+    "func": "atomicio6",
+    "expression": "cb",
+    "expected_callees": [
+      "scpio",
+      "sftpio"
+    ]
+  },
+  {
+    "uid": "0bd12580",
+    "category": "fnptr-callback",
+    "example": "example_15",
+    "func": "atomicio6",
+    "expression": "cb",
+    "expected_callees": [
+      "scpio",
+      "sftpio"
+    ]
+  },
+  {
+    "uid": "033c8635",
+    "category": "fnptr-global-struct",
+    "example": "example_1",
+    "func": "claim_segment_cb",
+    "expression": "vdev_indirect_ops.vdev_op_remap",
+    "expected_callees": [
+      "vdev_indirect_remap"
+    ]
+  },
+  {
+    "uid": "674fb5e7",
+    "category": "fnptr-global-struct",
+    "example": "example_1",
+    "func": "vdev_indirect_remap",
+    "expression": "func",
+    "expected_callees": [
+      "vdev_indirect_remap"
+    ]
+  },
+  {
+    "uid": "a34f386c",
+    "category": "fnptr-global-struct",
+    "example": "example_10",
+    "func": "ssh_ecdsa_sk_equal",
+    "expression": "sshkey_ecdsa_funcs.equal",
+    "expected_callees": [
+      "ssh_ecdsa_equal"
+    ]
+  },
+  {
+    "uid": "734f826d",
+    "category": "fnptr-global-array",
+    "example": "example_1",
+    "func": "dump_object",
+    "expression": "object_viewer[object_type]",
+    "expected_callees": [
+      "dump_acl",
+      "dump_bpobj",
+      "dump_bpobj_subobjs",
+      "dump_ddt_zap",
+      "dump_dmu_objset",
+      "dump_dnode",
+      "dump_dsl_dataset",
+      "dump_dsl_dir",
+      "dump_history_offsets",
+      "dump_none",
+      "dump_packed_nvlist",
+      "dump_sa_attrs",
+      "dump_sa_layouts",
+      "dump_uint64",
+      "dump_uint8",
+      "dump_unknown",
+      "dump_zap",
+      "dump_znode",
+      "dump_zpldir"
+    ]
+  },
+  {
+    "uid": "64a88c0f",
+    "category": "fnptr-global-array",
+    "example": "example_5",
+    "func": "mstate",
+    "expression": "finit[state]",
+    "expected_callees": [
+      "Curl_init_CONNECT",
+      "before_perform",
+      "init_completed"
+    ]
+  },
+  {
+    "uid": "1269f9eb",
+    "category": "fnptr-global-struct-array",
+    "example": "example_1",
+    "func": "clusterProcessAuxField",
+    "expression": "auxFieldHandlers[j].setter",
+    "expected_callees": [
+      "auxShardIdSetter",
+      "auxHumanNodenameSetter",
+      "auxTcpPortSetter",
+      "auxTlsPortSetter"
+    ]
+  },
+  {
+    "uid": "cac19e87",
+    "category": "fnptr-global-struct-array",
+    "example": "example_1",
+    "func": "setter_caller",
+    "expression": "auxFieldHandlers[j].setter",
+    "expected_callees": [
+      "auxShardIdSetter",
+      "auxHumanNodenameSetter",
+      "auxTcpPortSetter",
+      "auxTlsPortSetter"
+    ]
+  },
+  {
+    "uid": "21d93d7c",
+    "category": "fnptr-global-struct-array",
+    "example": "example_10",
+    "func": "sshkey_size",
+    "expression": "impl->funcs->size",
+    "expected_callees": [
+      "ssh_rsa_size"
+    ]
+  },
+  {
+    "uid": "b0948d97",
+    "category": "fnptr-global-struct-array",
+    "example": "example_12",
+    "func": "mux_master_read_cb",
+    "expression": "mux_master_handlers[i].handler",
+    "expected_callees": [
+      "mux_master_process_hello",
+      "mux_master_process_new_session",
+      "mux_master_process_alive_check",
+      "mux_master_process_terminate",
+      "mux_master_process_open_fwd",
+      "mux_master_process_close_fwd",
+      "mux_master_process_stdio_fwd",
+      "mux_master_process_stop_listening",
+      "mux_master_process_proxy"
+    ]
+  },
+  {
+    "uid": "14e5fdc2",
+    "category": "fnptr-cast",
+    "example": "example_1",
+    "func": "hpa_hooks_curtime",
+    "expression": "nstime_update",
+    "expected_callees": [
+      "nstime_update_impl"
+    ]
+  },
+  {
+    "uid": "a78e6e8e",
+    "category": "fnptr-cast",
+    "example": "example_5",
+    "func": "__gmp_doprnt_integer",
+    "expression": "funs->memory",
+    "expected_callees": [
+      "__gmp_asprintf_memory"
+    ]
+  },
+  {
+    "uid": "62ef86cf",
+    "category": "fnptr-cast",
+    "example": "example_5",
+    "func": "__gmp_doprnt_integer",
+    "expression": "funs->memory",
+    "expected_callees": [
+      "__gmp_asprintf_memory"
+    ]
+  },
+  {
+    "uid": "88fb90dc",
+    "category": "fnptr-dynamic-call",
+    "example": "example_1",
+    "func": "loadModule",
+    "expression": "onload",
+    "expected_callees": [
+      "RedisModule_OnLoad"
+    ]
+  },
+  {
+    "uid": "e253c482",
+    "category": "fnptr-dynamic-call",
+    "example": "example_1",
+    "func": "onload_caller",
+    "expression": "onload",
+    "expected_callees": [
+      "RedisModule_OnLoad"
+    ]
+  },
+  {
+    "uid": "5e7708aa",
+    "category": "fnptr-dynamic-call",
+    "example": "example_4",
+    "func": "dynamic_load",
+    "expression": "ctx->v_check",
+    "expected_callees": [
+      "bind_engine"
+    ]
+  },
+  {
+    "uid": "a572f9be",
+    "category": "fnptr-dynamic-call",
+    "example": "example_4",
+    "func": "dynamic_load",
+    "expression": "ctx->bind_engine",
+    "expected_callees": [
+      "bind_engine"
+    ]
+  },
+  {
+    "uid": "d8b3be16",
+    "category": "fnptr-library",
+    "example": "example_1",
+    "func": "readConn",
+    "expression": "c->funcs->read",
+    "expected_callees": [
+      "redisNetRead"
+    ]
+  },
+  {
+    "uid": "ec2164db",
+    "category": "fnptr-library",
+    "example": "example_14",
+    "func": "decode_wmv9",
+    "expression": "ctx->dsp.upsample_plane",
+    "expected_callees": [
+      "upsample_plane_c"
+    ]
+  },
+  {
+    "uid": "7fb15bf8",
+    "category": "fnptr-library",
+    "example": "example_14",
+    "func": "decode_wmv9",
+    "expression": "ctx->dsp.upsample_plane",
+    "expected_callees": [
+      "upsample_plane_c"
+    ]
+  },
+  {
+    "uid": "d0f1d663",
+    "category": "fnptr-library",
+    "example": "example_14",
+    "func": "decode_wmv9",
+    "expression": "ctx->dsp.upsample_plane",
+    "expected_callees": [
+      "upsample_plane_c"
+    ]
+  },
+  {
+    "uid": "658fefcd",
+    "category": "fnptr-library",
+    "example": "example_20",
+    "func": "channel_input_open_failure",
+    "expression": "c->open_confirm",
+    "expected_callees": [
+      "mux_session_confirm",
+      "mux_stdio_confirm",
+      "ssh_stdio_confirm",
+      "ssh_session2_setup",
+      "ssh_tun_confirm"
+    ]
+  },
+  {
+    "uid": "33dc388d",
+    "category": "fnptr-varargs",
+    "example": "example_1",
+    "func": "curl_share_cleanup",
+    "expression": "share->lockfunc",
+    "expected_callees": [
+      "my_lock"
+    ]
+  },
+  {
+    "uid": "6bc34343",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_warn",
+    "expression": "ctx->inner->vtable->warn",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "73ee2767",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_add_note",
+    "expression": "ctx->inner->vtable->add_note",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "30855dd5",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_svalue_leak",
+    "expression": "ctx->inner->vtable->on_svalue_leak",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "f36389f7",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_liveness_change",
+    "expression": "ctx->inner->vtable->on_liveness_change",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "4330aa99",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_get_logger",
+    "expression": "ctx->inner->vtable->get_logger",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "024d8333",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_condition",
+    "expression": "ctx->inner->vtable->on_condition",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "757b0a78",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_bounded_ranges",
+    "expression": "ctx->inner->vtable->on_bounded_ranges",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "674cacce",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_pop_frame",
+    "expression": "ctx->inner->vtable->on_pop_frame",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "f8182978",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_unknown_change",
+    "expression": "ctx->inner->vtable->on_unknown_change",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "17d454bd",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_phi",
+    "expression": "ctx->inner->vtable->on_phi",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "dcc25fcf",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_unexpected_tree_code",
+    "expression": "ctx->inner->vtable->on_unexpected_tree_code",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "e7dfde7b",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_on_escaped_function",
+    "expression": "ctx->inner->vtable->on_escaped_function",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "9dde243a",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_get_uncertainty",
+    "expression": "ctx->inner->vtable->get_uncertainty",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "c1c05de9",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_purge_state_involving",
+    "expression": "ctx->inner->vtable->purge_state_involving",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "64c1ab18",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_bifurcate",
+    "expression": "ctx->inner->vtable->bifurcate",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "94196c9f",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_terminate_path",
+    "expression": "ctx->inner->vtable->terminate_path",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "88b89453",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_get_ext_state",
+    "expression": "ctx->inner->vtable->get_ext_state",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "16674737",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "region_model_context_decorator_get_state_map_by_name",
+    "expression": "ctx->inner->vtable->get_state_map_by_name",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "5f82c8d3",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "decorator_get_stmt",
+    "expression": "ctx->inner->vtable->get_stmt",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  },
+  {
+    "uid": "5fa5293e",
+    "category": "fnptr-virtual",
+    "example": "example_1",
+    "func": "get_fd_map",
+    "expression": "ctx->vtable->get_state_map_by_name",
+    "expected_callees": [
+      "noop_region_model_context::get_state_map_by_name",
+      "region_model_context_decorator::get_state_map_by_name"
+    ]
+  }
+]

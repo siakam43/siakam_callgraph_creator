@@ -1,0 +1,8 @@
+{
+  "uid": "aaaaaaaa",
+  "status": "completed",
+  "possible_targets": [
+    {"callee": "helper_a", "file": "main.c", "confidence": "high", "reasoning": "Assigned in init"},
+    {"callee": "helper_b", "file": "main.c", "confidence": "medium", "reasoning": "Alternative path"}
+  ]
+}

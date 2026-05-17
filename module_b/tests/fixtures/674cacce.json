@@ -1,0 +1,7 @@
+{
+  "uid": "674cacce",
+  "func": "decorator_on_pop_frame",
+  "file": "fixture.c",
+  "line": 187,
+  "expression": "ctx->inner->vtable->on_pop_frame"
+}

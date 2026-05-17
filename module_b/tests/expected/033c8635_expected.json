@@ -1,0 +1,11 @@
+{
+  "uid": "033c8635",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "vdev_indirect_remap",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct/example_1"
+    }
+  ]
+}

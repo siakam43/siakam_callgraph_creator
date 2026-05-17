@@ -1,0 +1,16 @@
+{
+  "uid": "f447a47e",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "zrangeResultFinalizeClient",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-struct/example_1"
+    },
+    {
+      "callee": "zrangeResultFinalizeStore",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-struct/example_1"
+    }
+  ]
+}

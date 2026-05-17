@@ -1,0 +1,7 @@
+{
+  "uid": "9dde243a",
+  "func": "decorator_get_uncertainty",
+  "file": "fixture.c",
+  "line": 207,
+  "expression": "ctx->inner->vtable->get_uncertainty"
+}

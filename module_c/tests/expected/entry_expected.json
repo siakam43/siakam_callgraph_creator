@@ -1,0 +1,6 @@
+{
+  "entry_functions": [
+    {"name": "init", "file": "main.c", "line_start": 1},
+    {"name": "orphan", "file": "main.c", "line_start": 42}
+  ]
+}

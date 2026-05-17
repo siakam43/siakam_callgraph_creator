@@ -1,0 +1,7 @@
+{
+  "uid": "033c8635",
+  "func": "claim_segment_cb",
+  "file": "fixture.c",
+  "line": 47,
+  "expression": "vdev_indirect_ops.vdev_op_remap"
+}

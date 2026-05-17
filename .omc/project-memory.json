@@ -158,6 +158,54 @@
       "accessCount": 2,
       "lastAccessed": 1778995101090,
       "type": "file"
+    },
+    {
+      "path": "module_c/tests/conftest.py",
+      "accessCount": 2,
+      "lastAccessed": 1778995393329,
+      "type": "file"
+    },
+    {
+      "path": "module_c/tests/test_merge.py",
+      "accessCount": 2,
+      "lastAccessed": 1778995531214,
+      "type": "file"
+    },
+    {
+      "path": "module_c/tests/test_entry_finder.py",
+      "accessCount": 2,
+      "lastAccessed": 1778995559225,
+      "type": "file"
+    },
+    {
+      "path": "module_c/tests/test_indirect_summary.py",
+      "accessCount": 2,
+      "lastAccessed": 1778995579430,
+      "type": "file"
+    },
+    {
+      "path": "module_b/tests/run_analysis_test.md",
+      "accessCount": 2,
+      "lastAccessed": 1778995836110,
+      "type": "file"
+    },
+    {
+      "path": "module_b/tests/run_orchestrator_test.md",
+      "accessCount": 2,
+      "lastAccessed": 1778995863948,
+      "type": "file"
+    },
+    {
+      "path": "module_c/merge.py",
+      "accessCount": 1,
+      "lastAccessed": 1778995265761,
+      "type": "file"
+    },
+    {
+      "path": "module_c/entry_finder.py",
+      "accessCount": 1,
+      "lastAccessed": 1778995267775,
+      "type": "file"
     }
   ],
   "userDirectives": []

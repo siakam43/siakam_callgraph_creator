@@ -1,0 +1,7 @@
+{
+  "uid": "88fb90dc",
+  "func": "loadModule",
+  "file": "fixture.c",
+  "line": 48,
+  "expression": "onload"
+}

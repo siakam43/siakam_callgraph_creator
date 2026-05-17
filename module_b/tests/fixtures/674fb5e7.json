@@ -1,0 +1,7 @@
+{
+  "uid": "674fb5e7",
+  "func": "vdev_indirect_remap",
+  "file": "fixture.c",
+  "line": 55,
+  "expression": "func"
+}

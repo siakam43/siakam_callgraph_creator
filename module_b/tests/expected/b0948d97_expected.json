@@ -1,0 +1,51 @@
+{
+  "uid": "b0948d97",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "mux_master_process_hello",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    },
+    {
+      "callee": "mux_master_process_new_session",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    },
+    {
+      "callee": "mux_master_process_alive_check",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    },
+    {
+      "callee": "mux_master_process_terminate",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    },
+    {
+      "callee": "mux_master_process_open_fwd",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    },
+    {
+      "callee": "mux_master_process_close_fwd",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    },
+    {
+      "callee": "mux_master_process_stdio_fwd",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    },
+    {
+      "callee": "mux_master_process_stop_listening",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    },
+    {
+      "callee": "mux_master_process_proxy",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct-array/example_12"
+    }
+  ]
+}

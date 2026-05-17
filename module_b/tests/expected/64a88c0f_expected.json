@@ -1,0 +1,21 @@
+{
+  "uid": "64a88c0f",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "Curl_init_CONNECT",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_5"
+    },
+    {
+      "callee": "before_perform",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_5"
+    },
+    {
+      "callee": "init_completed",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-array/example_5"
+    }
+  ]
+}

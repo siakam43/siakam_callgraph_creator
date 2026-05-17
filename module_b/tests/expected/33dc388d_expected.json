@@ -1,0 +1,11 @@
+{
+  "uid": "33dc388d",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "my_lock",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-varargs/example_1"
+    }
+  ]
+}

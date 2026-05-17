@@ -1,0 +1,11 @@
+{
+  "uid": "5e7708aa",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "bind_engine",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-dynamic-call/example_4"
+    }
+  ]
+}

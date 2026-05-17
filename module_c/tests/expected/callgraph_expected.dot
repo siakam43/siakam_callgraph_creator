@@ -1,0 +1,10 @@
+digraph callgraph {
+  "init" -> "do_work" [label="direct"];
+  "init" -> "malloc" [label="direct"];
+  "do_work" -> "helper_a" [label="direct"];
+  "do_work" -> "printf" [label="direct"];
+  "helper_a" -> "helper_b" [label="direct"];
+  "helper_b" -> "helper_a" [label="direct"];
+  "do_work" -> "helper_a" [label="indirect\nconf:high"];
+  "do_work" -> "helper_b" [label="indirect\nconf:medium"];
+}

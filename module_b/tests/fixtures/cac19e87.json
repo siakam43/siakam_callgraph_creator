@@ -1,0 +1,7 @@
+{
+  "uid": "cac19e87",
+  "func": "setter_caller",
+  "file": "fixture.c",
+  "line": 80,
+  "expression": "auxFieldHandlers[j].setter"
+}

@@ -1,0 +1,7 @@
+{
+  "uid": "30855dd5",
+  "func": "decorator_on_svalue_leak",
+  "file": "fixture.c",
+  "line": 167,
+  "expression": "ctx->inner->vtable->on_svalue_leak"
+}

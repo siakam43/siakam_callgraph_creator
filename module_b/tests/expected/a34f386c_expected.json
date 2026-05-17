@@ -1,0 +1,11 @@
+{
+  "uid": "a34f386c",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "ssh_ecdsa_equal",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-global-struct/example_10"
+    }
+  ]
+}

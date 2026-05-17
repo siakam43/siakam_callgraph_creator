@@ -1,0 +1,16 @@
+{
+  "uid": "6bc34343",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "noop_region_model_context::get_state_map_by_name",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-virtual/example_1"
+    },
+    {
+      "callee": "region_model_context_decorator::get_state_map_by_name",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-virtual/example_1"
+    }
+  ]
+}

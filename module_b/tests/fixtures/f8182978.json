@@ -1,0 +1,7 @@
+{
+  "uid": "f8182978",
+  "func": "decorator_on_unknown_change",
+  "file": "fixture.c",
+  "line": 191,
+  "expression": "ctx->inner->vtable->on_unknown_change"
+}

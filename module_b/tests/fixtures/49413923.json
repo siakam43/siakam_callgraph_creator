@@ -1,0 +1,7 @@
+{
+  "uid": "49413923",
+  "func": "dictDefragBucket",
+  "file": "fixture.c",
+  "line": 65,
+  "expression": "defragval"
+}

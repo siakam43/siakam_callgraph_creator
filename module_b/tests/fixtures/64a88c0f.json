@@ -1,0 +1,7 @@
+{
+  "uid": "64a88c0f",
+  "func": "mstate",
+  "file": "fixture.c",
+  "line": 90,
+  "expression": "finit[state]"
+}

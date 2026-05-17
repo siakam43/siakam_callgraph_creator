@@ -1,0 +1,16 @@
+{
+  "uid": "b949dfcf",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "scpio",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-callback/example_15"
+    },
+    {
+      "callee": "sftpio",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-callback/example_15"
+    }
+  ]
+}

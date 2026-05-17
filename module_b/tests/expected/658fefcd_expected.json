@@ -1,0 +1,31 @@
+{
+  "uid": "658fefcd",
+  "status": "completed",
+  "possible_targets": [
+    {
+      "callee": "mux_session_confirm",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-library/example_20"
+    },
+    {
+      "callee": "mux_stdio_confirm",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-library/example_20"
+    },
+    {
+      "callee": "ssh_stdio_confirm",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-library/example_20"
+    },
+    {
+      "callee": "ssh_session2_setup",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-library/example_20"
+    },
+    {
+      "callee": "ssh_tun_confirm",
+      "confidence": "high",
+      "reasoning": "From test_bench fnptr-library/example_20"
+    }
+  ]
+}

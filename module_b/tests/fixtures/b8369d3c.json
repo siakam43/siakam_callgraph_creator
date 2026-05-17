@@ -1,0 +1,7 @@
+{
+  "uid": "b8369d3c",
+  "func": "zmalloc",
+  "file": "fixture.c",
+  "line": 19,
+  "expression": "zmalloc_oom_handler"
+}
