@@ -5,7 +5,7 @@
     {
       "callee": "bind_engine",
       "confidence": "high",
-      "reasoning": "From test_bench fnptr-dynamic-call/example_4"
+      "reasoning": "dlsym(ctx->DYNAMIC_F2=\"bind_engine\") resolved to bind_engine() at L107"
     }
   ]
 }
