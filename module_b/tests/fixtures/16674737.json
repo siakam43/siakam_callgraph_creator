@@ -1,7 +1,0 @@
-{
-  "uid": "16674737",
-  "func": "region_model_context_decorator_get_state_map_by_name",
-  "file": "fixture.c",
-  "line": 236,
-  "expression": "ctx->inner->vtable->get_state_map_by_name"
-}

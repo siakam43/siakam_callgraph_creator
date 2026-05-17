@@ -5,9 +5,12 @@ Validates `module_b/analyze_indirect.md` prompt against representative indirect 
 ## Setup
 
 Test fixtures and expected results are in:
-- `module_b/tests/fixtures/` — 62 indirect_point JSON files (Module A format)
+- `module_b/tests/fixtures/` — 36 indirect_point JSON files (Module A format)
 - `module_b/tests/expected/` — corresponding expected analysis results
 - `module_b/tests/manifest.json` — fixture index with category/example metadata
+
+Only fixtures whose `func` matches a test_bench ground_truth caller are included.
+This ensures expected callee data is verified.
 
 ## Procedure
 
@@ -34,25 +37,22 @@ For each fixture:
 
 | Category | Examples | Indirect Points |
 |----------|----------|----------------|
-| fnptr-only | example_1,4,10 | 3 |
-| fnptr-struct | example_1,6,14 | 5 |
-| fnptr-callback | example_1,8,15 | 7 |
-| fnptr-global-struct | example_1,10 | 3 |
+| fnptr-only | example_1,4,10 | 4 |
+| fnptr-struct | example_1,6,14 | 6 |
+| fnptr-callback | example_1,8,15 | 6 |
+| fnptr-global-struct | example_1,10 | 2 |
 | fnptr-global-array | example_1,5 | 2 |
-| fnptr-global-struct-array | example_1,10,12 | 4 |
+| fnptr-global-struct-array | example_1,10,12 | 3 |
 | fnptr-cast | example_1,5 | 3 |
-| fnptr-dynamic-call | example_1,4 | 4 |
+| fnptr-dynamic-call | example_1,4 | 3 |
 | fnptr-library | example_1,14,20 | 5 |
 | fnptr-varargs | example_1 | 1 |
-| fnptr-virtual | example_1 | 20 |
-| **Total** | **24 examples** | **62** |
+| fnptr-virtual | example_1 | 1 |
+| **Total** | **24 examples** | **36** |
 
 ## Notes
 
-- The expected files use test_bench ground_truth.json callee lists as reference.
-  These should be verified manually for accuracy before running tests.
-- fnptr-virtual fixtures have the most complex expected data and may need
-  manual correction — the decorator methods each call a different vtable
-  function, not all get_state_map_by_name.
+- Expected callee data is from test_bench ground_truth.json, cross-referenced by caller function name.
+  Fixtures where the indirect point caller is not in test_bench's ground truth are excluded.
 - The source files referenced by `"file": "fixture.c"` can be found at
   `module_a/tests/fixtures/<category>/<example>/fixture.c`.

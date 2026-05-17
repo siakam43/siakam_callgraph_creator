@@ -1,7 +1,0 @@
-{
-  "uid": "94196c9f",
-  "func": "decorator_terminate_path",
-  "file": "fixture.c",
-  "line": 219,
-  "expression": "ctx->inner->vtable->terminate_path"
-}

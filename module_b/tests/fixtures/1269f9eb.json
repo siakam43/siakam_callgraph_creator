@@ -1,7 +1,0 @@
-{
-  "uid": "1269f9eb",
-  "func": "clusterProcessAuxField",
-  "file": "fixture.c",
-  "line": 67,
-  "expression": "auxFieldHandlers[j].setter"
-}

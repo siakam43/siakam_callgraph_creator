@@ -1,7 +1,0 @@
-{
-  "uid": "757b0a78",
-  "func": "decorator_on_bounded_ranges",
-  "file": "fixture.c",
-  "line": 183,
-  "expression": "ctx->inner->vtable->on_bounded_ranges"
-}

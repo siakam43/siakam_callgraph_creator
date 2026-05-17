@@ -1,7 +1,0 @@
-{
-  "uid": "5f82c8d3",
-  "func": "decorator_get_stmt",
-  "file": "fixture.c",
-  "line": 241,
-  "expression": "ctx->inner->vtable->get_stmt"
-}

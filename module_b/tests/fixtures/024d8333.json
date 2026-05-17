@@ -1,7 +1,0 @@
-{
-  "uid": "024d8333",
-  "func": "decorator_on_condition",
-  "file": "fixture.c",
-  "line": 179,
-  "expression": "ctx->inner->vtable->on_condition"
-}

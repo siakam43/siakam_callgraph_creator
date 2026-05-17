@@ -136,6 +136,12 @@
   },
   "hotPaths": [
     {
+      "path": "module_b/tests/run_analysis_test.md",
+      "accessCount": 4,
+      "lastAccessed": 1778997159724,
+      "type": "file"
+    },
+    {
       "path": "module_a/c_parser.py",
       "accessCount": 3,
       "lastAccessed": 1778994048050,
@@ -181,12 +187,6 @@
       "path": "module_c/tests/test_indirect_summary.py",
       "accessCount": 2,
       "lastAccessed": 1778995579430,
-      "type": "file"
-    },
-    {
-      "path": "module_b/tests/run_analysis_test.md",
-      "accessCount": 2,
-      "lastAccessed": 1778995836110,
       "type": "file"
     },
     {

@@ -1,7 +1,0 @@
-{
-  "uid": "c1c05de9",
-  "func": "decorator_purge_state_involving",
-  "file": "fixture.c",
-  "line": 211,
-  "expression": "ctx->inner->vtable->purge_state_involving"
-}

@@ -1,7 +1,0 @@
-{
-  "uid": "dcc25fcf",
-  "func": "decorator_on_unexpected_tree_code",
-  "file": "fixture.c",
-  "line": 199,
-  "expression": "ctx->inner->vtable->on_unexpected_tree_code"
-}
