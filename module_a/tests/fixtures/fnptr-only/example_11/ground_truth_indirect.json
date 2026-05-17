@@ -1,3 +1,32 @@
 {
-  "indirect_points": []
+  "indirect_points": [
+    {
+      "uid": "4bf702c1",
+      "func": "Curl_cookie_add",
+      "file": "fixture.c",
+      "line": 66,
+      "expression": "Curl_cstrdup"
+    },
+    {
+      "uid": "ac2b5108",
+      "func": "Curl_cookie_add",
+      "file": "fixture.c",
+      "line": 70,
+      "expression": "Curl_cstrdup"
+    },
+    {
+      "uid": "402fe4d7",
+      "func": "Curl_cookie_add",
+      "file": "fixture.c",
+      "line": 73,
+      "expression": "Curl_cstrdup"
+    },
+    {
+      "uid": "6bb22866",
+      "func": "Curl_cookie_add",
+      "file": "fixture.c",
+      "line": 76,
+      "expression": "Curl_cstrdup"
+    }
+  ]
 }

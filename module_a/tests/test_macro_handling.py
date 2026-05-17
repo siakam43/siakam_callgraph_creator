@@ -3,7 +3,7 @@ import os
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../.."))
 
-from module_a.c_parser import parse_file
+from module_a._call_analyzer import parse_file
 
 
 FIXTURES_DIR = os.path.join(os.path.dirname(__file__), "fixtures", "macros")

@@ -26,7 +26,7 @@
     },
     {
       "caller": "tcache_bin_flush_edatas_lookup",
-      "callee": "unlikely",
+      "callee": "__builtin_expect",
       "file": "fixture.c",
       "line": 93
     },

@@ -26,7 +26,7 @@
     },
     {
       "caller": "do_rallocx",
-      "callee": "unlikely",
+      "callee": "__builtin_expect",
       "file": "fixture.c",
       "line": 39
     },
@@ -44,7 +44,7 @@
     },
     {
       "caller": "mallocx",
-      "callee": "unlikely",
+      "callee": "__builtin_expect",
       "file": "fixture.c",
       "line": 59
     }

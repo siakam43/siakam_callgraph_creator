@@ -1,0 +1,22 @@
+{
+  "functions": [
+    {
+      "name": "send_notification",
+      "file": "main.c",
+      "line_start": 1,
+      "has_body": true,
+      "body_file": "main.c",
+      "body_line_start": 1,
+      "body_line_end": 3
+    },
+    {
+      "name": "run",
+      "file": "main.c",
+      "line_start": 7,
+      "has_body": true,
+      "body_file": "main.c",
+      "body_line_start": 7,
+      "body_line_end": 10
+    }
+  ]
+}

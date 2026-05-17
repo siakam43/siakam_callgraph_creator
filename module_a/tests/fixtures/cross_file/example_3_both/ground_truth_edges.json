@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "send_notification",
+      "callee": "printf",
+      "file": "main.c",
+      "line": 2
+    },
+    {
+      "caller": "run",
+      "callee": "send_notification",
+      "file": "main.c",
+      "line": 8
+    }
+  ]
+}

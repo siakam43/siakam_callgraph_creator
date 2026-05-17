@@ -20,7 +20,7 @@
     },
     {
       "caller": "quicklistPopCustom",
-      "callee": "unlikely",
+      "callee": "__builtin_expect",
       "file": "fixture.c",
       "line": 55
     },

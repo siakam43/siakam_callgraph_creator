@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "caller": "log",
+      "callee": "fprintf",
+      "file": "fixture.c",
+      "line": 6
+    },
+    {
+      "caller": "send",
+      "callee": "transmit",
+      "file": "fixture.c",
+      "line": 10
+    },
+    {
+      "caller": "do_work",
+      "callee": "log",
+      "file": "fixture.c",
+      "line": 14
+    }
+  ]
+}

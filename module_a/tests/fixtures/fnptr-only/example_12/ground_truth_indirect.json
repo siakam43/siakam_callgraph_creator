@@ -1,3 +1,18 @@
 {
-  "indirect_points": []
+  "indirect_points": [
+    {
+      "uid": "20eb694c",
+      "func": "nv12ToPlanarWrapper",
+      "file": "fixture.c",
+      "line": 79,
+      "expression": "deinterleaveBytes"
+    },
+    {
+      "uid": "ead44aba",
+      "func": "nv12ToPlanarWrapper",
+      "file": "fixture.c",
+      "line": 82,
+      "expression": "deinterleaveBytes"
+    }
+  ]
 }

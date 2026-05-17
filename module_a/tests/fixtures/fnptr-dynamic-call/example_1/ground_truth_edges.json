@@ -44,6 +44,12 @@
     },
     {
       "caller": "loadModule",
+      "callee": "onload",
+      "file": "fixture.c",
+      "line": 48
+    },
+    {
+      "caller": "loadModule",
       "callee": "serverLog",
       "file": "fixture.c",
       "line": 49

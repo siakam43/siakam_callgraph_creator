@@ -14,13 +14,13 @@
     },
     {
       "caller": "__gmp_doprnt_integer",
-      "callee": "ASSERT",
+      "callee": "assert",
       "file": "fixture.c",
       "line": 100
     },
     {
       "caller": "__gmp_doprnt_integer_ostream",
-      "callee": "GMP_ASPRINTF_T_INIT",
+      "callee": "malloc",
       "file": "fixture.c",
       "line": 120
     },

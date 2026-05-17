@@ -38,7 +38,7 @@
     },
     {
       "caller": "close_state",
-      "callee": "G",
+      "callee": "mref",
       "file": "fixture.c",
       "line": 82
     },

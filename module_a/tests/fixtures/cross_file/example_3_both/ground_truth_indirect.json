@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "f9a7e9e6",
+      "func": "run",
+      "file": "main.c",
+      "line": 9,
+      "expression": "handler"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "indirect_points": [
+    {
+      "uid": "a02bfdbc",
+      "func": "init",
+      "file": "main.c",
+      "line": 7,
+      "expression": "handler"
+    }
+  ]
+}

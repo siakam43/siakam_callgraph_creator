@@ -2,7 +2,7 @@
   "edges": [
     {
       "caller": "security_callback_debug",
-      "callee": "BIO_printf",
+      "callee": "fprintf",
       "file": "fixture.c",
       "line": 101
     },

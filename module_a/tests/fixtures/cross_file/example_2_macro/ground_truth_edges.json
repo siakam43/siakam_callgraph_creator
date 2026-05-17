@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "caller": "do_api_call",
+      "callee": "printf",
+      "file": "main.c",
+      "line": 2
+    },
+    {
+      "caller": "run",
+      "callee": "do_api_call",
+      "file": "main.c",
+      "line": 6
+    }
+  ]
+}

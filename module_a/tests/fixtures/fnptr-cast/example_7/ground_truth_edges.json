@@ -14,7 +14,7 @@
     },
     {
       "caller": "abd_fletcher_4_iter",
-      "callee": "ASSERT",
+      "callee": "assert",
       "file": "fixture.c",
       "line": 213
     },

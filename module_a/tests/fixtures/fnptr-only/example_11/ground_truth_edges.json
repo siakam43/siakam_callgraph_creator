@@ -26,30 +26,6 @@
     },
     {
       "caller": "Curl_cookie_add",
-      "callee": "Curl_cstrdup",
-      "file": "fixture.c",
-      "line": 66
-    },
-    {
-      "caller": "Curl_cookie_add",
-      "callee": "Curl_cstrdup",
-      "file": "fixture.c",
-      "line": 70
-    },
-    {
-      "caller": "Curl_cookie_add",
-      "callee": "Curl_cstrdup",
-      "file": "fixture.c",
-      "line": 73
-    },
-    {
-      "caller": "Curl_cookie_add",
-      "callee": "Curl_cstrdup",
-      "file": "fixture.c",
-      "line": 76
-    },
-    {
-      "caller": "Curl_cookie_add",
       "callee": "free",
       "file": "fixture.c",
       "line": 84

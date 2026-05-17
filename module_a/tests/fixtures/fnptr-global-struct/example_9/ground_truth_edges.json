@@ -32,7 +32,7 @@
     },
     {
       "caller": "input_ssa_names",
-      "callee": "stream_read_tree",
+      "callee": "read_tree",
       "file": "fixture.c",
       "line": 79
     },

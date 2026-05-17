@@ -2,7 +2,7 @@
   "edges": [
     {
       "caller": "generic_impl_init",
-      "callee": "likely",
+      "callee": "__builtin_expect",
       "file": "fixture.c",
       "line": 125
     },
