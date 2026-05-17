@@ -1,0 +1,8 @@
+{
+  "uid": "883aaa05",
+  "status": "completed",
+  "possible_targets": [
+    {"callee": "my_driver_process", "file": "ops.c", "confidence": "high",
+     "reasoning": "my_ops.process = my_driver_process in global struct initializer"}
+  ]
+}

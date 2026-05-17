@@ -1,0 +1,13 @@
+digraph callgraph {
+  "driver_setup" -> "malloc" [label="direct"];
+  "driver_setup" -> "driver_register" [label="direct"];
+  "driver_teardown" -> "free" [label="direct"];
+  "driver_do_work" -> "driver_process_data" [label="direct"];
+  "main" -> "driver_setup" [label="direct"];
+  "main" -> "set_worker" [label="direct"];
+  "main" -> "execute_work" [label="direct"];
+  "main" -> "printf" [label="direct"];
+  "main" -> "driver_teardown" [label="direct"];
+  "execute_work" -> "driver_do_work" [label="indirect\nconf:high"];
+  "driver_process_data" -> "my_driver_process" [label="indirect\nconf:high"];
+}

@@ -1,0 +1,33 @@
+{
+  "total": 2,
+  "completed": 2,
+  "failed": 0,
+  "calls": [
+    {
+      "uid": "ef769786",
+      "caller": "execute_work",
+      "expression": "g_worker",
+      "file": "main.c",
+      "line": 17,
+      "targets": [
+        {
+          "callee": "driver_do_work",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "uid": "883aaa05",
+      "caller": "driver_process_data",
+      "expression": "ctx->ops->process",
+      "file": "ops.c",
+      "line": 23,
+      "targets": [
+        {
+          "callee": "my_driver_process",
+          "confidence": "high"
+        }
+      ]
+    }
+  ]
+}

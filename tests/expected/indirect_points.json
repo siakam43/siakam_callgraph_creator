@@ -1,0 +1,18 @@
+{
+  "indirect_points": [
+    {
+      "uid": "ef769786",
+      "func": "execute_work",
+      "file": "main.c",
+      "line": 17,
+      "expression": "g_worker"
+    },
+    {
+      "uid": "883aaa05",
+      "func": "driver_process_data",
+      "file": "ops.c",
+      "line": 23,
+      "expression": "ctx->ops->process"
+    }
+  ]
+}

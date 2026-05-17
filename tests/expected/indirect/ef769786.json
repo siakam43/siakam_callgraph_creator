@@ -1,0 +1,8 @@
+{
+  "uid": "ef769786",
+  "status": "completed",
+  "possible_targets": [
+    {"callee": "driver_do_work", "file": "driver.c", "confidence": "high",
+     "reasoning": "set_worker(driver_do_work) in main() assigns the global fnptr g_worker"}
+  ]
+}

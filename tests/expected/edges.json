@@ -1,0 +1,58 @@
+{
+  "edges": [
+    {
+      "caller": "driver_setup",
+      "callee": "malloc",
+      "file": "driver.c",
+      "line": 7
+    },
+    {
+      "caller": "driver_setup",
+      "callee": "driver_register",
+      "file": "driver.c",
+      "line": 11
+    },
+    {
+      "caller": "driver_teardown",
+      "callee": "free",
+      "file": "driver.c",
+      "line": 17
+    },
+    {
+      "caller": "driver_do_work",
+      "callee": "driver_process_data",
+      "file": "driver.c",
+      "line": 24
+    },
+    {
+      "caller": "main",
+      "callee": "driver_setup",
+      "file": "main.c",
+      "line": 23
+    },
+    {
+      "caller": "main",
+      "callee": "set_worker",
+      "file": "main.c",
+      "line": 24
+    },
+    {
+      "caller": "main",
+      "callee": "execute_work",
+      "file": "main.c",
+      "line": 25
+    },
+    {
+      "caller": "main",
+      "callee": "printf",
+      "file": "main.c",
+      "line": 26
+    },
+    {
+      "caller": "main",
+      "callee": "driver_teardown",
+      "file": "main.c",
+      "line": 27
+    }
+  ]
+}

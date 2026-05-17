@@ -1,0 +1,19 @@
+{
+  "entry_functions": [
+    {
+      "name": "main",
+      "file": "main.c",
+      "line_start": 22
+    },
+    {
+      "name": "my_driver_init",
+      "file": "ops.c",
+      "line_start": 3
+    },
+    {
+      "name": "my_driver_cleanup",
+      "file": "ops.c",
+      "line_start": 8
+    }
+  ]
+}
