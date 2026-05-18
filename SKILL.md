@@ -19,6 +19,19 @@ Generate a high-accuracy call graph for C-language projects, including resolutio
 - `project_dir`: Path to the C project to analyze. Defaults to current directory if not specified.
 - If `.siakamignore` exists in `project_dir`, files matching its patterns (gitignore syntax) are excluded.
 
+## Environment Setup
+
+Required: Python 3.9+, plus the packages listed in `requirements.txt`:
+
+- tree-sitter >= 0.21.0
+- tree-sitter-c >= 0.21.0
+
+Install with:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Prerequisites
 
 Required permissions: **Bash**, **Read**, **Glob**, **Write**.
@@ -30,7 +43,7 @@ Required permissions: **Bash**, **Read**, **Glob**, **Write**.
 Run the tree-sitter-based C parser to extract functions, direct calls, and indirect call points:
 
 ```bash
-.venv/bin/python3 -m module_a.analyzer <project_dir> <project_dir>/.siakam_out
+python3 start.py analyze <project_dir>
 ```
 
 Output: `nodes.json`, `edges.json`, `indirect_points.json`.
@@ -46,10 +59,7 @@ Read `module_b/orchestrator.md` and follow its instructions to:
 ### Phase 3: Module C — Merge and Output (Python)
 
 ```bash
-.venv/bin/python3 -c "
-from module_c.entry_finder import run_module_c
-run_module_c('<project_dir>', '<project_dir>/.siakam_out')
-"
+python3 start.py merge <project_dir>
 ```
 
 Final outputs: `callgraph.json`, `callgraph.dot`, `indirect_call.json`, `entry.json`.
