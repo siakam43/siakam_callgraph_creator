@@ -38,6 +38,8 @@ Required permissions: **Bash**, **Read**, **Glob**, **Write**.
 
 ## Pipeline
 
+`siakam_start.py` is located in the same directory as this SKILL.md file. Use its absolute path when invoking commands below.
+
 ### Phase 1: Module A — Static Analysis (Python)
 
 Run the tree-sitter-based C parser to extract functions, direct calls, and indirect call points:
