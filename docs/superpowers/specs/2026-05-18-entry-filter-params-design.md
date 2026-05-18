@@ -9,7 +9,7 @@ Date: 2026-05-18
 ## New Constraints
 
 1. **`.c` file**: Function body must reside in a `.c` file. Header-only declarations with `has_body=False` or `body_file` ending in `.h` are excluded.
-2. **Qualifying parameters**: Function must have at least one parameter whose type text contains a pointer (`*`), struct keyword (`struct`), or array subscript (`[`). Functions with zero parameters or only basic scalar types (`int`, `long`, `char`, etc.) are excluded.
+2. **Non-trivial parameters**: A function is excluded only when all of its parameters are basic scalar types. Functions with no parameters (or only `void`) are excluded. Functions with at least one non-basic parameter (pointer, struct, union, array, typedef, or any unrecognized type keyword) are retained.
 
 ## Design
 
@@ -21,29 +21,55 @@ Date: 2026-05-18
 params: list[str] = field(default_factory=list)
 ```
 
-In `_call_analyzer.py`, when parsing a function definition, extract the type text of each parameter declaration from the AST `parameter_list` child. Store in `FunctionNode.params` and serialize via `to_dict()`.
+In `_call_analyzer.py`, when parsing a `function_definition`, walk the `parameter_list` children (if present). For each `parameter_declaration`, extract the **full text** of the node from source bytes. Store the list of parameter text strings in `FunctionNode.params` and serialize via `to_dict()`.
 
-Parameter type extraction walks `parameter_declaration` nodes inside the `function_declarator`, collects the text of the type sub-node (everything except the parameter name identifier).
+Example: `void func(int x, struct device *dev)` → `params = ["int x", "struct device *dev"]`
 
-`nodes.json` output gains a `"params"` key per function, e.g. `"params": ["int *", "struct device *"]` or `"params": []`.
+`nodes.json` gains a `"params"` key per function.
 
 ### Module C changes — enhanced filtering
 
 `find_entry_functions()` in module_c/entry_finder.py adds:
 
-1. Check `body_file` ends with `.c` (case-insensitive). Nodes missing `body_file` or ending in `.h` are skipped.
-2. Check `params` list: at least one element contains `*`, `struct`, or `[`. Empty `params` means the function takes no arguments → excluded.
+1. Check `body_file` ends with `.c` (case-insensitive). Nodes with missing `body_file` or ending in `.h` are skipped.
+2. Check `params`: if empty, or the sole element is `"void"`, the function takes no arguments → excluded.
+3. For each param text, strip the parameter name (innermost identifier), remove `const`/`volatile`/`restrict` qualifiers, then check whether the remaining tokens are all in the basic-types set below. If ALL params are basic → excluded.
 
-A helper function `_has_qualifying_params(params)` encapsulates the type-matching logic.
+**Basic type tokens** (function excluded only when every param consists entirely of these):
+
+| Category | Tokens |
+|----------|--------|
+| C keywords | `int`, `long`, `short`, `char`, `float`, `double`, `unsigned`, `signed`, `void`, `_Bool`, `bool` |
+| Fixed-width typedefs | `uint8_t`, `uint16_t`, `uint32_t`, `uint64_t`, `int8_t`, `int16_t`, `int32_t`, `int64_t`, `uintmax_t`, `intmax_t` |
+| Standard size typedefs | `size_t`, `ssize_t`, `ptrdiff_t`, `off_t` |
+| Kernel abbreviations | `u8`, `u16`, `u32`, `u64`, `s8`, `s16`, `s32`, `s64` |
+
+**Examples**:
+
+```
+"int x"              → basic, excluded if all params like this
+"int x, int *y"      → * is not in basic set → retained
+"unsigned long n"    → basic, excluded if all params like this
+"uint32_t count"     → basic
+"size_t len"         → basic
+"device_t dev"       → device_t not in basic set → retained
+"struct foo *p"      → struct, * not in basic set → retained
+"union bar u"        → union not in basic set → retained
+```
+
+A helper function `_is_basic_params(params)` encapsulates this logic.
 
 ## Tests
 
-- Module A unit test: verify `FunctionNode.params` is populated for functions with parameters, empty for parameterless functions.
+- Module A: verify `FunctionNode.params` populated correctly for parameterized functions, empty for no-arg functions, `["void"]` for `void` param.
 - Module C:
-  - Function in `.h` with body excluded even if it qualifies on params
-  - Function in `.c` with only `int` params excluded
-  - Function in `.c` with `int *` param included
-  - Function in `.c` with `struct foo` param included
-  - Function in `.c` with `char buf[256]` param included
-  - Function in `.c` with zero params excluded
+  - Function in `.h` excluded even if params qualify
+  - Function in `.c` with only `int` params → excluded
+  - Function in `.c` with `int *` param → retained
+  - Function in `.c` with `struct foo` param → retained
+  - Function in `.c` with `char buf[256]` param → retained
+  - Function in `.c` with `uint32_t x, size_t y` → excluded (all params basic)
+  - Function in `.c` with `uint32_t x, device_t *d` → retained
+  - Function in `.c` with zero params → excluded
+  - Function in `.c` with `void` param → excluded
   - Existing expected fixtures updated with `params` field
