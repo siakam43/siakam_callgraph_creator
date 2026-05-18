@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional
 
 
@@ -20,6 +20,7 @@ class FunctionNode:
     body_file: Optional[str] = None
     body_line_start: Optional[int] = None
     body_line_end: Optional[int] = None
+    params: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return {
@@ -30,6 +31,7 @@ class FunctionNode:
             "body_file": self.body_file,
             "body_line_start": self.body_line_start,
             "body_line_end": self.body_line_end,
+            "params": self.params,
         }
 
 
