@@ -4,6 +4,39 @@ import os
 
 from module_c.merge import merge_callgraph, write_callgraph
 
+_BASIC_TYPES = frozenset({
+    "int", "long", "short", "char", "float", "double",
+    "unsigned", "signed", "void", "_Bool", "bool",
+    "uint8_t", "uint16_t", "uint32_t", "uint64_t",
+    "int8_t", "int16_t", "int32_t", "int64_t",
+    "uintmax_t", "intmax_t",
+    "size_t", "ssize_t", "ptrdiff_t", "off_t",
+    "u8", "u16", "u32", "u64", "s8", "s16", "s32", "s64",
+})
+
+_QUALIFIERS = frozenset({"const", "volatile", "restrict"})
+
+
+def _is_basic_params(params: list[str]) -> bool:
+    """Return True if all params are basic scalar types (function excluded)."""
+    if not params:
+        return True
+    if len(params) == 1 and params[0].strip() == "void":
+        return True
+
+    for text in params:
+        has_marker = '*' in text or '[' in text
+        for q in _QUALIFIERS:
+            text = text.replace(q, "")
+        tokens = text.split()
+        if not tokens:
+            continue
+        tokens = tokens[:-1]
+        all_basic = all(t in _BASIC_TYPES for t in tokens)
+        if has_marker or not all_basic:
+            return False
+    return True
+
 
 def find_entry_functions(callgraph: dict) -> list[dict]:
     nodes = callgraph.get("nodes", [])
@@ -14,12 +47,18 @@ def find_entry_functions(callgraph: dict) -> list[dict]:
     for node in nodes:
         if not node.get("has_body"):
             continue
-        if node["name"] not in callees:
-            entries.append({
-                "name": node["name"],
-                "file": node.get("file", ""),
-                "line_start": node.get("line_start", -1),
-            })
+        body_file = node.get("body_file", "")
+        if not body_file.lower().endswith(".c"):
+            continue
+        if node["name"] in callees:
+            continue
+        if _is_basic_params(node.get("params", [])):
+            continue
+        entries.append({
+            "name": node["name"],
+            "file": node.get("file", ""),
+            "line_start": node.get("line_start", -1),
+        })
     return entries
 
 
