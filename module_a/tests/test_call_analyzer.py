@@ -111,3 +111,72 @@ class TestFunctionDetection:
             FIXTURES, "macros", "simple_macro", "fixture.c"))
         for fn in result["functions"]:
             assert fn["has_body"] is True
+
+
+class TestExtractParams:
+    def test_no_params_returns_void(self):
+        from tree_sitter import Language, Parser
+        import tree_sitter_c as tsc
+        src = b'void f(void) {}'
+        parser = Parser(Language(tsc.language()))
+        root = parser.parse(src).root_node
+        func_def = root.children[0]
+        declarator = func_def.child_by_field_name("declarator")
+        from module_a._call_analyzer import _extract_params
+        params = _extract_params(declarator, src)
+        assert params == ["void"]
+
+    def test_single_int_param(self):
+        from tree_sitter import Language, Parser
+        import tree_sitter_c as tsc
+        src = b'void f(int x) {}'
+        parser = Parser(Language(tsc.language()))
+        root = parser.parse(src).root_node
+        func_def = root.children[0]
+        declarator = func_def.child_by_field_name("declarator")
+        from module_a._call_analyzer import _extract_params
+        params = _extract_params(declarator, src)
+        assert params == ["int x"]
+
+    def test_multiple_params(self):
+        from tree_sitter import Language, Parser
+        import tree_sitter_c as tsc
+        src = b'void f(int x, struct device *dev) {}'
+        parser = Parser(Language(tsc.language()))
+        root = parser.parse(src).root_node
+        func_def = root.children[0]
+        declarator = func_def.child_by_field_name("declarator")
+        from module_a._call_analyzer import _extract_params
+        params = _extract_params(declarator, src)
+        assert params == ["int x", "struct device *dev"]
+
+    def test_const_char_pointer_param(self):
+        from tree_sitter import Language, Parser
+        import tree_sitter_c as tsc
+        src = b'void f(const char *name) {}'
+        parser = Parser(Language(tsc.language()))
+        root = parser.parse(src).root_node
+        func_def = root.children[0]
+        declarator = func_def.child_by_field_name("declarator")
+        from module_a._call_analyzer import _extract_params
+        params = _extract_params(declarator, src)
+        assert params == ["const char *name"]
+
+    def test_array_param(self):
+        from tree_sitter import Language, Parser
+        import tree_sitter_c as tsc
+        src = b'void f(char buf[256]) {}'
+        parser = Parser(Language(tsc.language()))
+        root = parser.parse(src).root_node
+        func_def = root.children[0]
+        declarator = func_def.child_by_field_name("declarator")
+        from module_a._call_analyzer import _extract_params
+        params = _extract_params(declarator, src)
+        assert params == ["char buf[256]"]
+
+    def test_params_in_analyze_single_file(self):
+        result = analyze_single_file(os.path.join(
+            FIXTURES, "macros", "simple_macro", "fixture.c"))
+        for fn in result["functions"]:
+            assert "params" in fn
+            assert isinstance(fn["params"], list)

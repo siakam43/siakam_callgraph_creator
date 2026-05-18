@@ -52,6 +52,7 @@ class CallAnalyzer:
                 return
 
             if func_name:
+                fn_params = _extract_params(declarator, self._source) if declarator else []
                 fn = FunctionNode(
                     name=func_name,
                     file=self._filepath,
@@ -60,6 +61,7 @@ class CallAnalyzer:
                     body_file=self._filepath,
                     body_line_start=node.start_point[0] + 1,
                     body_line_end=node.end_point[0] + 1,
+                    params=fn_params,
                 )
                 self.functions.append(fn)
 
@@ -152,6 +154,18 @@ class CallAnalyzer:
                         new_names.add(name)
                         changed = True
             local_names.update(new_names)
+
+
+def _extract_params(func_declarator_node, source_bytes) -> list[str]:
+    """Extract full text of each parameter declaration from a function declarator."""
+    for child in func_declarator_node.children:
+        if child.type == "parameter_list":
+            return [
+                source_bytes[p.start_byte:p.end_byte].decode()
+                for p in child.children
+                if p.type == "parameter_declaration"
+            ]
+    return []
 
 
 def _extract_fnptr_params(func_declarator_node, source_bytes, names, typedef_names):
