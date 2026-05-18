@@ -7,7 +7,7 @@ import sys
 
 def main():
     parser = argparse.ArgumentParser(
-        prog="start.py",
+        prog="siakam_start.py",
         description="siakam_callgraph_creator — C-language call graph analysis toolkit",
     )
     sub = parser.add_subparsers(dest="command", metavar="command")

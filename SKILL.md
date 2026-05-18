@@ -43,7 +43,7 @@ Required permissions: **Bash**, **Read**, **Glob**, **Write**.
 Run the tree-sitter-based C parser to extract functions, direct calls, and indirect call points:
 
 ```bash
-python3 start.py analyze <project_dir>
+python3 siakam_start.py analyze <project_dir>
 ```
 
 Output: `nodes.json`, `edges.json`, `indirect_points.json`.
@@ -59,7 +59,7 @@ Read `module_b/orchestrator.md` and follow its instructions to:
 ### Phase 3: Module C — Merge and Output (Python)
 
 ```bash
-python3 start.py merge <project_dir>
+python3 siakam_start.py merge <project_dir>
 ```
 
 Final outputs: `callgraph.json`, `callgraph.dot`, `indirect_call.json`, `entry.json`.
