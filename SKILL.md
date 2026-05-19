@@ -1,19 +1,19 @@
 ---
-name: siakam_callgraph_creator
-description: Generate call graph for C projects. Analyze function calls including indirect (function pointer) calls using Python tree-sitter parsing and LLM-powered analysis. Outputs callgraph.json, callgraph.dot, indirect_call.json, and entry.json.
+name: siakam-callgraph-creator
+description: Use when analyzing C project call graphs, resolving function pointer (indirect) calls, or generating callgraph.json/callgraph.dot from C source code. Also use when the user needs to map caller-callee relationships in a C codebase, including indirect calls through struct ops tables or callback registrations.
 triggers:
-  - /siakam_callgraph_creator
-  - siakam_callgraph_creator
+  - /siakam-callgraph-creator
+  - siakam-callgraph-creator
 ---
 
-# siakam_callgraph_creator
+# siakam-callgraph-creator
 
 Generate a high-accuracy call graph for C-language projects, including resolution of indirect (function pointer) calls.
 
 ## Usage
 
 ```
-/siakam_callgraph_creator <project_dir>
+/siakam-callgraph-creator <project_dir>
 ```
 
 - `project_dir`: Path to the C project to analyze. Defaults to current directory if not specified.
@@ -65,6 +65,23 @@ python3 siakam_start.py merge <project_dir>
 ```
 
 Final outputs: `callgraph.json`, `callgraph.dot`, `indirect_call.json`, `entry.json`.
+
+## Quick Reference
+
+| Step | Command / Action | Output |
+|------|------------------|--------|
+| Phase 1 | `python3 siakam_start.py analyze <dir>` | nodes.json, edges.json, indirect_points.json |
+| Phase 2 | Follow `module_b/orchestrator.md` | .siakam_out/indirect/<uid>.json |
+| Phase 3 | `python3 siakam_start.py merge <dir>` | callgraph.json, callgraph.dot, indirect_call.json, entry.json |
+
+## When NOT to Use
+
+- Projects without C source files
+
+## Common Mistakes
+
+- **Skipping Phase 1**: running Phase 3 (merge) without re-running Phase 1 after source changes — outputs will be stale
+- **Manual indirect analysis**: trying to analyze indirect calls manually instead of letting Module B subagents do it — the analysis requires reading multiple files which a subagent handles efficiently
 
 ## Error Recovery
 
