@@ -130,7 +130,7 @@ print('All outputs match expected')
 ```
 
 - [ ] All output files match `tests/expected/`
-- [ ] Entry functions: main, set_worker, driver_setup (3 functions with body and indegree=0)
+- [ ] Entry functions: my_driver_init, my_driver_cleanup (2 functions with body, indegree=0, non-basic params)
 
 ## Test 3: Checkpoint Recovery
 
