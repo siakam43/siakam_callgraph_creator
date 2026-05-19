@@ -2,6 +2,8 @@
 
 Coordinate the analysis of ALL indirect call points using parallel subagents.
 
+**Hard Constraint: No code generation.** You MUST NOT write scripts, programs, or automated analysis code. All orchestration (checkpoint checking, batch splitting, result verification) must be done through your own reasoning and direct tool use (Read, Write, Bash for single commands). Subagents follow the same constraint per `analyze_indirect.md`.
+
 ## Input
 - `.siakam_out/indirect_points.json` — indirect call points (Module A output)
 - `.siakam_out/indirect/` — directory for per-uid analysis results
@@ -56,3 +58,4 @@ After all subagents complete:
 3. **Parallel dispatch** — launch all batches simultaneously
 4. **Checklist discipline** — track every uid explicitly, update checklist as results arrive
 5. **Write-lock** — subagents create `<uid>.json` with `status: "in_progress"` before analysis
+6. **No code generation** — Writing scripts or programs to automate orchestration (batch processing, checkpoint checking, result aggregation) is FORBIDDEN. All steps must be performed by the LLM through direct tool use.

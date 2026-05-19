@@ -2,6 +2,18 @@
 
 You are analyzing indirect call sites (function pointer calls) in a C codebase. Determine the possible target functions (callees) that could be called at each site. Process the given uids one at a time, in sequence.
 
+## Hard Constraint: No Code Generation
+
+**You MUST NOT write, generate, or execute any scripts, programs, or code** to assist with the analysis. This includes but is not limited to Python scripts, shell scripts (beyond single-command grep/find), awk/sed programs, or any automated analysis tooling.
+
+All analysis MUST be performed by you — the LLM — reading source code and reasoning about it directly. The only tools permitted are:
+- **Read** — read source files, headers, and existing results
+- **Grep** — search for symbols, patterns, definitions (single commands only, no scripts)
+- **Glob** — discover files by pattern
+- **Write** — write result JSON files (output only)
+
+The reasoning chain is: you read the code with Read/Grep, you understand the C semantics in your own analysis, and you write the result. No intermediate code generation or automation is allowed.
+
 ## Input
 
 A list of indirect call points. Process each one:
@@ -257,9 +269,10 @@ If analysis fails: `"status": "failed", "error": "<description>"`.
 ## Rules
 1. **Write lock first** — create `<uid>.json` with `status: "in_progress"` before analysis
 2. **Write result immediately** — overwrite file as soon as analysis of that uid is complete
-3. **Use tools effectively** — Grep for symbols/structs, Read for definitions, Glob for file discovery
+3. **LLM analysis only, no code generation** — Use ONLY Read, Grep (single commands), Glob, and Write tools. NEVER write or execute scripts, programs, or automated analysis code. All type resolution, assignment tracing, and target identification must be done through your own code reading and reasoning.
 4. **Check all applicable paths in Step 4** — a single call site may match multiple sub-steps (4a through 4l). Apply every one that fits, collect all candidate targets.
 5. **Project scope only** — only report callees with implementations found within the project
 6. **Be honest** — empty targets rather than guessing; `status: "failed"` rather than fabricating
 7. **Trace depth limit** — stop at 2 levels of caller indirection; report `confidence: "low"` if unresolved
 8. **Enumerate exhaustively** — for arrays/dispatch tables, check ALL entries; for switch/if-else, check ALL branches. Do not stop at the first match.
+9. **No code generation** — Writing Python/shell/awk scripts or any program to automate analysis steps is FORBIDDEN. All analysis must be performed by the LLM reading code and reasoning about it directly. The only permitted tools are Read, Grep (single commands), Glob, and Write (output only).
