@@ -16,6 +16,7 @@ Read `indirect_points.json` to get the full list.
 ### Step 2: Checkpoint Recovery
 For each uid:
 - `indirect/<uid>.json` exists with `status: "completed"` → **SKIP**
+- `indirect/<uid>.json` exists with `status: "in_progress"` → **DELETE and ADD to pending** (interrupted mid-analysis, stale write-lock)
 - `indirect/<uid>.json` exists with `status: "failed"` → **RETRY ONCE** (delete old file, re-analyze)
 - `indirect/<uid>.json` does NOT exist → **ADD to pending**
 
