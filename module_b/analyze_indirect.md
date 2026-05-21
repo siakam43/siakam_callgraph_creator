@@ -81,7 +81,7 @@ First, classify the call expression. Work through each applicable path:
 Work through each applicable assignment path. For each path that yields a concrete function name, record it as a candidate target. Continue until all paths are exhausted or a stop condition is met. Check all applicable sub-steps — a single call site may have targets from multiple paths.
 
 **4a. Direct assignment (same function)**
-- `ptr = target;` or `ptr = &target;` → record `target` if it has an implementation in the project
+- `ptr = target;` or `ptr = &target;` → record `target`
 
 **4b. Direct assignment with cast**
 - `ptr = (cast_type)target;` or `ptr = (cast_type)(void (*)(void))target;`
