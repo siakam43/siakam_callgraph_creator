@@ -208,6 +208,8 @@ Apply these throughout Steps 3-5:
 1. **Concrete target found** → record and continue searching for other paths (one call site may have multiple targets)
 2. **Traced beyond 2 levels of caller indirection** → stop that path, report `confidence: "low"`
 3. **Hit a project boundary** (external library, system call) → stop tracing that path. You may still report an external function as a target if its name was identified through a visible assignment in the project (e.g., `ptr = &external_func`), but do not trace into external libraries to discover new targets or speculate about their internals.
+
+   A function is outside the project boundary if its definition or implementation file lies outside `project_dir` — do not search for or read files outside `project_dir` to continue tracing.
 4. **Hit dlsym / dlopen / GetProcAddress** → report symbol name with `confidence: "low"`; continue searching for other paths (dual-path may exist)
 5. **Function pointer is NULL-guarded** (`if (fn) fn(...)`) → if NULL is the only value on some path, that path yields no target (not an error)
 6. **Self-referential** (function calls itself through a fnptr) → record as a target with `confidence: "high"`, note the self-referential pattern in reasoning
@@ -266,8 +268,7 @@ If analysis fails: `"status": "failed", "error": "<description>"`.
 2. **Write result immediately** — overwrite file as soon as analysis of that uid is complete
 3. **LLM analysis only, no code generation** — Use ONLY Read, Grep (single commands), Glob, and Write tools. NEVER write or execute scripts, programs, or automated analysis code. All type resolution, assignment tracing, and target identification must be done through your own code reading and reasoning.
 4. **Check all applicable paths in Step 4** — a single call site may match multiple sub-steps (4a through 4l). Apply every one that fits, collect all candidate targets.
-5. **Project scope only** — only report callees with implementations found within the project
-6. **Be honest** — empty targets rather than guessing; `status: "failed"` rather than fabricating
-7. **Trace depth limit** — stop at 2 levels of caller indirection; report `confidence: "low"` if unresolved
-8. **Enumerate exhaustively** — for arrays/dispatch tables, check ALL entries; for switch/if-else, check ALL branches. Do not stop at the first match.
-9. **No code generation** — Writing Python/shell/awk scripts or any program to automate analysis steps is FORBIDDEN. All analysis must be performed by the LLM reading code and reasoning about it directly. The only permitted tools are Read, Grep (single commands), Glob, and Write (output only).
+5. **Be honest** — empty targets rather than guessing; `status: "failed"` rather than fabricating
+6. **Trace depth limit** — stop at 2 levels of caller indirection; report `confidence: "low"` if unresolved
+7. **Enumerate exhaustively** — for arrays/dispatch tables, check ALL entries; for switch/if-else, check ALL branches. Do not stop at the first match.
+8. **No code generation** — Writing Python/shell/awk scripts or any program to automate analysis steps is FORBIDDEN. All analysis must be performed by the LLM reading code and reasoning about it directly. The only permitted tools are Read, Grep (single commands), Glob, and Write (output only).
