@@ -59,4 +59,3 @@ After all subagents complete:
 3. **Parallel dispatch** — launch all batches simultaneously
 4. **Checklist discipline** — track every uid explicitly, update checklist as results arrive
 5. **Write-lock** — subagents create `<uid>.json` with `status: "in_progress"` before analysis
-6. **No code generation** — Writing scripts or programs to automate orchestration (batch processing, checkpoint checking, result aggregation) is FORBIDDEN. All steps must be performed by the LLM through direct tool use.

@@ -271,4 +271,3 @@ If analysis fails: `"status": "failed", "error": "<description>"`.
 5. **Be honest** — empty targets rather than guessing; `status: "failed"` rather than fabricating
 6. **Trace depth limit** — stop at 2 levels of caller indirection; report `confidence: "low"` if unresolved
 7. **Enumerate exhaustively** — for arrays/dispatch tables, check ALL entries; for switch/if-else, check ALL branches. Do not stop at the first match.
-8. **No code generation** — Writing Python/shell/awk scripts or any program to automate analysis steps is FORBIDDEN. All analysis must be performed by the LLM reading code and reasoning about it directly. The only permitted tools are Read, Grep (single commands), Glob, and Write (output only).
