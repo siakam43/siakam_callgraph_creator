@@ -64,7 +64,7 @@ First, classify the call expression. Work through each applicable path:
 - **Grep** for the variable's declaration in the current function and at file scope
 - Distinguish: **function pointer** (`void (*fn)(int)`) vs **pointer-to-function-pointer** (`void (**fn)(int)`)
 - If declared with a typedef: find the typedef definition for the actual signature
-- If the variable was **loaded from a struct field** (e.g., `block128_f block = ctx->block;` then `(*block)(...)`): trace the local variable back to its source struct field and apply 3b/3c
+- If the variable was **loaded from a struct field** (e.g., `block128_f block = ctx->block;` then `(*block)(...)`): the target resolves through the struct field — continue to Step 4m
 
 **3e. Parameter name (function pointer passed as argument)**
 - Check the caller function's parameter list to identify the parameter's declared type
@@ -156,6 +156,11 @@ Work through each applicable assignment path. For each path that yields a concre
   ```
 - Trace what the captured field (`obj->cb`) held BEFORE the capture — that is the actual target
 - **Grep** for the initial assignment to the captured field (often in an init function)
+
+**4m. Fnptr loaded from struct field**
+- When a local fnptr variable was loaded from a struct member (e.g., `fn = obj->member;`):
+  trace the struct member's assignment using 4c (struct field assignment)
+- Once the concrete struct instance is found, apply 3b/3c to identify the fnptr member's value
 
 ### 5. Identify Target Functions
 
