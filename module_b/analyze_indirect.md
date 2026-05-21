@@ -192,11 +192,6 @@ Collect all candidate targets from Step 4. Then apply the following to produce t
 - If the symbol name matches a known external API, do NOT report it
 - If dual-path (static + dlsym), include both the static target and the dlsym-resolved target
 
-**5f. Verify each target**
-- **Grep** for the target function's definition in the project
-- Only include targets whose implementation exists in project sources
-- Libc functions (malloc, free, calloc, strdup, ...): include ONLY if the project explicitly assigns one to a fnptr and the assignment is visible in the trace
-
 ### 6. Assess Confidence
 
 - `high`: Assignment(s) are DIRECTLY VISIBLE within the same file — even if multiple targets exist, each target's assignment is unambiguous (static initializers, direct assignments, designated initializers, setter/registration calls, switch cases all in the same file). Per-target confidence, not per-call-site. Also: self-referential calls.
@@ -212,7 +207,7 @@ Apply these throughout Steps 3-5:
 
 1. **Concrete target found** → record and continue searching for other paths (one call site may have multiple targets)
 2. **Traced beyond 2 levels of caller indirection** → stop that path, report `confidence: "low"`
-3. **Hit a project boundary** (external library, system call) → stop that path, do not report external functions
+3. **Hit a project boundary** (external library, system call) → stop tracing that path. You may still report an external function as a target if its name was identified through a visible assignment in the project (e.g., `ptr = &external_func`), but do not trace into external libraries to discover new targets or speculate about their internals.
 4. **Hit dlsym / dlopen / GetProcAddress** → report symbol name with `confidence: "low"`; continue searching for other paths (dual-path may exist)
 5. **Function pointer is NULL-guarded** (`if (fn) fn(...)`) → if NULL is the only value on some path, that path yields no target (not an error)
 6. **Self-referential** (function calls itself through a fnptr) → record as a target with `confidence: "high"`, note the self-referential pattern in reasoning
