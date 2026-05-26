@@ -8,6 +8,10 @@ Coordinate the analysis of ALL indirect call points using parallel subagents.
 - `.siakam_out/indirect_points.json` — indirect call points (Module A output)
 - `.siakam_out/indirect/` — directory for per-uid analysis results
 
+## Configuration
+
+- `max_concurrency: 2` — maximum number of subagents to run simultaneously
+
 ## Process
 
 ### Step 1: Load Task List
@@ -34,8 +38,16 @@ Use a concrete format listing every pending uid:
 ### Step 4: Split into Batches
 Group pending uids into batches of **≤ 5 per batch**.
 
-### Step 5: Dispatch Parallel Subagents
-For each batch, launch a subagent (use Agent tool with parallel tool calls). Each subagent receives:
+### Step 5: Dispatch Subagents in Waves
+
+Send batches in waves of `max_concurrency` at a time.
+
+1. Divide the pending batch list into waves: each wave contains at most `max_concurrency` batches
+2. For each wave, launch all its batches in parallel (Agent tool with parallel tool calls)
+3. **Wait for ALL subagents in the current wave to complete** before launching the next wave
+4. Continue until all waves are processed
+
+Each subagent receives the following prompt:
 
 ```
 Read module_b/analyze_indirect.md and follow it.
@@ -56,6 +68,6 @@ After all subagents complete:
 ## Rules
 1. **Checkpoint first** — always check existing results before dispatching
 2. **Retry once** — failed uids get exactly one retry, no more
-3. **Parallel dispatch** — launch all batches simultaneously
+3. **Wave dispatch** — launch batches in waves of `max_concurrency`, wait for each wave to complete before the next
 4. **Checklist discipline** — track every uid explicitly, update checklist as results arrive
 5. **Write-lock** — subagents create `<uid>.json` with `status: "in_progress"` before analysis
