@@ -272,7 +272,7 @@ If analysis fails: `"status": "failed", "error": "<description>"`.
 1. **Write lock first** — create `<uid>.json` with `status: "in_progress"` before analysis
 2. **Write result immediately** — overwrite file as soon as analysis of that uid is complete
 3. **LLM analysis only, no code generation** — Use ONLY Read, Grep (single commands), Glob, and Write tools. NEVER write or execute scripts, programs, or automated analysis code. All type resolution, assignment tracing, and target identification must be done through your own code reading and reasoning.
-4. **Check all applicable paths in Step 4** — a single call site may match multiple sub-steps (4a through 4l). Apply every one that fits, collect all candidate targets.
+4. **Check all applicable paths in Step 4** — a single call site may match multiple sub-steps (4a through 4m). Apply every one that fits, collect all candidate targets.
 5. **Be honest** — empty targets rather than guessing; `status: "failed"` rather than fabricating
 6. **Trace depth limit** — stop at 2 levels of caller indirection; report `confidence: "low"` if unresolved
 7. **Enumerate exhaustively** — for arrays/dispatch tables, check ALL entries; for switch/if-else, check ALL branches. Do not stop at the first match.
